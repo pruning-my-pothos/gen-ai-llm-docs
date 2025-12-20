@@ -28,14 +28,18 @@ pages-serve:
 
 # Deploy to GitHub Pages (configure repo in docusaurus.config.ts before using)
 pages-deploy:
-	cd website && USE_SSH=1 npm run deploy
+	cd website && GIT_USER=git USE_SSH=1 npm run deploy
 
 # Show git status
 status:
 	@git status -sb
 
-# Push current branch safely (fetch + rebase)
+# Push current branch safely (add, fetch, rebase, push)
 push:
+	@if [ -n "$$(git status --porcelain)" ]; then \
+		echo "Working tree is dirty. Commit or stash before pushing."; \
+		exit 1; \
+	fi
 	@if ! git rev-parse --abbrev-ref --symbolic-full-name @{u} >/dev/null 2>&1; then \
 		echo "No upstream set. Set it with: git branch --set-upstream-to origin/$$(git branch --show-current)"; exit 1; \
 	fi

@@ -1,12 +1,12 @@
 <svg width="64" height="64" viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
   <title>NNLP</title>
-  <desc>Minimal mark for NNLP docs</desc>
+  <desc>Teal mark for NNLP docs</desc>
   <defs>
     <linearGradient id="g" x1="0%" x2="100%" y1="0%" y2="100%">
-      <stop stop-color="#2563EB" offset="0%"/>
-      <stop stop-color="#60A5FA" offset="100%"/>
+      <stop stop-color="#0EA5A0" offset="0%"/>
+      <stop stop-color="#22D3EE" offset="100%"/>
     </linearGradient>
   </defs>
   <rect width="64" height="64" rx="14" fill="#0F172A"/>
-  <path d="M16 44V20h6l10 16 10-16h6v24h-6V30l-10 16-10-16v14z" fill="url(#g)"/>
+  <path d="M18 44V20h6l8 11.5L40 20h6v24h-6V31.8L32 41l-8-9.2V44z" fill="url(#g)"/>
 </svg>

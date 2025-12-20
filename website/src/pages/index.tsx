@@ -156,7 +156,7 @@ export default function Home(): JSX.Element {
                     icon: ShieldCheckIcon,
                     href: '/docs/07-guardrails-and-governance/00-guardrails-index',
                   },
-                  {label: 'Experiments', desc: 'Evidence from real usage, including failures', icon: BeakerIcon, href: '/experiments/README'},
+                  {label: 'Experiments', desc: 'Evidence from real usage, including failures', icon: BeakerIcon, href: 'https://github.com/pruning-my-pothos/NNLP/tree/main/experiments'},
                   {label: 'Templates', desc: 'Ready-to-use artifacts', icon: DocumentDuplicateIcon, href: '/docs/09-templates/00-templates-index'},
                 ].map((item) => (
                   <Link to={item.href} key={item.label} className="flex items-start gap-4 p-4 rounded-lg hover:bg-accent transition-colors">
