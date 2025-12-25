@@ -154,7 +154,7 @@ export default function Home(): JSX.Element {
                     label: 'Guardrails & Evaluation',
                     desc: 'Safety, quality, and accountability',
                     icon: ShieldCheckIcon,
-                    href: '/docs/07-guardrails-and-governance/00-guardrails-index',
+                  href: '/docs/07-guardrails-and-governance/guardrails-index',
                   },
                   {label: 'Experiments', desc: 'Evidence from real usage, including failures', icon: BeakerIcon, href: 'https://github.com/pruning-my-pothos/NNLP/tree/main/experiments'},
                   {label: 'Templates', desc: 'Ready-to-use artifacts', icon: DocumentDuplicateIcon, href: '/docs/09-templates/00-templates-index'},

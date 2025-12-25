@@ -86,6 +86,20 @@ The most dangerous output is not the one that crashes. It's the one that runs bu
 
 ---
 
+## Chapters
+
+- [How LLMs Work (Enough for Practice)](./01-how-llms-work-enough-for-practice.md)
+- [Context Windows and Token Economics](./02-context-windows-and-token-economics.md)
+- [Prompting vs Specifying](./03-prompting-vs-specifying.md)
+- [Retrieval and Grounding (RAG)](./04-retrieval-and-grounding-rag.md)
+- [Structured Output and Tool Use](./05-structured-output-and-tool-use.md)
+- [Agents and Orchestration Basics](./06-agents-and-orchestration-basics.md)
+- [Hallucinations and Failure Modes](./07-hallucinations-and-failure-modes.md)
+- [Model Selection and Tradeoffs](./08-model-selection-and-tradeoffs.md)
+- [GenAI Product Lifecycle (Practitioner Guide)](./10-genai-product-lifecycle.md)
+
+---
+
 ## Last Reviewed / Last Updated
 
 - Last reviewed: 2025-12-20

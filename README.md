@@ -87,7 +87,7 @@ See: `docs/07-guardrails-and-governance/`
    `docs/05-professional-scenarios/00-scenarios-index.md`
 
 6. Guardrails and Evaluation  
-   `docs/07-guardrails-and-governance/00-guardrails-index.md`  
+   `docs/07-guardrails-and-governance/guardrails-index.md`  
    `docs/08-evaluation/00-eval-overview.md`
 
 ### Quickstart: run NNLP on a real task

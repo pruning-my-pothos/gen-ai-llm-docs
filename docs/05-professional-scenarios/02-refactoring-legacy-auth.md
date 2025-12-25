@@ -21,6 +21,7 @@ Demonstrate how to safely refactor a critical, untyped legacy module into TypeSc
 - **Task**: Refactor a legacy Node.js `authMiddleware.js` to TypeScript and replace the deprecated `request` library with `axios`.
 - **Constraints**: Zero downtime. Must maintain 100% backward compatibility with existing JWTs. No database changes.
 - **Tools Used**: VS Code + GitHub Copilot
+- **Patterns Applied**: The Translator
 
 ---
 
