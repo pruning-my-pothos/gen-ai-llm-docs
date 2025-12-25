@@ -23,9 +23,17 @@ last_reviewed: "2025-12-20"
 NNLP is for people who want the speed of GenAI **without giving up clarity, correctness, or responsibility.**
 :::
 
+## Status
+
+An **open community standard** for professional, AI-assisted work.
+
 ## Quick Definition
 
 **NNLP (Nuanced Natural Language Programming)** is a professional framework for building software, documentation, and systems using natural language, with AI as an execution partner. It treats language as a **technical interface**, not a chat prompt.
+
+## Scope (High Level)
+
+Applies to AI-assisted work that affects users, systems, operations, compliance, or business outcomes. Excludes hobby/demo usage with no impact.
 
 ## Why It Matters
 
@@ -79,44 +87,6 @@ NNLP formalizes this into a repeatable method.
 
 <div aria-hidden="true" class="sr-only">Core idea diagram: Logic, Language, Systems, and Sentences combine to produce Reliable Execution.</div>
 
-## The NNLP Loop (8 Steps)
-
-```mermaid
-flowchart TD
-    A[1. Discovery Brief] --> B[2. Intent Spec]
-    B --> C[3. Constraint Spec]
-    C --> D[4. Delegation Contract]
-    D --> E[5. Generation Request]
-    E --> F[6. Review & Interrogation]
-    F --> G[7. Acceptance Criteria]
-    G --> H[8. Iteration / Release]
-    H -.-> A
-
-    classDef step fill:#E6F7FF,stroke:#1B75BB,color:#0F1F2E;
-    class A,B,C,D,E,F,G,H step;
-```
-
-**Each step produces a concrete artifact that can be reviewed on its own.** This keeps AI-assisted work accountable and reviewable.
-
-<div aria-hidden="true" class="sr-only">NNLP Loop diagram: Discovery, Intent, Constraints, Delegation, Generation, Review, Acceptance, then Iteration/Release back to Discovery.</div>
-## How NNLP Uses AI
-
-AI systems:
-
-- **generate implementations** from clear specifications
-- **translate requirements** into code, tests, and docs
-- **accelerate** mechanical work
-- **surface alternative solutions**
-
-AI does **not**:
-
-- _decide priorities_
-- _own trade-offs_
-- _validate correctness_
-- _accept risk_
-
-Those remain human responsibilities.
-
 ## Who NNLP Is For (Signals You’ll Benefit)
 
 - **Engineers and builders** using AI-assisted development who want _fewer regressions_.
@@ -127,19 +97,14 @@ Those remain human responsibilities.
 
 If you want shortcuts, this isn’t it. If you want leverage without abdication, it is.
 
-## How to Get Started
+## Forward Links (Normative)
 
-- **New to NNLP**: Start with “What NNLP Is,” then the NNLP Map, then Core Skills.
-- **Practicing already**: Jump to the NNLP Loop, use Templates, apply to one small real task.
-- **Need guardrails**: Read Guardrails & Governance, then Evaluation, before delegating broadly.
-
-## Related Links
-
-- Learn the loop: `docs/03-nnlp-method/00-the-nnlp-loop.md`
-- Build core skills: `docs/01-core-skills/00-core-skills-overview.md`
-- Use templates: `docs/09-templates/00-templates-index.md`
-- See scenarios: `docs/05-professional-scenarios/00-scenarios-index.md`
+- Scope and applicability: `docs/00-start-here/06-scope-and-applicability.md`
+- Prerequisites and entry criteria: `docs/00-start-here/07-prerequisites-and-entry-criteria.md`
+- Process specification: `docs/03-nnlp-method/11-nnlp-loop-spec.md`
+- Artifact contracts: `docs/03-nnlp-method/12-artifact-contracts.md`
+- Accountability and delegation: `docs/03-nnlp-method/10-accountability-and-delegation.md`
 
 ## Tone and Intent
 
-NNLP is deliberately professional and calm. There are no productivity promises—only a way to work that remains solid as tools change. If that resonates, you are in the right place.
+Professional, standard-like, and directive. This doc defines the standard’s boundary and links to the normative core; tutorials, tooling, and scenarios live downstream.
