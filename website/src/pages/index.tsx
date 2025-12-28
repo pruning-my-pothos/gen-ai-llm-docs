@@ -242,7 +242,7 @@ const conformanceBlocks: Block[] = [
         <ul className="list-disc space-y-1.5 pl-5">
           <li>
             New to NNLP: start with{" "}
-            <Link to="/docs/00-start-here/00-what-is-nnlp">What is NNLP</Link>{" "}
+            <Link to="/docs/00-start-here/00-introduction">Start Here</Link>{" "}
             and then{" "}
             <Link to="/docs/03-nnlp-method/00-the-nnlp-loop">
               the NNLP Loop
@@ -353,7 +353,7 @@ export default function Home(): JSX.Element {
                 <div className="flex flex-wrap gap-3">
                   <Link
                     className="inline-flex items-center justify-center rounded-md bg-primary px-5 py-2.5 text-sm font-semibold text-primary-foreground shadow-sm hover:bg-primary/90 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-primary"
-                    to="/docs/00-start-here/00-what-is-nnlp"
+                    to="/docs/00-start-here/00-introduction"
                   >
                     Read the Standard
                   </Link>
@@ -369,7 +369,7 @@ export default function Home(): JSX.Element {
               <div className="bg-card/60 backdrop-blur-sm border border-border rounded-2xl p-6 shadow-lg lg:ml-auto lg:max-w-[520px]">
                 <div className="flex items-center justify-between mb-3">
               <div className="text-sm font-semibold text-muted-foreground">What’s inside</div>
-              <Link className="text-primary text-sm hover:underline" to="/docs/00-start-here/00-what-is-nnlp">
+              <Link className="text-primary text-sm hover:underline" to="/docs/00-start-here/00-introduction">
                 View structure →
               </Link>
             </div>
@@ -548,7 +548,7 @@ export default function Home(): JSX.Element {
                   label: "Start Here",
                   desc: "Core definitions and how to approach NNLP",
                   icon: HomeIcon,
-                  href: "/docs/00-start-here/00-what-is-nnlp",
+                  href: "/docs/00-start-here/00-introduction",
                 },
                 {
                   label: "Core Skills",
@@ -624,7 +624,7 @@ export default function Home(): JSX.Element {
             </div>
             <Link
               className="text-primary font-semibold hover:underline"
-              to="/docs/00-start-here/00-what-is-nnlp"
+              to="/docs/00-start-here/00-introduction"
             >
               Read the full Conformance Criteria →
             </Link>
