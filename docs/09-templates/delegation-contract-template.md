@@ -5,7 +5,7 @@ status: "active"
 owner: "Shailesh (Shaily)"
 maintainer: "Shailesh (Shaily)"
 version: "0.1.0"
-tags: ["nnlp", "template", "delegation"]
+tags: ["genai-llm", "template", "delegation"]
 last_reviewed: "2025-12-20"
 ---
 

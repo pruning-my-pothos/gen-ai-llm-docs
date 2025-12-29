@@ -1,0 +1,17 @@
+It seems I made a mistake by trying to update internal links before the directories were actually renamed.
+
+Please **execute the `directory_rename_commands.sh` script** that I previously provided to rename the directories.
+
+Once you have executed these commands in your terminal, please let me know so I can proceed with updating the internal links within the documentation files.
+
+```bash
+# Example content of directory_rename_commands.sh
+# Please execute this script in your terminal.
+#
+# Rename method directory
+# mv docs/03-nnlp-method docs/03-method
+#
+# ... and so on for all directories ...
+```
+
+I will wait for your confirmation.

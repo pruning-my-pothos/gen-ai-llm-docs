@@ -5,105 +5,129 @@ status: "active"
 owner: "Shailesh (Shaily)"
 maintainer: "Shailesh (Shaily)"
 version: "0.1.0"
-tags: ["nnlp", "scenario", "product", "prd", "requirements"]
-last_reviewed: "2025-12-20"
+tags: ["genai-llm", "scenario", "product", "prd", "requirements"]
+last_reviewed: "2025-12-28"
 ---
 
 # Scenario: Writing a PRD
 
-:::info[Scenario Goal]
-Demonstrate how to use NNLP to turn vague stakeholder requests into a rigorous Product Requirement Document (PRD) that engineers can actually build.
+:::info[Value Proposition]
+Demonstrate how to use GenAI & LLM Documentation to turn vague stakeholder requests into a rigorous Product Requirement Document (PRD) that engineers can actually build, minimizing ambiguity and maximizing clarity.
 :::
 
-## Context
+## Overview
 
-- **Role**: Product Manager
-- **Task**: Define the "User Roles & Permissions" feature for a B2B SaaS app.
-- **Constraints**: Must align with existing RBAC system. Must be understandable by both Sales (non-technical) and Engineering (technical).
-- **Tools Used**: ChatGPT Plus / Claude
+Product Requirement Documents (PRDs) are foundational for any product development. They bridge the gap between business needs and technical implementation. Leveraging AI for PRD creation can accelerate the process, but only if guided by a structured approach. This scenario illustrates how to apply GenAI & LLM Documentation principles to draft, refine, and validate a PRD, ensuring it meets both business intent and technical feasibility.
 
----
-
-## The Challenge
-
-Why is this hard? "Permissions" is a classic trap. Everyone wants "flexibility," but flexibility creates complexity that kills engineering velocity.
-
-| Challenge             | Traditional Risk          | NNLP Mitigation                   |
-| :-------------------- | :------------------------ | :-------------------------------- |
-| **Vague Definitions** | _"Make it flexible"_      | Intent Spec (Concrete use cases)  |
-| **Scope Creep**       | _Infinite granularity_    | Constraint Spec (Hard boundaries) |
-| **Feasibility**       | _Impossible requirements_ | Review (Technical persona check)  |
+**Goal**: Generate a clear, actionable, and testable PRD using GenAI.
+**Anti-pattern**: Asking AI to "write a PRD for X" without defining the core problem, user, or success metrics, leading to a generic, unusable document.
 
 ---
 
-## The Execution Loop
+## The Problem (Before GenAI & LLM Documentation)
 
-### 1. Discovery & Intent
+Product managers often struggle with:
 
-We started with a raw transcript from a Sales call where customers asked for "Custom Roles."
-
-> **Artifact**: `specs/rbac/discovery.md`
-
-:::tip[Key Insight]
-By forcing a **Discovery Brief**, we realized Sales didn't actually need "arbitrary logic" (complex). They just needed "custom combinations of existing permissions" (simple). We codified this distinction immediately.
-:::
-
-### 2. Constraints & Delegation
-
-We set boundaries to prevent the AI from inventing a complex rule engine.
-
-- **Must**: Use a checkbox matrix UI pattern.
-- **Must Not**: Allow users to create new _resource types_.
-- **Must Not**: Allow circular inheritance of roles.
-
-```mermaid
-flowchart LR
-    A[Intent: Custom Combinations] --> B[Constraint: No Rule Engine]
-    B --> C[Delegation: Cynical Eng Lead]
-
-    classDef step fill:#E6F7FF,stroke:#1B75BB,color:#0F1F2E;
-    class A,B,C step;
-```
-
-### 3. Generation & Review
-
-We ran the generation loop 2 times.
-
-- **Attempt 1**: The model wrote a PRD describing a "Visual Logic Builder" (like Zapier). This violated the "No Rule Engine" constraint implicitly.
-- **Correction**: Updated **Constraint Spec** to explicitly forbid "conditional logic" and mandate "static permissions."
-- **Attempt 2**: Succeeded. Generated a PRD with a clear data model, user stories, and a "Checkbox Matrix" UI description.
-
-:::warning[Review Find]
-The model initially missed the edge case: "What happens if an Admin removes their own Admin permission?" The **Review Checklist** (Negative Testing) caught this.
-:::
+-   **Vague stakeholder input**: "Make the app more engaging."
+-   **Scope creep**: Requirements expanding during development.
+-   **Ambiguity**: Engineers spending time clarifying, not building.
+-   **Missing details**: Edge cases or non-functional requirements overlooked.
 
 ---
 
-## Outcome
+## GenAI & LLM Documentation Approach
 
-| Metric            | Before                   | After                           |
-| :---------------- | :----------------------- | :------------------------------ |
-| **Drafting Time** | _4 Hours_                | 30 Minutes                      |
-| **Eng Questions** | _"What does this mean?"_ | "Looks good, when do we start?" |
-| **Edge Cases**    | _Found in QA_            | Found in Spec                   |
+| Challenge             | Traditional Risk          | GenAI & LLM Documentation Mitigation                   |
+| :-------------------- | :------------------------ | :--------------------------------- |
+| Vague inputs          | Misinterpretation         | **Discovery Brief**: Clarify problem, not solution     |
+| Feature bloat         | Scope creep               | **Intent Spec**: Define success metrics and exclusions |
+| Technical ambiguity   | Developer guesswork       | **Constraint Spec**: Outline technical non-negotiables |
+| Unclear user stories  | Untestable requirements   | **Acceptance Criteria**: Concrete definition of "done" |
 
 ---
 
-## Retrospective
+## Step-by-Step Scenario
 
-### What Went Well
+### 1. Start with a Discovery Brief
 
-- Delegating the AI to act as a **"Cynical Engineering Lead"** during the review phase helped surface the "self-lockout" bug.
-- The **Discovery Brief** saved us from building a massive feature (Rule Engine) when a small one (Matrix) was sufficient.
+Before asking AI for a PRD, define the problem.
 
-### What We Learned
+**Prompt to AI (Discovery):**
+> "I need help defining a new feature. Users are leaving our e-commerce checkout flow at the payment step. Our hypothesis is that they feel insecure about payment options. We want to increase conversion rate at the payment step by 15%. What information do I need to gather before I can define a solution?"
 
-- **Lesson 1**: AI tends to say "Yes" to every feature request. You must use Constraints to force it to say "No."
-- **Lesson 2**: Asking the AI to generate a "Q&A FAQ" for engineers is a great way to test if the PRD is clear.
+**(AI might suggest user research, competitor analysis, existing analytics.)**
+
+### 2. Craft an Intent Spec
+
+Once the problem is clear, define the desired outcome.
+
+**Prompt to AI (Intent Spec):**
+> "Based on the Discovery Brief, I've identified the core problem: Users distrust our current payment options. The intent of the new feature is to increase user confidence in the payment process, leading to a 15% improvement in checkout conversion rate. The feature should clearly communicate security measures and provide diverse payment options.
+>
+> Generate an Intent Spec for this feature. Focus on user outcomes and measurable success, not implementation details."
+
+**(AI generates an Intent Spec.)**
+
+### 3. Develop a Constraint Spec (Technical and Business)
+
+Define the boundaries within which the solution must operate.
+
+**Prompt to AI (Constraint Spec):**
+> "Given the Intent Spec for increasing payment confidence, generate a Constraint Spec. Consider:
+> -   **Technical**: Must integrate with existing `PaymentService` API, use PCI-compliant solutions, support Stripe and PayPal, mobile-first design.
+> -   **Business**: Must not introduce new ongoing operational costs exceeding $X per month, must launch within 2 months.
+> -   **Security**: Must adhere to OWASP Top 10 guidelines, no sensitive data stored on client side."
+
+**(AI generates a Constraint Spec.)**
+
+### 4. Generate the PRD Draft
+
+Now, combine the Specs to generate the PRD.
+
+**Prompt to AI (PRD Generation):**
+> "Using the attached Intent Spec and Constraint Spec, draft a Product Requirement Document for a feature to improve payment confidence. The PRD should include:
+> -   Introduction/Goal
+> -   User Stories (at least 3)
+> -   Functional Requirements
+> -   Non-Functional Requirements (Performance, Security, Usability)
+> -   Acceptance Criteria for each user story
+> -   Success Metrics
+> -   Out-of-Scope items
+
+> Ensure the tone is clear and concise, suitable for both business and technical audiences.
+"
+
+**(AI generates a PRD draft.)**
+
+### 5. Review and Interrogate
+
+Critically review the AI-generated PRD.
+
+**Prompt to AI (Review):**
+> "Review the drafted PRD. Are there any ambiguities in the user stories? Do the acceptance criteria directly map to the functional requirements? Are there any potential conflicts between the Intent Spec and Constraint Spec that made it into the PRD? Suggest improvements for clarity and testability."
+
+---
+
+## Outcomes and Learnings
+
+-   **Clearer requirements**: AI-assisted drafting forces early clarification.
+-   **Reduced ambiguity**: Constraints and intent are explicitly defined.
+-   **Faster iteration**: Focus on refining specs, not guessing.
+-   **Testable outputs**: PRD includes acceptance criteria directly.
+
+---
+
+## Common Pitfalls
+
+| Pitfall                   | Impact                                   | Correction                                     |
+| :------------------------ | :--------------------------------------- | :--------------------------------------------- |
+| **Over-reliance on AI for product strategy** | Generic PRDs lacking true user/business insight. | Humans define intent and high-level strategy; AI assists with structure and detail. |
+| **Ignoring business constraints** | AI proposes solutions that are too expensive or technically infeasible. | Comprehensive Constraint Specs are non-negotiable inputs. |
+| **"Write me a PRD" syndrome** | AI generates a broad, unspecific document. | Break down PRD generation into smaller, spec-driven steps. |
 
 ---
 
 ## Last Reviewed / Last Updated
 
-- Last reviewed: 2025-12-20
+- Last reviewed: 2025-12-28
 - Version: 0.1.0

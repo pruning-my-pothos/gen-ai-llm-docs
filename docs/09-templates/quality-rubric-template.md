@@ -5,7 +5,7 @@ status: "active"
 owner: "Shailesh (Shaily)"
 maintainer: "Shailesh (Shaily)"
 version: "0.1.0"
-tags: ["nnlp", "template", "rubric", "grading"]
+tags: ["genai-llm", "template", "rubric", "grading"]
 last_reviewed: "2025-12-20"
 ---
 

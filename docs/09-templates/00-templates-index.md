@@ -5,19 +5,19 @@ status: "active"
 owner: "Shailesh (Shaily)"
 maintainer: "Shailesh (Shaily)"
 version: "0.1.0"
-tags: ["nnlp", "templates", "artifacts", "resources"]
+tags: ["genai-llm", "templates", "artifacts", "resources"]
 last_reviewed: "2025-12-20"
 ---
 
 # Templates
 
 :::info[Purpose]
-Don't start from a blank page. These templates provide the structure you need to execute NNLP effectively. Copy them, fill them out, and treat them as source code.
+Don't start from a blank page. These templates provide the structure you need to execute GenAI & LLM Documentation effectively. Copy them, fill them out, and treat them as source code.
 :::
 
 ## Overview
 
-In NNLP, **structure is safety**.
+In GenAI & LLM Documentation, **structure is safety**.
 Using a template ensures you don't forget critical sections like "Non-Goals" in a brief or "Security" in a constraint spec.
 
 These templates are designed to be:
@@ -30,7 +30,7 @@ These templates are designed to be:
 
 ## The Core Loop Artifacts
 
-These templates correspond directly to the 8 steps of the NNLP Method.
+These templates correspond directly to the 8 steps of the GenAI & LLM Documentation Method.
 
 | Step               | Template                                                       | Purpose                                        |
 | :----------------- | :------------------------------------------------------------- | :--------------------------------------------- |
@@ -60,7 +60,7 @@ Tools for managing risk and quality.
 
 ## Meta Templates
 
-Use these to extend the NNLP repository itself.
+Use these to extend the GenAI & LLM Documentation repository itself.
 
 - `pattern-template.md`: Create a new Execution Pattern.
 - `scenario-template.md`: Document a Professional Scenario.

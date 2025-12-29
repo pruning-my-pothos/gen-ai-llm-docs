@@ -3,14 +3,14 @@ import type {Preset} from '@docusaurus/preset-classic';
 import {themes as prismThemes} from 'prism-react-renderer';
 
 const config: Config = {
-  title: 'NNLP',
-  tagline: 'Nuanced Natural Language Programming',
-  favicon: 'img/favicon-autorenew.svg',
+  title: 'GenAI & LLM Documentation',
+  tagline: 'Documentation for Generative AI and LLMs',
+  favicon: 'img/favicon-genai.svg',
   url: 'https://pruning-my-pothos.github.io',
-  baseUrl: '/NNLP/',
+  baseUrl: '/gen-ai-llm-docs/',
   trailingSlash: false,
   organizationName: 'pruning-my-pothos',
-  projectName: 'NNLP',
+  projectName: 'gen-ai-llm-docs',
   onBrokenLinks: 'throw',
   i18n: {
     defaultLocale: 'en',
@@ -60,19 +60,12 @@ const config: Config = {
       theme: {light: 'neutral', dark: 'dark'},
     },
     metadata: [
-      {name: 'keywords', content: 'nnlp, genai, llm, documentation, method, systems'},
+      {name: 'keywords', content: 'genai, llm, documentation, programming, development'},
     ],
     navbar: {
-      title: 'NNLP',
-      logo: {
-        alt: 'NNLP Logo',
-        src: 'img/nnlp-logo.svg',
-      },
+      title: 'GenAI & LLM Documentation',
       items: [
-        {type: 'doc', docId: '00-start-here/00-what-is-nnlp', label: 'Start Here', position: 'left'},
-        {type: 'doc', docId: '01-core-skills/00-core-skills-overview', label: 'Core Skills', position: 'left'},
-        {type: 'doc', docId: '03-nnlp-method/00-the-nnlp-loop', label: 'NNLP Method', position: 'left'},
-        {type: 'doc', docId: '09-templates/00-templates-index', label: 'Templates', position: 'left'},
+        {type: 'doc', docId: '00-introduction/scope-and-applicability', label: 'Start Here', position: 'left'},
         {
           href: 'https://github.com/pruning-my-pothos/NNLP',
           label: 'GitHub',
@@ -82,7 +75,7 @@ const config: Config = {
     },
     footer: {
       style: 'dark',
-      copyright: `NNLP · ${new Date().getFullYear()}`,
+      copyright: `GenAI & LLM Documentation · ${new Date().getFullYear()}`,
     },
   },
   themes: ['@docusaurus/theme-mermaid'],

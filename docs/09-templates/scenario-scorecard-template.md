@@ -5,7 +5,7 @@ status: "active"
 owner: "Shailesh (Shaily)"
 maintainer: "Shailesh (Shaily)"
 version: "0.1.0"
-tags: ["nnlp", "template", "scorecard", "evaluation"]
+tags: ["genai-llm", "template", "scorecard", "evaluation"]
 last_reviewed: "2025-12-20"
 ---
 
@@ -26,7 +26,7 @@ Use this scorecard to grade an end-to-end AI session. Be honest. If you skipped 
 
 ## 2. Process Hygiene (The "Rules")
 
-**Did we follow the NNLP Loop?**
+**Did we follow the GenAI & LLM Documentation Loop?**
 
 - [ ] **Discovery Brief**: Written before prompting?
 - [ ] **Intent Spec**: Defined clear success criteria?
