@@ -1,70 +1,99 @@
 ---
-title: "Template: Intent Spec"
+title: "Intent Spec Template"
 archetype: "template"
 status: "active"
 owner: "Shailesh (Shaily)"
 maintainer: "Shailesh (Shaily)"
 version: "0.1.0"
-tags: ["nnlp", "template", "intent"]
-last_reviewed: "2025-12-20"
+tags: ["genai-llm", "intent", "specification", "template"]
+last_reviewed: "2025-12-28"
 ---
 
-# Intent Spec: [Feature/Change Name]
+# Intent Spec Template
 
-:::info[Instructions]
-Use this spec to define **what** success looks like, not **how** to build it.
-If you find yourself writing code or implementation details, stop and move that to the Constraint Spec.
+:::info[Value Proposition]
+Clearly define the desired outcome and success criteria for an AI-assisted task. This prevents scope creep, focuses AI generation, and provides a clear benchmark for evaluating outputs.
 :::
 
-## 1. Primary Objective
+## Overview
 
-**What is the single most important outcome?**
-_(State the goal in terms of user value or system behavior.)_
+The Intent Spec (Intent Specification) is a foundational artifact in the GenAI Project Lifecycle. It articulates _what_ needs to be achieved and _why_ it matters, without dictating _how_ it should be implemented. By clearly stating the purpose, desired outcome, and measurable success criteria, the Intent Spec acts as a compass for AI and a clear objective for human review.
 
-> [One clear sentence describing the goal.]
-
----
-
-## 2. Scope (In Bounds)
-
-**What specific parts of the system will change?**
-_(Be explicit about boundaries.)_
-
-- **Components**: [e.g., User Profile Service, Frontend Settings Page]
-- **Data**: [e.g., User metadata table]
-- **User Types**: [e.g., Admin users only]
+**Goal**: Define a clear, measurable, and testable statement of purpose for an AI-assisted task.
+**Anti-pattern**: Vague objectives like "make it better" or "improve performance," which lead to AI guessing at the underlying problem.
 
 ---
 
-## 3. Exclusions (Out of Bounds)
+## Template
 
-**What are we explicitly NOT changing?**
-_(This prevents "while I'm at it" refactoring.)_
+```markdown
+# Intent Spec: [Name of Feature/Task]
 
-- [ ] We are NOT touching [e.g., Authentication logic]
-- [ ] We are NOT refactoring [e.g., The legacy billing module]
+**Purpose:** 
+(A single, concise sentence describing the primary goal of the task. What problem are you solving, or what value are you creating?)
+
+**Desired Outcome:**
+(Describe the specific, observable result you want from the AI's work. What will be different after this task is completed?)
+
+**Success Criteria:**
+(How will you know the task is successful? These should be quantitative or qualitative metrics that can be verified.)
+-   Criterion 1: ...
+-   Criterion 2: ...
+-   ...
+
+**Explicit Exclusions/Non-Goals:**
+(What is explicitly *not* part of this task? This prevents scope creep and focuses the AI.)
+-   Exclusion 1: ...
+-   Exclusion 2: ...
+-   ...
+```
+
+---
+## Practical Example: Intent Spec for a User Profile Microservice
+
+**Objective**: Create a new user profile microservice.
+
+**Intent Spec:**
+
+```markdown
+**Purpose:** To provide a dedicated, scalable service for managing user profile information.
+
+**Desired Outcome:**
+A new microservice exposing a RESTful API for CRUD operations on user profiles. This service will store user-specific data (e.g., name, email, avatar URL, preferences) and be accessible by other internal services.
+
+**Success Criteria:**
+-   The microservice API must expose endpoints for creating, retrieving, updating, and deleting user profiles.
+-   Each operation must return appropriate HTTP status codes (2xx for success, 4xx for client errors, 5xx for server errors).
+-   User profiles must be uniquely identifiable by a UUID.
+-   The service must integrate with our existing authentication gateway for secure access.
+-   Response times for profile retrieval should be under 100ms (p95).
+
+**Explicit Exclusions/Non-Goals:**
+-   User authentication (handled by separate service).
+-   User registration flow.
+-   Integration with external social media profiles.
+-   Real-time notifications on profile changes.
+```
 
 ---
 
-## 4. Expected Behavior (User/System View)
+## Common Pitfalls
 
-**How does the system behave when this is done?**
-_(Describe the "happy path" and key alternative paths.)_
+| Pitfall                       | Impact                                   | Correction                                     |
+| :---------------------------- | :--------------------------------------- | :--------------------------------------------- |
+| **Vague Intent**              | AI generates generic or irrelevant outputs. | Use specific, measurable language.             |
+| **Mixing Intent with Implementation** | AI makes technical decisions based on assumptions. | Focus solely on *what* to achieve, not *how*. |
+| **Implicit Exclusions**       | AI performs work you didn't want.        | Explicitly state what is out of scope.         |
 
-### Scenario A: [Name]
+---
 
-1. User does [Action]
-2. System responds with [Result]
-3. Data is updated to [State]
+## Next Step
 
-### Scenario B: [Name]
-
-1. System receives [Event]
-2. System processes [Logic]
-3. System emits [Output]
+Proceed to defining the **Constraint Spec**.
 
 ---
 
 ## Last Reviewed / Last Updated
 
-- Date: YYYY-MM-DD
+- Last reviewed: 2025-12-28
+- Version: 0.1.0

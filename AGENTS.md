@@ -1,12 +1,11 @@
-````markdown
 ---
-title: "NNLP Agent Instructions for Codex"
+title: "GenAI & LLM Documentation Agent Instructions for Codex"
 archetype: "tooling"
 status: "active"
 owner: "Shailesh (Shaily)"
 maintainer: "Shailesh (Shaily)"
 version: "0.1.0"
-tags: ["nnlp", "codex", "agents", "cli", "workflow", "guardrails"]
+tags: ["genai-llm", "codex", "agents", "cli", "workflow", "guardrails"]
 last_reviewed: "2025-12-20"
 ---
 
@@ -16,7 +15,7 @@ last_reviewed: "2025-12-20"
 
 This file defines how Codex agents should behave inside this repo.
 
-NNLP assumes AI can execute, but humans own:
+GenAI & LLM Documentation assumes AI can execute, but humans own:
 
 - intent
 - trade-offs
@@ -90,31 +89,31 @@ Agents must follow this order:
    - Restate the goal in one paragraph.
    - List explicit out-of-scope items.
 
-2. **List constraints**
+2.  **List constraints**
 
-   - Functional constraints
-   - Non-functional constraints (security, performance, compatibility)
-   - Repo conventions (frontmatter, section structure)
+    - Functional constraints
+    - Non-functional constraints (security, performance, compatibility)
+    - Repo conventions (frontmatter, section structure)
 
-3. **Plan**
+3.  **Plan**
 
-   - Produce a short plan with numbered steps.
-   - Identify files that will change.
-   - Identify validation steps.
+    - Produce a short plan with numbered steps.
+    - Identify files that will change.
+    - Identify validation steps.
 
-4. **Execute in small diffs**
+4.  **Execute in small diffs**
 
-   - Prefer incremental commits or incremental patches.
-   - Avoid rewriting large files unless explicitly requested.
+    - Prefer incremental commits or incremental patches.
+    - Avoid rewriting large files unless explicitly requested.
 
-5. **Interrogate**
+5.  **Interrogate**
 
-   - Explain why changes satisfy constraints.
-   - Call out remaining risks or assumptions.
+    - Explain why changes satisfy constraints.
+    - Call out remaining risks or assumptions.
 
-6. **Acceptance**
-   - Map output to acceptance criteria.
-   - Provide a clear “ready” or “not ready” statement.
+6.  **Acceptance**
+    - Map output to acceptance criteria.
+    - Provide a clear “ready” or “not ready” statement.
 
 ---
 
@@ -122,7 +121,7 @@ Agents must follow this order:
 
 ### Allowed
 
-- Create new docs according to NNLP templates
+- Create new docs according to GenAI & LLM Documentation templates
 - Update links, indexes, and navigation
 - Add diagrams (Mermaid) where relevant
 - Add experiments under `experiments/` with the standard structure
@@ -140,7 +139,7 @@ Agents must follow this order:
 
 ✅ Good instruction to an agent
 
-- “Create `docs/02-genai-llm-fundamentals/01-nlp-and-embeddings-enough-for-practice.md` using the repo doc template. Keep it practice-oriented. Include one Mermaid diagram. Add a short ‘How this impacts NNLP execution’ section. Do not add external links unless necessary.”
+- “Create `docs/02-genai-llm-fundamentals/01-nlp-and-embeddings-enough-for-practice.md` using the repo doc template. Keep it practice-oriented. Include one Mermaid diagram. Add a short ‘How this impacts GenAI & LLM Documentation execution’ section. Do not add external links unless necessary.”
 
 ❌ Bad instruction to an agent
 
@@ -224,7 +223,6 @@ I cannot assume the exact Codex CLI flags you have installed. Use this pattern a
 ```bash
 codex <agent-or-mode> "Plan the changes for: <task>. List files to edit. Do not write code."
 ```
-````
 
 ### Execute with diff discipline
 
@@ -244,7 +242,7 @@ If you paste your `codex --help` output, I will convert these into exact command
 
 ## Resources & References
 
-- NNLP Method: `docs/03-nnlp-method/`
+- GenAI & LLM Documentation Method: `docs/03-nnlp-method/`
 - Guardrails: `docs/07-guardrails-and-governance/`
 - Templates: `docs/09-templates/`
 
@@ -254,7 +252,3 @@ If you paste your `codex --help` output, I will convert these into exact command
 
 - Last reviewed: 2025-12-20
 - Version: 0.1.0
-
-```
-
-```

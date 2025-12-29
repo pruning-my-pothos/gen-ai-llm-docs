@@ -5,14 +5,14 @@ status: "draft"
 owner: "[Name] ([Handle])"
 maintainer: "[Name] ([Handle])"
 version: "0.1.0"
-tags: ["nnlp", "scenario", "[role]", "[task]"]
+tags: ["genai-llm", "scenario", "[role]", "[task]"]
 last_reviewed: "YYYY-MM-DD"
 ---
 
 # Scenario: [Scenario Name]
 
 :::info[Scenario Goal]
-Demonstrate how to apply NNLP to [specific task] to achieve [specific outcome] while mitigating [specific risk].
+Demonstrate how to apply GenAI & LLM Documentation to [specific task] to achieve [specific outcome] while mitigating [specific risk].
 :::
 
 ## Context
@@ -28,7 +28,7 @@ Demonstrate how to apply NNLP to [specific task] to achieve [specific outcome] w
 
 Why is this hard?
 
-| Challenge      | Traditional Risk              | NNLP Mitigation        |
+| Challenge      | Traditional Risk              | GenAI & LLM Documentation Mitigation        |
 | :------------- | :---------------------------- | :--------------------- |
 | **Ambiguity**  | _Misinterpreted requirements_ | Intent Spec            |
 | **Complexity** | _Regression in edge cases_    | Constraint Spec        |

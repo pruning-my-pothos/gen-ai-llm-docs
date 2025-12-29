@@ -5,8 +5,8 @@ status: "active"
 owner: "Shailesh (Shaily)"
 maintainer: "Shailesh (Shaily)"
 version: "0.1.0"
-tags: ["nnlp", "pattern", "creation", "greenfield"]
-last_reviewed: "2025-12-20"
+tags: ["pattern", "creation", "greenfield"]
+last_reviewed: "2025-12-28"
 ---
 
 # Pattern: The Clean Slate
@@ -74,6 +74,73 @@ flowchart LR
 
     classDef step fill:#E6F7FF,stroke:#1B75BB,color:#0F1F2E;
     class A,B,C step;
+```
+
+### Practical Example: `UserService`
+
+Let's illustrate with a simple `UserService` in TypeScript.
+
+**Step 1: Define the Interface**
+
+```typescript
+// docs/types/UserService.ts
+export interface User {
+  id: string;
+  name: string;
+  email: string;
+}
+
+export interface IUserService {
+  getUserById(id: string): Promise<User | null>;
+  createUser(name: string, email: string): Promise<User>;
+}
+```
+
+**Step 2: The Scaffold**
+
+```typescript
+// docs/services/UserService.ts
+import { User, IUserService } from '../types/UserService';
+
+export class UserService implements IUserService {
+  async getUserById(id: string): Promise<User | null> {
+    // TODO: Implement fetching user by ID
+    return null;
+  }
+
+  async createUser(name: string, email: string): Promise<User> {
+    // TODO: Implement creating a new user
+    // For now, return a placeholder
+    return { id: 'temp-id', name, email };
+  }
+}
+```
+
+**Step 3: The Implementation**
+
+```typescript
+// docs/services/UserService.ts (after implementation)
+import { User, IUserService } from '../types/UserService';
+
+export class UserService implements IUserService {
+  // Assume a simple in-memory store for demonstration
+  private users: User[] = [];
+  private nextId: number = 1;
+
+  async getUserById(id: string): Promise<User | null> {
+    return this.users.find(user => user.id === id) || null;
+  }
+
+  async createUser(name: string, email: string): Promise<User> {
+    const newUser: User = {
+      id: String(this.nextId++),
+      name,
+      email,
+    };
+    this.users.push(newUser);
+    return newUser;
+  }
+}
 ```
 
 ---

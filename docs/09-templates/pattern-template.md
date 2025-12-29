@@ -5,7 +5,7 @@ status: "draft"
 owner: "[Name] ([Handle])"
 maintainer: "[Name] ([Handle])"
 version: "0.1.0"
-tags: ["nnlp", "pattern", "[specific-tag]"]
+tags: ["genai-llm", "pattern", "[specific-tag]"]
 last_reviewed: "YYYY-MM-DD"
 ---
 

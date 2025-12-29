@@ -5,108 +5,118 @@ status: "active"
 owner: "Shailesh (Shaily)"
 maintainer: "Shailesh (Shaily)"
 version: "0.1.0"
-tags: ["nnlp", "scenario", "backend", "refactoring", "brownfield", "security"]
-last_reviewed: "2025-12-20"
+tags: ["genai-llm", "scenario", "backend", "refactoring", "brownfield", "security"]
+last_reviewed: "2025-12-28"
 ---
 
 # Scenario: Refactoring Legacy Auth
 
-:::info[Scenario Goal]
-Demonstrate how to safely refactor a critical, untyped legacy module into TypeScript without causing regressions or downtime.
+:::info[Value Proposition]
+Safely refactor a critical, complex legacy authentication system without introducing regressions or security vulnerabilities, leveraging AI to generate characterization tests and apply incremental changes.
 :::
 
-## Context
+## Overview
 
-- **Role**: Senior Backend Engineer
-- **Task**: Refactor a legacy Node.js `authMiddleware.js` to TypeScript and replace the deprecated `request` library with `axios`.
-- **Constraints**: Zero downtime. Must maintain 100% backward compatibility with existing JWTs. No database changes.
-- **Tools Used**: VS Code + GitHub Copilot
-- **Patterns Applied**: The Translator
+Legacy authentication systems are often monolithic, tightly coupled, and high-risk. Refactoring them is a daunting task, yet crucial for security and maintainability. This scenario demonstrates how GenAI & LLM Documentation can be applied to mitigate the risks associated with such refactorings. By systematically generating characterization tests, extracting clear interfaces, and implementing changes incrementally, we can modernize legacy auth with confidence.
 
----
-
-## The Challenge
-
-Why is this hard? Authentication code is high-stakes. A small regression locks users out.
-
-| Challenge               | Traditional Risk                  | NNLP Mitigation                           |
-| :---------------------- | :-------------------------------- | :---------------------------------------- |
-| **Implicit Logic**      | _"It works, don't touch it"_      | Discovery Brief (Chesterton's Fence)      |
-| **Hidden Side Effects** | _Swallowed errors in callbacks_   | Constraint Spec (Error parity)            |
-| **Dependency Drift**    | _New library behaves differently_ | Review & Interrogation (Behavioral tests) |
+**Goal**: Extract and replace a legacy authentication module with a modern, secure implementation, while preserving external behavior and minimizing downtime.
+**Anti-pattern**: A "big-bang" rewrite of the entire auth system, leading to extensive regressions and potential security flaws.
 
 ---
 
-## The Execution Loop
+## The Problem (Before GenAI & LLM Documentation)
 
-### 1. Discovery & Intent
+Teams dealing with legacy authentication face:
 
-We started by auditing the existing code to understand _why_ it was written that way.
+-   **High risk of regressions**: Changes can easily break login, session management, or authorization.
+-   **Security vulnerabilities**: Outdated hashing algorithms, weak session management, exposed credentials.
+-   **Complex, intertwined code**: Business logic often mixed with authentication concerns.
+-   **Lack of test coverage**: Refactoring is blind without a safety net of tests.
 
-> **Artifact**: `specs/auth-refactor/discovery.md`
+---
 
-:::tip[Key Insight]
-We discovered the legacy code relied on a specific, non-standard header format. We explicitly added this to the **Intent Spec** to ensure the refactor didn't "fix" it (which would break mobile clients).
+## GenAI & LLM Documentation Approach
+
+| Challenge               | Traditional Risk                  | GenAI & LLM Documentation Mitigation                            |
+| :---------------------- | :-------------------------------- | :-------------------------------------------------------------- |
+| High-risk changes         | Unforeseen regressions            | **Refactor Safely Pattern**: Characterization tests as safety net |
+| Code entanglement         | Difficulty in isolating logic     | **The Strangler Pattern**: Incremental replacement with abstraction |
+| Security vulnerabilities  | Exposing new attack vectors        | **Constraint Spec**: Enforce modern security practices          |
+| Lack of test coverage     | Blind refactoring                 | **Write Tests Pattern**: Generate comprehensive test suite        |
+
+---
+
+## Step-by-Step Scenario
+
+### 1. Characterize Existing Behavior (Refactor Safely, Step 1)
+
+Before touching the code, capture its current behavior.
+
+**Prompt to AI (Characterization Tests):**
+> "Analyze the attached `LegacyAuthService.java` file. It handles user login, password hashing, and session management. Generate a comprehensive suite of JUnit 5 tests that covers all public methods and known edge cases, including valid/invalid credentials, session expiry, and error conditions. Treat the current implementation as the source of truth for behavior."
+
+**(AI generates `LegacyAuthServiceTest.java`.)**
+
+### 2. Define New Service Interface (The Strangler, Step 2)
+
+Extract an interface to create a seam for the new implementation.
+
+**Prompt to AI (Seam Extraction):**
+> "Given `LegacyAuthService.java`, extract a Java interface, `AuthService`, that defines all public methods currently exposed by `LegacyAuthService`. This interface will be used by all client code. Do not change the implementation of `LegacyAuthService` yet."
+
+**(AI generates `AuthService.java` interface.)**
+
+### 3. Implement New Service (Clean Slate Pattern)
+
+Create a modern, secure implementation of the `AuthService` interface.
+
+**Prompt to AI (Constraint Spec for New Service):**
+> "I need to implement a new `AuthService` in Java that adheres to the `AuthService` interface.
+> -   **Password Hashing**: Use Argon2 (via `argon2-jvm` library).
+> -   **Session Management**: JWT-based (via `jjwt` library) with short-lived access tokens and longer-lived refresh tokens.
+> -   **Database**: Interact with a `UserRepository` interface (assume it exists) for user data.
+> -   **Error Handling**: Return specific, well-defined custom exceptions (e.g., `InvalidCredentialsException`, `UserNotFoundException`).
+> -   **Security**: Implement rate-limiting for login attempts.
+>
+> Generate `ModernAuthService.java` implementing the `AuthService` interface."
+
+**(AI generates `ModernAuthService.java`.)**
+
+### 4. Wire up the Switch (The Strangler, Step 4)
+
+Introduce a mechanism (e.g., feature flag) to switch between the old and new implementations.
+
+**Prompt to AI (Switch Implementation):**
+> "In `AuthServiceFactory.java`, add a mechanism to return either `LegacyAuthService` or `ModernAuthService` based on a feature flag `USE_MODERN_AUTH` (boolean environment variable). Ensure the factory's `getAuthService()` method returns the correct implementation."
+
+**(AI modifies `AuthServiceFactory.java`.)**
+
+### 5. Incremental Migration and Verification (Refactor Safely, Step 3 & 4)
+
+Gradually switch traffic and continuously run tests.
+
+**Prompt to AI (Verification):**
+> "Assuming I have switched `USE_MODERN_AUTH` to true for a small percentage of users, what metrics should I monitor (e.g., login success rate, latency, error rates) to ensure the new `ModernAuthService` is performing correctly and securely? Suggest an automated health check for the new service."
+
+---
+
+## Outcomes and Learnings
+
+-   **Reduced risk**: Incremental changes with test coverage minimize regression risk.
+-   **Improved security**: Modern hashing and session management.
+-   **Clearer architecture**: Decoupled authentication logic.
+-   **Maintainability**: Easier to understand and evolve the auth system.
+
+---
+
+## Common Pitfalls
+
+| Pitfall                   | Impact                                   | Correction                                     |
+| :------------------------ | :--------------------------------------- | :--------------------------------------------- |
+| **Incomplete Characterization Tests** | Refactoring changes behavior unknowingly. | Invest heavily in capturing existing behavior with tests, even for "bad" behavior. |
+| **Overlooking Edge Cases** | Critical security flaws in complex scenarios. | Explicitly prompt AI to consider edge cases like concurrent logins, password resets, token revocation. |
+| **Ignoring Operational Impact** | Downtime or performance issues during migration. | Plan for monitoring, rollback, and gradual rollout in the Constraint Spec. |
+
+:::danger[Critical Risk]
+Security-sensitive refactorings require the highest level of human scrutiny. AI is an assistant, not a replacement for security expertise. Always manually audit critical security components.
 :::
-
-### 2. Constraints & Delegation
-
-We set strict boundaries to prevent the AI from "modernizing" too much.
-
-- **Must**: Use `axios` for HTTP requests.
-- **Must**: Preserve exact error message strings (downstream apps regex-match these).
-- **Must Not**: Change the function signature of the middleware.
-
-```mermaid
-flowchart LR
-    A[Intent: Parity] --> B[Constraint: Exact Errors]
-    B --> C[Delegation: Security Persona]
-
-    classDef step fill:#E6F7FF,stroke:#1B75BB,color:#0F1F2E;
-    class A,B,C step;
-```
-
-### 3. Generation & Review
-
-We ran the generation loop 3 times.
-
-- **Attempt 1**: The model replaced callback hell with clean `async/await`, but swallowed the specific HTTP status codes from the upstream identity provider.
-- **Correction**: Updated the **Constraint Spec** to require "Propagating upstream status codes exactly."
-- **Attempt 2**: The model used `axios` but forgot to handle the difference in how `axios` throws errors on 4xx responses (unlike `request`).
-- **Correction**: Added a specific instruction to the **Generation Request**: "Handle axios 4xx errors by catching them and returning the response data, not throwing."
-- **Attempt 3**: Succeeded.
-
-:::warning[Review Find]
-The model tried to add a "helpful" log line printing the JWT. The **Delegation Contract** (No PII in logs) and **Review Checklist** caught this immediately.
-:::
-
----
-
-## Outcome
-
-| Metric           | Before                       | After                           |
-| :--------------- | :--------------------------- | :------------------------------ |
-| **Code Quality** | _Untyped JS / Callback Hell_ | Strict TypeScript / Async-Await |
-| **Safety**       | _Deprecated `request` lib_   | Modern `axios`                  |
-| **Confidence**   | _"Don't breathe on it"_      | Fully tested & typed            |
-
----
-
-## Retrospective
-
-### What Went Well
-
-- The **Discovery Brief** forced us to read the code before prompting, finding the header quirk.
-- The **Constraint Spec** regarding error strings saved us from a silent breaking change for mobile users.
-
-### What We Learned
-
-- **Lesson 1**: Legacy code often relies on "buggy" behavior. You must explicitly tell AI to _preserve_ quirks.
-- **Lesson 2**: When swapping libraries (e.g., `request` to `axios`), explicitly ask the AI to "List behavioral differences" before generating code.
-
----
-
-## Last Reviewed / Last Updated
-
-- Last reviewed: 2025-12-20
-- Version: 0.1.0

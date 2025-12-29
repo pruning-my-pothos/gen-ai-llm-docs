@@ -4,13 +4,13 @@ import {themes as prismThemes} from 'prism-react-renderer';
 
 const config: Config = {
   title: 'GenAI & LLM Documentation',
-  tagline: 'Practical guidance for GenAI and LLM work',
+  tagline: 'Documentation for Generative AI and LLMs',
   favicon: 'img/favicon-genai.svg',
   url: 'https://pruning-my-pothos.github.io',
-  baseUrl: '/NNLP/',
+  baseUrl: '/gen-ai-llm-docs/',
   trailingSlash: false,
   organizationName: 'pruning-my-pothos',
-  projectName: 'NNLP',
+  projectName: 'gen-ai-llm-docs',
   onBrokenLinks: 'throw',
   i18n: {
     defaultLocale: 'en',
@@ -44,23 +44,28 @@ const config: Config = {
     ],
   ],
   themeConfig: {
+    algolia: {
+      // The application ID provided by Algolia
+      appId: 'YOUR_APP_ID',
+
+      // Public API key: it is safe to commit it
+      apiKey: 'YOUR_SEARCH_API_KEY',
+
+      indexName: 'YOUR_INDEX_NAME',
+
+      // Optional: see docsearch options for more details
+      contextualSearch: true,
+    },
     mermaid: {
       theme: {light: 'neutral', dark: 'dark'},
     },
     metadata: [
-      {name: 'keywords', content: 'genai, llm, documentation, method, systems, prompting, rag'},
+      {name: 'keywords', content: 'genai, llm, documentation, programming, development'},
     ],
     navbar: {
-      title: 'GenAI & LLM',
-      logo: {
-        alt: 'GenAI Logo',
-        src: 'img/favicon-genai.svg',
-      },
+      title: 'GenAI & LLM Documentation',
       items: [
-        {type: 'doc', docId: '00-start-here/00-introduction', label: 'Start Here', position: 'left'},
-        {type: 'doc', docId: '01-core-skills/00-core-skills-overview', label: 'Core Skills', position: 'left'},
-        {type: 'doc', docId: '03-nnlp-method/00-the-nnlp-loop', label: 'Method', position: 'left'},
-        {type: 'doc', docId: '09-templates/00-templates-index', label: 'Templates', position: 'left'},
+        {type: 'doc', docId: '00-introduction/scope-and-applicability', label: 'Start Here', position: 'left'},
         {
           href: 'https://github.com/pruning-my-pothos/NNLP',
           label: 'GitHub',
@@ -70,12 +75,11 @@ const config: Config = {
     },
     footer: {
       style: 'dark',
-      copyright: `GenAI & LLM · ${new Date().getFullYear()}`,
+      copyright: `GenAI & LLM Documentation · ${new Date().getFullYear()}`,
     },
   },
   themes: ['@docusaurus/theme-mermaid'],
   plugins: [
-    require.resolve('@easyops-cn/docusaurus-search-local'),
     async function tailwindPlugin() {
       return {
         name: 'docusaurus-tailwindcss',

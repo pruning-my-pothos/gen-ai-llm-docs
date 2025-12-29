@@ -5,105 +5,132 @@ status: "active"
 owner: "Shailesh (Shaily)"
 maintainer: "Shailesh (Shaily)"
 version: "0.1.0"
-tags: ["nnlp", "scenario", "frontend", "react", "greenfield"]
-last_reviewed: "2025-12-20"
+tags: ["genai-llm", "scenario", "frontend", "react", "greenfield"]
+last_reviewed: "2025-12-28"
 ---
 
 # Scenario: Greenfield React Component
 
-:::info[Scenario Goal]
-Demonstrate how to apply NNLP to build a reusable, accessible React component from scratch without introducing technical debt or accessibility violations.
+:::info[Value Proposition]
+Demonstrate how to apply GenAI & LLM Documentation to build a reusable, accessible React component from scratch without introducing technical debt or accessibility violations, accelerating development while maintaining quality.
 :::
 
-## Context
+## Overview
 
-- **Role**: Senior Frontend Engineer
-- **Task**: Build a reusable `DataTable` component with sorting and filtering.
-- **Constraints**: Must use Tailwind CSS, TypeScript, and strictly adhere to WCAG AA accessibility standards. No external table libraries (e.g., TanStack Table) allowed for this lightweight version.
-- **Tools Used**: Cursor + Claude 3.5 Sonnet
+Building new UI components often involves repetitive tasks: setting up file structure, writing boilerplate code, ensuring accessibility, and adhering to design systems. This scenario illustrates how to leverage AI, guided by GenAI & LLM Documentation principles, to generate a high-quality React component. By precisely defining intent and constraints, we can ensure the AI produces code that is clean, testable, and compliant with best practices from its inception.
 
----
-
-## The Challenge
-
-Why is this hard? Tables are notoriously difficult to get right regarding accessibility and generic typing.
-
-| Challenge          | Traditional Risk                    | NNLP Mitigation                       |
-| :----------------- | :---------------------------------- | :------------------------------------ |
-| **Generic Typing** | _`any` types or broken inference_   | Constraint Spec (Strict TS)           |
-| **Accessibility**  | _Div soup (non-semantic markup)_    | Intent Spec (A11y requirements)       |
-| **State Logic**    | _`useEffect` spaghetti for sorting_ | Constraint Spec (Derived state rules) |
+**Goal**: Generate a production-ready React component (e.g., a custom Button, Modal, or Input) quickly and correctly.
+**Anti-pattern**: Asking AI to "create a button" without defining its variants, states, accessibility needs, or stylistic constraints, resulting in a generic and unmaintainable component.
 
 ---
 
-## The Execution Loop
+## The Problem (Before GenAI & LLM Documentation)
 
-### 1. Discovery & Intent
+Frontend developers frequently encounter:
 
-We started by defining the boundaries. We need a table that handles data, not a table that handles data fetching.
-
-> **Artifact**: `specs/datatable/intent.md` (Simulated)
-
-:::tip[Key Insight]
-We explicitly excluded **Pagination** and **Server-side sorting** from the scope. This kept the logic pure and synchronous for v1.
-:::
-
-### 2. Constraints & Delegation
-
-We set hard technical boundaries to prevent "bloat".
-
-- **Must**: Use semantic `<table>`, `<thead>`, `<tbody>` tags.
-- **Must**: Use `useMemo` for sorting/filtering logic.
-- **Must Not**: Introduce new npm dependencies.
-
-```mermaid
-flowchart LR
-    A[Intent: Sortable Table] --> B[Constraint: No Ext Libs]
-    B --> C[Delegation: Senior FE Persona]
-
-    classDef step fill:#E6F7FF,stroke:#1B75BB,color:#0F1F2E;
-    class A,B,C step;
-```
-
-### 3. Generation & Review
-
-We ran the generation loop 2 times.
-
-- **Attempt 1**: The model generated a beautiful table using `div`s (Flexbox) instead of semantic HTML tables.
-- **Correction**: Updated the **Constraint Spec** to explicitly require semantic HTML table tags for screen reader support.
-- **Attempt 2**: Succeeded. Generated a fully typed generic component `<T extends { id: string }>` with semantic markup.
-
-:::warning[Review Find]
-The model initially forgot `aria-sort` attributes on the headers. The **Review Checklist** (Accessibility Section) caught this immediately.
-:::
+-   **Boilerplate fatigue**: Repetitive setup for new components.
+-   **Inconsistent styling**: Deviations from the design system.
+-   **Accessibility oversights**: Missing `aria` attributes, keyboard navigation issues.
+-   **Technical debt**: Quickly built components becoming hard to maintain.
 
 ---
 
-## Outcome
+## GenAI & LLM Documentation Approach
 
-| Metric            | Before             | After                   |
-| :---------------- | :----------------- | :---------------------- |
-| **Dev Time**      | _4 Hours (Manual)_ | 45 Minutes (NNLP)       |
-| **Accessibility** | _Often missed_     | 100% WCAG AA Compliant  |
-| **Tests**         | _0%_               | 100% Unit Test Coverage |
+| Challenge          | Traditional Risk                    | GenAI & LLM Documentation Mitigation                       |
+| :----------------- | :---------------------------------- | :--------------------------------------------------------- |
+| Boilerplate code   | Repetitive, error-prone manual work | **Clean Slate Pattern**: Generate from zero with full spec |
+| Inconsistent design  | UI drift, bad UX                    | **Constraint Spec**: Define design tokens, Tailwind/CSS-in-JS rules |
+| Accessibility      | Exclusion, legal risk               | **Constraint Spec**: Explicitly require `aria` attributes, keyboard navigation |
+| Untested components | Silent bugs, regressions            | **Write Tests Pattern**: Generate tests alongside the component |
 
 ---
 
-## Retrospective
+## Step-by-Step Scenario
 
-### What Went Well
+### 1. Define Intent Spec
 
-- The **Delegation Contract** ("Act as an A11y Expert") resulted in correct `scope="col"` attributes without asking.
-- The **Constraint** against `useEffect` prevented the common "state sync" bugs found in junior React code.
+Clearly articulate the purpose and core functionality of the component.
 
-### What We Learned
+**Prompt to AI (Intent Spec):**
+> "Create a reusable `Button` component for our design system. It should support different visual variants (primary, secondary, danger, ghost) and sizes (small, medium, large). It needs to be clickable and display text or an icon. The component's primary purpose is to trigger user actions."
 
-- **Lesson 1**: Models prefer CSS Grid/Flexbox over HTML Tables unless forced.
-- **Lesson 2**: Generics in TypeScript are hard for models to infer correctly without an explicit example in the prompt.
+### 2. Craft a Detailed Constraint Spec
+
+This is where you inject all design system rules, accessibility requirements, and technical stack preferences.
+
+**Prompt to AI (Constraint Spec):**
+> "Given the Intent Spec for the `Button` component, develop a Constraint Spec.
+> -   **Technology Stack**: React with TypeScript, Tailwind CSS for styling, `clsx` for conditional class joining, `react-aria` for accessibility primitives.
+> -   **Styling**: Follow the design system's utility classes (e.g., `btn-primary`, `btn-sm`), apply hover/focus states, ensure consistent padding and typography.
+> -   **Accessibility**: Must be fully keyboard navigable, support `aria-label`, correctly use HTML `<button>` element.
+> -   **Props**: Define types for `variant`, `size`, `onClick`, `children` (ReactNode), `disabled`, `isLoading` (boolean for spinner).
+> -   **Folder Structure**: Component in `src/components/Button/Button.tsx`, styles handled via Tailwind.
+> -   **No new dependencies**."
+
+### 3. Generate Component (Clean Slate Pattern)
+
+Use the "Clean Slate" pattern to generate the component's interface and then its implementation.
+
+**Prompt to AI (Generation Request - Interface):**
+> "Based on the Intent Spec and Constraint Spec, generate the TypeScript interface and prop types for the `Button` component. Do not generate the implementation yet."
+
+**(AI generates interfaces.)**
+
+**Prompt to AI (Generation Request - Implementation):**
+> "Now, implement the `Button.tsx` component using React, TypeScript, and Tailwind CSS, adhering strictly to the Constraint Spec. Include all specified variants, sizes, and accessibility attributes. Ensure `isLoading` prop correctly renders a spinner and disables the button. Make sure `clsx` is used for conditional class joining."
+
+**(AI generates `Button.tsx`.)**
+
+### 4. Generate Unit and Accessibility Tests (Write Tests Pattern)
+
+Ensure the component is robust and accessible.
+
+**Prompt to AI (Generation Request - Tests):**
+> "Generate React Testing Library unit tests for the `Button` component (from `Button.tsx`). Cover:
+> -   Rendering all variants and sizes.
+> -   Clicking the button.
+> -   Disabled state.
+> -   Loading state (spinner rendering).
+> -   Basic accessibility checks (e.g., `role`, `aria-label`)."
+
+**(AI generates `Button.test.tsx`.)**
+
+### 5. Review and Interrogate
+
+Critically review the generated component and tests.
+
+**Prompt to AI (Review):**
+> "Review the `Button.tsx` component and its tests. Are there any missing accessibility features? Does the Tailwind CSS correctly apply all design system rules (e.g., proper spacing, font sizes)? Are there any edge cases not covered by tests (e.g., very long text content)?"
+
+---
+
+## Outcomes and Learnings
+
+-   **High-quality component**: Meets design system, accessibility, and functional requirements from inception.
+-   **Accelerated development**: Reduces manual boilerplate and styling.
+-   **Reduced technical debt**: Explicit constraints prevent common mistakes.
+-   **Improved consistency**: Standardized components across the application.
+
+| Metric        | Traditional (Manual) | GenAI & LLM Documentation |
+| :------------ | :------------------- | :-------------------------- |
+| **Dev Time**  | _4 Hours (Manual)_   | 45 Minutes (GenAI & LLM Documentation)        |
+| **Bugs/Refactors** | 3-5 (post-initial)   | 0-1 (post-initial)          |
+| **Accessibility Audit Findings** | 1-2 (minor)          | 0-1 (minor)                 |
+
+---
+
+## Common Pitfalls
+
+| Pitfall                   | Impact                                   | Correction                                     |
+| :------------------------ | :--------------------------------------- | :--------------------------------------------- |
+| **Vague Constraints**     | AI generates a generic, unstyled component. | Be extremely detailed in the Constraint Spec about styling, props, and behavior. |
+| **Ignoring Accessibility** | Component is unusable for many users.    | Explicitly list accessibility requirements (e.g., `aria-live`, keyboard focus) in the Constraint Spec. |
+| **Trusting AI for Design System** | AI might miss nuanced design rules or existing utility classes. | Provide specific examples of design tokens or existing CSS utility classes. |
 
 ---
 
 ## Last Reviewed / Last Updated
 
-- Last reviewed: 2025-12-20
+- Last reviewed: 2025-12-28
 - Version: 0.1.0
