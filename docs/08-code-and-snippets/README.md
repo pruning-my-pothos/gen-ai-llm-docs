@@ -27,16 +27,6 @@ This section is for beginners and non-developers who need to **understand** and 
 3. Apply **Safety & Prompts** to reduce hallucinations and scope creep.
 4. Refer to **Troubleshooting** when something breaks.
 
-## Sections
-
-- 01-setup-and-installs
-- 02-git-basics
-- 03-token-counting
-- 04-rag-mini-snippet
-- 05-structured-output-snippet
-- 06-safety-and-prompts
-- 07-troubleshooting-cheatsheet
-
 ## Next Step
 
-Begin with [Setup & Installs](./01-setup-and-installs.md) to prepare your environment.
+Begin with [Setup & Installs](/docs/08-code-and-snippets/01-setup-and-installs/) to prepare your environment.
