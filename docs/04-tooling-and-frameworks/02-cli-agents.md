@@ -9,7 +9,7 @@ tags: ["genai-llm", "tooling", "cli", "aider", "automation"]
 last_reviewed: "2025-12-28"
 ---
 
-# CLI Agents
+
 
 :::info[Value Proposition]
 CLI agents (like Aider) enable autonomous, iterative execution of tasks directly within your code editor. They streamline repetitive coding tasks, refactorings, and test generation by operating on local files, making them ideal for integrating with existing developer workflows.
@@ -42,6 +42,8 @@ You **MUST** have a clear **Intent Spec**, **Constraint Spec**, and **Delegation
 
 -   **Artifacts**: A working CLI agent installed and configured (e.g., Aider, Continue, open-interpreter).
 -   **Context**: Familiarity with your agent's command structure and how to provide it with context (e.g., adding files, using chat history).
+
+---
 
 ---
 
@@ -95,6 +97,8 @@ flowchart LR
 
 ---
 
+---
+
 ## Best Practices for CLI GenAI & LLM Documentation
 
 -   **Start Small**: Delegate single, well-defined tasks initially.
@@ -102,6 +106,8 @@ flowchart LR
 -   **Iterative Refinement**: Treat agent output as a draft. You'll likely need to refine prompts.
 -   **Version Control**: Always commit your changes frequently, and use `git diff` to review agent changes before committing.
 -   **Local Operations**: Keep sensitive code and data local to your machine by using local LLMs if possible.
+
+---
 
 ---
 
@@ -133,6 +139,8 @@ aider src/utils/pricing.ts docs/01-handbook-method/02-intent-spec.md docs/01-han
 
 ---
 
+---
+
 ## Common Pitfalls
 
 | Pitfall                   | Impact                                   | Correction                                     |
@@ -143,7 +151,12 @@ aider src/utils/pricing.ts docs/01-handbook-method/02-intent-spec.md docs/01-han
 
 ---
 
-## Last Reviewed / Last Updated
+## Quick Links
 
-- Last reviewed: 2025-12-28
-- Version: 0.1.0
+- Tooling Index: [Index](/docs/04-tooling-and-frameworks/00-tooling-index)
+- IDE Setup: Cursor: [Tooling Guide](/docs/04-tooling-and-frameworks/01-ide-setup-cursor)
+- Delegation Contract Template: [Template](/docs/06-templates/delegation-contract-template)
+
+## Next Step
+
+Explore [LLM Frameworks](/docs/04-tooling-and-frameworks/02-llm-frameworks/00-frameworks-overview) for building custom AI applications.

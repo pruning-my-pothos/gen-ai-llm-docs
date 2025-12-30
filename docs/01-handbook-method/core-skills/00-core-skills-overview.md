@@ -12,22 +12,22 @@ last_reviewed: "2025-12-20"
 # Core Skills Overview
 
 :::info[People make the difference]
-Tools don’t make GenAI & LLM Documentation work—people do. These four skills determine whether AI accelerates you or creates risk.
+Tools don’t make GenAI & LLM Handbook work—people do. These four skills determine whether AI accelerates you or creates risk.
 :::
 
 ## Overview
 
-GenAI & LLM Documentation is not powered by tools.
+GenAI & LLM Handbook is not powered by tools.
 It is powered by **human insight, precision, and discipline**.
 
-Before methods, patterns, or frameworks, GenAI & LLM Documentation depends on four core skills that determine whether natural language execution succeeds or fails:
+Before methods, patterns, or frameworks, GenAI & LLM Handbook depends on four core skills that determine whether natural language execution succeeds or fails:
 
 -   **Logic**: Understanding cause-and-effect, conditions, and invariants.
 -   **Language**: Using precise, unambiguous wording for instructions and constraints.
 -   **Systems**: Grasping the interconnectedness of components and the broader context.
 -   **Sentences**: Structuring executable statements to guide AI actions.
 
-This section explains what these skills mean in the context of GenAI & LLM Documentation and why they matter professionally.
+This section explains what these skills mean in the context of GenAI & LLM Handbook and why they matter professionally.
 
 ---
 
@@ -41,7 +41,7 @@ Skill gaps lead to:
 -   Unintended side effects
 -   Increased review overhead
 
-GenAI & LLM Documentation treats skill-building as the primary leverage point.
+GenAI & LLM Handbook treats skill-building as the primary leverage point.
 
 ---
 
@@ -55,7 +55,7 @@ Logic provides the **reasoning framework** for AI to operate within. Without cle
 
 Mermaid source: `assets/diagrams/genai-llm-skill-matrix.mmd`
 
-In GenAI & LLM Documentation, logic means:
+In GenAI & LLM Handbook, logic means:
 
 -   Defining clear conditions and outcomes.
 -   Identifying dependencies and sequences.
@@ -70,7 +70,7 @@ In GenAI & LLM Documentation, logic means:
 
 Language is your **primary interface** with the AI. Ambiguous language is the fastest way to introduce errors and unpredictability into your workflow.
 
-In GenAI & LLM Documentation, language means:
+In GenAI & LLM Handbook, language means:
 
 -   Using precise, deterministic vocabulary.
 -   Separating intent from implementation details.
@@ -85,7 +85,7 @@ In GenAI & LLM Documentation, language means:
 
 Systems thinking provides the **contextual awareness** for AI-generated solutions. Without understanding the broader system, AI can produce local optimizations that break global coherence.
 
-In GenAI & LLM Documentation, systems means:
+In GenAI & LLM Handbook, systems means:
 
 -   Understanding architectural boundaries and interfaces.
 -   Considering upstream and downstream impacts of changes.
@@ -100,20 +100,20 @@ In GenAI & LLM Documentation, systems means:
 
 Sentences are the **atomic units of instruction** for AI. How you phrase a single sentence can drastically alter AI's interpretation and execution.
 
-In GenAI & LLM Documentation, sentences means:
+In GenAI & LLM Handbook, sentences means:
 
 -   Writing one instruction per sentence.
 -   Structuring sentences to convey explicit scope and exclusions.
 -   Using precise grammar to prevent misinterpretation.
 -   Recognizing that every word carries weight in an executable context.
 
-Sentences are the smallest unit of execution in GenAI & LLM Documentation.
+Sentences are the smallest unit of execution in GenAI & LLM Handbook.
 
 ---
 
-## The Formula for Reliable GenAI & LLM Documentation
+## The Formula for Reliable GenAI & LLM Handbook
 
-> **GenAI & LLM Documentation = Logic × Language × Systems × Sentences**
+> **GenAI & LLM Handbook = Logic × Language × Systems × Sentences**
 
 If any factor is zero, reliability collapses.
 
@@ -128,9 +128,9 @@ Lack of proficiency in these core skills often leads to common AI-assisted devel
 -   **Fragile code**: Outputs that break easily or are hard to maintain.
 -   **Integration issues**: AI-generated components that don't fit into the system.
 
-GenAI & LLM Documentation exists to surface and correct these failure modes early.
+GenAI & LLM Handbook exists to surface and correct these failure modes early.
 
-GenAI & LLM Documentation does not assume mastery upfront. It provides a framework for deliberate practice and continuous improvement.
+GenAI & LLM Handbook does not assume mastery upfront. It provides a framework for deliberate practice and continuous improvement.
 
 ---
 

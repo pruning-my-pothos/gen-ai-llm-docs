@@ -28,9 +28,9 @@ The GenAI & LLM Handbook is written to be **executable** by humans. This means i
 
 ### Precision
 
--   Use clear, unambiguous language. Avoid jargon where simpler terms suffice, or define jargon clearly.
--   Be explicit. Avoid implied meanings.
--   Prefer active voice.
+- Use clear, unambiguous language. Avoid jargon where simpler terms suffice, or define jargon clearly.
+- Be explicit. Avoid implied meanings.
+- Prefer active voice.
 
 ### Tone
 
@@ -46,24 +46,24 @@ The GenAI & LLM Handbook is for people who want speed without giving up control.
 
 ### Headings
 
--   Use `#` for main title, `##` for sections, `###` for sub-sections.
--   Ensure headings are descriptive and reflect content.
+- Use `#` for main title, `##` for sections, `###` for sub-sections.
+- Ensure headings are descriptive and reflect content.
 
 ### Code Blocks
 
--   Use triple backticks (```` ``` ````) for code blocks.
--   Specify the language for syntax highlighting (e.g., ```` ```typescript ````).
--   Inline code: use single backticks (`` `code` ``).
+- Use triple backticks (```` ``` ````) for code blocks.
+- Specify the language for syntax highlighting (e.g., ```` ```typescript ````).
+- Inline code: use single backticks (`` `code` ``).
 
 ### Lists
 
--   Use ordered lists for sequential steps (e.g., `1. Step one`).
--   Use unordered lists for itemized points (e.g., `- Item one`).
+- Use ordered lists for sequential steps (e.g., `1. Step one`).
+- Use unordered lists for itemized points (e.g., `- Item one`).
 
 ### Emphasis
 
--   Use `**bold**` for strong emphasis or key terms.
--   Use `*italic*` for minor emphasis or technical terms that might not be in the glossary.
+- Use `**bold**` for strong emphasis or key terms.
+- Use `*italic*` for minor emphasis or technical terms that might not be in the glossary.
 
 ---
 
@@ -123,4 +123,3 @@ Use Docusaurus admonitions for structured information:
 ## Next Steps
 
 Review the [Glossary](./glossary.md) for consistent terminology.
-

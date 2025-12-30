@@ -9,11 +9,13 @@ tags: ["genai-llm", "template", "review", "audit"]
 last_reviewed: "2025-12-20"
 ---
 
-# Review & Interrogation Checklist
+## Review & Interrogation Template
 
-:::info[Instructions]
+:::info[Value Proposition]
 Do not merge AI code without this review. Check the boxes based on evidence, not "it looks good."
 :::
+
+---
 
 ## 1. Intent Alignment (The "What")
 
@@ -75,6 +77,22 @@ The code solves a _different_ problem than the one requested.
 
 ---
 
-## Last Reviewed / Last Updated
+## Common Pitfalls
 
-- Date: YYYY-MM-DD
+| Pitfall                   | Impact                                   | Correction                                     |
+| :------------------------ | :--------------------------------------- | :--------------------------------------------- |
+| **Superficial Review**    | Missing critical flaws in AI output.     | Use the checklist systematically; don't just skim. |
+| **Trusting AI Blindly**   | Accepting AI outputs without validation. | Always verify against Intent & Constraint Specs, run tests. |
+| **Ignoring Context**      | Reviewing code without the full prompt history. | Ensure you have the Intent Spec, Constraint Spec, and Generation Request handy. |
+
+---
+
+## Quick Links
+
+- Handbook Method: [Overview](/docs/01-handbook-method/01-overview)
+- Review & Interrogation: [Handbook Method](/docs/01-handbook-method/review-and-interrogation)
+- Quality Rubric Template: [Template](/docs/06-templates/quality-rubric-template)
+
+## Next Step
+
+Evaluate the quality using the [Quality Rubric Template](/docs/06-templates/quality-rubric-template).

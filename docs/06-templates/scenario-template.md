@@ -9,11 +9,13 @@ tags: ["genai-llm", "scenario", "[role]", "[task]"]
 last_reviewed: "YYYY-MM-DD"
 ---
 
-# Scenario: [Scenario Name]
+## Scenario Template
 
-:::info[Scenario Goal]
+:::info[Value Proposition]
 Demonstrate how to apply GenAI & LLM Documentation to [specific task] to achieve [specific outcome] while mitigating [specific risk].
 :::
+
+---
 
 ## Context
 
@@ -33,6 +35,8 @@ Why is this hard?
 | **Ambiguity**  | _Misinterpreted requirements_ | Intent Spec            |
 | **Complexity** | _Regression in edge cases_    | Constraint Spec        |
 | **Safety**     | _Security vulnerabilities_    | Review & Interrogation |
+
+---
 
 ---
 
@@ -78,6 +82,8 @@ The model initially tried to [bad action]. The Delegation Contract prevented thi
 
 ---
 
+---
+
 ## Outcome
 
 | Metric           | Before             | After           |
@@ -85,6 +91,8 @@ The model initially tried to [bad action]. The Delegation Contract prevented thi
 | **Code Quality** | _Legacy / Brittle_ | Modern / Tested |
 | **Time Spent**   | _X Hours_          | Y Hours         |
 | **Confidence**   | _Low_              | High            |
+
+---
 
 ---
 
@@ -102,7 +110,22 @@ The model initially tried to [bad action]. The Delegation Contract prevented thi
 
 ---
 
-## Last Reviewed / Last Updated
+## Common Pitfalls
 
-- Last reviewed: YYYY-MM-DD
-- Version: 0.1.0
+| Pitfall                   | Impact                                   | Correction                                     |
+| :------------------------ | :--------------------------------------- | :--------------------------------------------- |
+| **Vague Context**         | AI generates irrelevant solutions.       | Be precise about the problem, tools, and constraints. |
+| **Ignoring Constraints**  | AI operates outside defined boundaries.  | Clearly define all "Musts" and "Must Nots." |
+| **Skipping Review**       | Accepting AI output without validation.  | Always use a review checklist and interrogate the output. |
+
+---
+
+## Quick Links
+
+- Handbook Method: [Overview](/docs/01-handbook-method/01-overview)
+- Scenario Scorecard Template: [Template](/docs/06-templates/scenario-scorecard-template)
+- Professional Scenarios: [Index](/docs/03-professional-scenarios/00-scenarios-index)
+
+## Next Step
+
+Evaluate your scenario using the [Scenario Scorecard Template](/docs/06-templates/scenario-scorecard-template).

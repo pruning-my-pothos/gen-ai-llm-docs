@@ -9,7 +9,7 @@ tags: ["genai-llm", "review", "audit", "quality", "method"]
 last_reviewed: "2025-12-28"
 ---
 
-# Review and Interrogation
+
 
 :::info[Value Proposition]
 Systematically verify AI-generated outputs against your Intent and Constraint Specs. This is where human judgment ensures correctness, safety, and alignment before acceptance.
@@ -17,7 +17,7 @@ Systematically verify AI-generated outputs against your Intent and Constraint Sp
 
 ## Overview
 
-AI generates plausible outputs, but correctness is not guaranteed. Review and Interrogation is the critical human step in the GenAI & LLM Documentation Loop. It's an evidence-based process of comparing the AI's output against your explicit specifications. This phase is about finding flaws, asking probing questions, and ensuring the AI’s work aligns perfectly with your intent and constraints.
+AI generates plausible outputs, but correctness is not guaranteed. Review and Interrogation is the critical human step in the GenAI & LLM Handbook Loop. It's an evidence-based process of comparing the AI's output against your explicit specifications. This phase is about finding flaws, asking probing questions, and ensuring the AI’s work aligns perfectly with your intent and constraints.
 
 **Goal**: Confirm AI output matches specification and has no unintended side effects.
 **Anti-pattern**: "Looks good to me." (Result: Silent failures, hidden regressions).
@@ -42,6 +42,8 @@ You must have a clear **Intent Spec** and **Constraint Spec**. Without them, you
 
 - **Artifacts**: AI-generated output, Intent Spec, Constraint Spec, Acceptance Criteria (if available).
 - **Context**: Understanding of the expected behavior and potential failure modes.
+
+---
 
 ---
 
@@ -80,6 +82,8 @@ flowchart LR
     classDef step fill:#E6F7FF,stroke:#1B75BB,color:#0F1F2E;
     class A,B,C,D step;
 ```
+
+---
 
 ---
 
@@ -136,14 +140,13 @@ Never assume AI understands your context or intent perfectly. The burden of veri
 
 ---
 
+## Quick Links
+
+- Handbook Method: [Overview](/docs/01-handbook-method/01-overview)
+- Generation Requests: [Handbook Method](/docs/01-handbook-method/generation-requests)
+- Acceptance Criteria: [Handbook Method](/docs/01-handbook-method/acceptance-criteria)
+- Review & Interrogation Template: [Template](/docs/06-templates/review-and-interrogation-template)
+
 ## Next Step
 
-Proceed to:
-**`docs/01-handbook-method/07-acceptance-criteria.md`**
-
----
-
-## Last Reviewed / Last Updated
-
-- Last reviewed: 2025-12-28
-- Version: 0.1.0
+Proceed to [Acceptance Criteria](/docs/01-handbook-method/acceptance-criteria) to finalize the definition of "done."

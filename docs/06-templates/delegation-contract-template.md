@@ -9,11 +9,13 @@ tags: ["genai-llm", "template", "delegation"]
 last_reviewed: "2025-12-20"
 ---
 
-# Delegation Contract: [Task Name]
+## Delegation Contract Template
 
-:::info[Instructions]
+:::info[Value Proposition]
 Use this to set the rules of engagement. Paste this into your chat or system prompt before starting the work.
 :::
+
+---
 
 ## 1. Role & Context
 
@@ -69,6 +71,22 @@ _(Define the human-in-the-loop triggers.)_
 
 ---
 
-## Last Reviewed / Last Updated
+## Common Pitfalls
 
-- Date: YYYY-MM-DD
+| Pitfall                   | Impact                                   | Correction                                     |
+| :------------------------ | :--------------------------------------- | :--------------------------------------------- |
+| **Vague Authority**       | AI performs actions beyond intended scope. | Be explicit about read/write/execute permissions. |
+| **Ambiguous Prohibitions**| AI performs forbidden actions.           | List all "Do NOT" rules clearly and concisely. |
+| **Missing Interaction Protocols**| AI doesn't know when to ask for human help. | Define clear triggers for human intervention. |
+
+---
+
+## Quick Links
+
+- Handbook Method: [Overview](/docs/01-handbook-method/01-overview)
+- Accountability & Delegation: [Handbook Method](/docs/01-handbook-method/accountability-and-delegation)
+- Constraint Spec Template: [Template](/docs/06-templates/constraint-spec-template)
+
+## Next Step
+
+Explore the [Discovery Brief Template](/docs/06-templates/discovery-brief-template) for initial problem definition.

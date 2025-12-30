@@ -9,7 +9,7 @@ tags: ["genai-llm", "delegation", "permissions", "method"]
 last_reviewed: "2025-12-28"
 ---
 
-# Delegation Contract
+
 
 :::info[Value Proposition]
 Explicitly define the scope of authority granted to an AI tool for a specific task. This prevents AI overreach, ensures adherence to security and architectural boundaries, and clarifies where AI can act autonomously versus where human intervention is required.
@@ -17,7 +17,7 @@ Explicitly define the scope of authority granted to an AI tool for a specific ta
 
 ## Overview
 
-In GenAI & LLM Documentation, delegating to AI is a precise act. The Delegation Contract formalizes this delegation, acting as a clear set of permissions and prohibitions for the AI. It's built upon the Intent Spec and Constraint Spec, ensuring the AI operates strictly within defined boundaries. This prevents unintended modifications, resource access, or functional deviations.
+In GenAI & LLM Handbook, delegating to AI is a precise act. The Delegation Contract formalizes this delegation, acting as a clear set of permissions and prohibitions for the AI. It's built upon the Intent Spec and Constraint Spec, ensuring the AI operates strictly within defined boundaries. This prevents unintended modifications, resource access, or functional deviations.
 
 **Goal**: Establish a clear, enforceable boundary for AI's actions during a task.
 **Anti-pattern**: Granting blanket permissions to AI ("do whatever is necessary"), leading to unpredictable behavior and potential security risks.
@@ -42,6 +42,8 @@ You **MUST** have a well-defined **Intent Spec** and **Constraint Spec**. The De
 
 -   **Artifacts**: Intent Spec, Constraint Spec.
 -   **Context**: Understanding of the AI tool's capabilities (e.g., does it have file system access, can it make API calls?).
+
+---
 
 ---
 
@@ -81,6 +83,8 @@ flowchart LR
     classDef step fill:#E6F7FF,stroke:#1B75BB,color:#0F1F2E;
     class Intent,Constraints,A,B,C,D step;
 ```
+
+---
 
 ---
 
@@ -130,14 +134,12 @@ flowchart LR
 
 ---
 
+## Quick Links
+
+- Handbook Method: [Overview](/docs/01-handbook-method/01-overview)
+- Accountability and Delegation: [Handbook Method](/docs/01-handbook-method/accountability-and-delegation)
+- Constraint Spec: [Handbook Method](/docs/01-handbook-method/constraint-spec)
+
 ## Next Step
 
-Proceed to:
-**`docs/01-handbook-method/05-generation-requests.md`**
-
----
-
-## Last Reviewed / Last Updated
-
-- Last reviewed: 2025-12-28
-- Version: 0.1.0
+Proceed to [Generation Requests](/docs/01-handbook-method/generation-requests) for structuring prompts.

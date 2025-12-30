@@ -9,7 +9,7 @@ tags: ["genai-llm", "intent", "specification", "method"]
 last_reviewed: "2025-12-28"
 ---
 
-# Intent Spec
+
 
 :::info[Value Proposition]
 Clearly define the desired outcome and success criteria for an AI-assisted task. This prevents scope creep, focuses AI generation, and provides a clear benchmark for evaluating outputs.
@@ -17,7 +17,7 @@ Clearly define the desired outcome and success criteria for an AI-assisted task.
 
 ## Overview
 
-The Intent Spec (Intent Specification) is a foundational artifact in the GenAI & LLM Documentation Loop. It articulates _what_ needs to be achieved and _why_ it matters, without dictating _how_ it should be implemented. By clearly stating the purpose, desired outcome, and measurable success criteria, the Intent Spec acts as a compass for AI and a clear objective for human review.
+The Intent Spec (Intent Specification) is a foundational artifact in the GenAI & LLM Handbook Loop. It articulates _what_ needs to be achieved and _why_ it matters, without dictating _how_ it should be implemented. By clearly stating the purpose, desired outcome, and measurable success criteria, the Intent Spec acts as a compass for AI and a clear objective for human review.
 
 **Goal**: Define a clear, measurable, and testable statement of purpose for an AI-assisted task.
 **Anti-pattern**: Vague objectives like "make it better" or "improve performance," which lead to AI guessing at the underlying problem.
@@ -42,6 +42,8 @@ A completed **Discovery Brief** is often a prerequisite, ensuring the problem it
 
 -   **Artifacts**: Discovery Brief (optional but recommended).
 -   **Context**: Understanding of the business problem or user need this task aims to solve.
+
+---
 
 ---
 
@@ -83,6 +85,8 @@ flowchart LR
 
 ---
 
+---
+
 ## Practical Example: Intent Spec for a User Profile Microservice
 
 **Objective**: Create a new user profile microservice.
@@ -121,14 +125,13 @@ A new microservice exposing a RESTful API for CRUD operations on user profiles. 
 
 ---
 
+## Quick Links
+
+- Handbook Method: [Overview](/docs/01-handbook-method/01-overview)
+- Discovery Brief: [Handbook Method](/docs/01-handbook-method/discovery-brief)
+- Constraint Spec: [Handbook Method](/docs/01-handbook-method/constraint-spec)
+- Intent Spec Template: [Template](/docs/06-templates/intent-spec-template)
+
 ## Next Step
 
-Proceed to:
-**`docs/01-handbook-method/03-constraint-spec.md`**
-
----
-
-## Last Reviewed / Last Updated
-
-- Last reviewed: 2025-12-28
-- Version: 0.1.0
+Proceed to [Constraint Spec](/docs/01-handbook-method/constraint-spec) to define boundaries.

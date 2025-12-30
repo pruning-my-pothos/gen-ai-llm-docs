@@ -67,7 +67,7 @@ Common problems:
 - weak review discipline
 - overconfidence in output quality
 
-GenAI & LLM Documentation uses a skill matrix to:
+GenAI & LLM Handbook uses a skill matrix to:
 
 - make gaps visible
 - reduce risk
@@ -75,7 +75,7 @@ GenAI & LLM Documentation uses a skill matrix to:
 
 ---
 
-## The GenAI & LLM Documentation Skill Matrix
+## The GenAI & LLM Handbook Skill Matrix
 
 Each core skill progresses independently.
 Weakness in one will cap overall effectiveness.
@@ -141,7 +141,7 @@ Most practitioners follow this pattern:
 3. Develop **Logic** (reduce silent failures)
 4. Build **Systems** thinking (prevent regressions)
 
-Skipping steps leads to fragile GenAI & LLM Documentation usage.
+Skipping steps leads to fragile GenAI & LLM Handbook usage.
 
 ---
 

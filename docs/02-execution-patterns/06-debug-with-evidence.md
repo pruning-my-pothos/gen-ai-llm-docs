@@ -9,7 +9,7 @@ tags: ["pattern", "debugging", "troubleshooting", "observability"]
 last_reviewed: "2025-12-28"
 ---
 
-# Pattern: Debug with Evidence
+
 
 :::info[Value Proposition]
 Use this pattern to systematically diagnose and resolve bugs by providing AI with concrete, observable evidence. This minimizes speculative debugging and leverages AI's ability to correlate information and suggest solutions based on actual system behavior.
@@ -42,6 +42,8 @@ You must have access to observable evidence related to the bug: error messages, 
 
 - **Artifacts**: Stack trace, error message, relevant log snippets, input data that reproduces the bug.
 - **Context**: Codebase context where the bug occurs, knowledge of recent changes, system environment details.
+
+---
 
 ---
 
@@ -89,7 +91,9 @@ flowchart LR
     class D junction;
 ```
 
-### Practical Example: Diagnosing a "TypeError: Cannot read property 'name' of undefined"
+#---
+
+## Practical Example: Diagnosing a "TypeError: Cannot read property 'name' of undefined"
 
 **Objective**: Debug a `TypeError` in a React component caused by missing user data.
 
@@ -202,3 +206,15 @@ flowchart LR
 :::danger[Critical Risk]
 Never apply AI-suggested fixes directly to production without thorough testing and understanding. Debugging AI is a partnership: you provide the evidence, AI provides hypotheses, but *you* are responsible for validation.
 :::
+
+---
+
+## Quick Links
+
+- Pattern Index: [Index](/docs/02-execution-patterns/00-pattern-index)
+- Iteration Log Template: [Template](/docs/06-templates/iteration-log-template)
+- Bug Triage and Fix: [Professional Scenario](/docs/03-professional-scenarios/engineering/03-bug-triage-and-fix)
+
+## Next Step
+
+Explore [The Rubber Duck](/docs/02-execution-patterns/07-rubber-duck) pattern for gaining clarity on complex problems.

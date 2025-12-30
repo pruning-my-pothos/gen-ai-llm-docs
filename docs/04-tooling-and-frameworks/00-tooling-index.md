@@ -9,7 +9,7 @@ tags: ["genai-llm", "tooling", "frameworks", "ide", "cli"]
 last_reviewed: "2025-12-28"
 ---
 
-# Tooling Index
+
 
 :::info[Value Proposition]
 The tool is not the method. A carpenter can use a hand saw or a power saw, but the geometry of the cut remains the same. GenAI & LLM Documentation works with any tool that allows context injection and structured interaction.
@@ -34,6 +34,8 @@ GenAI & LLM Documentation is **tool-agnostic**. It provides a framework for disc
 
 ---
 
+---
+
 ## Prerequisites
 
 :::warning[Before you start]
@@ -54,28 +56,28 @@ You can execute the GenAI & LLM Documentation Loop using:
 -   **Description**: AI assistants integrated directly into your Integrated Development Environment (IDE), providing real-time code suggestions, generation, and refactoring.
 -   **GenAI & LLM Documentation Focus**: Streamlining Generation Requests, quick iterations, context injection from open files.
 -   **Examples**: GitHub Copilot, Cursor, Codeium.
--   **See**: `docs/06-tooling/01-ide-setup-cursor.md`
+-   **See**: `docs/04-tooling-and-frameworks/01-ide-setup-cursor.md`
 
 ### 2. CLI Agents
 
 -   **Description**: AI tools that operate from the command line, often with access to the local filesystem and shell commands. Ideal for automating larger, multi-file tasks.
 -   **GenAI & LLM Documentation Focus**: Autonomous execution of Generation Requests, refactorings, test generation, and documentation.
 -   **Examples**: Aider, Continue, Open Interpreter.
--   **See**: `docs/06-tooling/02-cli-agents.md`
+-   **See**: `docs/04-tooling-and-frameworks/02-cli-agents.md`
 
 ### 3. LLM Frameworks (and Orchestration)
 
 -   **Description**: Libraries and platforms designed to build complex AI applications, often involving chaining LLM calls, tool use, and external data sources (e.g., RAG).
 -   **GenAI & LLM Documentation Focus**: Building sophisticated agents that adhere to GenAI & LLM Documentation principles programmatically.
 -   **Examples**: LangChain, LlamaIndex, LiteLLM.
--   **See**: `docs/06-tooling/02-llm-frameworks.md` (Note: This file does not exist yet)
+-   **See**: `docs/04-tooling-and-frameworks/02-llm-frameworks.md`
 
 ### 4. Local-First Models
 
 -   **Description**: Running LLMs directly on your local machine or private infrastructure for enhanced privacy and control.
 -   **GenAI & LLM Documentation Focus**: Securely processing sensitive or proprietary information without sending it to third-party cloud services.
 -   **Examples**: Ollama, Llama.cpp.
--   **See**: `docs/06-tooling/03-local-inference.md`
+-   **See**: `docs/04-tooling-and-frameworks/03-local-inference.md`
 
 ---
 
@@ -107,7 +109,13 @@ Not all AI tools are suitable for professional GenAI & LLM Documentation. To exe
 
 ---
 
-## Last Reviewed / Last Updated
+## Quick Links
 
-- Last reviewed: 2025-12-28
-- Version: 0.1.0
+- Handbook Method: [Overview](/docs/01-handbook-method/01-overview)
+- Tooling (IDE & CLI): [Docs](/docs/04-tooling-and-frameworks/02-cli-agents)
+- Frameworks: [Overview](/docs/04-tooling-and-frameworks/02-llm-frameworks/00-frameworks-overview)
+- Local-First & Inference: [Docs](/docs/04-tooling-and-frameworks/03-local-inference)
+
+## Next Step
+
+Begin your tooling exploration with [IDE Setup for Cursor](/docs/04-tooling-and-frameworks/01-ide-setup-cursor).

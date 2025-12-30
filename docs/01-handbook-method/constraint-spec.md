@@ -9,7 +9,7 @@ tags: ["genai-llm", "constraints", "boundaries", "method"]
 last_reviewed: "2025-12-28"
 ---
 
-# Constraint Spec
+
 
 :::info[Value Proposition]
 Encode all non-negotiable boundaries, technical requirements, and guardrails for an AI-assisted task. This prevents AI overreach, ensures compliance with architectural standards, and mitigates risks from hallucinations or unintended behavior.
@@ -17,7 +17,7 @@ Encode all non-negotiable boundaries, technical requirements, and guardrails for
 
 ## Overview
 
-The Constraint Spec (Constraint Specification) is a critical artifact in the GenAI & LLM Documentation Loop. It defines the "rules of the game" for AI, establishing clear limits and mandatory requirements that the AI's output **MUST** adhere to. While the Intent Spec defines _what_ to achieve, the Constraint Spec defines _how_ the solution must behave and _what it cannot do_. This specification is paramount for controlling AI's generative capabilities.
+The Constraint Spec (Constraint Specification) is a critical artifact in the GenAI & LLM Handbook Loop. It defines the "rules of the game" for AI, establishing clear limits and mandatory requirements that the AI's output **MUST** adhere to. While the Intent Spec defines _what_ to achieve, the Constraint Spec defines _how_ the solution must behave and _what it cannot do_. This specification is paramount for controlling AI's generative capabilities.
 
 **Goal**: Provide clear, unambiguous boundaries and non-functional requirements that AI-generated output must satisfy.
 **Anti-pattern**: Relying on implicit assumptions about coding standards, security, or architecture, leading to AI generating incompatible or dangerous code.
@@ -42,6 +42,8 @@ A clear **Intent Spec** is essential. The Constraint Spec directly informs how t
 
 -   **Artifacts**: Intent Spec.
 -   **Context**: Understanding of the project's technical stack, architectural patterns, security policies, and performance requirements.
+
+---
 
 ---
 
@@ -80,6 +82,8 @@ flowchart LR
     classDef step fill:#E6F7FF,stroke:#1B75BB,color:#0F1F2E;
     class A,B,C,D step;
 ```
+
+---
 
 ---
 
@@ -133,14 +137,13 @@ flowchart LR
 
 ---
 
+## Quick Links
+
+- Handbook Method: [Overview](/docs/01-handbook-method/01-overview)
+- Intent Spec: [Handbook Method](/docs/01-handbook-method/intent-spec)
+- Delegation Contract Template: [Template](/docs/06-templates/delegation-contract-template)
+- Accountability and Delegation: [Handbook Method](/docs/01-handbook-method/accountability-and-delegation)
+
 ## Next Step
 
-Proceed to:
-**`docs/01-handbook-method/04-delegation-contract.md`**
-
----
-
-## Last Reviewed / Last Updated
-
-- Last reviewed: 2025-12-28
-- Version: 0.1.0
+Proceed to [Delegation Contract](/docs/01-handbook-method/delegation-contract) to define AI's role and permissions.

@@ -9,7 +9,7 @@ tags: ["genai-llm", "discovery", "problem-definition", "method"]
 last_reviewed: "2025-12-28"
 ---
 
-# Discovery Brief
+
 
 :::info[Value Proposition]
 Clarify the problem space, identify stakeholders, and gather essential context without proposing solutions. This artifact ensures a shared understanding of _what_ problem needs solving before jumping to _how_ to solve it with AI.
@@ -17,7 +17,7 @@ Clarify the problem space, identify stakeholders, and gather essential context w
 
 ## Overview
 
-The Discovery Brief is the very first step in the GenAI & LLM Documentation Loop. It is the "Step 0" of the GenAI & LLM Documentation Loop. Its purpose is to lay a solid foundation by thoroughly understanding the problem, its impact, and who it affects, before any AI generation begins. This prevents AI from solving the wrong problem or generating irrelevant solutions. It sets the stage for a precise Intent Spec.
+The Discovery Brief is the very first step in the GenAI & LLM Handbook Loop. It is the "Step 0" of the GenAI & LLM Handbook Loop. Its purpose is to lay a solid foundation by thoroughly understanding the problem, its impact, and who it affects, before any AI generation begins. This prevents AI from solving the wrong problem or generating irrelevant solutions. It sets the stage for a precise Intent Spec.
 
 **Goal**: Achieve a shared, objective understanding of the problem.
 **Anti-pattern**: Jumping directly from a vague idea to an AI prompt, leading to solutions that miss the mark.
@@ -42,6 +42,8 @@ No formal artifacts are required, but a willingness to ask probing questions and
 
 -   **Artifacts**: Initial problem statement (could be a single sentence or a longer document).
 -   **Context**: Access to stakeholders, user research, or existing data about the problem.
+
+---
 
 ---
 
@@ -80,6 +82,8 @@ flowchart LR
     classDef step fill:#E6F7FF,stroke:#1B75BB,color:#0F1F2E;
     class A,B,C,D step;
 ```
+
+---
 
 ---
 
@@ -122,14 +126,12 @@ flowchart LR
 
 ---
 
+## Quick Links
+
+- Handbook Method: [Overview](/docs/01-handbook-method/01-overview)
+- Ideation and Use Case Definition: [Handbook Method](/docs/01-handbook-method/02-ideation-and-use-case)
+- Discovery Brief Template: [Template](/docs/06-templates/discovery-brief-template)
+
 ## Next Step
 
-Proceed to:
-**`docs/01-handbook-method/02-intent-spec.md`**
-
----
-
-## Last Reviewed / Last Updated
-
-- Last reviewed: 2025-12-28
-- Version: 0.1.0
+Proceed to [Intent Spec](/docs/01-handbook-method/intent-spec) to define desired outcomes.

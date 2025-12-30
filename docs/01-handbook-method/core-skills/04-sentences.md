@@ -29,7 +29,7 @@ Sentences carry instructions, constraints, and priorities. Tiny wording changes 
 
 ## Overview
 
-In GenAI & LLM Documentation, **sentences are executable units**.
+In GenAI & LLM Handbook, **sentences are executable units**.
 
 They are the smallest surface where intent, logic, and systems meet model interpretation. Small changes at the sentence level can alter behavior, scope, and risk in disproportionate ways.
 
@@ -37,9 +37,9 @@ If logic defines _what must be true_ and systems define _where it applies_, sent
 
 ---
 
-## What “Sentences” Means in GenAI & LLM Documentation
+## What “Sentences” Means in GenAI & LLM Handbook
 
-Sentences in GenAI & LLM Documentation are not stylistic choices.
+Sentences in GenAI & LLM Handbook are not stylistic choices.
 They are **control structures**.
 
 A sentence can:
@@ -49,7 +49,7 @@ A sentence can:
 - permit or prohibit actions
 - encode assumptions explicitly or implicitly
 
-GenAI & LLM Documentation treats sentence construction as a technical skill.
+GenAI & LLM Handbook treats sentence construction as a technical skill.
 
 :::warning[Design rule]
 If a sentence feels overloaded, it is. Split it.
@@ -75,7 +75,7 @@ Sentence-level imprecision becomes system-level behavior.
 
 ---
 
-## Common Sentence Patterns in GenAI & LLM Documentation
+## Common Sentence Patterns in GenAI & LLM Handbook
 
 ### Declarative Constraints
 
@@ -187,7 +187,7 @@ Fix:
 
 ---
 
-## Sentences Across the GenAI & LLM Documentation Method
+## Sentences Across the GenAI & LLM Handbook Method
 
 - **Intent Spec**
   Sentences define success criteria
@@ -252,14 +252,14 @@ Language skill compounds quickly.
 
 ## Core Skills Recap
 
-You have now covered all four GenAI & LLM Documentation core skills:
+You have now covered all four GenAI & LLM Handbook core skills:
 
 - Logic
 - Language
 - Systems
 - Sentences
 
-Together, they form the human capability layer that makes GenAI & LLM Documentation reliable.
+Together, they form the human capability layer that makes GenAI & LLM Handbook reliable.
 
 ---
 

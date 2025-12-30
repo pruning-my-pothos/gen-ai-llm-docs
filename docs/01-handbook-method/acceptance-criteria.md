@@ -9,7 +9,7 @@ tags: ["genai-llm", "acceptance", "qa", "method"]
 last_reviewed: "2025-12-28"
 ---
 
-# Acceptance Criteria
+
 
 :::info[Value Proposition]
 Define objective, measurable conditions that must be met for an AI-generated output to be considered "done." This transforms subjective "looks good" into evidence-based "is good," preventing premature acceptance and ensuring quality.
@@ -17,7 +17,7 @@ Define objective, measurable conditions that must be met for an AI-generated out
 
 ## Overview
 
-Acceptance Criteria are the objective standards against which AI-generated artifacts are judged. In GenAI & LLM Documentation, acceptance is not a feeling. It is a checklist. This artifact clearly outlines the specific behaviors, performance metrics, and quality standards that an output must satisfy before it can be integrated, shipped, or moved to the next stage of development. It serves as the final gateway before AI-assisted work is deemed complete.
+Acceptance Criteria are the objective standards against which AI-generated artifacts are judged. In GenAI & LLM Handbook, acceptance is not a feeling. It is a checklist. This artifact clearly outlines the specific behaviors, performance metrics, and quality standards that an output must satisfy before it can be integrated, shipped, or moved to the next stage of development. It serves as the final gateway before AI-assisted work is deemed complete.
 
 **Goal**: Establish a clear, verifiable definition of "done" for AI-generated outputs.
 **Anti-pattern**: Relying on vague approval or subjective judgment ("I like it") for AI-assisted work, leading to inconsistent quality and hidden flaws.
@@ -42,6 +42,8 @@ A clear **Intent Spec** and **Constraint Spec** are essential. Acceptance Criter
 
 -   **Artifacts**: Intent Spec, Constraint Spec, AI-generated output (from Generation Request).
 -   **Context**: Understanding of the expected functional behavior and non-functional requirements.
+
+---
 
 ---
 
@@ -91,6 +93,8 @@ flowchart LR
 
 ---
 
+---
+
 ## Practical Example: Acceptance Criteria for a User Registration Endpoint
 
 **Objective**: Define acceptance criteria for an AI-generated user registration endpoint.
@@ -134,7 +138,7 @@ flowchart LR
     -   All error messages **MUST** be sanitized and not expose internal server details.
 ```
 
-Acceptance is the gatekeeper. It is the final step before code leaves the GenAI & LLM Documentation loop.
+Acceptance is the gatekeeper. It is the final step before code leaves the GenAI & LLM Handbook loop.
 
 ---
 
@@ -148,14 +152,13 @@ Acceptance is the gatekeeper. It is the final step before code leaves the GenAI 
 
 ---
 
+## Quick Links
+
+- Handbook Method: [Overview](/docs/01-handbook-method/01-overview)
+- Intent Spec: [Handbook Method](/docs/01-handbook-method/intent-spec)
+- Constraint Spec: [Handbook Method](/docs/01-handbook-method/constraint-spec)
+- Review & Interrogation: [Handbook Method](/docs/01-handbook-method/review-and-interrogation)
+
 ## Next Step
 
-Proceed to:
-**`docs/01-handbook-method/08-iteration-and-release.md`**
-
----
-
-## Last Reviewed / Last Updated
-
-- Last reviewed: 2025-12-28
-- Version: 0.1.0
+Proceed to [Iteration and Release](/docs/01-handbook-method/iteration-and-release).

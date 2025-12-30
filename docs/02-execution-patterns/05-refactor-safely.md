@@ -9,7 +9,7 @@ tags: ["pattern", "refactoring", "safety", "testing", "legacy"]
 last_reviewed: "2025-12-28"
 ---
 
-# Pattern: Refactor Safely
+
 
 :::info[Value Proposition]
 Use this pattern to perform significant code refactoring with confidence, ensuring that changes do not introduce new bugs or alter existing behavior. AI assists in identifying refactoring opportunities, generating safety nets (tests), and performing mechanical transformations.
@@ -42,6 +42,8 @@ The target code should have some level of existing test coverage, or you must be
 
 - **Artifacts**: Existing code to be refactored. Constraint Spec (coding standards, preferred refactoring techniques, test framework).
 - **Context**: Understanding of the code's current behavior and desired future structure.
+
+---
 
 ---
 
@@ -84,7 +86,9 @@ flowchart LR
     class D junction;
 ```
 
-### Practical Example: Refactoring a Complex Calculation Function
+#---
+
+## Practical Example: Refactoring a Complex Calculation Function
 
 **Objective**: Refactor a monolithic `calculateFinalPrice` function to improve readability and maintainability, ensuring no change in output.
 
@@ -153,3 +157,15 @@ flowchart LR
 :::danger[Critical Risk]
 Never delete or significantly alter characterization tests during a refactoring cycle. They are your primary safeguard. If tests need to change, it's typically because a behavioral change is intended, which moves beyond pure refactoring.
 :::
+
+---
+
+## Quick Links
+
+- Pattern Index: [Index](/docs/02-execution-patterns/00-pattern-index)
+- Write Tests: [Execution Pattern](/docs/02-execution-patterns/07-write-tests)
+- Legacy Refactor: [Professional Scenario](/docs/03-professional-scenarios/engineering/04-legacy-refactor)
+
+## Next Step
+
+Learn how to [Debug with Evidence](/docs/02-execution-patterns/06-debug-with-evidence) for systematic problem-solving.

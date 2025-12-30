@@ -12,7 +12,7 @@ last_reviewed: "2025-12-20"
 # Scenario Scorecards
 
 :::info[Purpose]
-A Scenario Scorecard evaluates the **entire lifecycle** of an AI-assisted task. It answers: "Did the GenAI & LLM Documentation process actually work, or did we just generate code fast?"
+A Scenario Scorecard evaluates the **entire lifecycle** of an AI-assisted task. It answers: "Did the GenAI & LLM Handbook process actually work, or did we just generate code fast?"
 :::
 
 ## Overview
@@ -22,7 +22,7 @@ The **Scenario Scorecard** evaluates the **end-to-end session**.
 
 It measures:
 
-1. **Process Discipline**: Did we follow the GenAI & LLM Documentation Loop?
+1. **Process Discipline**: Did we follow the GenAI & LLM Handbook Loop?
 2. **Outcome Success**: Did we solve the problem defined in Discovery?
 3. **Efficiency**: Was this faster or better than doing it manually?
 
@@ -101,7 +101,7 @@ You don't need a scorecard for every helper function. Use them for:
 
 - **Pilot Projects**: When evaluating a new tool (e.g., "Should we buy Copilot?").
 - **Post-Mortems**: When an AI-generated feature causes a bug.
-- **Training**: To grade practitioners on their GenAI & LLM Documentation adherence.
+- **Training**: To grade practitioners on their GenAI & LLM Handbook adherence.
 
 ---
 

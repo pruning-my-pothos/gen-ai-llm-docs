@@ -9,7 +9,7 @@ tags: ["genai-llm", "intent", "specification", "template"]
 last_reviewed: "2025-12-28"
 ---
 
-# Intent Spec Template
+## Intent Spec Template
 
 :::info[Value Proposition]
 Clearly define the desired outcome and success criteria for an AI-assisted task. This prevents scope creep, focuses AI generation, and provides a clear benchmark for evaluating outputs.
@@ -77,6 +77,8 @@ A new microservice exposing a RESTful API for CRUD operations on user profiles. 
 
 ---
 
+---
+
 ## Common Pitfalls
 
 | Pitfall                       | Impact                                   | Correction                                     |
@@ -87,13 +89,14 @@ A new microservice exposing a RESTful API for CRUD operations on user profiles. 
 
 ---
 
+## Quick Links
+
+- Handbook Method: [Overview](/docs/01-handbook-method/01-overview)
+- Intent Spec: [Handbook Method](/docs/01-handbook-method/intent-spec)
+- Discovery Brief Template: [Template](/docs/06-templates/discovery-brief-template)
+- Constraint Spec Template: [Template](/docs/06-templates/constraint-spec-template)
+- Prompt Skeleton: [Template](/docs/06-templates/prompt-skeleton-template)
+
 ## Next Step
 
-Proceed to defining the **Constraint Spec**.
-
----
-
-## Last Reviewed / Last Updated
-
-- Last reviewed: 2025-12-28
-- Version: 0.1.0
+Explore the [Delegation Contract Template](/docs/06-templates/delegation-contract-template) to define AI's role and permissions.

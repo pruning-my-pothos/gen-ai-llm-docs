@@ -9,11 +9,13 @@ tags: ["genai-llm", "template", "discovery"]
 last_reviewed: "2025-12-20"
 ---
 
-# Discovery Brief: [Topic/Feature Name]
+## Discovery Brief Template
 
-:::info[Instructions]
+:::info[Value Proposition]
 Fill this out _before_ writing any prompts or code. Keep it short. If you can't fill a section, pause and investigate.
 :::
+
+---
 
 ## 1. Problem Statement
 
@@ -55,6 +57,22 @@ _(Crucial for preventing AI scope creep.)_
 
 ---
 
-## Last Reviewed / Last Updated
+## Common Pitfalls
 
-- Date: YYYY-MM-DD
+| Pitfall                   | Impact                                   | Correction                                     |
+| :------------------------ | :--------------------------------------- | :--------------------------------------------- |
+| **Vague Problem**         | AI attempts to solve an ill-defined issue. | Be specific, focus on observable symptoms/data. |
+| **Premature Solutioning** | AI generates a solution that might not fit the real problem. | Focus solely on defining the "what" and "why" in the problem statement. |
+| **Ignoring Non-Goals**    | AI attempts to address out-of-scope items. | Clearly list exclusions to guide AI's scope. |
+
+---
+
+## Quick Links
+
+- Handbook Method: [Overview](/docs/01-handbook-method/01-overview)
+- Discovery Brief: [Handbook Method](/docs/01-handbook-method/discovery-brief)
+- Intent Spec Template: [Template](/docs/06-templates/intent-spec-template)
+
+## Next Step
+
+Proceed to the [Intent Spec Template](/docs/06-templates/intent-spec-template) to define the desired outcome.

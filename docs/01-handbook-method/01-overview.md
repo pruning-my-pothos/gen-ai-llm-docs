@@ -1,5 +1,5 @@
 ---
-title: "GenAI Project Lifecycle Overview"
+title: "Handbook Method: Overview"
 archetype: "fundamentals"
 status: "active"
 owner: "Shailesh (Shaily)"
@@ -9,22 +9,30 @@ tags: ["genai-llm", "genai", "lifecycle", "plm", "governance", "docs"]
 last_reviewed: "2025-12-28"
 ---
 
-# GenAI Project Lifecycle
-
 :::info[Value Proposition]
 Integrate Generative AI capabilities into your project development lifecycle, from ideation to deployment and maintenance. This guide ensures that AI features are developed responsibly, align with user needs, and are governed effectively.
 :::
 
 ## Overview
 
-The introduction of Generative AI significantly impacts the traditional project development lifecycle. It's not just about adding a new feature; it's about re-evaluating ideation, design, development, and deployment processes to account for the unique characteristics of AI (e.g., probabilistic outputs, rapid iteration, ethical considerations). This document outlines a modified project lifecycle for GenAI projects, emphasizing points of integration for structured practices.
+The introduction of Generative AI significantly impacts the traditional project development lifecycle. It's not just about adding a new feature; it's about re-evaluating ideation, design, development, and deployment processes to account for the unique characteristics of AI (e.g., probabilistic outputs, rapid iteration, ethical considerations). This document outlines a modified project lifecycle for AI/LLM projects, emphasizing points of integration for structured practices.
 
 **Goal**: Provide a structured approach to developing and managing projects that incorporate Generative AI.
 **Anti-pattern**: Treating GenAI features like any other software feature, ignoring AI-specific risks and development practices.
 
 ---
 
-## The GenAI Project Lifecycle (8 Steps)
+## When to Use
+
+| ✅ Use This Pattern When...                                 | 🚫 Do Not Use When...                                  |
+| :--------------------------------------------------------- | :----------------------------------------------------- |
+| You are planning or running an AI/LLM feature or workflow  | You are fixing a trivial, well-scoped bug              |
+| You need accountable, reviewable AI-assisted outputs       | You are experimenting in a private sandbox only        |
+| Multiple roles must align on AI scope, risk, and evidence  | You have a single-user, no-impact exploration          |
+
+---
+
+## The Handbook Loop (8 Steps)
 
 The GenAI Project Lifecycle is an 8-step iterative process designed to make AI-assisted work predictable and accountable. Each step focuses on producing a specific, reviewable artifact.
 
@@ -41,7 +49,7 @@ The GenAI Project Lifecycle is an 8-step iterative process designed to make AI-a
 
 ---
 
-## Visual Summary of GenAI Project Lifecycle
+## Visual Summary of the Loop
 
 ```mermaid
 graph TD
@@ -54,9 +62,11 @@ graph TD
     G --> H[Maintenance]
     H --> A
 
-    classDef stage fill:#E6F7FF,stroke:#1B75BB,color:#0F1F2E;
-    class A,B,C,D,E,F,G,H stage;
+    classDef step fill:#E6F7FF,stroke:#1B75BB,color:#0F1F2E;
+    class A,B,C,D,E,F,G,H step;
 ```
+
+---
 
 ---
 
@@ -73,6 +83,8 @@ The GenAI Project Lifecycle is rarely a straight line. You will fail to meet Acc
 
 ---
 
+---
+
 ## Why This Lifecycle is Critical for Professional Work
 
 -   **Reduces Hallucinations**: By being explicit, you leave less room for the AI to invent facts or logic.
@@ -80,6 +92,8 @@ The GenAI Project Lifecycle is rarely a straight line. You will fail to meet Acc
 -   **Enables Verifiability**: A precise spec allows you to objectively compare AI output against expected behavior.
 -   **Manages Scope**: Explicit boundaries prevent the AI from over-generating or drifting from the task.
 -   **Fosters Accountability**: When the spec is clear, any deviation by the AI (or a human misinterpretation of the spec) can be identified and corrected.
+
+---
 
 ---
 
@@ -95,7 +109,12 @@ The GenAI Project Lifecycle is rarely a straight line. You will fail to meet Acc
 
 ---
 
-## Last Reviewed / Last Updated
+## Quick Links
 
-- Last reviewed: 2025-12-28
-- Version: 0.1.0
+- Loop (spec): [GenAI LLM Loop Spec](/docs/01-handbook-method/genai-llm-loop-spec)
+- Artifacts (contracts): [Artifact Contracts](/docs/01-handbook-method/artifact-contracts)
+- Accountability: [Accountability and Delegation](/docs/01-handbook-method/accountability-and-delegation)
+
+## Next Step
+
+Proceed to [Ideation and Use Case Definition](/docs/01-handbook-method/02-ideation-and-use-case).

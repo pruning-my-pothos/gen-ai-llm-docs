@@ -9,7 +9,7 @@ tags: ["genai-llm", "patterns", "execution", "recipes"]
 last_reviewed: "2025-12-28"
 ---
 
-# Execution Patterns Index
+
 
 :::info[Value Proposition]
 Execution patterns are reusable recipes for applying GenAI & LLM Documentation to common development tasks. They provide step-by-step guidance on how to achieve specific outcomes, from creating new components to refactoring legacy code.
@@ -41,37 +41,37 @@ Patterns are organized by the primary goal they help achieve.
 ### Creation Patterns (Building New Things)
 
 -   **Clean Slate**: Generating new modules, components, or services from scratch.
-    -   `docs/04-patterns/01-clean-slate.md`
+    -   `docs/02-execution-patterns/01-clean-slate.md`
 -   **Scaffold a Repo**: Setting up an entire repository structure.
-    -   `docs/04-patterns/02-scaffold-a-repo.md`
+    -   `docs/02-execution-patterns/02-scaffold-a-repo.md`
 -   **Design an API**: Specifying new API endpoints and their contracts.
-    -   `docs/04-patterns/03-design-an-api.md`
+    -   `docs/02-execution-patterns/03-design-an-api.md`
 -   **Data Modeling**: Designing database schemas or data structures.
-    -   `docs/04-patterns/04-data-modeling.md`
+    -   `docs/02-execution-patterns/04-data-modeling.md`
 
 ### Transformation Patterns (Changing Existing Things)
 
 -   **Refactor Safely**: Improving code structure without changing behavior.
-    -   `docs/04-patterns/05-refactor-safely.md`
+    -   `docs/02-execution-patterns/05-refactor-safely.md`
 -   **The Strangler**: Incrementally replacing legacy systems.
-    -   `docs/04-patterns/02-strangler-refactor.md`
+    -   `docs/02-execution-patterns/02-strangler-refactor.md`
 -   **The Translator**: Converting code or data from one format to another.
-    -   `docs/04-patterns/03-translator.md`
+    -   `docs/02-execution-patterns/03-translator.md`
 -   **Migrations and Upgrades**: Managing schema changes and dependency updates.
-    -   `docs/04-patterns/10-migrations-and-upgrades.md`
+    -   `docs/02-execution-patterns/10-migrations-and-upgrades.md`
 
 ### Support Patterns (Assisting Development)
 
 -   **Debug with Evidence**: Diagnosing and resolving bugs systematically.
-    -   `docs/04-patterns/06-debug-with-evidence.md`
+    -   `docs/02-execution-patterns/06-debug-with-evidence.md`
 -   **The Rubber Duck**: Using AI to explain complex code or problems.
-    -   `docs/04-patterns/07-rubber-duck.md`
+    -   `docs/02-execution-patterns/07-rubber-duck.md`
 -   **Write Tests**: Generating comprehensive test suites.
-    -   `docs/04-patterns/07-write-tests.md`
+    -   `docs/02-execution-patterns/07-write-tests.md`
 -   **Write Docs**: Generating accurate and maintainable documentation from code.
-    -   `docs/04-patterns/08-write-docs.md`
+    -   `docs/02-execution-patterns/08-write-docs.md`
 -   **Release and Changelog**: Automating release notes and communication.
-    -   `docs/04-patterns/09-release-and-changelog.md`
+    -   `docs/02-execution-patterns/09-release-and-changelog.md`
 
 ---
 
@@ -105,7 +105,7 @@ graph TD
 
     classDef pattern fill:#E6F7FF,stroke:#1B75BB,color:#0F1F2E;
     class P1,P2,P3,P4,P5,P6,P7,P8,P9,P10,P11,P12,P13 pattern;
-    class Loop fill:#F0FFF0,stroke:#2E8B57,color:#0F2A1F;
+    class Loop fill:#E6F7FF,stroke:#1B75BB,color:#0F1F2E;
 ```
 
 ---
@@ -125,7 +125,12 @@ Each pattern includes:
 
 ---
 
-## Last Reviewed / Last Updated
+## Quick Links
 
-- Last reviewed: 2025-12-28
-- Version: 0.1.0
+- Handbook Method: [Overview](/docs/01-handbook-method/01-overview)
+- Pattern Template: [Template](/docs/06-templates/pattern-template)
+- Clean Slate Pattern: [Execution Pattern](/docs/02-execution-patterns/01-clean-slate)
+
+## Next Step
+
+Dive into the first pattern: [Clean Slate](/docs/02-execution-patterns/01-clean-slate).

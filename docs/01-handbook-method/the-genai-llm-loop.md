@@ -1,5 +1,5 @@
 ---
-title: "The GenAI & LLM Documentation Loop"
+title: "The GenAI & LLM Handbook Loop"
 archetype: "method"
 status: "active"
 owner: "Shailesh (Shaily)"
@@ -9,15 +9,15 @@ tags: ["genai-llm", "method", "execution", "workflow", "genai"]
 last_reviewed: "2025-12-28"
 ---
 
-# The GenAI & LLM Documentation Loop
+
 
 :::info[Value Proposition]
-The GenAI & LLM Documentation Loop is the engine of the framework. It turns abstract intent into concrete, reviewable artifacts through a repeatable 8-step process.
+The GenAI & LLM Handbook Loop is the engine of the framework. It turns abstract intent into concrete, reviewable artifacts through a repeatable 8-step process.
 :::
 
 ## Overview
 
-The GenAI & LLM Documentation Loop defines **how work actually flows** when you use natural language to build software, documentation, or systems with AI. It is a systematic, iterative process designed to ensure clarity, correctness, and accountability. Each step produces a tangible artifact that acts as both input for the next stage and evidence for review.
+The GenAI & LLM Handbook Loop defines **how work actually flows** when you use natural language to build software, documentation, or systems with AI. It is a systematic, iterative process designed to ensure clarity, correctness, and accountability. Each step produces a tangible artifact that acts as both input for the next stage and evidence for review.
 
 **Goal**: Provide a reliable, repeatable, and auditable workflow for AI-assisted development.
 **Anti-pattern**: Ad-hoc "prompt engineering" with unpredictable results and unmanageable risk.
@@ -43,7 +43,7 @@ A basic understanding of the Core Skills (Logic, Language, Systems, Sentences) i
 - **Artifacts**: Understanding of the purpose of each artifact (Intent Spec, Constraint Spec, etc.).
 - **Context**: A commitment to evidence-based review and human accountability.
 
-GenAI & LLM Documentation assumes:
+GenAI & LLM Handbook assumes:
 
 -   AI is an execution tool, not a decision-maker.
 -   Human intent must be explicitly defined.
@@ -51,7 +51,9 @@ GenAI & LLM Documentation assumes:
 
 ---
 
-## The GenAI & LLM Documentation Loop (At a Glance)
+---
+
+## The GenAI & LLM Handbook Loop (At a Glance)
 
 | Step                      | Focus                                 | Key Output                           | Risks if Skipped              |
 | :------------------------ | :------------------------------------ | :----------------------------------- | :---------------------------- |
@@ -68,7 +70,7 @@ GenAI & LLM Documentation assumes:
 
 ## Visual Summary
 
-### GenAI & LLM Documentation Loop Diagram (System View)
+### GenAI & LLM Handbook Loop Diagram (System View)
 
 ```mermaid
 flowchart TD
@@ -85,13 +87,13 @@ flowchart TD
     class Discovery,Intent,Constraints,Delegation,Generation,Review,Acceptance,Iteration step;
 ```
 
-<div aria-hidden="true" class="sr-only">System view diagram of the GenAI & LLM Documentation loop: Discovery, Intent, Constraints, Delegation, Generation, Review, Acceptance, then Release/Decision, with a return to Discovery.</div>
+<div aria-hidden="true" class="sr-only">System view diagram of the GenAI & LLM Handbook loop: Discovery, Intent, Constraints, Delegation, Generation, Review, Acceptance, then Release/Decision, with a return to Discovery.</div>
 
-### GenAI & LLM Documentation Loop (Mind Map View)
+### GenAI & LLM Handbook Loop (Mind Map View)
 
 ```mermaid
 mindmap
-  root((GenAI & LLM Documentation Loop))
+  root((GenAI & LLM Handbook Loop))
     1. Discovery Brief
       Problem Clarification
       Output: Problem Statement
@@ -124,17 +126,22 @@ mindmap
       Feedback Loop & Deployment
       Output: Refined Artifact, Learnings
       Risk: Repeating Failures
+
+    classDef step fill:#E6F7FF,stroke:#1B75BB,color:#0F1F2E;
+    class 1,2,3,4,5,6,7,8 step;
 ```
 
-<div aria-hidden="true" class="sr-only">Mind map view of the GenAI & LLM Documentation loop showing the eight stages branching into their key elements.</div>
+<div aria-hidden="true" class="sr-only">Mind map view of the GenAI & LLM Handbook loop showing the eight stages branching into their key elements.</div>
 
 ---
 
-## How the GenAI & LLM Documentation Loop Prevents Failure
+---
+
+## How the GenAI & LLM Handbook Loop Prevents Failure
 
 Traditional development often moves from problem to solution directly, then tries to fix issues during testing or deployment. When using AI, this approach is disastrous because AI can generate plausible but deeply flawed solutions very quickly.
 
-GenAI & LLM Documentation inverts that order deliberately. It front-loads clarity and constraints, and back-loads verification and accountability:
+GenAI & LLM Handbook inverts that order deliberately. It front-loads clarity and constraints, and back-loads verification and accountability:
 
 -   **Explicit Specification**: Before AI generates anything, you define what success looks like (Intent) and what boundaries cannot be crossed (Constraints).
 -   **Controlled Execution**: AI operates within the confines of the Delegation Contract and Generation Request.
@@ -142,31 +149,38 @@ GenAI & LLM Documentation inverts that order deliberately. It front-loads clarit
 
 ---
 
-## GenAI & LLM Documentation is Tool-Agnostic
+---
 
-The GenAI & LLM Documentation Loop applies regardless of the specific AI tool you are using (e.g., GitHub Copilot, ChatGPT, Claude, Aider, Cursor). The principles remain constant: define, constrain, delegate, verify, accept.
+## GenAI & LLM Handbook is Tool-Agnostic
+
+The GenAI & LLM Handbook Loop applies regardless of the specific AI tool you are using (e.g., GitHub Copilot, ChatGPT, Claude, Aider, Cursor). The principles remain constant: define, constrain, delegate, verify, accept.
 
 ---
 
 ## Navigating the Method
 
-Each step of the GenAI & LLM Documentation Loop has a corresponding detailed document:
+Each step of the GenAI & LLM Handbook Loop has a corresponding detailed document:
 
--   Method backbone: `docs/01-handbook-method/`
+-   Method backbone: `/docs/01-handbook-method/`
 
-1.  `docs/01-handbook-method/01-discovery-brief.md`
-2.  `docs/01-handbook-method/02-intent-spec.md`
-3.  `docs/01-handbook-method/03-constraint-spec.md`
-4.  `docs/01-handbook-method/04-delegation-contract.md`
-5.  `docs/01-handbook-method/05-generation-requests.md`
-6.  `docs/01-handbook-method/06-review-and-interrogation.md`
-7.  `docs/01-handbook-method/07-acceptance-criteria.md`
-8.  `docs/01-handbook-method/08-iteration-and-release.md`
-9.  `docs/01-handbook-method/09-working-agreements-for-teams.md`
+1.  [Discovery Brief](/docs/01-handbook-method/discovery-brief)
+2.  [Intent Spec](/docs/01-handbook-method/intent-spec)
+3.  [Constraint Spec](/docs/01-handbook-method/constraint-spec)
+4.  [Delegation Contract](/docs/01-handbook-method/delegation-contract)
+5.  [Generation Requests](/docs/01-handbook-method/generation-requests)
+6.  [Review and Interrogation](/docs/01-handbook-method/review-and-interrogation)
+7.  [Acceptance Criteria](/docs/01-handbook-method/acceptance-criteria)
+8.  [Iteration and Release](/docs/01-handbook-method/iteration-and-release)
 
 ---
 
-## Last Reviewed / Last Updated
+## Quick Links
 
-- Last reviewed: 2025-12-28
-- Version: 0.1.0
+- Handbook Method: [Overview](/docs/01-handbook-method/01-overview)
+- GenAI & LLM Loop Spec: [Handbook Method](/docs/01-handbook-method/genai-llm-loop-spec)
+- Artifact Contracts: [Handbook Method](/docs/01-handbook-method/artifact-contracts)
+- Accountbility and Delegation: [Handbook Method](/docs/01-handbook-method/accountability-and-delegation)
+
+## Next Step
+
+Return to the [Handbook Method Overview](/docs/01-handbook-method/01-overview) to explore the entire process.

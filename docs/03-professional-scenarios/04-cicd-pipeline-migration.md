@@ -9,7 +9,7 @@ tags: ["genai-llm", "scenario", "devops", "cicd", "migration", "github-actions"]
 last_reviewed: "2025-12-28"
 ---
 
-# Scenario: CI/CD Pipeline Migration
+## Overview
 
 :::info[Value Proposition]
 Automate the migration of CI/CD pipelines from one platform to another (e.g., Jenkins to GitHub Actions), leveraging AI to translate existing configurations and identify potential compatibility issues, thereby reducing manual effort and migration errors.
@@ -106,6 +106,8 @@ Critically review the AI-generated pipeline and verification plan.
 
 ---
 
+---
+
 ## Outcomes and Learnings
 
 -   **Accelerated migration**: AI handles boilerplate and translation, freeing engineers for complex logic.
@@ -125,7 +127,13 @@ Critically review the AI-generated pipeline and verification plan.
 
 ---
 
-## Last Reviewed / Last Updated
+## Quick Links
 
-- Last reviewed: 2025-12-28
-- Version: 0.1.0
+- Handbook Method: [Overview](/docs/01-handbook-method/01-overview)
+- Translator Pattern: [Execution Pattern](/docs/02-execution-patterns/03-translator)
+- Constraint Spec: [Handbook Method](/docs/01-handbook-method/constraint-spec)
+- Write Tests Pattern: [Execution Pattern](/docs/02-execution-patterns/07-write-tests)
+
+## Next Step
+
+Explore other [Professional Scenarios](/docs/03-professional-scenarios/00-scenarios-index) or delve into specific [Platform & Ops Scenarios](/docs/03-professional-scenarios/00-scenarios-index).

@@ -9,7 +9,7 @@ tags: ["genai-llm", "generation", "prompting", "method"]
 last_reviewed: "2025-12-28"
 ---
 
-# Generation Requests
+
 
 :::info[Value Proposition]
 Formulate precise and structured prompts to AI, combining Intent, Constraints, and Delegation Contract into an executable instruction. This maximizes the relevance and quality of AI-generated outputs, reducing iteration cycles.
@@ -17,7 +17,7 @@ Formulate precise and structured prompts to AI, combining Intent, Constraints, a
 
 ## Overview
 
-The Generation Request is the direct instruction given to an AI model to produce an artifact. It is the culmination of the prior steps in the GenAI & LLM Documentation Loop, explicitly referencing the Intent Spec, Constraint Spec, and Delegation Contract. A well-crafted Generation Request leaves minimal room for AI interpretation or hallucination, guiding the AI toward a specific, desired output.
+The Generation Request is the direct instruction given to an AI model to produce an artifact. It is the culmination of the prior steps in the GenAI & LLM Handbook Loop, explicitly referencing the Intent Spec, Constraint Spec, and Delegation Contract. A well-crafted Generation Request leaves minimal room for AI interpretation or hallucination, guiding the AI toward a specific, desired output.
 
 **Goal**: Transform human intent and constraints into an unambiguous, actionable prompt for AI.
 **Anti-pattern**: Vague, conversational prompts like "Write a function for X," which force the AI to make assumptions.
@@ -42,6 +42,8 @@ You **MUST** have a well-defined **Intent Spec**, **Constraint Spec**, and **Del
 
 -   **Artifacts**: Intent Spec, Constraint Spec, Delegation Contract.
 -   **Context**: Understanding of the AI tool's capabilities and limitations (e.g., context window size, supported output formats).
+
+---
 
 ---
 
@@ -91,6 +93,8 @@ flowchart LR
 
 ---
 
+---
+
 ## Practical Example: Generating a React Component
 
 **Objective**: Generate a new React `Button` component adhering to a design system.
@@ -133,14 +137,13 @@ Output only the content of `Button.tsx` as a single TypeScript code block.
 
 ---
 
+## Quick Links
+
+- Handbook Method: [Overview](/docs/01-handbook-method/01-overview)
+- Intent Spec: [Handbook Method](/docs/01-handbook-method/intent-spec)
+- Constraint Spec: [Handbook Method](/docs/01-handbook-method/constraint-spec)
+- Delegation Contract: [Handbook Method](/docs/01-handbook-method/delegation-contract)
+
 ## Next Step
 
-Proceed to:
-**`docs/01-handbook-method/06-review-and-interrogation.md`**
-
----
-
-## Last Reviewed / Last Updated
-
-- Last reviewed: 2025-12-28
-- Version: 0.1.0
+Proceed to [Review and Interrogation](/docs/01-handbook-method/review-and-interrogation) to verify AI outputs.

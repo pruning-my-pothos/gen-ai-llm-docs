@@ -1,5 +1,5 @@
 ---
-title: "GenAI & LLM Documentation Artifact Contracts (Normative)"
+title: "GenAI & LLM Handbook Artifact Contracts (Normative)"
 archetype: "method"
 status: "active"
 owner: "Shailesh (Shaily)"
@@ -9,17 +9,17 @@ tags: ["genai-llm", "artifacts", "contracts", "standard", "review", "verificatio
 last_reviewed: "2025-12-28"
 ---
 
-# GenAI & LLM Documentation Artifact Contracts (Normative)
+
 
 :::info[Value Proposition]
-Define the expected structure, content, and quality of each artifact produced throughout the GenAI & LLM Documentation Loop. This ensures consistency, facilitates efficient review, and establishes a clear understanding of deliverables.
+Define the expected structure, content, and quality of each artifact produced throughout the GenAI & LLM Handbook Loop. This ensures consistency, facilitates efficient review, and establishes a clear understanding of deliverables.
 :::
 
 ## Overview
 
-In the GenAI & LLM Documentation workflow, every significant output is an "artifact." These aren't just informal notes; they are structured, reviewable documents or code segments that serve as inputs for subsequent steps and evidence for human acceptance. Artifact contracts define the normative requirements for these deliverables, ensuring that both human and AI contributions meet a predictable standard.
+In the GenAI & LLM Handbook workflow, every significant output is an "artifact." These aren't just informal notes; they are structured, reviewable documents or code segments that serve as inputs for subsequent steps and evidence for human acceptance. Artifact contracts define the normative requirements for these deliverables, ensuring that both human and AI contributions meet a predictable standard.
 
-**Goal**: Establish clear, consistent expectations for the format and content of all GenAI & LLM Documentation artifacts.
+**Goal**: Establish clear, consistent expectations for the format and content of all GenAI & LLM Handbook artifacts.
 **Anti-pattern**: Undefined deliverables, leading to ambiguity, inconsistent quality, and difficulty in automated or human review.
 
 ---
@@ -28,7 +28,7 @@ In the GenAI & LLM Documentation workflow, every significant output is an "artif
 
 | ✅ Use This Pattern When...           | 🚫 Do Not Use When...                     |
 | :------------------------------------ | :---------------------------------------- |
-| Every stage of the GenAI & LLM Documentation Loop | The output is purely for transient, personal scratchpad notes |
+| Every stage of the GenAI & LLM Handbook Loop | The output is purely for transient, personal scratchpad notes |
 | Establishing team standards for AI-assisted work | The work is an informal brainstorm with no expectation of formal output |
 | Automating review processes           | The artifact's purpose is unclear or undefined |
 
@@ -37,7 +37,7 @@ In the GenAI & LLM Documentation workflow, every significant output is an "artif
 ## Prerequisites
 
 :::warning[Before you start]
-A clear understanding of the GenAI & LLM Documentation Loop and its stages is essential.
+A clear understanding of the GenAI & LLM Handbook Loop and its stages is essential.
 :::
 
 -   **Artifacts**: Familiarity with the intent and purpose of each artifact (e.g., Intent Spec, Constraint Spec).
@@ -49,7 +49,7 @@ A clear understanding of the GenAI & LLM Documentation Loop and its stages is es
 
 ### Step 1: Identify the Artifact
 
-For each stage of the GenAI & LLM Documentation Loop, identify the primary output artifact.
+For each stage of the GenAI & LLM Handbook Loop, identify the primary output artifact.
 
 > **Practical Insight**: The Loop defines 8 core artifacts. Focus on these first.
 
@@ -80,6 +80,8 @@ flowchart LR
     classDef step fill:#E6F7FF,stroke:#1B75BB,color:#0F1F2E;
     class A,B,C,D step;
 ```
+
+---
 
 ---
 
@@ -139,7 +141,13 @@ flowchart LR
 
 ---
 
-## Last Reviewed / Last Updated
+## Quick Links
 
-- Last reviewed: 2025-12-28
-- Version: 0.1.0
+- Handbook Method: [Overview](/docs/01-handbook-method/01-overview)
+- Constraint Spec: [Handbook Method](/docs/01-handbook-method/constraint-spec)
+- Acceptance Criteria: [Handbook Method](/docs/01-handbook-method/acceptance-criteria)
+- Templates: [Templates Index](/docs/06-templates/00-templates-index)
+
+## Next Step
+
+Proceed to **[Delegation Contract](/docs/01-handbook-method/delegation-contract)**.

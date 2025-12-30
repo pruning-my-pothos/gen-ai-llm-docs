@@ -9,7 +9,7 @@ tags: ["genai-llm", "scenario", "product", "prd", "requirements"]
 last_reviewed: "2025-12-28"
 ---
 
-# Scenario: Writing a PRD
+## Overview
 
 :::info[Value Proposition]
 Demonstrate how to use GenAI & LLM Documentation to turn vague stakeholder requests into a rigorous Product Requirement Document (PRD) that engineers can actually build, minimizing ambiguity and maximizing clarity.
@@ -108,6 +108,8 @@ Critically review the AI-generated PRD.
 
 ---
 
+---
+
 ## Outcomes and Learnings
 
 -   **Clearer requirements**: AI-assisted drafting forces early clarification.
@@ -127,7 +129,13 @@ Critically review the AI-generated PRD.
 
 ---
 
-## Last Reviewed / Last Updated
+## Quick Links
 
-- Last reviewed: 2025-12-28
-- Version: 0.1.0
+- Handbook Method: [Overview](/docs/01-handbook-method/01-overview)
+- Discovery Brief Template: [Template](/docs/06-templates/discovery-brief-template)
+- Intent Spec Template: [Template](/docs/06-templates/intent-spec-template)
+- Constraint Spec Template: [Template](/docs/06-templates/constraint-spec-template)
+
+## Next Step
+
+Explore [CI/CD Pipeline Migration](/docs/03-professional-scenarios/00-scenarios-index) or other [Professional Scenarios](/docs/03-professional-scenarios/00-scenarios-index).

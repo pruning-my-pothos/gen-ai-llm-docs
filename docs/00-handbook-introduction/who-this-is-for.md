@@ -19,6 +19,12 @@ The GenAI & LLM Handbook is for people who want the speed of GenAI **without giv
 
 The GenAI & LLM Handbook is designed for professionals who work at the intersection of **thinking, language, and systems** and who want AI to amplify their work without eroding responsibility. It provides a structured approach to integrate AI into your workflow reliably.
 
+:::tip[Signals you'll benefit]
+- You must ship faster without sacrificing correctness or accountability.
+- You need AI outputs you can verify and govern.
+- You value explicit intent, constraints, and evidence-based review.
+:::
+
 ---
 
 ## The GenAI & LLM Handbook is for you if:
@@ -27,7 +33,7 @@ The GenAI & LLM Handbook is designed for professionals who work at the intersect
 
 -   You are asked to deliver more, faster, with higher quality.
 -   You want to leverage AI for boilerplate, tests, and refactoring.
-The GenAI & LLM Handbook helps you:
+-   The GenAI & LLM Handbook helps you:
 
 -   Accelerate development cycles while maintaining code quality.
 -   Generate tests and documentation that truly align with your code.
@@ -39,7 +45,7 @@ The GenAI & LLM Handbook helps you:
 -   You are responsible for defining the "what" and "why" for AI-assisted features.
 -   You need to ensure AI-driven products deliver real business value.
 
-The GenAI & LLM Handbook helps you:
+-   The GenAI & LLM Handbook helps you:
 
 -   Craft unambiguous Intent and Constraint Specifications for AI-assisted teams.
 -   Define measurable acceptance criteria to validate AI outputs against business goals.
@@ -112,7 +118,5 @@ If this mindset aligns with how you work or how you want to work, the GenAI & LL
 
 ## Next Steps
 
--   **Builder / Engineer**: Learn the Core Skills and the GenAI & LLM Handbook Loop.
-    -   Start with **What is GenAI & LLM**: `docs/00-handbook-introduction/what-is-genai-llm.md` (Note: Path updated)
-    -   Learn the loop: `docs/01-handbook-method/the-genai-llm-loop.md` (Note: Path updated)
--   **Practitioner**: Pick one small, real task and apply the GenAI & LLM Handbook. That is the fastest way to see the difference.
+- Continue to **Scope and Applicability**: /docs/00-handbook-introduction/scope-and-applicability
+- Ready to start building? See the **Handbook Loop**: /docs/01-handbook-method/the-genai-llm-loop

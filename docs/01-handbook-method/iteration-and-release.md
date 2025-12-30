@@ -9,17 +9,17 @@ tags: ["genai-llm", "iteration", "release", "debugging", "method"]
 last_reviewed: "2025-12-28"
 ---
 
-# Iteration and Release
+
 
 :::info[Value Proposition]
-Integrate feedback, iterate on AI-generated outputs, and systematically release accepted artifacts. This step emphasizes continuous improvement of both the AI-assisted work and the GenAI & LLM Documentation process itself, ensuring lessons learned are fed back into the loop.
+Integrate feedback, iterate on AI-generated outputs, and systematically release accepted artifacts. This step emphasizes continuous improvement of both the AI-assisted work and the GenAI & LLM Handbook process itself, ensuring lessons learned are fed back into the loop.
 :::
 
 ## Overview
 
-The GenAI & LLM Documentation Loop is rarely a straight line. You will hit the **Acceptance** gate and fail. Failure is a data point, not a dead end. How you react to failure determines whether you are practicing GenAI & LLM Documentation or just "chatting with a bot." This final stage focuses on learning from those failures, iterating on your specifications (not just the AI's output), and ultimately releasing high-quality, verified artifacts.
+The GenAI & LLM Handbook Loop is rarely a straight line. You will hit the **Acceptance** gate and fail. Failure is a data point, not a dead end. How you react to failure determines whether you are practicing GenAI & LLM Handbook or just "chatting with a bot." This final stage focuses on learning from those failures, iterating on your specifications (not just the AI's output), and ultimately releasing high-quality, verified artifacts.
 
-**Goal**: Successfully release AI-assisted work, learn from failures, and continuously improve the GenAI & LLM Documentation process.
+**Goal**: Successfully release AI-assisted work, learn from failures, and continuously improve the GenAI & LLM Handbook process.
 **Anti-pattern**: Blindly regenerating AI output after a failure without analyzing why the previous attempt failed, or releasing unverified outputs.
 
 ---
@@ -45,13 +45,15 @@ A clear understanding of the **Review & Interrogation** and **Acceptance Criteri
 
 ---
 
+---
+
 ## The Pattern (Step-by-Step)
 
 ### Step 1: Analyze Review Findings
 
 If an artifact fails acceptance, identify the root cause of the failure. Was it due to a flawed Intent Spec, a missing Constraint, a poor Generation Request, or an AI hallucination?
 
-> **Practical Insight**: This is where you apply "Debug with Evidence" to your own GenAI & LLM Documentation process.
+> **Practical Insight**: This is where you apply "Debug with Evidence" to your own GenAI & LLM Handbook process.
 
 ### Step 2: Revise Specifications (Not Just AI Output)
 
@@ -61,7 +63,7 @@ Update the Intent Spec, Constraint Spec, or Delegation Contract based on the ana
 
 ### Step 3: Iterate (Re-enter the Loop)
 
-With revised specifications, generate a new Generation Request and re-enter the GenAI & LLM Documentation Loop from Step 5 (Generation).
+With revised specifications, generate a new Generation Request and re-enter the GenAI & LLM Handbook Loop from Step 5 (Generation).
 
 > "Re-generate the component using the updated Constraint Spec."
 
@@ -83,6 +85,8 @@ flowchart LR
     classDef step fill:#E6F7FF,stroke:#1B75BB,color:#0F1F2E;
     class A,B,C,D,E,F step;
 ```
+
+---
 
 ---
 
@@ -123,7 +127,12 @@ flowchart LR
 
 ---
 
-## Last Reviewed / Last Updated
+## Quick Links
 
-- Last reviewed: 2025-12-28
-- Version: 0.1.0
+- Handbook Method: [Overview](/docs/01-handbook-method/01-overview)
+- Iteration Log Template: [Template](/docs/06-templates/iteration-log-template)
+- Acceptance Criteria: [Handbook Method](/docs/01-handbook-method/acceptance-criteria)
+
+## Next Step
+
+Proceed to [Maintenance](/docs/01-handbook-method/the-genai-llm-loop) (as part of the full loop).

@@ -1,5 +1,5 @@
 ---
-title: "GenAI & LLM Documentation Accountability and Delegation Model"
+title: "GenAI & LLM Handbook Accountability and Delegation Model"
 archetype: "method"
 status: "active"
 owner: "Shailesh (Shaily)"
@@ -9,7 +9,7 @@ tags: ["genai-llm", "accountability", "delegation", "governance", "standard"]
 last_reviewed: "2025-12-28"
 ---
 
-# GenAI & LLM Documentation Accountability and Delegation Model
+
 
 :::info[Value Proposition]
 Clarify roles, responsibilities, and decision-making authority when working with AI. This model ensures that humans remain accountable for outcomes, even when delegating tasks to AI tools.
@@ -17,7 +17,7 @@ Clarify roles, responsibilities, and decision-making authority when working with
 
 ## Overview
 
-AI tools are powerful, but they operate without judgment or responsibility. In GenAI & LLM Documentation, humans **MUST** retain accountability for all outcomes of AI-assisted work. This document defines a clear model for how accountability is maintained and how tasks are safely delegated to AI, emphasizing that delegation is for execution, not for judgment.
+AI tools are powerful, but they operate without judgment or responsibility. In GenAI & LLM Handbook, humans **MUST** retain accountability for all outcomes of AI-assisted work. This document defines a clear model for how accountability is maintained and how tasks are safely delegated to AI, emphasizing that delegation is for execution, not for judgment.
 
 **Goal**: Establish clear lines of responsibility and safe delegation practices for AI-assisted workflows.
 **Anti-pattern**: Blaming the AI for errors, or treating AI outputs as authoritative without human review and acceptance.
@@ -37,11 +37,13 @@ AI tools are powerful, but they operate without judgment or responsibility. In G
 ## Prerequisites
 
 :::warning[Before you start]
-A foundational understanding of the GenAI & LLM Documentation Loop, Intent Specs, and Constraint Specs is essential.
+A foundational understanding of the GenAI & LLM Handbook Loop, Intent Specs, and Constraint Specs is essential.
 :::
 
 - **Artifacts**: Defined roles and responsibilities within the team/organization.
 - **Context**: Awareness of relevant legal, ethical, and company policies regarding AI use.
+
+---
 
 ---
 
@@ -61,9 +63,11 @@ A foundational understanding of the GenAI & LLM Documentation Loop, Intent Specs
 
 ---
 
+---
+
 ## The Delegation Model
 
-Delegation in GenAI & LLM Documentation is a structured process, not a casual request.
+Delegation in GenAI & LLM Handbook is a structured process, not a casual request.
 
 ### Step 1: Define Intent and Constraints (Human Task)
 
@@ -110,6 +114,8 @@ flowchart LR
 
 ---
 
+---
+
 ## Practical Example: Delegating Code Generation
 
 **Objective**: Delegate the creation of a new API endpoint to an AI.
@@ -133,7 +139,30 @@ flowchart LR
 
 ---
 
-## Last Reviewed / Last Updated
+## Quick Links
 
-- Last reviewed: 2025-12-28
-- Version: 0.1.0
+- Handbook Method: [Overview](/docs/01-handbook-method/01-overview)
+- Delegation Contract Template: [Template](/docs/06-templates/delegation-contract-template)
+- Intent Spec: [Handbook Method](/docs/01-handbook-method/intent-spec)
+- Constraint Spec: [Handbook Method](/docs/01-handbook-method/constraint-spec)
+
+## Next Step
+
+Explore [Artifact Contracts](/docs/01-handbook-method/artifact-contracts) for detailed artifact definitions.
+
+```mermaid
+flowchart LR
+    Human[Human Owner] -- Defines --> Intent[Intent Spec]
+    Human -- Defines --> Constraints[Constraint Spec]
+    Intent & Constraints --> HumanDC[Delegation Contract]
+    HumanDC --> AI(AI Tool)
+    AI -- Generates --> Output[AI Output]
+    Output --> HumanR[Review & Verify]
+    HumanR -- Accepts/Rejects --> Human
+    Human -- Accountable For --> Output
+
+    classDef human fill:#E6F7FF,stroke:#1B75BB,color:#0F1F2E;
+    classDef ai fill:#D3FFD3,stroke:#3CB371,color:#006400;
+    class Human,HumanDC,HumanR human;
+    class AI ai;
+```

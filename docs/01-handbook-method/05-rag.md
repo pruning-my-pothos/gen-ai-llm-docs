@@ -9,7 +9,7 @@ tags: ["genai-llm", "rag", "retrieval", "grounding", "context"]
 last_reviewed: "2025-12-28"
 ---
 
-# Retrieval and Grounding (RAG)
+
 
 :::info[Value Proposition]
 Ground LLM responses in verifiable, up-to-date information, reducing hallucinations and improving factual accuracy. RAG (Retrieval Augmented Generation) is a key technique for ensuring LLMs operate within a defined knowledge base, making their outputs more reliable.
@@ -42,6 +42,8 @@ You need access to a reliable, organized knowledge base that the LLM can query.
 
 -   **Artifacts**: A curated knowledge base (e.g., codebase, internal documentation, database).
 -   **Context**: Understanding of embedding models and vector databases (optional, but enhances RAG).
+
+---
 
 ---
 
@@ -87,6 +89,8 @@ flowchart LR
     classDef step fill:#E6F7FF,stroke:#1B75BB,color:#0F1F2E;
     class A,B,C,D,E step;
 ```
+
+---
 
 ---
 
@@ -214,7 +218,12 @@ app.get('/some-route', (req: Request, res: Response, next: NextFunction) => {
 
 ---
 
-## Last Reviewed / Last Updated
+## Quick Links
 
-- Last reviewed: 2025-12-28
-- Version: 0.1.0
+- Handbook Method: [Overview](/docs/01-handbook-method/01-overview)
+- Vector Databases & Embeddings: [LLM Frameworks](/docs/04-tooling-and-frameworks/02-llm-frameworks/05-vector-databases-and-embeddings)
+- Prompt Engineering: [Handbook Method](/docs/01-handbook-method/prompt-engineering)
+
+## Next Step
+
+Learn about [Tool Use and Agents](/docs/01-handbook-method/07-tool-use-and-agents) for dynamic LLM applications.

@@ -9,7 +9,7 @@ tags: ["pattern", "data-modeling", "schema-design", "database"]
 last_reviewed: "2025-12-28"
 ---
 
-# Pattern: Data Modeling
+
 
 :::info[Value Proposition]
 Use this pattern to assist in designing robust and efficient data models for various database types (relational, NoSQL, graph). AI can help translate business requirements into normalized schemas, identify relationships, and suggest appropriate data types and indexing strategies.
@@ -42,6 +42,8 @@ You need clear **business requirements** for the data entities, their attributes
 
 - **Artifacts**: User stories or functional requirements describing the data, desired queries, and reporting needs. Constraint Spec (database type, normalization level, performance requirements).
 - **Context**: Understanding of the application's read/write patterns and expected data volume.
+
+---
 
 ---
 
@@ -81,7 +83,9 @@ flowchart LR
     class A,B,C,D step;
 ```
 
-### Practical Example: Modeling a Simple E-commerce Database (PostgreSQL)
+#---
+
+## Practical Example: Modeling a Simple E-commerce Database (PostgreSQL)
 
 **Objective**: Design a basic relational database schema for an e-commerce platform.
 
@@ -179,3 +183,15 @@ CREATE INDEX idx_products_category_id ON products (category_id);
 :::danger[Critical Risk]
 Always validate AI-generated DDL with a database expert and thorough testing, especially for complex relationships and performance-critical tables. Small errors can lead to major data integrity problems.
 :::
+
+---
+
+## Quick Links
+
+- Pattern Index: [Index](/docs/02-execution-patterns/00-pattern-index)
+- Constraint Spec Template: [Template](/docs/06-templates/constraint-spec-template)
+- Design an API: [Execution Pattern](/docs/02-execution-patterns/03-design-an-api)
+
+## Next Step
+
+Learn how to [Refactor Safely](/docs/02-execution-patterns/05-refactor-safely) without breaking existing functionality.

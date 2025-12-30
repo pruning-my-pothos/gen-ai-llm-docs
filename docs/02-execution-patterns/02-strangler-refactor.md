@@ -9,7 +9,7 @@ tags: ["pattern", "refactoring", "legacy", "migration"]
 last_reviewed: "2025-12-28"
 ---
 
-# Pattern: The Strangler
+
 
 :::info[Value Proposition]
 Use this pattern to refactor legacy systems incrementally. It allows you to replace old code with new code piece by piece, reducing the risk of a "Big Bang" rewrite failure.
@@ -42,6 +42,8 @@ You must have a way to run both the old and new code paths simultaneously (e.g.,
 
 - **Input**: Legacy source code.
 - **Safety**: Existing tests or a way to capture production inputs/outputs.
+
+---
 
 ---
 
@@ -91,7 +93,9 @@ flowchart LR
 -   **Process**: Created a Repository interface. Implemented `SqlRepository` (old) and `OrmRepository` (new).
 -   **Outcome**: Switched traffic gradually. Verified ORM queries matched SQL results.
 
-### Practical Example: Migrating a Calculator
+#---
+
+## Practical Example: Migrating a Calculator
 
 Let's imagine a legacy system with a simple `Calculator` function that needs to be refactored using the Strangler pattern.
 
@@ -176,7 +180,12 @@ Do not delete the legacy code until the new code has run in production for a saf
 
 ---
 
-## Last Reviewed / Last Updated
+## Quick Links
 
-- Last reviewed: 2025-12-28
-- Version: 0.1.0
+- Pattern Index: [Index](/docs/02-execution-patterns/00-pattern-index)
+- Refactor Safely: [Execution Pattern](/docs/02-execution-patterns/05-refactor-safely)
+- Legacy Refactor: [Professional Scenario](/docs/03-professional-scenarios/engineering/04-legacy-refactor)
+
+## Next Step
+
+Learn how to [Design an API](/docs/02-execution-patterns/03-design-an-api) for your services.

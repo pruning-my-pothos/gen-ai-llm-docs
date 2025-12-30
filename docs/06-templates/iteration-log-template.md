@@ -9,11 +9,13 @@ tags: ["genai-llm", "template", "iteration", "debugging"]
 last_reviewed: "2025-12-20"
 ---
 
-# Iteration Log: [Feature Name]
+## Iteration Log Template
 
-:::info[Instructions]
+:::info[Value Proposition]
 Use this log when the first attempt fails. Do not just "regenerate." Document what you changed in the specs to fix the error.
 :::
+
+---
 
 ## 1. The Trigger
 
@@ -64,6 +66,22 @@ If you have to iterate more than 3 times, your Discovery Brief might be wrong. P
 
 ---
 
-## Last Reviewed / Last Updated
+## Common Pitfalls
 
-- Date: YYYY-MM-DD
+| Pitfall                   | Impact                                   | Correction                                     |
+| :------------------------ | :--------------------------------------- | :--------------------------------------------- |
+| **Fixing code, not spec** | Recurring errors, inconsistent behavior. | Always update the relevant Intent/Constraint Spec first. |
+| **Vague Observations**    | Difficulty in root cause analysis.       | Be precise about _what_ went wrong and _how_. |
+| **Skipping Iteration Log**| Repeating past mistakes, slow learning.  | Consistently document each iteration and its learnings. |
+
+---
+
+## Quick Links
+
+- Handbook Method: [Overview](/docs/01-handbook-method/01-overview)
+- Iteration & Release: [Handbook Method](/docs/01-handbook-method/iteration-and-release)
+- Discovery Brief Template: [Template](/docs/06-templates/discovery-brief-template)
+
+## Next Step
+
+Explore the [Pattern Template](/docs/06-templates/pattern-template) for documenting execution patterns.

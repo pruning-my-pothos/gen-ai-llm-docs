@@ -9,7 +9,7 @@ tags: ["genai-llm", "structured-output", "tools", "schema", "apis", "agents", "o
 last_reviewed: "2025-12-28"
 ---
 
-# Structured Output, Tool Use, and Agents
+
 
 :::info[Value Proposition]
 Move beyond natural language generation to enable LLMs to produce data in predictable formats (e.g., JSON, YAML, XML) and interact with external systems (APIs, databases). This is essential for integrating LLMs into automated workflows and building reliable AI-assisted applications.
@@ -21,6 +21,8 @@ While LLMs excel at generating free-form text, many tasks require structured out
 
 **Goal**: Enable LLMs to produce machine-readable output and execute actions through external tools.
 **Anti-pattern**: Expecting an LLM to reliably generate complex code or interact with APIs solely through free-form conversational prompts, leading to unreliable parsing and execution failures.
+
+---
 
 ---
 
@@ -53,6 +55,8 @@ While LLMs excel at generating free-form text, many tasks require structured out
   "tags": ["peripherals", "ergonomic", "wireless"]
 }
 ```
+
+---
 
 ---
 
@@ -103,6 +107,8 @@ Tool use (also known as function calling) enables LLMs to interact with external
 ```
 
 ---
+---
+
 ## Agents and Orchestration
 
 An AI agent is a system that uses an LLM to reason, plan, and execute a sequence of actions to achieve a goal. Agents are goal-directed loops that perceive their environment, plan steps, act using tools, and observe the results.
@@ -135,20 +141,46 @@ flowchart LR
 
 ---
 
+
+
 ## Common Pitfalls
 
+
+
 | Pitfall                   | Impact                                   | Correction                                     |
+
 | :------------------------ | :--------------------------------------- | :--------------------------------------------- |
+
 | **Vague Schema Definitions** | LLM generates invalid or incomplete structured data. | Provide clear, explicit JSON Schemas or type definitions. |
+
 | **Underspecified Tool Descriptions** | LLM calls tools with incorrect arguments or in wrong situations. | Make tool descriptions precise, including parameter types and examples. |
+
 | **Ignoring Tool Output**  | LLM doesn't use tool results to inform its response, leading to errors. | Ensure tool output is correctly fed back to the LLM and prompt it to use that context. |
+
 | **Unbounded Agent Loops** | Agent gets stuck in a loop, wasting resources. | Implement stop conditions, max steps, and human-in-the-loop checkpoints. |
+
 | **Giving Agents Destructive Tools**| Agent causes unintended side effects. | Use read-only tools where possible and require human confirmation for write actions. |
+
 
 
 ---
 
-## Last Reviewed / Last Updated
 
-- Last reviewed: 2025-12-28
-- Version: 0.1.0
+
+## Quick Links
+
+
+
+- Handbook Method: [Overview](/docs/01-handbook-method/01-overview)
+
+- Execution Patterns: [Tools and Agents](/docs/01-handbook-method/07-tool-use-and-agents)
+
+- Prompt Engineering: [Handbook Method](/docs/01-handbook-method/prompt-engineering)
+
+
+
+## Next Step
+
+
+
+Learn about [Evaluation](/docs/01-handbook-method/08-evaluation/00-eval-overview) to measure the success of your LLM applications.

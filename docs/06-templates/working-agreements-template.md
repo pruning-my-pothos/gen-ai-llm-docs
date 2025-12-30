@@ -9,11 +9,13 @@ tags: ["genai-llm", "template", "team", "governance", "agreements"]
 last_reviewed: "2025-12-20"
 ---
 
-# Working Agreements: AI-Assisted Development
+## Working Agreements Template
 
-:::info[Instructions]
+:::info[Value Proposition]
 Use this template to align your team on **how** AI tools will be used. These are not just rules; they are promises you make to each other to maintain quality and trust.
 :::
+
+---
 
 ## 1. The Golden Rule of Accountability
 
@@ -71,7 +73,22 @@ Do not approve large AI-generated PRs without a walkthrough. If you can't explai
 
 ---
 
-## Last Reviewed / Last Updated
+## Common Pitfalls
 
-- Last reviewed: YYYY-MM-DD
-- Version: 0.1.0
+| Pitfall                   | Impact                                   | Correction                                     |
+| :------------------------ | :--------------------------------------- | :--------------------------------------------- |
+| **Ignoring Accountability** | Blaming AI for errors, lack of ownership. | Reinforce human responsibility for all committed code. |
+| **Undefined "No-Go" Zones**| Data leakage, security breaches.         | Clearly define what data/tasks are off-limits for AI. |
+| **Lack of Review Protocol** | Merging AI code without proper scrutiny. | Implement strict review processes for AI-generated code. |
+
+---
+
+## Quick Links
+
+- Handbook Method: [Overview](/docs/01-handbook-method/01-overview)
+- Accountability & Delegation: [Handbook Method](/docs/01-handbook-method/accountability-and-delegation)
+- Delegation Contract Template: [Template](/docs/06-templates/delegation-contract-template)
+
+## Next Step
+
+Return to the [Templates Index](/docs/06-templates/00-templates-index) to explore more resources.

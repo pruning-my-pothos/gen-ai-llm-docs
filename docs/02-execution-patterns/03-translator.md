@@ -9,7 +9,7 @@ tags: ["pattern", "translation", "migration", "polyglot"]
 last_reviewed: "2025-12-28"
 ---
 
-# Pattern: The Translator
+
 
 :::info[Value Proposition]
 Use this pattern to convert code, data, or schemas from one format to another with high fidelity. It treats translation as a structural mapping problem, not a creative writing task.
@@ -42,6 +42,8 @@ You must have a **Constraint Spec** for the _target_ language. If you don't defi
 
 - **Input**: Source file(s).
 - **Target**: Definition of the destination format/language.
+
+---
 
 ---
 
@@ -93,7 +95,9 @@ flowchart LR
 -   **Mapping**: `SERIAL` -> `int`, `JSONB` -> `Dict[str, Any]`.
 -   **Output**: `class User(BaseModel): id: int, metadata: Dict[str, Any]`
 
-### Practical Example: Migrating SQL Schema to Pydantic
+#---
+
+## Practical Example: Migrating SQL Schema to Pydantic
 
 Let's illustrate the translation of a SQL `CREATE TABLE` statement into a Pydantic model.
 
@@ -181,7 +185,12 @@ Regex and Date formats rarely translate 1:1. Always write unit tests for these s
 
 ---
 
-## Last Reviewed / Last Updated
+## Quick Links
 
-- Last reviewed: 2025-12-28
-- Version: 0.1.0
+- Pattern Index: [Index](/docs/02-execution-patterns/00-pattern-index)
+- CI/CD Pipeline Migration: [Professional Scenario](/docs/03-professional-scenarios/04-cicd-pipeline-migration)
+- Constraint Spec Template: [Template](/docs/06-templates/constraint-spec-template)
+
+## Next Step
+
+Explore [Data Modeling](/docs/02-execution-patterns/04-data-modeling) for structuring your application's information.

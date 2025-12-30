@@ -9,7 +9,7 @@ tags: ["pattern", "creation", "greenfield"]
 last_reviewed: "2025-12-28"
 ---
 
-# Pattern: The Clean Slate
+
 
 :::info[Value Proposition]
 Use this pattern when building a new module, component, or service from scratch. It ensures the AI builds exactly what you need without legacy baggage.
@@ -34,6 +34,8 @@ Generating code from zero is AI's "Happy Path." However, without structure, it p
 
 ---
 
+---
+
 ## Prerequisites
 
 :::warning[Before you start]
@@ -42,6 +44,8 @@ You must have the **Constraint Spec** ready. Without it, the AI will pick random
 
 - **Artifacts**: Intent Spec, Constraint Spec.
 - **Context**: Knowledge of where the file will live in the repo.
+
+---
 
 ---
 
@@ -163,3 +167,15 @@ export class UserService implements IUserService {
 :::danger[Critical Risk]
 Do not accept code that introduces new npm packages unless you explicitly approved them.
 :::
+
+---
+
+## Quick Links
+
+- Pattern Index: [Index](/docs/02-execution-patterns/00-pattern-index)
+- Intent Spec Template: [Template](/docs/06-templates/intent-spec-template)
+- Constraint Spec Template: [Template](/docs/06-templates/constraint-spec-template)
+
+## Next Step
+
+Learn how to [Scope a Task](/docs/02-execution-patterns/01-scope-a-task) effectively.

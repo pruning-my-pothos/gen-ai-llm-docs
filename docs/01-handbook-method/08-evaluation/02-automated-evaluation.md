@@ -7,7 +7,7 @@ maintainer: "Shailesh (Shaily)"
 version: "0.1.0"
 tags: ["genai-llm", "evaluation", "automation", "testing", "llm-as-a-judge"]
 description: >-
-  In GenAI & LLM Documentation, we treat evaluation as a pipeline, not just a meeting. Configure your CLI agent (e.g., Aider) to run these checks before asking for human review.
+  In GenAI & LLM Handbook, we treat evaluation as a pipeline, not just a meeting. Configure your CLI agent (e.g., Aider) to run these checks before asking for human review.
 last_reviewed: "2025-12-20"
 ---
 

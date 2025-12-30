@@ -71,7 +71,15 @@ The application of the GenAI & LLM Handbook is governed by its core method and a
 -   **Intent Spec**: Defines what success looks like.
 -   **Constraint Spec**: Defines the boundaries and non-negotiables.
 -   **Review & Interrogation**: Ensures output meets standards.
-Process: `docs/01-handbook-method/the-genai-llm-loop.md`
+Process: `/docs/01-handbook-method/the-genai-llm-loop`
+
+### Quick Reference: Impact vs. Rigor
+
+| Impact level        | Apply the handbook? | Minimum rigor                                    |
+| :------------------ | :------------------ | :----------------------------------------------- |
+| Low (personal/sandbox) | Optional             | Define intent; light review                      |
+| Medium (team/shared)   | Yes                  | Intent + constraints + review + basic evidence   |
+| High (prod/compliance/safety) | Mandatory            | Full loop: intent, constraints, artifacts, tests, review, sign-off |
 
 ---
 

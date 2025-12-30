@@ -9,7 +9,7 @@ tags: ["pattern", "testing", "quality", "verification"]
 last_reviewed: "2025-12-28"
 ---
 
-# Pattern: Write Tests
+
 
 :::info[Value Proposition]
 Use this pattern to leverage AI for generating comprehensive and effective tests. This accelerates the test-writing process, improves code coverage, and ensures functional correctness, especially when paired with AI-generated code or complex logic.
@@ -42,6 +42,10 @@ You must have a clear understanding of the functionality to be tested, the expec
 
 - **Artifacts**: Code to be tested, functional requirements/Intent Spec. Constraint Spec (testing framework, desired coverage metrics, mocking strategies).
 - **Context**: Knowledge of the system's architecture and any external dependencies.
+
+---
+
+---
 
 ---
 
@@ -85,7 +89,7 @@ flowchart LR
     class A,B,C,D step;
 ```
 
-### Practical Example: Writing Unit Tests for a `ShoppingCart` Class
+## Practical Example: Writing Unit Tests for a `ShoppingCart` Class
 
 **Objective**: Write unit tests for a `ShoppingCart` class using Jest.
 
@@ -234,3 +238,27 @@ flowchart LR
 :::danger[Critical Risk]
 Always manually review AI-generated tests, especially their assertions and setup. AI might miss subtle requirements or generate tests that pass incorrectly due to misinterpretations. Consider AI as a test *generator*, not a test *verifier*.
 :::
+
+---
+
+## Quick Links
+
+- Pattern Index: [Index](/docs/02-execution-patterns/00-pattern-index)
+- Acceptance Criteria Template: [Template](/docs/06-templates/acceptance-criteria-template)
+- Bug Triage and Fix: [Professional Scenario](/docs/03-professional-scenarios/engineering/03-bug-triage-and-fix)
+
+## Next Step
+
+Learn how to [Write Docs](/docs/02-execution-patterns/08-write-docs) for your codebase.
+
+---
+
+## Quick Links
+
+- Pattern Index: [Index](/docs/02-execution-patterns/00-pattern-index)
+- Acceptance Criteria Template: [Template](/docs/06-templates/acceptance-criteria-template)
+- Bug Triage and Fix: [Professional Scenario](/docs/03-professional-scenarios/engineering/03-bug-triage-and-fix)
+
+## Next Step
+
+Learn how to [Write Docs](/docs/02-execution-patterns/08-write-docs) for your codebase.

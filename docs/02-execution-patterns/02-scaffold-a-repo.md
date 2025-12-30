@@ -9,7 +9,7 @@ tags: ["pattern", "scaffolding", "repo-setup", "project-init"]
 last_reviewed: "2025-12-28"
 ---
 
-# Pattern: Scaffold a Repo
+
 
 :::info[Value Proposition]
 Use this pattern to rapidly set up the basic structure of a new repository or project, including file organization, initial configuration, and boilerplate code, leveraging AI to adhere to best practices and project standards from the outset.
@@ -42,6 +42,8 @@ A comprehensive **Constraint Spec** and an **Intent Spec** for the project's cor
 
 - **Artifacts**: Intent Spec (high-level project goal), detailed Constraint Spec (tech stack, coding standards, directory conventions, desired tooling).
 - **Context**: Understanding of the target environment (e.g., cloud provider, deployment strategy) and any specific security or compliance requirements.
+
+---
 
 ---
 
@@ -81,7 +83,9 @@ flowchart LR
     class A,B,C,D step;
 ```
 
-### Practical Example: Scaffolding a Node.js TypeScript Express API
+#---
+
+## Practical Example: Scaffolding a Node.js TypeScript Express API
 
 **Objective**: Scaffold a new Node.js TypeScript API project.
 
@@ -152,3 +156,15 @@ app.listen(PORT, () => {
 :::danger[Critical Risk]
 Always manually review generated scaffolding, especially `.gitignore`, `Dockerfile`, and dependency lists, to prevent security vulnerabilities or unwanted files.
 :::
+
+---
+
+## Quick Links
+
+- Pattern Index: [Index](/docs/02-execution-patterns/00-pattern-index)
+- Clean Slate Pattern: [Execution Pattern](/docs/02-execution-patterns/01-clean-slate)
+- Constraint Spec Template: [Template](/docs/06-templates/constraint-spec-template)
+
+## Next Step
+
+Learn how to [Design an API](/docs/02-execution-patterns/03-design-an-api) for your new service.

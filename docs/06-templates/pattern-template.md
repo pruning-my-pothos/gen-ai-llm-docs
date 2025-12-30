@@ -9,7 +9,7 @@ tags: ["genai-llm", "pattern", "[specific-tag]"]
 last_reviewed: "YYYY-MM-DD"
 ---
 
-# Pattern: [Pattern Name]
+## Pattern Template
 
 :::info[Value Proposition]
 One sentence explaining why this pattern exists and what problem it solves.
@@ -25,12 +25,16 @@ Explain the context in which this pattern applies.
 
 ---
 
+---
+
 ## When to Use
 
 | ✅ Use This Pattern When... | 🚫 Do Not Use When...              |
 | :-------------------------- | :--------------------------------- |
 | **Condition A** is true     | _Condition B_ is present           |
 | You need **Outcome X**      | You are optimizing for _Outcome Y_ |
+
+---
 
 ---
 
@@ -73,6 +77,8 @@ flowchart LR
 
 ---
 
+---
+
 ## Example Scenario
 
 Describe a concrete example of this pattern in action.
@@ -95,7 +101,12 @@ The one thing that will definitely break this pattern.
 
 ---
 
-## Last Reviewed / Last Updated
+## Quick Links
 
-- Last reviewed: YYYY-MM-DD
-- Version: 0.1.0
+- Handbook Method: [Overview](/docs/01-handbook-method/01-overview)
+- Execution Patterns: [Index](/docs/02-execution-patterns/00-pattern-index)
+- Scenario Template: [Template](/docs/06-templates/scenario-template)
+
+## Next Step
+
+Explore the [Quality Rubric Template](/docs/06-templates/quality-rubric-template) for evaluating outputs.

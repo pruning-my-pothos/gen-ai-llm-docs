@@ -9,7 +9,7 @@ tags: ["pattern", "api-design", "rest", "graphql"]
 last_reviewed: "2025-12-28"
 ---
 
-# Pattern: Design an API
+
 
 :::info[Value Proposition]
 Use this pattern to leverage AI for designing clear, consistent, and well-structured APIs. It helps in defining endpoints, request/response schemas, and error handling, adhering to best practices like REST or GraphQL, and ensuring interoperability.
@@ -42,6 +42,8 @@ You must have a clear **Intent Spec** outlining the API's purpose and a **Constr
 
 - **Artifacts**: Intent Spec (API purpose, main entities/resources), Constraint Spec (preferred API style - REST/GraphQL, authentication, error handling conventions, data types).
 - **Context**: Understanding of the system's architecture and existing APIs to ensure integration.
+
+---
 
 ---
 
@@ -81,7 +83,9 @@ flowchart LR
     class A,B,C,D step;
 ```
 
-### Practical Example: Designing a Simple Blog API (RESTful)
+#---
+
+## Practical Example: Designing a Simple Blog API (RESTful)
 
 **Objective**: Design a RESTful API for a simple blog with posts and comments.
 
@@ -204,3 +208,16 @@ components:
 :::danger[Critical Risk]
 Always involve human review for API designs, especially for security, data privacy, and long-term maintainability. AI-generated designs should be treated as a strong starting point, not a final product.
 :::
+
+---
+
+## Quick Links
+
+- Pattern Index: [Index](/docs/02-execution-patterns/00-pattern-index)
+- Intent Spec Template: [Template](/docs/06-templates/intent-spec-template)
+- Constraint Spec Template: [Template](/docs/06-templates/constraint-spec-template)
+- Greenfield AI/LLM Service: [Professional Scenario](/docs/03-professional-scenarios/engineering/01-greenfield-service)
+
+## Next Step
+
+Learn how to leverage AI for [Data Modeling](/docs/02-execution-patterns/04-data-modeling).

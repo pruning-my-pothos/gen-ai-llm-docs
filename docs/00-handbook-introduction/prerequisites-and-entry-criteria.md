@@ -26,11 +26,11 @@ The GenAI & LLM Handbook is a powerful framework, but like any sophisticated too
 
 ## When to Use
 
-| ✅ Use This Pattern When...           | 🚫 Do Not Use When...                     |
-| :------------------------------------ | :---------------------------------------- |
-| Onboarding new team members to GenAI & LLM Handbook workflows | You are a seasoned GenAI & LLM Handbook practitioner seeking advanced techniques |
-| Diagnosing recurring issues with AI-generated outputs | You are looking for a silver bullet to solve all your development problems |
-| Establishing a baseline for team proficiency with AI-assisted development (GenAI & LLM Handbook) | You are purely exploring LLM capabilities without a defined outcome |
+| ✅ Use This Pattern When...                                      | 🚫 Do Not Use When...                                        |
+| :-------------------------------------------------------------- | :----------------------------------------------------------- |
+| Onboarding new team members to GenAI & LLM Handbook workflows   | You are a seasoned GenAI & LLM Handbook practitioner seeking advanced techniques |
+| Diagnosing recurring issues with AI-generated outputs           | You are looking for a silver bullet to solve all your development problems |
+| Establishing a baseline for team proficiency with AI-assisted development | You are purely exploring LLM capabilities without a defined outcome |
 
 ---
 
@@ -40,9 +40,11 @@ The GenAI & LLM Handbook is a powerful framework, but like any sophisticated too
 Mastery of these prerequisites is critical for effective and safe GenAI & LLM Handbook adoption.
 :::
 
--   **Core Skills**: Proficiency in Logic, Language, Systems, and Sentences (as defined in the [Core Skills](/docs/01-handbook-method/core-skills/00-core-skills-overview) section).
-- **GenAI Literacy**: Understanding of LLM capabilities, limitations, and failure modes (e.g., hallucinations, context window limits).
-- **Domain Knowledge**: Sufficient understanding of the problem domain and technical stack.
+| Prerequisite      | Why it matters                                            | Where to learn                                                |
+| :---------------- | :-------------------------------------------------------- | :------------------------------------------------------------ |
+| Core Skills       | Precision in thinking and writing for AI collaboration    | /docs/01-handbook-method/core-skills/00-core-skills-overview  |
+| GenAI Literacy    | Knowing LLM limits (hallucinations, context, sampling)    | /docs/foundations/02-llm-deep-dive/fundamentals/00-fundamentals-index |
+| Domain Knowledge  | Applying AI safely within your stack and business context | Your team’s stack docs; project specs                         |
 
 ---
 

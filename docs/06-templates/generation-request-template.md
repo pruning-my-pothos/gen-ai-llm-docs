@@ -9,7 +9,7 @@ tags: ["genai-llm", "generation", "prompting", "template"]
 last_reviewed: "2025-12-28"
 ---
 
-# Generation Request Template
+## Generation Request Template
 
 :::info[Value Proposition]
 Formulate precise and structured prompts to AI, combining Intent and Constraints into an executable instruction. This maximizes the relevance and quality of AI-generated outputs, reducing iteration cycles.
@@ -80,6 +80,8 @@ Output only the content of `Button.tsx` as a single TypeScript code block.
 
 ---
 
+---
+
 ## Common Pitfalls
 
 | Pitfall                   | Impact                                   | Correction                                     |
@@ -90,13 +92,15 @@ Output only the content of `Button.tsx` as a single TypeScript code block.
 
 ---
 
+## Quick Links
+
+- Handbook Method: [Overview](/docs/01-handbook-method/01-overview)
+- Generation Requests: [Handbook Method](/docs/01-handbook-method/generation-requests)
+- Intent Spec Template: [Template](/docs/06-templates/intent-spec-template)
+- Constraint Spec Template: [Template](/docs/06-templates/constraint-spec-template)
+- Prompt Skeleton: [Template](/docs/06-templates/prompt-skeleton-template)
+- Prompt Safety Add-ons: [Template](/docs/06-templates/prompt-safety-addons)
+
 ## Next Step
 
-Proceed to **Review & Interrogation**.
-
----
-
-## Last Reviewed / Last Updated
-
-- Last reviewed: 2025-12-28
-- Version: 0.1.0
+Proceed to the [Review & Interrogation Template](/docs/06-templates/review-and-interrogation-template) to evaluate AI outputs.

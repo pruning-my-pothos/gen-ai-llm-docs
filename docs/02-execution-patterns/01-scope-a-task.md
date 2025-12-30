@@ -9,7 +9,7 @@ tags: ["pattern", "scoping", "task-definition"]
 last_reviewed: "2025-12-28"
 ---
 
-# Pattern: Scope a Task
+
 
 :::info[Value Proposition]
 Use this pattern to clearly define the boundaries and expectations of a task for an AI agent or LLM. Proper scoping prevents scope creep, reduces hallucinations, and improves the quality of AI-generated outputs.
@@ -42,6 +42,8 @@ You must have a clear **Intent Spec** and at least a preliminary idea of the **C
 
 - **Artifacts**: Initial Intent Spec, high-level understanding of project constraints.
 - **Context**: A general understanding of the problem domain and desired outcome.
+
+---
 
 ---
 
@@ -81,7 +83,9 @@ flowchart LR
     class A,B,C,D step;
 ```
 
-### Practical Example: Scoping a User Registration API Endpoint
+#---
+
+## Practical Example: Scoping a User Registration API Endpoint
 
 **Objective**: Create a new user registration endpoint.
 
@@ -132,3 +136,15 @@ flowchart LR
 :::danger[Critical Risk]
 Never assume the AI understands implicit context or unstated requirements. Always be explicit.
 :::
+
+---
+
+## Quick Links
+
+- Pattern Index: [Index](/docs/02-execution-patterns/00-pattern-index)
+- Intent Spec Template: [Template](/docs/06-templates/intent-spec-template)
+- Constraint Spec Template: [Template](/docs/06-templates/constraint-spec-template)
+
+## Next Step
+
+Learn how to [Scaffold a Repo](/docs/02-execution-patterns/02-scaffold-a-repo) for a new project.

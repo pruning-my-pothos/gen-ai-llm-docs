@@ -29,15 +29,15 @@ Systems thinking ensures that AI-generated solutions don't break when integrated
 
 ## Overview
 
-In GenAI & LLM Documentation, systems thinking ensures that language-driven execution does not produce isolated solutions that break when integrated, scaled, or maintained. It’s the skill of **understanding the broader context in which your AI-assisted work operates**.
+In GenAI & LLM Handbook, systems thinking ensures that language-driven execution does not produce isolated solutions that break when integrated, scaled, or maintained. It’s the skill of **understanding the broader context in which your AI-assisted work operates**.
 
 AI is good at generating localized solutions. Your job is to make sure those solutions fit into the larger system without causing unintended consequences.
 
 ---
 
-## What “Systems” Means in GenAI & LLM Documentation
+## What “Systems” Means in GenAI & LLM Handbook
 
-Systems in GenAI & LLM Documentation refers to understanding **how components interact over time**.
+Systems in GenAI & LLM Handbook refers to understanding **how components interact over time**.
 
 It means:
 
@@ -46,7 +46,7 @@ It means:
 - considering performance, security, and scalability
 - anticipating failure modes and designing for resilience
 
-GenAI & LLM Documentation treats systems thinking as a safety mechanism.
+GenAI & LLM Handbook treats systems thinking as a safety mechanism.
 
 :::tip[Signal of quality]
 If you can draw an architectural diagram of the system where your AI-generated code will live, your systems thinking is strong.
@@ -68,7 +68,7 @@ If systems context is missing:
 - generated code will cause integration nightmares
 - performance bottlenecks will be introduced silently
 
-GenAI & LLM Documentation treats systems thinking as a safety mechanism.
+GenAI & LLM Handbook treats systems thinking as a safety mechanism.
 
 :::danger[Stop here]
 If your prompt starts with "Generate an isolated microservice...", but you don't define how it talks to existing services, your systems thinking is incomplete.
@@ -76,7 +76,7 @@ If your prompt starts with "Generate an isolated microservice...", but you don't
 
 ---
 
-## Common System Concepts in GenAI & LLM Documentation
+## Common System Concepts in GenAI & LLM Handbook
 
 ### Boundaries and Interfaces
 
@@ -190,7 +190,7 @@ Fix:
 
 ---
 
-## Systems Across the GenAI & LLM Documentation Method
+## Systems Across the GenAI & LLM Handbook Method
 
 - **Discovery Brief**
   Identify system boundaries and stakeholders affected
@@ -242,7 +242,7 @@ During review:
 
 ---
 
-## How to Practice Systems Thinking in GenAI & LLM Documentation
+## How to Practice Systems Thinking in GenAI & LLM Handbook
 
 - Draw data flow diagrams before coding.
 - List all services/APIs a component interacts with.
@@ -254,7 +254,7 @@ During review:
 For a given feature, list all the services, databases, and external APIs it touches. For each, describe its expected input, output, and failure modes.
 :::
 
-This will focus on sentence-level precision and why small wording changes matter disproportionately in GenAI & LLM Documentation.
+This will focus on sentence-level precision and why small wording changes matter disproportionately in GenAI & LLM Handbook.
 
 ---
 

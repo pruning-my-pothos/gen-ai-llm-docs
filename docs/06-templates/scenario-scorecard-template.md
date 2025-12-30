@@ -9,11 +9,13 @@ tags: ["genai-llm", "template", "scorecard", "evaluation"]
 last_reviewed: "2025-12-20"
 ---
 
-# Scenario Scorecard: [Scenario Name]
+## Scenario Scorecard Template
 
-:::info[Instructions]
+:::info[Value Proposition]
 Use this scorecard to grade an end-to-end AI session. Be honest. If you skipped a step, mark it as skipped.
 :::
+
+---
 
 ## 1. Scenario Metadata
 
@@ -84,3 +86,25 @@ Use this scorecard to grade an end-to-end AI session. Be honest. If you skipped 
 - [ ] **Pass** (Process followed + Outcome achieved + Safe)
 - [ ] **Fail** (Safety violation OR Functional failure)
 - [ ] **Audit** (Process skipped, outcome lucky)
+
+---
+
+## Common Pitfalls
+
+| Pitfall                   | Impact                                   | Correction                                     |
+| :------------------------ | :--------------------------------------- | :--------------------------------------------- |
+| **Biased Grading**        | Inaccurate assessment of AI performance. | Ensure objective criteria are used; calibrate scores across reviewers. |
+| **Ignoring Process Hygiene**| Outcome achieved by luck, not methodology. | Strictly adhere to the GenAI & LLM Documentation Loop. |
+| **Vague Retrospective**   | Failing to learn from successes/failures. | Document specific observations, root causes, and actionable improvements. |
+
+---
+
+## Quick Links
+
+- Handbook Method: [Overview](/docs/01-handbook-method/01-overview)
+- Evaluation: [Handbook Method](/docs/01-handbook-method/evaluation)
+- Scenario Template: [Template](/docs/06-templates/scenario-template)
+
+## Next Step
+
+Explore the [Scenario Template](/docs/06-templates/scenario-template) to document a new professional scenario.

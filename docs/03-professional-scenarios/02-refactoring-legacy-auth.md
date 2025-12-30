@@ -9,7 +9,7 @@ tags: ["genai-llm", "scenario", "backend", "refactoring", "brownfield", "securit
 last_reviewed: "2025-12-28"
 ---
 
-# Scenario: Refactoring Legacy Auth
+## Overview
 
 :::info[Value Proposition]
 Safely refactor a critical, complex legacy authentication system without introducing regressions or security vulnerabilities, leveraging AI to generate characterization tests and apply incremental changes.
@@ -100,6 +100,8 @@ Gradually switch traffic and continuously run tests.
 
 ---
 
+---
+
 ## Outcomes and Learnings
 
 -   **Reduced risk**: Incremental changes with test coverage minimize regression risk.
@@ -120,3 +122,16 @@ Gradually switch traffic and continuously run tests.
 :::danger[Critical Risk]
 Security-sensitive refactorings require the highest level of human scrutiny. AI is an assistant, not a replacement for security expertise. Always manually audit critical security components.
 :::
+
+---
+
+## Quick Links
+
+- Handbook Method: [Overview](/docs/01-handbook-method/01-overview)
+- Refactor Safely: [Execution Pattern](/docs/02-execution-patterns/05-refactor-safely)
+- The Strangler Refactor: [Execution Pattern](/docs/02-execution-patterns/02-strangler-refactor)
+- Constraint Spec: [Handbook Method](/docs/01-handbook-method/constraint-spec)
+
+## Next Step
+
+Learn how to effectively [Write a PRD](/docs/03-professional-scenarios/00-scenarios-index) for your product.

@@ -9,7 +9,7 @@ tags: ["genai-llm", "evaluation", "quality", "metrics", "testing"]
 last_reviewed: "2025-12-28"
 ---
 
-# Evaluation Overview
+
 
 :::info[Value Proposition]
 Evaluation shifts "looks good" to "is good," providing objective evidence that AI-assisted work meets quality and performance criteria.
@@ -17,7 +17,7 @@ Evaluation shifts "looks good" to "is good," providing objective evidence that A
 
 ## Overview
 
-In AI-assisted development, evaluation is not an afterthought; it's a continuous, integral part of the workflow. The goal is to move beyond subjective "vibes" and establish objective, measurable criteria for assessing the quality, safety, and effectiveness of both the AI's outputs and the overall GenAI & LLM Documentation process.
+In AI-assisted development, evaluation is not an afterthought; it's a continuous, integral part of the workflow. The goal is to move beyond subjective "vibes" and establish objective, measurable criteria for assessing the quality, safety, and effectiveness of both the AI's outputs and the overall GenAI & LLM Handbook process.
 
 **Goal**: Systematically measure and improve the reliability and value of AI-generated artifacts.
 **Anti-pattern**: Relying on manual spot-checks or purely anecdotal evidence for quality assurance.
@@ -45,15 +45,17 @@ You must have clearly defined **Intent Specs** and **Acceptance Criteria**. With
 
 ---
 
+---
+
 ## The Three Altitudes of Evaluation
 
-We evaluate GenAI & LLM Documentation artifacts at three altitudes:
+We evaluate GenAI & LLM Handbook artifacts at three altitudes:
 
 1.  **Artifact-Level Evaluation**: Does the specific output meet its technical and functional requirements?
     -   **Tools**: Unit tests, integration tests, linting, type checks.
     -   **Method**: `docs/08-evaluation/01-quality-rubric.md`
 
-2.  **Process-Level Evaluation**: Is the GenAI & LLM Documentation workflow (the Loop) being followed effectively? Are human steps performed correctly?
+2.  **Process-Level Evaluation**: Is the GenAI & LLM Handbook workflow (the Loop) being followed effectively? Are human steps performed correctly?
     -   **Tools**: Checklists, review protocols.
     -   **Method**: `docs/08-evaluation/03-human-review-protocols.md`
 
@@ -63,14 +65,16 @@ We evaluate GenAI & LLM Documentation artifacts at three altitudes:
 
 ---
 
+---
+
 ## Key Principles of Evaluation
 
 -   **Objective Criteria**: Use measurable facts over subjective opinions.
 -   **Evidence-Based**: Every evaluation must be supported by verifiable data.
--   **Continuous Feedback**: Integrate evaluation insights back into the GenAI & LLM Documentation Loop for improvement.
+-   **Continuous Feedback**: Integrate evaluation insights back into the GenAI & LLM Handbook Loop for improvement.
 -   **Right Tool for the Job**: Apply appropriate evaluation methods at each altitude.
 
-GenAI & LLM Documentation replaces vibes with **Rubrics** and **Scorecards**.
+GenAI & LLM Handbook replaces vibes with **Rubrics** and **Scorecards**.
 
 ---
 
@@ -101,7 +105,7 @@ GenAI & LLM Documentation replaces vibes with **Rubrics** and **Scorecards**.
 | Pitfall                   | Impact                                   | Correction                                     |
 | :------------------------ | :--------------------------------------- | :--------------------------------------------- |
 | **Subjective Evaluation** | Inconsistent quality, "bugs" based on opinion. | Develop clear, objective rubrics and checklists. |
-| **Late Evaluation**       | Costly fixes, wasted AI generation cycles. | Integrate evaluation early and continuously into the GenAI & LLM Documentation Loop. |
+| **Late Evaluation**       | Costly fixes, wasted AI generation cycles. | Integrate evaluation early and continuously into the GenAI & LLM Handbook Loop. |
 | **Ignoring Human Factors** | Blaming AI for human specification errors. | Evaluate the entire human-AI process, not just the AI's output. |
 
 :::danger[Critical Risk]

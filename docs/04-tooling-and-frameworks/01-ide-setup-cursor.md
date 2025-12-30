@@ -9,7 +9,7 @@ tags: ["genai-llm", "tooling", "cursor", "ide", "setup"]
 last_reviewed: "2025-12-28"
 ---
 
-# IDE Setup: Cursor
+## IDE Setup: Cursor
 
 :::info[Value Proposition]
 Cursor is currently the preferred IDE for GenAI & LLM Documentation because it treats **Context Injection** as a first-class feature. You can explicitly reference your specs using `@Symbols`, making the GenAI & LLM Documentation Loop frictionless.
@@ -68,6 +68,8 @@ If working with sensitive data, configure Cursor to use a local LLM (e.g., via O
 
 ---
 
+---
+
 ## The GenAI & LLM Documentation Workflow in Cursor
 
 1.  **Context Injection**: Highlight relevant code, open your `Intent Spec.md` and `Constraint Spec.md` files.
@@ -75,6 +77,8 @@ If working with sensitive data, configure Cursor to use a local LLM (e.g., via O
 3.  **Chat**: Discuss specific sections of code with the AI, asking for explanations, refactorings, or tests, always grounding the conversation in your specs.
 4.  **Review Diff**: Cursor's integrated diff viewer makes it easy to review AI-generated changes before accepting them.
 5.  **Iterate**: If the output isn't perfect, refine your prompt or specs, and regenerate.
+
+---
 
 ---
 
@@ -97,6 +101,8 @@ If working with sensitive data, configure Cursor to use a local LLM (e.g., via O
 
 ---
 
+---
+
 ## Common Pitfalls
 
 | Pitfall                   | Impact                                   | Correction                                     |
@@ -107,7 +113,12 @@ If working with sensitive data, configure Cursor to use a local LLM (e.g., via O
 
 ---
 
-## Last Reviewed / Last Updated
+## Quick Links
 
-- Last reviewed: 2025-12-28
-- Version: 0.1.0
+- Tooling Index: [Index](/docs/04-tooling-and-frameworks/00-tooling-index)
+- Intent Spec: [Handbook Method](/docs/01-handbook-method/intent-spec)
+- Constraint Spec: [Handbook Method](/docs/01-handbook-method/constraint-spec)
+
+## Next Step
+
+Explore [CLI Agents](/docs/04-tooling-and-frameworks/02-cli-agents) for automating larger tasks.

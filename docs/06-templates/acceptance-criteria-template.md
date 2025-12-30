@@ -9,7 +9,7 @@ tags: ["genai-llm", "acceptance", "qa", "template"]
 last_reviewed: "2025-12-28"
 ---
 
-# Acceptance Criteria Template
+## Acceptance Criteria Template
 
 :::info[Value Proposition]
 Define objective, measurable conditions that must be met for an AI-generated output to be considered "done." This transforms subjective "looks good" into evidence-based "is good," preventing premature acceptance and ensuring quality.
@@ -100,17 +100,37 @@ Acceptance Criteria are the objective standards against which AI-generated artif
 
 ---
 
+---
+
 ## Common Pitfalls
 
+
+
 | Pitfall                   | Impact                                   | Correction                                     |
+
 | :------------------------ | :--------------------------------------- | :--------------------------------------------- |
+
 | **Vague Criteria**        | Subjective interpretation, inconsistent quality. | Make criteria specific, measurable, achievable, relevant, time-bound (SMART). |
+
 | **Testing Implementation Details** | Criteria break with internal refactors.  | Focus on observable behavior, not internal logic. |
+
 | **Ignoring Non-Functional Requirements** | Performance, security, or usability issues. | Explicitly include non-functional criteria where relevant. |
+
+
 
 ---
 
-## Last Reviewed / Last Updated
 
-- Last reviewed: 2025-12-28
-- Version: 0.1.0
+
+## Quick Links
+
+- Handbook Method: [Overview](/docs/01-handbook-method/01-overview)
+- Acceptance Criteria: [Handbook Method](/docs/01-handbook-method/acceptance-criteria)
+- Quality Rubric Template: [Template](/docs/06-templates/quality-rubric-template)
+- Review & Interrogation Template: [Template](/docs/06-templates/review-and-interrogation-template)
+- Prompt Skeleton: [Template](/docs/06-templates/prompt-skeleton-template)
+- Prompt Safety Add-ons: [Template](/docs/06-templates/prompt-safety-addons)
+
+## Next Step
+
+Explore the [Constraint Spec Template](/docs/06-templates/constraint-spec-template) for defining technical boundaries, then capture learnings in the [Iteration Log Template](/docs/06-templates/iteration-log-template).

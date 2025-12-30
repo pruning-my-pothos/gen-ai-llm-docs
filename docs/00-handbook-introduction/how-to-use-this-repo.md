@@ -26,32 +26,17 @@ The GenAI & LLM Handbook is a professional practice. This repo supports:
 
 ---
 
-## Repository Structure
+## Repository Structure (Action-First)
 
-This repository is organized to help you navigate from foundational concepts to practical application.
-
--   **Start Here**
-    _What the GenAI & LLM Handbook is, who it is for, and how the framework fits together_
--   **Core Skills**
-    _What you must be able to think and write to use the GenAI & LLM Handbook effectively_
--   **Fundamentals**
-    _Enough GenAI and LLM theory to avoid misuse_
--   **The GenAI & LLM Handbook Method**
-    _How work flows from problem to acceptance using GenAI & LLM Handbook artifacts_
--   **Execution Patterns**
-    _Reusable ways to apply the GenAI & LLM Handbook to common tasks_
--   **Professional Scenarios**
-    _Real-world examples of the GenAI & LLM Handbook in action for different roles_
--   **Guardrails & Governance**
-    _How to use GenAI responsibly, securely, and in compliance_
--   **Evaluation**
-    _How to objectively measure the quality and impact of GenAI-assisted work_
--   **Templates**
-    _Ready-to-use templates for common artifacts (PRDs, specs, acceptance criteria)_
--   **Tooling**
-    _How the GenAI & LLM Handbook is executed using CLI copilots, LLM frameworks, and local setups_
--   **Experiments**
-    _Evidence from real usage, including failures and learnings_
+- **Start Here** — What it is, who it’s for, how to navigate.
+- **Handbook Method** — Loop, artifacts, core skills, evaluation library.
+- **Execution Patterns** — Reusable recipes for common tasks.
+- **Professional Scenarios** — Role/industry application.
+- **Tooling & Frameworks** — CLI/IDE, agents, frameworks, local-first.
+- **Responsible AI** — Safety, governance, risk.
+- **Foundations** — Reference background on GenAI/LLM/NLP.
+- **Templates** — Canonical artifacts and checklists.
+- **Meta** — Agents, changelog, license.
 
 ---
 
@@ -59,22 +44,31 @@ This repository is organized to help you navigate from foundational concepts to 
 
 ### If you are new to the GenAI & LLM Handbook:
 
-1. **What is GenAI & LLM**: `docs/00-handbook-introduction/what-is-genai-llm.md`
-2.  **Who this is for**: `docs/00-handbook-introduction/01-who-this-is-for.md`
-3. **The GenAI & LLM Map**: `docs/00-handbook-introduction/genai-llm-map.md`
+1. **What it is**: /docs/00-handbook-introduction/what-is-genai-llm
+2. **Who this is for**: /docs/00-handbook-introduction/who-this-is-for
+3. **The Handbook Map**: /docs/00-handbook-introduction/genai-llm-map
 
 ### If you want to apply the GenAI & LLM Handbook immediately:
 
-1. **The GenAI & LLM Handbook Loop**: `docs/01-handbook-method/the-genai-llm-loop.md`
-2.  Pick an **Execution Pattern** that matches your current task: `docs/04-patterns/00-pattern-index.md`
-3. Cross-reference with the map in `docs/00-handbook-introduction/genai-llm-map.md`
+1. **The Handbook Loop**: /docs/01-handbook-method/the-genai-llm-loop
+2. Pick an **Execution Pattern**: /docs/02-execution-patterns/00-pattern-index
+3. Use **Templates**: /docs/06-templates/00-templates-index
 
 ### If you want to master the GenAI & LLM Handbook:
 
-1.  Start with **Core Skills**: `docs/01-core-skills/00-core-skills-overview.md`
-2. Dive deep into the **GenAI & LLM Handbook Method**: `docs/01-handbook-method/the-genai-llm-loop.md`
-3.  Explore **Professional Scenarios**: `docs/05-scenarios/00-scenarios-index.md`
-4.  Master **Guardrails & Governance**: `docs/07-guardrails/guardrails-index.md`
+1. **Core Skills**: /docs/01-handbook-method/core-skills/00-core-skills-overview
+2. **Handbook Method (deep dive)**: /docs/01-handbook-method/the-genai-llm-loop
+3. **Professional Scenarios**: /docs/03-professional-scenarios
+4. **Responsible AI**: /docs/05-responsible-ai/index
+
+## Quick Paths (choose your intent)
+
+| Intent                    | Go here first                                         | Then…                                               |
+| :------------------------ | :---------------------------------------------------- | :-------------------------------------------------- |
+| New to the handbook       | /docs/00-handbook-introduction/what-is-genai-llm      | Map → Scope → Prereqs → Loop                        |
+| Ship something now        | /docs/01-handbook-method/the-genai-llm-loop           | Pick a pattern → Use templates → Review & verify    |
+| Build confidence/governance | /docs/05-responsible-ai/index                        | Add evaluation rubrics → Apply guardrails           |
+| Deepen fundamentals       | /docs/foundations/02-llm-deep-dive/fundamentals/00-fundamentals-index | Revisit core skills → Experiment safely             |
 
 ---
 

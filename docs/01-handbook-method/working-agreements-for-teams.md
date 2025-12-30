@@ -9,15 +9,15 @@ tags: ["genai-llm", "teams", "governance", "culture", "method"]
 last_reviewed: "2025-12-28"
 ---
 
-# Working Agreements for Teams
+
 
 :::info[Value Proposition]
-Establish clear, shared rules for how a team will collaborate with AI. These agreements foster a culture of accountability, trust, and effective AI integration, preventing friction and maximizing the benefits of GenAI & LLM Documentation.
+Establish clear, shared rules for how a team will collaborate with AI. These agreements foster a culture of accountability, trust, and effective AI integration, preventing friction and maximizing the benefits of GenAI & LLM Handbook.
 :::
 
 ## Overview
 
-Integrating AI into a team's workflow isn't just a technical challenge; it's a cultural one. Without explicit agreements, individuals may develop inconsistent practices, leading to misunderstandings, duplicated effort, and a breakdown in trust. This document provides a template for creating working agreements tailored to GenAI & LLM Documentation, ensuring everyone on the team operates with a shared understanding of roles, responsibilities, and best practices.
+Integrating AI into a team's workflow isn't just a technical challenge; it's a cultural one. Without explicit agreements, individuals may develop inconsistent practices, leading to misunderstandings, duplicated effort, and a breakdown in trust. This document provides a template for creating working agreements tailored to GenAI & LLM Handbook, ensuring everyone on the team operates with a shared understanding of roles, responsibilities, and best practices.
 
 **Goal**: Define clear team expectations for AI-assisted work, promoting consistency and collaboration.
 **Anti-pattern**: Each team member developing their own ad-hoc AI workflow, leading to siloed knowledge and unpredictable outcomes.
@@ -29,7 +29,7 @@ Integrating AI into a team's workflow isn't just a technical challenge; it's a c
 | ✅ Use This Pattern When...           | 🚫 Do Not Use When...                     |
 | :------------------------------------ | :---------------------------------------- |
 | Onboarding new team members to AI-assisted workflows | You are a solo developer (though some principles still apply) |
-| Starting a new project with AI integration | The team has already established and consistently follows GenAI & LLM Documentation practices |
+| Starting a new project with AI integration | The team has already established and consistently follows GenAI & LLM Handbook practices |
 | Diagnosing team-wide inefficiencies in AI-assisted work | The issues are purely technical and not related to workflow or collaboration |
 
 ---
@@ -37,7 +37,7 @@ Integrating AI into a team's workflow isn't just a technical challenge; it's a c
 ## Prerequisites
 
 :::warning[Before you start]
-Team members should have a basic understanding of the GenAI & LLM Documentation Loop and core artifacts.
+Team members should have a basic understanding of the GenAI & LLM Handbook Loop and core artifacts.
 :::
 
 -   **Artifacts**: Basic understanding of team roles and existing collaboration tools.
@@ -45,17 +45,19 @@ Team members should have a basic understanding of the GenAI & LLM Documentation 
 
 ---
 
+---
+
 ## The Pattern (Step-by-Step)
 
 ### Step 1: Discuss Core Principles
 
-Facilitate a discussion on the foundational principles of GenAI & LLM Documentation: Human in Command, Transparency, Evidence-Driven. Ensure everyone understands and agrees.
+Facilitate a discussion on the foundational principles of GenAI & LLM Handbook: Human in Command, Transparency, Evidence-Driven. Ensure everyone understands and agrees.
 
 > **Practical Insight**: Start with "Why are we doing this?" Frame AI as a tool to amplify human capability, not replace it.
 
 ### Step 2: Define Roles and Responsibilities for AI-Assisted Tasks
 
-Clarify who is responsible for each step of the GenAI & LLM Documentation Loop. Who writes the Intent Spec? Who reviews? Who accepts?
+Clarify who is responsible for each step of the GenAI & LLM Handbook Loop. Who writes the Intent Spec? Who reviews? Who accepts?
 
 > "The Product Manager is responsible for the Intent Spec. The Engineer is responsible for the Constraint Spec and Generation Request. Code Owners are responsible for Review and Acceptance."
 
@@ -90,6 +92,8 @@ flowchart LR
 
 ---
 
+---
+
 ## Practical Example: Working Agreements for a Development Team
 
 **Objective**: Establish working agreements for a development team integrating GenAI into their daily workflow.
@@ -115,11 +119,11 @@ flowchart LR
 
 **5. Continuous Learning and Sharing:**
 -   **We agree to** share successful prompts, patterns, and learnings related to AI-assisted development.
--   **We will actively** contribute new patterns, scenarios, and templates to our GenAI & LLM Documentation repository.
+-   **We will actively** contribute new patterns, scenarios, and templates to our GenAI & LLM Handbook repository.
 
 **6. Feedback Loop:**
 -   **We agree to** provide constructive feedback on AI outputs and the clarity of our own prompts. This feedback will be used to refine our specs and improve future AI interactions.
--   **We will use** our team retrospectives to discuss our GenAI & LLM Documentation practices and identify areas for improvement.
+-   **We will use** our team retrospectives to discuss our GenAI & LLM Handbook practices and identify areas for improvement.
 ```
 
 ---
@@ -129,12 +133,17 @@ flowchart LR
 | Pitfall                   | Impact                                   | Correction                                     |
 | :------------------------ | :--------------------------------------- | :--------------------------------------------- |
 | **Lack of Buy-in**        | Agreements are ignored, inconsistent practices persist. | Involve the entire team in creating and refining agreements; ensure leadership support. |
-| **Agreements are Static** | Practices become outdated, new friction emerges. | Regularly review and adapt agreements based on experience and evolving AI capabilities. |
+| **Agreements are Static** | Practices become outdated, new friction emerges. | Regularly review and adapt agreements based on experience and new learnings. |
 | **Focusing Only on Rules**| Agreements feel restrictive, stifling innovation. | Balance rules with principles that encourage safe experimentation and learning. |
 
 ---
 
-## Last Reviewed / Last Updated
+## Quick Links
 
-- Last reviewed: 2025-12-28
-- Version: 0.1.0
+- Handbook Method: [Overview](/docs/01-handbook-method/01-overview)
+- Accountability and Delegation: [Handbook Method](/docs/01-handbook-method/accountability-and-delegation)
+- Delegation Contract Template: [Template](/docs/06-templates/delegation-contract-template)
+
+## Next Step
+
+Return to the [Handbook Method Overview](/docs/01-handbook-method/01-overview) to explore other foundational concepts.

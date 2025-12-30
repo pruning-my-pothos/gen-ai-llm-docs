@@ -28,10 +28,10 @@ Logic defines the "rules of the game" for AI. If your rules are fuzzy, your AI w
 
 ## Overview
 
-Logic is the backbone of GenAI & LLM Documentation.
+Logic is the backbone of GenAI & LLM Handbook.
 It’s the skill of **defining clear, unambiguous rules for an AI to follow**. AI operates by a form of logic, but it’s fuzzy and probabilistic. Your job, as the human, is to provide the crisp, deterministic logic that governs its actions.
 
-In GenAI & LLM Documentation, logic governs:
+In GenAI & LLM Handbook, logic governs:
 
 - how intent is translated into execution steps
 - how constraints define boundaries
@@ -40,9 +40,9 @@ In GenAI & LLM Documentation, logic governs:
 
 ---
 
-## What Logic Means in GenAI & LLM Documentation
+## What Logic Means in GenAI & LLM Handbook
 
-Logic in GenAI & LLM Documentation is **not formal proofs or math-heavy reasoning**.
+Logic in GenAI & LLM Handbook is **not formal proofs or math-heavy reasoning**.
 
 It means:
 
@@ -51,7 +51,7 @@ It means:
 - establishing consistent rules and principles
 - structuring prompts and specs to avoid contradictions
 
-GenAI & LLM Documentation treats logical clarity as a **preventative control**.
+GenAI & LLM Handbook treats logical clarity as a **preventative control**.
 
 :::tip[Signal of quality]
 If you can draw a flowchart or decision tree of your prompt, your logic is probably good.
@@ -73,7 +73,7 @@ If logic is fuzzy:
 - constraints will be ignored or misinterpreted
 - errors will be harder to trace
 
-GenAI & LLM Documentation treats logical clarity as a **preventative control**.
+GenAI & LLM Handbook treats logical clarity as a **preventative control**.
 
 :::danger[Stop here]
 If your prompt contains "AI should figure out...", your logic is incomplete.
@@ -81,7 +81,7 @@ If your prompt contains "AI should figure out...", your logic is incomplete.
 
 ---
 
-## Common Logical Constructs in GenAI & LLM Documentation
+## Common Logical Constructs in GenAI & LLM Handbook
 
 ### Conditional Statements (If-Then-Else)
 
@@ -115,7 +115,7 @@ Example:
 
 - "PRECONDITION: `user_id` exists in the database. POSTCONDITION: `user_record` is updated."
 
-GenAI & LLM Documentation logic requires ordering to be explicit.
+GenAI & LLM Handbook logic requires ordering to be explicit.
 
 ---
 
@@ -166,9 +166,9 @@ Fix:
 
 ---
 
-## Logic Across the GenAI & LLM Documentation Method
+## Logic Across the GenAI & LLM Handbook Method
 
-Logic appears at every stage of GenAI & LLM Documentation:
+Logic appears at every stage of GenAI & LLM Handbook:
 
 - **Discovery Brief**
   Identify the core problem and its boundaries
@@ -221,7 +221,7 @@ Fix the logic in your prompt, not just the AI's output.
 
 ---
 
-## How to Practice Logic in GenAI & LLM Documentation
+## How to Practice Logic in GenAI & LLM Handbook
 
 - Draw flowcharts for complex processes.
 - List preconditions and postconditions for functions.

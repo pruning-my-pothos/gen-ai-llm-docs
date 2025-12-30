@@ -12,12 +12,12 @@ last_reviewed: "2025-12-20"
 # Common Skill Gaps
 
 :::info[Why this matters]
-Most GenAI & LLM Documentation failures are not caused by bad tools or weak models. They are caused by human skill gaps that go unaddressed.
+Most GenAI & LLM Handbook failures are not caused by bad tools or weak models. They are caused by human skill gaps that go unaddressed.
 :::
 
 ## Overview
 
-Most GenAI & LLM Documentation failures are not caused by bad tools or weak models.
+Most GenAI & LLM Handbook failures are not caused by bad tools or weak models.
 They are caused by **human skill gaps**.
 
 Common issues:
@@ -35,7 +35,7 @@ These lead to:
 - accidental scope creep
 - plausible but incorrect outputs
 
-GenAI & LLM Documentation assumes gaps are normal and fixable, but only if they are visible.
+GenAI & LLM Handbook assumes gaps are normal and fixable, but only if they are visible.
 
 ---
 
@@ -48,7 +48,7 @@ The challenge is not with the AI, but with human cognitive biases:
 - **Recency bias**: "The last thing it said was good, so it's probably right."
 - **Overconfidence**: "I'm a good engineer; I know what good looks like."
 
-GenAI & LLM Documentation provides mechanisms to counteract these biases.
+GenAI & LLM Handbook provides mechanisms to counteract these biases.
 
 ---
 
@@ -124,8 +124,8 @@ Have others review your prompts and specs, not just the AI's output.
 ## Conclusion
 
 Skill gaps are normal. What matters is how you address them.
-GenAI & LLM Documentation provides the framework to identify and systematically improve.
-This is GenAI & LLM Documentation working as intended.
+GenAI & LLM Handbook provides the framework to identify and systematically improve.
+This is GenAI & LLM Handbook working as intended.
 
 ---
 

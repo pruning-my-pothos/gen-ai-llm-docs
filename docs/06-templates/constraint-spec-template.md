@@ -9,7 +9,7 @@ tags: ["genai-llm", "constraints", "boundaries", "template"]
 last_reviewed: "2025-12-28"
 ---
 
-# Constraint Spec Template
+## Constraint Spec Template
 
 :::info[Value Proposition]
 Encode all non-negotiable boundaries, technical requirements, and guardrails for an AI-assisted task. This prevents AI overreach, ensures compliance with architectural standards, and mitigates risks from hallucinations or unintended behavior.
@@ -90,6 +90,8 @@ The Constraint Spec (Constraint Specification) is a critical artifact in the Gen
 
 ---
 
+---
+
 ## Common Pitfalls
 
 | Pitfall                   | Impact                                   | Correction                                     |
@@ -100,13 +102,15 @@ The Constraint Spec (Constraint Specification) is a critical artifact in the Gen
 
 ---
 
+## Quick Links
+
+- Handbook Method: [Overview](/docs/01-handbook-method/01-overview)
+- Constraint Spec: [Handbook Method](/docs/01-handbook-method/constraint-spec)
+- Greenfield AI/LLM Service: [Professional Scenario](/docs/03-professional-scenarios/engineering/01-greenfield-service)
+- Intent Spec Template: [Template](/docs/06-templates/intent-spec-template)
+- Delegation Contract Template: [Template](/docs/06-templates/delegation-contract-template)
+- Prompt Safety Add-ons: [Template](/docs/06-templates/prompt-safety-addons)
+
 ## Next Step
 
-Proceed to defining the **Generation Request**.
-
----
-
-## Last Reviewed / Last Updated
-
-- Last reviewed: 2025-12-28
-- Version: 0.1.0
+Explore the [Delegation Contract Template](/docs/06-templates/delegation-contract-template) to define AI's role and permissions, or proceed to the [Generation Request Template](/docs/06-templates/generation-request-template) to turn Intent and Constraints into an executable prompt.

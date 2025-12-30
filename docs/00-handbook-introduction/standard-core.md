@@ -36,12 +36,22 @@ The GenAI & LLM Handbook standard is comprehensive, but you don't need to read e
 
 ## Standard Core Documents
 
--   **What is GenAI & LLM**: `docs/00-handbook-introduction/what-is-genai-llm.md` (Explains the core philosophy and approach)
--   **Scope and Applicability**: `docs/00-handbook-introduction/scope-and-applicability.md` (Defines when to apply the GenAI & LLM Handbook)
--   **Prerequisites and Entry Criteria**: `docs/00-handbook-introduction/prerequisites-and-entry-criteria.md` (Ensures you have the necessary skills)
--   **Accountability and Delegation**: `docs/01-handbook-method/10-accountability-and-delegation.md` (Clarifies human roles and responsibilities)
--   **GenAI & LLM Handbook Process Model (Loop Spec)**: `docs/01-handbook-method/genai-llm-loop-spec.md` (The step-by-step workflow)
--   **Artifact Contracts**: `docs/01-handbook-method/12-artifact-contracts.md` (Defines the outputs of each step)
+| Document                                                | How to use it                                                     |
+| :------------------------------------------------------ | :---------------------------------------------------------------- |
+| **What is GenAI & LLM**                                 | Anchor the philosophy and scope before applying the handbook      |
+| **Scope and Applicability**                             | Decide when full rigor is required                                |
+| **Prerequisites and Entry Criteria**                    | Confirm readiness before using the method                         |
+| **Accountability and Delegation**                       | Clarify roles and responsibilities                                |
+| **Handbook Loop Spec**                                  | Follow the step-by-step workflow                                  |
+| **Artifact Contracts**                                  | Align on expected outputs for each step                           |
+
+Paths:
+- `/docs/00-handbook-introduction/what-is-genai-llm`
+- `/docs/00-handbook-introduction/scope-and-applicability`
+- `/docs/00-handbook-introduction/prerequisites-and-entry-criteria`
+- `/docs/01-handbook-method/accountability-and-delegation`
+- `/docs/01-handbook-method/genai-llm-loop-spec`
+- `/docs/01-handbook-method/artifact-contracts`
 
 ---
 

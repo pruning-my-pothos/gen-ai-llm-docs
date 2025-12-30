@@ -12,7 +12,7 @@ last_reviewed: "2025-12-20"
 # Language
 
 :::info[Core idea]
-In GenAI & LLM Documentation, language is a specification medium. Ambiguity is a defect, not a style choice.
+In GenAI & LLM Handbook, language is a specification medium. Ambiguity is a defect, not a style choice.
 :::
 
 ## At a Glance
@@ -28,7 +28,7 @@ In GenAI & LLM Documentation, language is a specification medium. Ambiguity is a
 
 ## Overview
 
-In GenAI & LLM Documentation, language is not a communication aid.
+In GenAI & LLM Handbook, language is not a communication aid.
 It is a **specification medium**.
 
 AI systems interpret language as instructions under uncertainty. The quality of outcomes depends less on verbosity and more on **clarity, structure, and intent**.
@@ -37,9 +37,9 @@ Language determines whether logic is expressed faithfully or distorted during ex
 
 ---
 
-## What Language Means in GenAI & LLM Documentation
+## What Language Means in GenAI & LLM Handbook
 
-Language in GenAI & LLM Documentation is **deliberate and constrained**.
+Language in GenAI & LLM Handbook is **deliberate and constrained**.
 
 It means:
 
@@ -70,7 +70,7 @@ If language is loose:
 - ambiguity becomes behavior
 - review becomes guesswork
 
-GenAI & LLM Documentation assumes **every unclear phrase is a potential defect**.
+GenAI & LLM Handbook assumes **every unclear phrase is a potential defect**.
 
 :::danger[Stop here]
 If you see adjectives like “clean”, “robust”, or “optimize” without measurable anchors, rewrite before generating.
@@ -83,7 +83,7 @@ If you see adjectives like “clean”, “robust”, or “optimize” without 
 Conversational language optimizes for flow.
 Specification language optimizes for correctness.
 
-GenAI & LLM Documentation favors:
+GenAI & LLM Handbook favors:
 
 - declarative statements over narrative
 - explicit constraints over implied preferences
@@ -94,7 +94,7 @@ First, be precise.
 
 ---
 
-## Core Language Principles in GenAI & LLM Documentation
+## Core Language Principles in GenAI & LLM Handbook
 
 ### Explicitness Over Brevity
 
@@ -201,7 +201,7 @@ This increases misinterpretation risk.
 
 ---
 
-## Language Across the GenAI & LLM Documentation Method
+## Language Across the GenAI & LLM Handbook Method
 
 - **Discovery Brief**
   Clarify the problem space without solution bias
@@ -248,7 +248,7 @@ Do not “fix” output without fixing language first.
 
 ---
 
-## How to Practice Language in GenAI & LLM Documentation
+## How to Practice Language in GenAI & LLM Handbook
 
 - Rewrite intent until it can be tested
 - Read specs as if you disagree with them

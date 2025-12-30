@@ -9,11 +9,13 @@ tags: ["genai-llm", "experiment", "lab", "[topic]"]
 last_reviewed: "YYYY-MM-DD"
 ---
 
-# Experiment: [Experiment Name]
+## Experiment Template
 
 :::info[Hypothesis]
 We believe that [doing X] with [Model Y] will result in [Outcome Z].
 :::
+
+---
 
 ## Context
 
@@ -29,6 +31,8 @@ Briefly describe the environment and inputs.
 
 - **Input Artifacts**: [e.g., Intent Spec v0.1]
 - **Prompt Strategy**: [e.g., Chain of thought, direct delegation]
+
+---
 
 ---
 
@@ -62,6 +66,8 @@ We updated the [Constraint Spec] to explicitly forbid [X].
 
 ---
 
+---
+
 ## Results Analysis
 
 | Metric          | Expected | Actual |
@@ -69,6 +75,8 @@ We updated the [Constraint Spec] to explicitly forbid [X].
 | **Correctness** | 100%     | 90%    |
 | **Speed**       | Fast     | Slow   |
 | **Safety**      | High     | Medium |
+
+---
 
 ---
 
@@ -89,7 +97,23 @@ The core lesson from this experiment is...
 
 ---
 
-## Last Reviewed / Last Updated
+## Common Pitfalls
 
-- Last reviewed: YYYY-MM-DD
-- Version: 0.1.0
+| Pitfall                   | Impact                                   | Correction                                     |
+| :------------------------ | :--------------------------------------- | :--------------------------------------------- |
+| **Vague Hypothesis**      | Inconclusive experiment results.         | Ensure hypothesis is specific, measurable, actionable, relevant, and time-bound (SMART). |
+| **Lack of Clear Metrics** | Unable to objectively evaluate outcome.  | Define success/failure metrics upfront.       |
+| **Ignoring Constraints**  | AI operates outside defined boundaries.  | Explicitly define constraints in the setup.    |
+| **Insufficient Iteration**| Stuck on initial failed attempts.        | Embrace iterative approach; learn from failures, adjust. |
+
+---
+
+## Quick Links
+
+- Handbook Method: [Overview](/docs/01-handbook-method/01-overview)
+- Experiment Template: [Template](/docs/06-templates/experiment-template)
+- Iteration & Release: [Handbook Method](/docs/01-handbook-method/iteration-and-release)
+
+## Next Step
+
+Explore the [Generation Request Template](/docs/06-templates/generation-request-template) for structuring prompts.

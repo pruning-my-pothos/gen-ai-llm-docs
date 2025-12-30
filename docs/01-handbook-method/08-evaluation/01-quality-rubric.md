@@ -19,7 +19,7 @@ This rubric converts "it looks good" into a measurable score. Use it to grade AI
 
 AI outputs are often "plausible but wrong." A binary Pass/Fail is sometimes insufficient for tracking progress or comparing models.
 
-The **GenAI & LLM Documentation Quality Rubric** evaluates artifacts across four dimensions:
+The **GenAI & LLM Handbook Quality Rubric** evaluates artifacts across four dimensions:
 
 1. **Correctness**: Does it do the right thing?
 2. **Safety**: Does it respect boundaries?

@@ -9,7 +9,7 @@ tags: ["pattern", "migrations", "upgrades", "database", "data-transformation"]
 last_reviewed: "2025-12-28"
 ---
 
-# Pattern: Migrations and Upgrades
+
 
 :::info[Value Proposition]
 Use this pattern to manage database schema changes, data transformations, or dependency upgrades systematically. AI can assist in generating migration scripts, identifying compatibility issues, and suggesting upgrade paths, reducing downtime and data loss risks.
@@ -42,6 +42,8 @@ You must have a robust backup strategy and a testing environment that mirrors pr
 
 - **Artifacts**: Current schema, desired new schema or data transformation rules. Constraint Spec (database type, migration tool, acceptable downtime, rollback strategy).
 - **Context**: Deep understanding of data dependencies, application behavior, and potential impact on downstream systems.
+
+---
 
 ---
 
@@ -81,7 +83,9 @@ flowchart LR
     class A,B,C,D step;
 ```
 
-### Practical Example: Database Schema Migration (PostgreSQL)
+#---
+
+## Practical Example: Database Schema Migration (PostgreSQL)
 
 **Objective**: Add a new `last_login` timestamp column to the `users` table and populate it.
 
@@ -147,3 +151,15 @@ flowchart LR
 :::danger[Critical Risk]
 Never run AI-generated migration scripts directly on a production database without thorough review, testing in a non-production environment, and a verified backup. Data loss can be irreversible.
 :::
+
+---
+
+## Quick Links
+
+- Pattern Index: [Index](/docs/02-execution-patterns/00-pattern-index)
+- Data Modeling: [Execution Pattern](/docs/02-execution-patterns/04-data-modeling)
+- Refactor Safely: [Execution Pattern](/docs/02-execution-patterns/05-refactor-safely)
+
+## Next Step
+
+Return to the [Pattern Index](/docs/02-execution-patterns/00-pattern-index) to explore more execution patterns.

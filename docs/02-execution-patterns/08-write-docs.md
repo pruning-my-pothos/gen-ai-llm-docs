@@ -9,7 +9,7 @@ tags: ["pattern", "documentation", "writing"]
 last_reviewed: "2025-12-28"
 ---
 
-# Pattern: The Doc-Smith
+
 
 :::info[Value Proposition]
 Use this pattern to generate accurate, maintainable documentation from code. It prevents the "docs drift" where documentation lags behind reality.
@@ -42,6 +42,10 @@ The code must be stable. Do not document code that is about to change.
 
 - **Input**: The actual source code files.
 - **Style Guide**: A brief definition of tone (e.g., "Terse, professional").
+
+
+
+---
 
 ---
 
@@ -96,70 +100,20 @@ Ask the AI to generate a "Troubleshooting" section based on the error handling l
 
 **Objective**: Generate clear, concise technical documentation for a TypeScript authentication utility module.
 
-**Sample Code (`src/utils/auth.ts`):**
-
-```typescript
-// src/utils/auth.ts
-import jwt from 'jsonwebtoken';
-import bcrypt from 'bcryptjs';
-
-const JWT_SECRET = process.env.JWT_SECRET || 'supersecretjwtkey';
-const BCRYPT_SALT_ROUNDS = 10;
-
-/**
- * Hashes a plain-text password using bcrypt.
- * @param password - The plain-text password to hash.
- * @returns A promise that resolves to the hashed password string.
- */
-export async function hashPassword(password: string): Promise<string> {
-  const salt = await bcrypt.genSalt(BCRYPT_SALT_ROUNDS);
-  return bcrypt.hash(password, salt);
-}
-
-/**
- * Compares a plain-text password with a hashed password.
- * @param password - The plain-text password.
- * @param hashedPassword - The hashed password to compare against.
- * @returns A promise that resolves to true if passwords match, false otherwise.
- */
-export async function comparePassword(password: string, hashedPassword: string): Promise<boolean> {
-  return bcrypt.compare(password, hashedPassword);
-}
-
-/**
- * Generates a JSON Web Token (JWT) for a given user ID.
- * @param userId - The ID of the user.
- * @returns A signed JWT string.
- */
-export function generateToken(userId: string): string {
-  return jwt.sign({ userId }, JWT_SECRET, { expiresIn: '1h' });
-}
-
-/**
- * Verifies a JWT token and returns the decoded payload.
- * @param token - The JWT token string.
- * @returns The decoded token payload if valid, otherwise throws an error.
- * @throws {JsonWebTokenError} If the token is invalid or expired.
- */
-export function verifyToken(token: string): { userId: string } {
-  return jwt.verify(token, JWT_SECRET) as { userId: string };
-}
-```
-
 **AI Prompt Following "The Doc-Smith" Pattern:**
 
 ```markdown
 "Given the TypeScript file `src/utils/auth.ts`:
 
 1.  **Context Injection**: Read the entire file content.
-2.  **Define the Audience**: Generate documentation for a backend developer who is integrating this module. Assume familiarity with basic security concepts like hashing and JWTs.
+2.  **Define the Audience**: Generate documentation for a backend developer who is integrating this module.
 3.  **The Structure First**: Propose a README-like structure. It must include:
     -   Overview
     -   Installation (brief, assumes npm/yarn)
     -   Usage (for each exported function)
     -   Configuration (JWT_SECRET, BCRYPT_SALT_ROUNDS)
     -   Error Handling
-4.  **Generation**: Write the content for each section. Keep it concise, professional, and directly derived from the code. Use TypeScript code blocks for usage examples. Ensure `JWT_SECRET` is mentioned as an environment variable. Do not include any marketing fluff or superlatives.
+4.  **Generation**: Write the content for each section. Use TypeScript code blocks for usage examples. Ensure `JWT_SECRET` is mentioned as an environment variable. Do not include any marketing fluff or superlatives.
 "
 ```
 
@@ -251,5 +205,18 @@ try {
 
 ## Error Handling
 
--   `verifyToken` will throw a `JsonWebTokenError` if the provided token is invalid (e.g., malformed, expired, invalid signature). Callers should wrap `verifyToken` in a `try-catch` block to handle these errors.
+-   `verifyToken` will throw a `JsonWebTokenError` if the provided token is invalid (e.g., malformed, expired, invalid message). Callers should wrap `verifyToken` in a `try-catch` block to handle these errors.
+```
+
+---
+
+## Quick Links
+
+- Pattern Index: [Index](/docs/02-execution-patterns/00-pattern-index)
+- Docs Site Setup: [Docs & Enablement Scenario](/docs/03-professional-scenarios/docs-and-enablement/01-docs-site-setup)
+- Constraint Spec Template: [Template](/docs/06-templates/constraint-spec-template)
+
+## Next Step
+
+Understand how to manage software releases using the [Release and Changelog](/docs/02-execution-patterns/09-release-and-changelog) pattern.
 ```

@@ -9,7 +9,7 @@ tags: ["genai-llm", "scenario", "frontend", "react", "greenfield"]
 last_reviewed: "2025-12-28"
 ---
 
-# Scenario: Greenfield React Component
+## Overview
 
 :::info[Value Proposition]
 Demonstrate how to apply GenAI & LLM Documentation to build a reusable, accessible React component from scratch without introducing technical debt or accessibility violations, accelerating development while maintaining quality.
@@ -120,17 +120,25 @@ Critically review the generated component and tests.
 
 ---
 
+---
+
 ## Common Pitfalls
 
 | Pitfall                   | Impact                                   | Correction                                     |
 | :------------------------ | :--------------------------------------- | :--------------------------------------------- |
 | **Vague Constraints**     | AI generates a generic, unstyled component. | Be extremely detailed in the Constraint Spec about styling, props, and behavior. |
-| **Ignoring Accessibility** | Component is unusable for many users.    | Explicitly list accessibility requirements (e.g., `aria-live`, keyboard focus) in the Constraint Spec. |
+| **Ignoring Accessibility** | Component is unusable for many users.    | Explicitly list accessibility requirements (e.g., `aria-live`, keyboard navigation) in the Constraint Spec. |
 | **Trusting AI for Design System** | AI might miss nuanced design rules or existing utility classes. | Provide specific examples of design tokens or existing CSS utility classes. |
 
 ---
 
-## Last Reviewed / Last Updated
+## Quick Links
 
-- Last reviewed: 2025-12-28
-- Version: 0.1.0
+- Handbook Method: [Overview](/docs/01-handbook-method/01-overview)
+- Clean Slate Pattern: [Execution Pattern](/docs/02-execution-patterns/01-clean-slate)
+- Write Tests Pattern: [Execution Pattern](/docs/02-execution-patterns/07-write-tests)
+- Constraint Spec: [Handbook Method](/docs/01-handbook-method/constraint-spec)
+
+## Next Step
+
+Explore other [Professional Scenarios](/docs/03-professional-scenarios/00-scenarios-index) or delve into [Refactoring Legacy Auth](/docs/03-professional-scenarios/00-scenarios-index).

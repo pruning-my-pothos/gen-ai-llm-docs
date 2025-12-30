@@ -9,7 +9,7 @@ tags: ["genai-llm", "tooling", "local-llm", "privacy", "ollama"]
 last_reviewed: "2025-12-28"
 ---
 
-# Local Inference
+
 
 :::info[Value Proposition]
 When working with **Red Zone** data (PII, secrets, core IP), you cannot send code to the cloud. Local inference allows you to execute GenAI & LLM Documentation safely on your own hardware, maintaining data privacy and reducing reliance on external services.
@@ -45,6 +45,8 @@ Local LLMs are often less powerful and less aligned than their cloud counterpart
 
 ---
 
+---
+
 ## Adjusting GenAI & LLM Documentation for Local Models
 
 Local models often have:
@@ -54,6 +56,8 @@ Local models often have:
 -   **Less "alignment"**: May be more prone to ignoring implicit instructions or generating less helpful responses.
 
 **GenAI & LLM Documentation Implication**: You must write **tighter constraints** and **simpler sentences** to get good results.
+
+---
 
 ---
 
@@ -92,6 +96,8 @@ flowchart LR
     classDef step fill:#E6F7FF,stroke:#1B75BB,color:#0F1F2E;
     class A,B,C,D step;
 ```
+
+---
 
 ---
 
@@ -135,7 +141,12 @@ flowchart LR
 
 ---
 
-## Last Reviewed / Last Updated
+## Quick Links
 
-- Last reviewed: 2025-12-28
-- Version: 0.1.0
+- Tooling Index: [Index](/docs/04-tooling-and-frameworks/00-tooling-index)
+- CLI Agents: [Tooling Guide](/docs/04-tooling-and-frameworks/02-cli-agents)
+- Responsible AI: [Data Boundaries](/docs/05-responsible-ai/data-boundaries)
+
+## Next Step
+
+Explore [CLI Copilots](/docs/04-tooling-and-frameworks/01-cli-copilots/00-cli-agnostic-workflow) for deeper insights into command-line AI.

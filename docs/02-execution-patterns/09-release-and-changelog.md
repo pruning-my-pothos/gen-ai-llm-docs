@@ -9,7 +9,7 @@ tags: ["pattern", "release", "changelog", "automation", "ci/cd"]
 last_reviewed: "2025-12-28"
 ---
 
-# Pattern: Release and Changelog
+
 
 :::info[Value Proposition]
 Use this pattern to automate the generation of release notes and changelogs, ensuring consistent, accurate, and timely communication about software changes. AI can parse commit messages, identify feature types, and synthesize concise summaries for various audiences.
@@ -42,6 +42,8 @@ You must have a disciplined approach to commit messages (e.g., Conventional Comm
 
 - **Artifacts**: Structured Git commit history, feature flags (optional). Constraint Spec (release note format, categorization rules, desired tone for different audiences).
 - **Context**: Understanding of the project's versioning strategy (e.g., SemVer) and release cadence.
+
+---
 
 ---
 
@@ -81,7 +83,9 @@ flowchart LR
     class A,B,C,D step;
 ```
 
-### Practical Example: Generating a Changelog from Conventional Commits
+#---
+
+## Practical Example: Generating a Changelog from Conventional Commits
 
 **Objective**: Automatically generate a `CHANGELOG.md` entry for a new version using Conventional Commits.
 
@@ -171,3 +175,15 @@ flowchart LR
 :::danger[Critical Risk]
 Always manually verify AI-generated release notes for accuracy and completeness before public distribution. Ensure no sensitive information or internal details are accidentally exposed.
 :::
+
+---
+
+## Quick Links
+
+- Pattern Index: [Index](/docs/02-execution-patterns/00-pattern-index)
+- Release Notes & Change Comms: [Docs & Enablement Scenario](/docs/03-professional-scenarios/docs-and-enablement/04-release-notes-and-change-comms)
+- Git Discipline: [CLI Copilots](/docs/04-tooling-and-frameworks/01-cli-copilots/06-git-discipline)
+
+## Next Step
+
+Explore [Migrations and Upgrades](/docs/02-execution-patterns/10-migrations-and-upgrades) for managing evolving systems.

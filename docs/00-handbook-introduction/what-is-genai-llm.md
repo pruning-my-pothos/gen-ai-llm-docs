@@ -1,16 +1,15 @@
 ---
-title: "What is GenAI & LLM?"
+title: "GenAI & LLM Handbook: What It Is"
 archetype: "standard"
 status: "active"
 owner: "Shailesh (Shaily)"
 maintainer: "Shailesh (Shaily)"
 version: "0.1.0"
-tags:
-  ["genai-llm", "generative-ai", "large-language-models", "programming", "documentation", "methodology"]
+tags: ["genai-llm", "generative-ai", "large-language-models", "programming", "documentation", "methodology"]
 last_reviewed: "2025-12-28"
 ---
 
-# What is GenAI & LLM?
+# GenAI & LLM Handbook: What It Is
 
 :::info[Value Proposition]
 The GenAI & LLM Handbook is for people who want the speed of GenAI **without giving up clarity, correctness, or responsibility.**
@@ -21,6 +20,61 @@ The GenAI & LLM Handbook is for people who want the speed of GenAI **without giv
 **The GenAI & LLM Handbook** is a professional framework for AI-assisted development, made practical. It focuses on building software, systems, and content using natural language, with AI as an execution partner. It treats language as a **technical interface**, not a chat prompt.
 
 At its core, the GenAI & LLM Handbook acknowledges that while AI is excellent at generating plausible outputs, it lacks human judgment, context, and accountability. Most AI failures are not model failures. They are **human specification failures**. The GenAI & LLM Handbook exists to fix that.
+
+:::info[Scan at a Glance]
+- **Goal:** Faster AI-assisted delivery **with** clarity, correctness, and accountability.
+- **Guarantee:** Language is treated as a spec; every output is reviewable and evidence-backed.
+- **Pillars:** Logic · Language · Systems · Sentences.
+- **Shape:** An iterative Loop with artifacts, templates, and checklists.
+:::
+
+```mermaid
+flowchart LR
+  Handbook[GenAI & LLM Handbook]
+
+  subgraph Purpose
+    P1[Speed with correctness]
+    P2[Human accountability]
+  end
+
+  subgraph Pillars
+    L1[Logic]
+    L2[Language]
+    L3[Systems]
+    L4[Sentences]
+  end
+
+  subgraph Workflow
+    W1[Iterative Loop]
+    W2[Artifacts & Templates]
+    W3[Evidence-based Review]
+    W4[Checklists]
+  end
+
+  subgraph Outcomes
+    O1[Verifiable Code/Docs]
+    O2[Safer Releases]
+    O3[Repeatable Practice]
+  end
+
+  Handbook --> P1 & P2
+  Handbook --> L1 & L2 & L3 & L4
+  Handbook --> W1
+  W1 --> W2 & W3 & W4
+  Handbook --> O1 & O2 & O3
+
+  class Handbook root;
+  class P1,P2 purpose;
+  class L1,L2,L3,L4 pillars;
+  class W1,W2,W3,W4 workflow;
+  class O1,O2,O3 outcomes;
+
+  classDef root fill:#e5e7ff,stroke:#4338ca,stroke-width:2px,color:#0f172a;
+  classDef purpose fill:#fff7ed,stroke:#ea580c,stroke-width:1px,color:#0f172a;
+  classDef pillars fill:#e0f2fe,stroke:#0284c7,stroke-width:1px,color:#0f172a;
+  classDef workflow fill:#dcfce7,stroke:#16a34a,stroke-width:1px,color:#0f172a;
+  classDef outcomes fill:#ffe4e6,stroke:#e11d48,stroke-width:1px,color:#0f172a;
+```
 
 ---
 
@@ -43,75 +97,20 @@ The handbook is a force multiplier for disciplined professionals. It will not fi
 
 ---
 
-## Who the GenAI & LLM Handbook Is For (Signals You’ll Benefit)
-
-:::tip[Find Your Focus]
-The following sections outline the specific value of the GenAI & LLM Handbook for different professional roles. Find your role to see how this framework can directly address your daily challenges and goals.
-:::
-
-The GenAI & LLM Handbook is designed for professionals who work at the intersection of **thinking, language, and systems** and who want AI to amplify their work without eroding responsibility.
-
-### You're a Software Engineer if...
-
-- You spend too much time on boilerplate code or repetitive tasks.
-- You're worried about AI-generated code introducing subtle bugs or tech debt.
-- You want to reliably use AI to refactor legacy code or generate tests.
-
-The GenAI & LLM Handbook helps you:
-
-- Generate code that adheres to your exact specifications and coding standards.
-- Create robust test suites to verify AI outputs.
-- Safely apply AI to complex refactoring tasks.
-
-### You're a Product Manager if...
-
-- You struggle to translate vague business needs into clear, actionable requirements.
-- You need to ensure AI-assisted features align with user value and business goals.
-- You want to define measurable success criteria for AI-driven products.
-
-The GenAI & LLM Handbook helps you:
-
-- Craft precise Intent Specs and Constraint Specs for AI-assisted development.
-- Define unambiguous acceptance criteria for AI-generated features.
-- Communicate effectively with engineering teams leveraging AI.
-
-### You're a Technical Writer / Documentation Specialist if...
-
-- You need to generate accurate, up-to-date documentation directly from code.
-- You're looking to automate changelog generation or API documentation.
-- You want to maintain consistency across technical content.
-
-The GenAI & LLM Handbook helps you:
-
-- Generate high-quality documentation that matches the code.
-- Streamline the creation of release notes and changelogs.
-- Ensure technical accuracy and consistency.
-
-### You're a DevOps / Platform Engineer if...
-
-- You're looking to automate infrastructure-as-code or CI/CD pipeline generation.
-- You need to migrate configurations between different platforms.
-- You're concerned about AI introducing security risks into your infrastructure.
-
-The GenAI & LLM Handbook helps you:
-
-- Generate robust and secure infrastructure configurations.
-- Automate migrations and upgrades with confidence.
-- Enforce governance and guardrails in AI-assisted operations.
-
----
-
 ## How it Works: The GenAI & LLM Handbook Method
 
-The GenAI & LLM Handbook defines an 8-step iterative "Loop" that guides AI-assisted work from initial discovery to final acceptance and release. This loop is supported by core skills (Logic, Language, Systems, Sentences) and enforced by a suite of artifacts and templates.
+The GenAI & LLM Handbook defines an iterative “Loop” that guides AI-assisted work from discovery to acceptance and release. It is supported by core skills (Logic, Language, Systems, Sentences) and enforced by artifacts and templates.
 
--   Process specification: `docs/01-handbook-method/11-genai-llm-loop-spec.md`
--   Artifact contracts: `docs/01-handbook-method/12-artifact-contracts.md`
--   Accountability and delegation: `docs/01-handbook-method/10-accountability-and-delegation.md`
+- Process specification: `/docs/01-handbook-method/genai-llm-loop-spec`
+- Artifact contracts: `/docs/01-handbook-method/artifact-contracts`
+- Accountability and delegation: `/docs/01-handbook-method/accountability-and-delegation`
+
+:::tip[Highlight: Why the Loop?]
+The Loop bakes in **intent**, **constraints**, and **verification** so AI outputs stay aligned with user needs and governance requirements.
+:::
 
 ---
 
 ## Next Step
 
-Proceed to:
-**`docs/00-handbook-introduction/01-who-this-is-for.md`**
+Proceed to: **/docs/00-handbook-introduction/who-this-is-for**

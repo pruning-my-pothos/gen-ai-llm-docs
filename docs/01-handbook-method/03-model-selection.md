@@ -9,7 +9,7 @@ tags: ["genai-llm", "model-selection", "tradeoffs", "capacity", "cost"]
 last_reviewed: "2025-12-28"
 ---
 
-# Model Selection and Tradeoffs
+
 
 :::info[Value Proposition]
 Understand the critical factors for choosing the right LLM for your tasks. Different models offer varying capabilities, costs, and ethical considerations. Making an informed choice optimizes performance, manages expenses, and aligns with project requirements.
@@ -42,6 +42,8 @@ A clear understanding of your **Intent Spec** and **Constraint Spec** for the ta
 
 -   **Artifacts**: Intent Spec, Constraint Spec.
 -   **Context**: Awareness of the data sensitivity, budget constraints, and performance targets of your project.
+
+---
 
 ---
 
@@ -85,6 +87,8 @@ A clear understanding of your **Intent Spec** and **Constraint Spec** for the ta
 
 ---
 
+---
+
 ## Tradeoff Matrix
 
 | Factor / Model Type | Small Open-Source (Local)                 | Large Proprietary (Cloud)                      | Fine-Tuned (Cloud/Private)                  |
@@ -95,6 +99,8 @@ A clear understanding of your **Intent Spec** and **Constraint Spec** for the ta
 | **Data Privacy**    | High (local control)                      | Varies by provider (check policies)            | High (private training data)                |
 | **Bias/Safety**     | Varies, often less moderated              | Heavily moderated, but still present           | Reflects fine-tuning data bias             |
 | **Fine-tuning**     | Possible, but resource-intensive locally  | Often available, easier to manage             | Core benefit                                |
+
+---
 
 ---
 
@@ -147,7 +153,13 @@ flowchart LR
 
 ---
 
-## Last Reviewed / Last Updated
+## Quick Links
 
-- Last reviewed: 2025-12-28
-- Version: 0.1.0
+- Handbook Method: [Overview](/docs/01-handbook-method/01-overview)
+- Intent Spec: [Handbook Method](/docs/01-handbook-method/intent-spec)
+- Constraint Spec: [Handbook Method](/docs/01-handbook-method/constraint-spec)
+- Local-First Models: [Tooling Guide](/docs/04-tooling-and-frameworks/03-local-first/00-local-first-overview)
+
+## Next Step
+
+Proceed to [Cost Intuition](/docs/01-handbook-method/cost-intuition).

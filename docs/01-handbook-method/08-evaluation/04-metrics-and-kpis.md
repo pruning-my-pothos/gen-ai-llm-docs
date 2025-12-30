@@ -12,14 +12,14 @@ last_reviewed: "2025-12-28"
 # Metrics and KPIs
 
 :::info[Value Proposition]
-How do you know if GenAI & LLM Documentation is working? These metrics help you measure the _quality_ and _efficiency_ of your AI adoption, moving beyond "it feels faster."
+How do you know if GenAI & LLM Handbook is working? These metrics help you measure the _quality_ and _efficiency_ of your AI adoption, moving beyond "it feels faster."
 :::
 
 ## Overview
 
-Implementing AI-assisted development (GenAI & LLM Documentation) is an investment. To justify this investment and drive continuous improvement, it's crucial to measure its impact. This document outlines key metrics and Key Performance Indicators (KPIs) to evaluate the effectiveness of your GenAI & LLM Documentation adoption, focusing on both the quality of outputs and the efficiency of the development process.
+Implementing AI-assisted development (GenAI & LLM Handbook) is an investment. To justify this investment and drive continuous improvement, it's crucial to measure its impact. This document outlines key metrics and Key Performance Indicators (KPIs) to evaluate the effectiveness of your GenAI & LLM Handbook adoption, focusing on both the quality of outputs and the efficiency of the development process.
 
-**Goal**: Provide objective measures for the impact and maturity of GenAI & LLM Documentation practices.
+**Goal**: Provide objective measures for the impact and maturity of GenAI & LLM Handbook practices.
 **Anti-pattern**: Relying solely on qualitative feedback or "number of lines of code generated" as a success metric.
 
 ---
@@ -65,26 +65,26 @@ Focuses on the productivity gains from AI assistance.
 -   **Iteration Cycles to Acceptance**: Number of AI generation/review cycles required to reach an acceptable artifact. Fewer cycles indicate better prompting/scoping.
 -   **Developer Satisfaction / Cognitive Load**: Surveys or qualitative feedback on how AI impacts developer experience and mental effort.
 
-### 3. Adoption Metrics (GenAI & LLM Documentation Maturity)
+### 3. Adoption Metrics (GenAI & LLM Handbook Maturity)
 
-Focuses on how well GenAI & LLM Documentation practices are integrated and scaled within the team/organization.
+Focuses on how well GenAI & LLM Handbook practices are integrated and scaled within the team/organization.
 
--   **Percentage of Tasks Using GenAI & LLM Documentation**: Proportion of eligible tasks that follow the GenAI & LLM Documentation Loop.
--   **Template Utilization Rate**: How often GenAI & LLM Documentation templates (Intent Spec, Constraint Spec, etc.) are used.
+-   **Percentage of Tasks Using GenAI & LLM Handbook**: Proportion of eligible tasks that follow the GenAI & LLM Handbook Loop.
+-   **Template Utilization Rate**: How often GenAI & LLM Handbook templates (Intent Spec, Constraint Spec, etc.) are used.
 -   **Skill Matrix Progression**: Tracking individual or team progress across Logic, Language, Systems, and Sentences skills.
--   **Knowledge Sharing**: Frequency of new GenAI & LLM Documentation patterns or templates being contributed.
+-   **Knowledge Sharing**: Frequency of new GenAI & LLM Handbook patterns or templates being contributed.
 
 ---
 
 ## Practical Example: Measuring Impact of AI on API Development
 
-**Objective**: Assess the impact of using GenAI & LLM Documentation for API endpoint development.
+**Objective**: Assess the impact of using GenAI & LLM Handbook for API endpoint development.
 
 **Metrics to Track:**
 
 1.  **Time to Implement API Endpoint**:
     -   **Baseline**: Average 5 days for a similar endpoint without AI.
-    -   **AI-Assisted**: Average 2 days using GenAI & LLM Documentation.
+    -   **AI-Assisted**: Average 2 days using GenAI & LLM Handbook.
     -   **KPI**: Reduce API endpoint development time by 60%.
 
 2.  **Defect Density (API Endpoint)**:
@@ -98,7 +98,7 @@ Focuses on how well GenAI & LLM Documentation practices are integrated and scale
     -   **KPI**: Halve code review cycle time.
 
 **Methodology**:
--   Track metrics for 10 comparable API endpoints developed with GenAI & LLM Documentation.
+-   Track metrics for 10 comparable API endpoints developed with GenAI & LLM Handbook.
 -   Compare against historical data for 10 similar endpoints developed manually.
 -   Use an A/B testing approach if possible, with two teams working on similar features.
 
@@ -109,7 +109,7 @@ Focuses on how well GenAI & LLM Documentation practices are integrated and scale
 | Pitfall                   | Impact                                   | Correction                                     |
 | :------------------------ | :--------------------------------------- | :--------------------------------------------- |
 | **Vanity Metrics**        | Measuring things that don't reflect true value (e.g., lines of code generated). | Focus on business outcomes and quality indicators (e.g., bugs, time-to-market). |
-| **Lack of Baseline**      | Unable to prove improvement or ROI.      | Establish current performance metrics *before* implementing GenAI & LLM Documentation. |
+| **Lack of Baseline**      | Unable to prove improvement or ROI.      | Establish current performance metrics *before* implementing GenAI & LLM Handbook. |
 | **Misinterpreting Correlation for Causation** | Assuming AI is the sole reason for change without isolating variables. | Use controlled experiments and qualitative feedback to understand root causes. |
 
 :::danger[Critical Risk]

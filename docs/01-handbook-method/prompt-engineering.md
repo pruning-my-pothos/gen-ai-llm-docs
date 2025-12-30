@@ -9,7 +9,7 @@ tags: ["genai-llm", "prompting", "specification", "constraints"]
 last_reviewed: "2025-12-28"
 ---
 
-# Prompting vs. Specifying
+
 
 :::info[Value Proposition]
 Contrast ad-hoc prompting with disciplined specification so GenAI & LLM work stays predictable. This distinction is fundamental for moving from experimental AI use to reliable, production-ready AI-assisted development.
@@ -45,6 +45,8 @@ A clear understanding of the AI tool's capabilities and limitations, and a commi
 
 ---
 
+---
+
 ## The Difference: Prompting vs. Specifying
 
 ### Prompting
@@ -69,6 +71,8 @@ A clear understanding of the AI tool's capabilities and limitations, and a commi
 
 ---
 
+---
+
 ## Why Specifying is Critical for Professional Work
 
 -   **Reduces Hallucinations**: By being explicit, you leave less room for the AI to invent facts or logic.
@@ -76,6 +80,8 @@ A clear understanding of the AI tool's capabilities and limitations, and a commi
 -   **Enables Verifiability**: A precise spec allows you to objectively compare AI output against expected behavior.
 -   **Manages Scope**: Explicit boundaries prevent the AI from over-generating or drifting from the task.
 -   **Fosters Accountability**: When the spec is clear, any deviation by the AI (or a human misinterpretation of the spec) can be identified and corrected.
+
+---
 
 ---
 
@@ -97,6 +103,8 @@ flowchart LR
     classDef step fill:#E6F7FF,stroke:#1B75BB,color:#0F1F2E;
     class A,B,C,D,E,F,G,H,I step;
 ```
+
+---
 
 ---
 
@@ -132,7 +140,36 @@ flowchart LR
 
 ---
 
-## Last Reviewed / Last Updated
+## Copy/Paste Prompts
 
-- Last reviewed: 2025-12-28
-- Version: 0.1.0
+:::tip[Use This Mini Skeleton]
+Keep prompts short and spec-like; link out to full specs and templates to avoid noise.
+:::
+
+```text
+You are assisting with: <task / artifact>.
+Intent: <one-sentence goal>
+Context: <files, APIs, decisions>; cite sources if used.
+Constraints: <stack, safety/compliance, style, non-goals>.
+Output: <format> in one block; include <required fields/sections>.
+Quality: check against <acceptance criteria/tests>. If unsure, say "unsure" and list missing info.
+```
+
+For richer variants, use the templates:
+- Prompt Skeleton: [Template](/docs/06-templates/prompt-skeleton-template)
+- Safety Add-ons: [Template](/docs/06-templates/prompt-safety-addons)
+
+---
+
+## Quick Links
+
+- Handbook Method: [Overview](/docs/01-handbook-method/01-overview)
+- Generation Requests: [Handbook Method](/docs/01-handbook-method/generation-requests)
+- Intent Spec Template: [Template](/docs/06-templates/intent-spec-template)
+- Constraint Spec Template: [Template](/docs/06-templates/constraint-spec-template)
+- Prompt Skeleton Template: [Template](/docs/06-templates/prompt-skeleton-template)
+- Prompt Safety Add-ons: [Template](/docs/06-templates/prompt-safety-addons)
+
+## Next Step
+
+Proceed to [Review and Interrogation](/docs/01-handbook-method/review-and-interrogation) to evaluate AI outputs.
