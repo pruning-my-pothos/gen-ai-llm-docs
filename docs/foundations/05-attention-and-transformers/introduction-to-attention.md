@@ -41,7 +41,7 @@ graph TD
 
         direction LR
 
-        Input --> MultiHead1[Multi-Head<br>Attention]
+        Input --> MultiHead1[Multi-Head Attention]
 
         MultiHead1 --> AddNorm1[Add & Norm]
 
@@ -59,11 +59,11 @@ graph TD
 
         direction LR
 
-        PrevOutput --> MaskedMultiHead[Masked Multi-Head<br>Attention]
+        PrevOutput --> MaskedMultiHead[Masked Multi-Head Attention]
 
         MaskedMultiHead --> AddNorm3[Add & Norm]
 
-        Z --> MultiHead2[Multi-Head<br>Attention]
+        Z --> MultiHead2[Multi-Head Attention]
 
         AddNorm3 --> MultiHead2
 
@@ -128,5 +128,4 @@ Key components of the Transformer include:
 Understanding the Transformer is the key that unlocks the rest of modern AI.
 
 - **[LLM Model Architectures](../02-llm-deep-dive/model-architectures.md):** See how the full Transformer, or just its decoder part, is used to create today's leading models.
-
 

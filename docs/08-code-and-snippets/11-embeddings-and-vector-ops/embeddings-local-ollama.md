@@ -1,0 +1,3 @@
+# Embeddings (Ollama)
+
+Local embeddings.

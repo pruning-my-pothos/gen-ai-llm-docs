@@ -214,6 +214,10 @@ app.get('/some-route', (req: Request, res: Response, next: NextFunction) => {
 
 ---
 
+## Next Step
+
+Continue to [Structured Output and Tool Use](./05-structured-output-and-tool-use.md) to see how to control formats and tools after retrieval.
+
 ## Last Reviewed / Last Updated
 
 - Last reviewed: 2025-12-28

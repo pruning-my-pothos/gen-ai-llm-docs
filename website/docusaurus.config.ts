@@ -66,6 +66,8 @@ const config: Config = {
       title: 'GenAI & LLM Handbook',
       items: [
         {type: 'doc', docId: '00-handbook-introduction/scope-and-applicability', label: 'Start Here', position: 'left'},
+        {type: 'doc', docId: 'experiments/00-index', label: 'Experiments', position: 'left'},
+        {type: 'doc', docId: '08-code-and-snippets/README', label: 'Code & Snippets', position: 'left'},
         {
           label: 'Shailesh Rawat · sans_serif_sentiments',
           href: 'https://www.linkedin.com/in/shailesh-rawat/',

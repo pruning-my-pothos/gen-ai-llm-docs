@@ -31,7 +31,7 @@ flowchart LR
 
     Input["User prompt + past tokens"]:::input
     Embed["1) Embed tokens"]:::process
-    Attn["2) Transformer blocks<br/>(self-attention + MLP)"]:::process
+    Attn["2) Transformer blocks (self-attention + MLP)"]:::process
     Logits["3) Logits (scores for vocab)"]:::process
     Prob["4) Softmax (probabilities)"]:::process
     Sample["5) Sample/select next token"]:::output

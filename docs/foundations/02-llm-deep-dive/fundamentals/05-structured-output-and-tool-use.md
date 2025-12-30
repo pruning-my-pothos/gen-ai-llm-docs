@@ -159,6 +159,10 @@ flowchart LR
 
 ---
 
+## Next Step
+
+Proceed to [Agents and Orchestration Basics](./06-agents-and-orchestration-basics.md) to see how structured outputs connect to multi-tool workflows.
+
 ## Last Reviewed / Last Updated
 
 - Last reviewed: 2025-12-28

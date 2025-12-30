@@ -20,12 +20,12 @@ graph TD
     
     subgraph Judge LLM
         direction LR
-        D(Evaluation Prompt<br>/ Rubric) --> E{Judge LLM};
+        D(Evaluation Prompt / Rubric) --> E{Judge LLM};
         A --> E;
         C --> E;
     end
     
-    E --> F((Evaluation Score<br>& Justification));
+    E --> F((Evaluation Score & Justification));
 
     style E fill:#cde4ff
 ```

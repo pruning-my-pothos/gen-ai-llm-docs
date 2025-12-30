@@ -134,6 +134,10 @@ flowchart LR
 
 ---
 
+## Next Step
+
+Move to [Retrieval and Grounding (RAG)](./04-retrieval-and-grounding-rag.md) to see how to anchor outputs on trusted context.
+
 ## Last Reviewed / Last Updated
 
 - Last reviewed: 2025-12-28

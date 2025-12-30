@@ -1,0 +1,3 @@
+# Structured Output
+
+Control formats.

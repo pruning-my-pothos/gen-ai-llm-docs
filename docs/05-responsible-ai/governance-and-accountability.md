@@ -37,7 +37,7 @@ graph TD
     B -- Risk Assessment --> C{Low Risk?};
     C -- Yes --> D[Proceed with Monitoring];
     C -- No --> E{High Risk?};
-    E -- Yes --> F[Requires Deep Dive<br>and Mitigation Plan];
+    E -- Yes --> F[Requires Deep Dive and Mitigation Plan];
     F --> B;
     E -- No --> D;
 

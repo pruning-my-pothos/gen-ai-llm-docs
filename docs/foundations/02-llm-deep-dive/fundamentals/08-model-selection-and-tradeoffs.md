@@ -147,6 +147,10 @@ flowchart LR
 
 ---
 
+## Next Step
+
+Continue to [GenAI Product Lifecycle (Practitioner Guide)](./10-genai-product-lifecycle.md) to see how model choices fit into delivery and governance.
+
 ## Last Reviewed / Last Updated
 
 - Last reviewed: 2025-12-28

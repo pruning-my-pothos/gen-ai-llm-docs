@@ -212,6 +212,12 @@ export default function Home(): JSX.Element {
                   icon: DocumentDuplicateIcon,
                   href: "/docs/06-templates/00-templates-index",
                 },
+                {
+                  label: "Experiments",
+                  desc: "Runnable projects: RAG KBs, vector stores, knowledge graphs",
+                  icon: BeakerIcon,
+                  href: "/docs/experiments/00-index",
+                },
               ].map((item) => (
                 <Link
                   to={item.href}

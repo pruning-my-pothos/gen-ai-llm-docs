@@ -63,16 +63,16 @@ graph TD
     subgraph "The Prompt Funnel: Narrowing Possibilities"
         direction TB
 
-        WideOutput(["Vast Output Possibilities<br/>(High Entropy)"])
+        WideOutput(["Vast Output Possibilities (High Entropy)"])
         style WideOutput fill:#f9f,stroke:#333,stroke-width:2px
 
-        A("1. System Prompt<br/>Role, Persona, High-Level Intent")
-        B("2. Task Instructions & Constraints<br/>Format, Length, Tone")
-        C("3. Dynamic Context<br/>RAG, Conversation History")
-        D("4. Few-Shot Examples<br/>Demonstrate Desired Behavior")
-        E("5. Output Schema / Tools<br/>Structured Output, Function Calling")
+        A("1. System Prompt: Role, Persona, High-Level Intent")
+        B("2. Task Instructions & Constraints: Format, Length, Tone")
+        C("3. Dynamic Context: RAG, Conversation History")
+        D("4. Few-Shot Examples: Demonstrate Desired Behavior")
+        E("5. Output Schema / Tools: Structured Output, Function Calling")
 
-        NarrowOutput(["Specific, Desired Output<br/>(Low Entropy)"])
+        NarrowOutput(["Specific, Desired Output (Low Entropy)"])
         style NarrowOutput fill:#cfc,stroke:#333,stroke-width:2px
 
         WideOutput --> A
@@ -117,6 +117,10 @@ Beyond the three laws, adopting these mental models will significantly improve y
 - [GenAI Product Lifecycle (Practitioner Guide)](./10-genai-product-lifecycle.md)
 
 ---
+
+## Next Step
+
+Continue to [How LLMs Work (Enough for Practice)](./01-how-llms-work-enough-for-practice.md) to deepen the fundamentals.
 
 ## Last Reviewed / Last Updated
 

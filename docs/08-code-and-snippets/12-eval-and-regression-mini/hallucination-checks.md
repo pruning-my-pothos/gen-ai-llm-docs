@@ -1,0 +1,3 @@
+# Hallucination Checks
+
+Catch fabrications.

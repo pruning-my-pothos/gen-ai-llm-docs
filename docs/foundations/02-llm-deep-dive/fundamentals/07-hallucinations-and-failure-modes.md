@@ -104,6 +104,10 @@ A basic understanding of how LLMs work (e.g., token prediction, probabilistic na
 
 ---
 
+## Next Step
+
+Proceed to [Model Selection and Tradeoffs](./08-model-selection-and-tradeoffs.md) to choose models that align with your risk profile.
+
 ## Last Reviewed / Last Updated
 
 - Last reviewed: 2025-12-28
