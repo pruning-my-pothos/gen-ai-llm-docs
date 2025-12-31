@@ -44,6 +44,15 @@ The “nuance” is the discipline to be specific, constrained, and testable—t
 
 ---
 
+## Author’s Note
+
+:::tip[From Shailesh]
+I don’t treat “prompting” as chat. I treat it as wiring: constraints first, structure always, and proof before pride. If you catch me being verbose, remind me to add a schema—or a test.  
+— Shailesh (Shaily) · sans_serif_sentiments
+:::
+
+---
+
 ## Get Started Here
 
 Docs site: https://pruning-my-pothos.github.io/gen-ai-llm-docs/ (baseUrl: `/gen-ai-llm-docs/`)
