@@ -24,26 +24,57 @@ Most AI failures are not model failures. They are **human specification failures
 
 ## Get Started Here
 
-This handbook is structured to be navigable by role and by need. Navigation order:
+Docs site: https://pruning-my-pothos.github.io/gen-ai-llm-docs/ (baseUrl: `/gen-ai-llm-docs/`)
 
-1.  Start Here: `docs/00-handbook-introduction/`
-2.  Handbook Method: `docs/01-handbook-method/` (loop, artifacts, core skills, evaluation library)
-3.  Execution Patterns: `docs/02-execution-patterns/`
-4.  Professional Scenarios: `docs/03-professional-scenarios/`
-5.  Tooling & Frameworks: `docs/04-tooling-and-frameworks/`
-6.  Responsible AI: `docs/05-responsible-ai/`
-7.  Foundations (reference background): `docs/foundations/`
-8.  Templates: `docs/06-templates/`
-9.  Meta: `docs/AGENTS.md`, `docs/CHANGELOG.md`, `docs/LICENSE.md`
+What you’ll find:
+- **Start Here**: why this exists and who it serves.
+- **Method**: the loop + artifacts to make AI work reviewable.
+- **Execution Patterns**: step-by-step recipes for common tasks.
+- **Code & Snippets**: runnable setup, RAG, eval, safety, and CI/agent skeletons.
+- **Templates**: copy/paste specs, prompts, and runbooks.
+- **Responsible AI**: guardrails, risk, safety prompts, governance.
 
-1.  **If you are new to the GenAI & LLM Handbook**: Start with the foundational concepts.
-    -   What is GenAI & LLM Handbook: `docs/00-handbook-introduction/what-is-genai-llm.md`
-    -   The GenAI & LLM Map: `docs/00-handbook-introduction/genai-llm-map.md`
+Recommended order:
+1) Start Here: `docs/00-handbook-introduction/`
+2) Handbook Method (loop + artifacts): `docs/01-handbook-method/`
+3) Execution Patterns (recipes): `docs/02-execution-patterns/00-pattern-index.md`
+4) Professional Scenarios (role-based): `docs/03-professional-scenarios/`
+5) Tooling & Frameworks: `docs/04-tooling-and-frameworks/`
+6) Responsible AI: `docs/05-responsible-ai/`
+7) Foundations (reference): `docs/foundations/`
+8) Templates: `docs/06-templates/`
+9) Code & Snippets (runnable how-tos): `docs/08-code-and-snippets/`
+10) Meta: `docs/AGENTS.md`, `docs/CHANGELOG.md`, `docs/LICENSE.md`, `docs/experiments/`
 
-2.  **If you want to apply the GenAI & LLM Handbook immediately**: Jump into the practical applications.
-    -   The GenAI & LLM Handbook Method (how work gets done): `docs/01-handbook-method/the-genai-llm-loop.md`
-    -   Execution Patterns (recipes for common tasks): `docs/02-execution-patterns/00-pattern-index.md`
-    -   Templates for artifacts and checklists: `docs/06-templates/00-templates-index.md`
+If you are new:
+- What is the Handbook: `docs/00-handbook-introduction/what-is-genai-llm.md`
+- Map of the content: `docs/00-handbook-introduction/genai-llm-map.md`
+
+If you want to apply it now:
+- Method (how work gets done): `docs/01-handbook-method/the-genai-llm-loop.md`
+- Execution Patterns: `docs/02-execution-patterns/00-pattern-index.md`
+- Templates for artifacts: `docs/06-templates/00-templates-index.md`
+- Quick code/prompts: `docs/08-code-and-snippets/`
+
+## Quickstart: run the Handbook on a real task
+
+Pick a small, concrete task (e.g., "add a field to a REST API response").
+
+1. **Define Intent**: precise goal (e.g., "Add `lastLogin` to `/users/{id}` response").
+2. **Define Constraints**: non-negotiables (e.g., ISO 8601, admin-only, updated every login).
+3. **Generate**: use a structured generation request (templates in `docs/06-templates/`).
+4. **Review**: verify against Intent/Constraints (`docs/01-handbook-method/review-and-interrogation.md`).
+
+Good intent (specific, testable):
+```
+Generate a TypeScript interface `User` with `id: string`, `name: string`, `email: string`.
+Add a new field `lastLogin: string` (ISO 8601). Do not modify other fields.
+```
+
+Bad intent (ambiguous):
+```
+Improve the User interface to include login details.
+```
 
 ### Quickstart: run the GenAI & LLM Handbook on a real task
 
