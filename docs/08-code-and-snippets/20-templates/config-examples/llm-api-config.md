@@ -7,6 +7,7 @@ maintainer: "NNLP"
 version: "1.0.0"
 tags: ["configuration", "llm-api", "template", "yaml"]
 last_reviewed: "2025-12-31"
+slug: /08-code-and-snippets/config-examples/llm-api-config
 ---
 
 # LLM API Configuration Example

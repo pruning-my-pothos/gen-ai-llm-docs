@@ -7,6 +7,7 @@ maintainer: "NNLP"
 version: "1.0.0"
 tags: ["configuration", "agents", "tool-use", "template", "yaml"]
 last_reviewed: "2025-12-31"
+slug: /08-code-and-snippets/config-examples/agent-config
 ---
 
 # LLM Agent Configuration Example

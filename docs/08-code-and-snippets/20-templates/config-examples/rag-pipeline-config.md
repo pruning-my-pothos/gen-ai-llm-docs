@@ -7,6 +7,7 @@ maintainer: "NNLP"
 version: "1.0.0"
 tags: ["configuration", "rag", "template", "json"]
 last_reviewed: "2025-12-31"
+slug: /08-code-and-snippets/config-examples/rag-pipeline-config
 ---
 
 # RAG Pipeline Configuration Example
