@@ -9,8 +9,6 @@ tags: ["prompting", "spec", "genai-llm", "template"]
 last_reviewed: "2025-12-28"
 ---
 
-## Prompt Skeleton Template
-
 :::info[Value Proposition]
 A minimal, spec-style prompt you can drop into any workflow. Keeps intent, context, constraints, and quality gates explicit so the model cannot guess.
 :::

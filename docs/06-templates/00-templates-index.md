@@ -15,8 +15,6 @@ last_reviewed: "2025-12-20"
 Don't start from a blank page. These templates provide the structure you need to execute GenAI & LLM Documentation effectively. Copy them, fill them out, and treat them as source code.
 :::
 
-## Overview
-
 In GenAI & LLM Documentation, **structure is safety**.
 Using a template ensures you don't forget critical sections like "Non-Goals" in a brief or "Security" in a constraint spec.
 

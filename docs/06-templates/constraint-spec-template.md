@@ -9,8 +9,6 @@ tags: ["genai-llm", "constraints", "boundaries", "template"]
 last_reviewed: "2025-12-28"
 ---
 
-## Constraint Spec Template
-
 :::info[Value Proposition]
 Encode all non-negotiable boundaries, technical requirements, and guardrails for an AI-assisted task. This prevents AI overreach, ensures compliance with architectural standards, and mitigates risks from hallucinations or unintended behavior.
 :::

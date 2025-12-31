@@ -9,8 +9,6 @@ tags: ["docker", "compose", "dev-setup", "template"]
 last_reviewed: "2025-12-28"
 ---
 
-## Docker Compose Snippets
-
 :::info[Value Proposition]
 Drop-in compose examples for local development: app + db + env placeholders.
 :::

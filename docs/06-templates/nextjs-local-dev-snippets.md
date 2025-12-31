@@ -9,8 +9,6 @@ tags: ["nextjs", "react", "dev-setup", "template"]
 last_reviewed: "2025-12-28"
 ---
 
-## Next.js Local Dev Snippets
-
 :::info[Value Proposition]
 Standardize Next.js setup with install, lint, test, and build commands.
 :::

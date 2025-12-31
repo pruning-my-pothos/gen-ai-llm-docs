@@ -9,8 +9,6 @@ tags: ["tests", "prompting", "template"]
 last_reviewed: "2025-12-28"
 ---
 
-## Test Request Template
-
 :::info[Value Proposition]
 Use this prompt to ask an LLM to propose or author tests for a change, with clear scope and evidence.
 :::

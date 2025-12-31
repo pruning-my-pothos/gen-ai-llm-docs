@@ -9,8 +9,6 @@ tags: ["genai-llm", "generation", "prompting", "template"]
 last_reviewed: "2025-12-28"
 ---
 
-## Generation Request Template
-
 :::info[Value Proposition]
 Formulate precise and structured prompts to AI, combining Intent and Constraints into an executable instruction. This maximizes the relevance and quality of AI-generated outputs, reducing iteration cycles.
 :::

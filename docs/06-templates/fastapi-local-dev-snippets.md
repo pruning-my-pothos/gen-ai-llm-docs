@@ -9,8 +9,6 @@ tags: ["python", "fastapi", "dev-setup", "template"]
 last_reviewed: "2025-12-28"
 ---
 
-## FastAPI Local Dev Snippets
-
 :::info[Value Proposition]
 Bootstrap a FastAPI service quickly with install, lint, test, and run commands.
 :::

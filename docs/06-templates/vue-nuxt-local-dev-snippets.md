@@ -9,8 +9,6 @@ tags: ["vue", "nuxt", "dev-setup", "template"]
 last_reviewed: "2025-12-28"
 ---
 
-## Vue/Nuxt Local Dev Snippets
-
 :::info[Value Proposition]
 Standardize Vue/Nuxt setup with install, lint, test, and build commands.
 :::

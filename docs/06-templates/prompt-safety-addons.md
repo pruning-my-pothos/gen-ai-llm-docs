@@ -9,8 +9,6 @@ tags: ["prompting", "safety", "constraints", "template"]
 last_reviewed: "2025-12-28"
 ---
 
-## Prompt Safety Add-ons
-
 :::info[Value Proposition]
 Drop-in constraints you can append to any prompt to reduce hallucinations, scope creep, and policy violations.
 :::

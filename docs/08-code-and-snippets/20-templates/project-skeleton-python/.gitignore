@@ -1,0 +1,25 @@
+# Logs
+*.log
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+.env/
+venv/
+.venv/
+tmp/
+
+# IDEs
+.vscode/
+.idea/
+
+# OS-specific
+.DS_Store
+Thumbs.db
+
+# Virtual environment automatically created by uv
+.uv/

@@ -9,8 +9,6 @@ tags: ["dev-setup", "scripts", "tooling", "template"]
 last_reviewed: "2025-12-28"
 ---
 
-## Local Dev Setup Template
-
 :::info[Value Proposition]
 Copy/paste starter commands to get a project running quickly with install, lint, test, and build. Keep this alongside your code so new contributors can ramp fast.
 :::

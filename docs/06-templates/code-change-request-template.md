@@ -9,8 +9,6 @@ tags: ["code", "prompting", "template", "tests"]
 last_reviewed: "2025-12-28"
 ---
 
-## Code Change Request Template
-
 :::info[Value Proposition]
 Copy/paste prompt to request a safe, scoped code change with tests and self-checks.
 :::

@@ -9,8 +9,6 @@ tags: ["ci", "github-actions", "template"]
 last_reviewed: "2025-12-28"
 ---
 
-## CI GitHub Actions Snippet
-
 :::info[Value Proposition]
 Drop-in CI workflow to run install, lint, test, and build on pushes/PRs.
 :::

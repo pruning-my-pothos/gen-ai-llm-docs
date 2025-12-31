@@ -9,8 +9,6 @@ tags: ["node", "react", "dev-setup", "template"]
 last_reviewed: "2025-12-28"
 ---
 
-## Node/React Local Dev Snippets
-
 :::info[Value Proposition]
 Copy/paste snippets to standardize Node/React project setup with installs, lint, test, and build commands.
 :::

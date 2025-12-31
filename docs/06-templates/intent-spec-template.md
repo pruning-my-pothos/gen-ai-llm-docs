@@ -9,8 +9,6 @@ tags: ["genai-llm", "intent", "specification", "template"]
 last_reviewed: "2025-12-28"
 ---
 
-## Intent Spec Template
-
 :::info[Value Proposition]
 Clearly define the desired outcome and success criteria for an AI-assisted task. This prevents scope creep, focuses AI generation, and provides a clear benchmark for evaluating outputs.
 :::

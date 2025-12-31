@@ -9,8 +9,6 @@ tags: ["genai-llm", "acceptance", "qa", "template"]
 last_reviewed: "2025-12-28"
 ---
 
-## Acceptance Criteria Template
-
 :::info[Value Proposition]
 Define objective, measurable conditions that must be met for an AI-generated output to be considered "done." This transforms subjective "looks good" into evidence-based "is good," preventing premature acceptance and ensuring quality.
 :::

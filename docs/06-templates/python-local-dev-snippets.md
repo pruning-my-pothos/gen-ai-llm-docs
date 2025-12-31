@@ -9,8 +9,6 @@ tags: ["python", "dev-setup", "template"]
 last_reviewed: "2025-12-28"
 ---
 
-## Python Local Dev Snippets
-
 :::info[Value Proposition]
 Standardize Python project setup with a simple venv, install, and test flow.
 :::

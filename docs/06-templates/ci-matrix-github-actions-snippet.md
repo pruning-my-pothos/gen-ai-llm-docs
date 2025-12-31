@@ -9,8 +9,6 @@ tags: ["ci", "github-actions", "matrix", "template"]
 last_reviewed: "2025-12-28"
 ---
 
-## CI Matrix GitHub Actions Snippet
-
 :::info[Value Proposition]
 Run lint/test/build across multiple Node versions (or OSes) with a single workflow.
 :::
