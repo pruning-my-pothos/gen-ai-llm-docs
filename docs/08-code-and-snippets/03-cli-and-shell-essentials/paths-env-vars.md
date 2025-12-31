@@ -1,5 +1,9 @@
 # Paths & Env Vars (quick reference)
 
+:::info[Why it matters]
+Most CLI issues come from the wrong working directory or missing env vars. Check these first.
+:::
+
 ## Check current directory and PATH
 ```bash
 pwd
@@ -22,6 +26,10 @@ Load into shell (one-off):
 ```bash
 set -a; source .env; set +a
 ```
+
+:::warning[Keep secrets safe]
+Never commit `.env`. Add it to `.gitignore`. Prefer `.env.example` with placeholder keys for sharing.
+:::
 
 ## VSCode integrated terminal
 - Open terminal: `View -> Terminal`.

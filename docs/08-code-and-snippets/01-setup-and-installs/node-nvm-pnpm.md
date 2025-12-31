@@ -2,6 +2,10 @@
 
 Manage Node versions with `nvm` and install deps with a fast package manager.
 
+:::info[Why nvm + pnpm?]
+nvm lets you match Node versions per project; pnpm is fast and space-efficient.
+:::
+
 ## Install nvm
 ```bash
 curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.7/install.sh | bash

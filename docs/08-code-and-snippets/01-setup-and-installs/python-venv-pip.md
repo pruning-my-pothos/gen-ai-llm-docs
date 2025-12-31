@@ -2,6 +2,10 @@
 
 Create an isolated environment and install common GenAI libs (local-friendly).
 
+:::info[Why use venv + pip?]
+Built-in, no extra tooling, keeps dependencies isolated per project.
+:::
+
 ## Create & Activate
 
 ```bash

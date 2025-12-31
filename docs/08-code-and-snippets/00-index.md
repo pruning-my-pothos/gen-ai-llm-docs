@@ -1,6 +1,8 @@
 # Code & Snippets Index
 
+:::info[Purpose]
 For beginners and non-devs: short, runnable references to set up local environments, manage git, count tokens, run RAG, and keep outputs safe and structured. Each subfolder is bite-sized—copy/paste commands and minimal code with sanity checks.
+:::
 
 ## Navigation
 

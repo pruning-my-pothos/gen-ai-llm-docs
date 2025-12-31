@@ -19,65 +19,26 @@ These commands are the "verbs" of your command-line environment. They allow you 
 
 ---
 
-## Navigating and Inspecting Directories
+## Navigating and Inspecting
 
--   **`pwd` (Print Working Directory)**: Shows you the absolute path of the directory you are currently in.
-    ```bash
-    pwd
-    # /Users/shaily/Code/my-project
-    ```
--   **`ls` (List)**: Lists the contents of a directory.
-    ```bash
-    ls -la
-    # -l: long format (shows permissions, owner, size, date)
-    # -a: all files (includes hidden files like .gitignore)
-    ```
--   **`cd` (Change Directory)**: Moves you to another directory.
-    ```bash
-    cd docs/08-code-and-snippets # Move to a specific directory
-    cd ..                        # Move up one level
-    cd ~                         # Move to your home directory
-    cd -                         # Move to the previous directory you were in
-    ```
+```bash
+pwd             # where am I
+ls -la          # list files (long, include hidden)
+cd docs         # go into docs
+cd ..           # up one level
+cd -            # back to previous
+```
 
----
+## Create, copy, move, delete
 
-## Creating and Managing Files & Folders
-
--   **`mkdir` (Make Directory)**: Creates a new directory.
-    ```bash
-    mkdir my-new-folder
-    mkdir -p path/to/nested/folder # -p creates parent directories if they don't exist
-    ```
--   **`touch`**: Creates a new, empty file.
-    ```bash
-    touch new_file.md
-    ```
--   **`cp` (Copy)**: Copies a file or directory.
-    ```bash
-    cp source.txt destination.txt
-    cp -r source_directory/ destination_directory/ # -r for recursive copy (for directories)
-    ```
--   **`mv` (Move)**: Moves or renames a file or directory.
-    ```bash
-    mv old_name.txt new_name.txt # Rename
-    mv my_file.txt ../other_folder/ # Move
-    ```
--   **`rm` (Remove)**: Deletes files or directories.
-
-    :::danger[Be Careful with `rm`]
-    The `rm` command is permanent and does not have a "trash bin". Be especially careful with the `-r` (recursive) and `-f` (force) flags.
-
-    ```bash
-    rm my_file.txt # Remove a file
-    rm -i my_other_file.txt # -i prompts for confirmation
-    
-    # Use with caution: recursively and forcefully removes a directory and all its contents
-    rm -rf my_folder/
-    ```
-    :::
-
----
+```bash
+mkdir -p notes/archive
+touch notes/todo.md
+cp notes/todo.md notes/todo-copy.md
+mv notes/todo.md notes/inbox.md
+rm notes/todo-copy.md          # delete file
+rm -rf notes/archive           # delete folder (careful!)
+```
 
 ## Viewing File Contents
 

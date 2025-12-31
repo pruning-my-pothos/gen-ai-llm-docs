@@ -79,7 +79,7 @@ This is a three-digit number indicating the result of the request.
 
 ### 2. The Headers
 
-The response also has headers, such as `Content-Type`, which tells the client what kind of data is in the response body.
+Requests and responses both carry headers. The key one here is `Content-Type: application/json`, which tells the server/client how to parse the body.
 
 ### 3. The Body
 

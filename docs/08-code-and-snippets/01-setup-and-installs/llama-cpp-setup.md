@@ -2,6 +2,10 @@
 
 Build/run the core engine locally if you need maximum control.
 
+:::info[Why llama.cpp?]
+Bare-metal control, performance, and flexibility for local inference.
+:::
+
 ## Prereqs
 - Build tools (gcc/clang), CMake.
 - Python (optional) for bindings.

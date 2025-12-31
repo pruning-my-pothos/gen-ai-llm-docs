@@ -41,21 +41,24 @@ Hands-on recipes with runnable code to build and test GenAI/LLM patterns locally
 
 ```mermaid
 flowchart LR
-    A[Data Prep & KB (ingest -> chunk -> embed -> store)] --> B[RAG Pipeline (retrieve -> rerank? -> generate -> cite)]
-    B --> C[Orchestration & Tooling (agents, schedulers, workflows)]
-    C --> D[Evaluation (retrieval metrics, answer quality, safety)]
-    D --> E[Fine-tune / Adapters (optional)]
-    E --> F[Delivery & Chat (UI/CLI/API, session context, citations, refusals)]
+    A[Data Prep & KB] --> B[RAG Pipeline]
+    B --> C[Orchestration & Tooling]
+    C --> D[Evaluation]
+    D --> E[Fine-tune / Adapters]
+    E --> F[Delivery & Chat]
+
     subgraph X[Cross-cutting]
-      P[Prompt Engineering & Safety (constraints, refusals, citations)]
+      P[Prompt Engineering & Safety]
       S[Data Contracts & Logging]
     end
+
     A --- P
     B --- P
     C --- P
     D --- P
     E --- P
     F --- P
+
     A --- S
     D --- S
     F --- S
