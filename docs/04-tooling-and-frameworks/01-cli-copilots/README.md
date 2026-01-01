@@ -7,6 +7,8 @@ maintainer: "Shailesh (Shaily)"
 version: "0.1.0"
 tags: ["genai-llm", "tooling", "cli", "workflow", "automation"]
 last_reviewed: "2025-12-28"
+id: 00-cli-agnostic-workflow
+slug: /04-tooling-and-frameworks/01-cli-copilots/00-cli-agnostic-workflow
 ---
 
 :::info[Value Proposition]

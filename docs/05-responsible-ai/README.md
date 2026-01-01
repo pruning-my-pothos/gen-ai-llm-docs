@@ -1,6 +1,8 @@
 ---
 sidebar_label: 'Introduction'
 title: 'Introduction to Responsible AI'
+id: index
+slug: /05-responsible-ai
 ---
 
 # Responsible AI: Ethics, Safety, and Alignment

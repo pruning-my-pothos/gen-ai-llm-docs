@@ -7,6 +7,8 @@ maintainer: "Shailesh (Shaily)"
 version: "0.1.0"
 tags: ["genai-llm", "tooling", "llm-frameworks", "orchestration", "rag"]
 last_reviewed: "2025-12-28"
+id: 00-frameworks-overview
+slug: /04-tooling-and-frameworks/02-llm-frameworks/00-frameworks-overview
 ---
 
 :::info[Value Proposition]

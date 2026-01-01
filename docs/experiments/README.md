@@ -7,6 +7,8 @@ maintainer: "Shailesh (Shaily)"
 version: "0.1.0"
 tags: ["experiments", "rag", "vector-db", "knowledge-graph"]
 last_reviewed: "2025-12-28"
+id: 00-index
+slug: /experiments/00-index
 ---
 
 ## Overview

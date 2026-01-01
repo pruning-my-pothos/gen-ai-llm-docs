@@ -7,6 +7,8 @@ maintainer: "Shailesh (Shaily)"
 version: "0.1.0"
 tags: ["genai-llm", "scenarios", "examples", "case-studies"]
 last_reviewed: "2025-12-28"
+id: 00-index
+slug: /03-professional-scenarios/advanced-scenarios/00-index
 ---
 
 ## Overview

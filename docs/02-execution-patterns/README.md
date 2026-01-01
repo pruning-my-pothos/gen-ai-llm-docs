@@ -7,19 +7,21 @@ maintainer: "Shailesh (Shaily)"
 version: "0.1.0"
 tags: ["genai-llm", "patterns", "execution", "recipes"]
 last_reviewed: "2025-12-28"
+id: 00-pattern-index
+slug: /02-execution-patterns/00-pattern-index
 ---
 
-# Execution Patterns Index
+
 
 :::info[Value Proposition]
-Execution patterns are reusable recipes for applying the GenAI Project Lifecycle to common development tasks. They provide step-by-step guidance on how to achieve specific outcomes, from creating new components to refactoring legacy code.
+Execution patterns are reusable recipes for applying GenAI & LLM Documentation to common development tasks. They provide step-by-step guidance on how to achieve specific outcomes, from creating new components to refactoring legacy code.
 :::
 
 ## Overview
 
-The GenAI Project Lifecycle provides the **method** for managing AI-assisted work. Execution patterns provide the **implementation details**—the specific instructions and considerations for common development scenarios. Think of them as battle-tested playbooks for your AI co-pilot.
+GenAI & LLM Documentation provides the **method** (the 8-step loop) for managing AI-assisted work. Execution patterns provide the **implementation details**—the specific instructions and considerations for common development scenarios. Think of them as battle-tested playbooks for your AI co-pilot.
 
-**Goal**: Systematize the application of the GenAI Project Lifecycle to accelerate development and improve output quality for frequent tasks.
+**Goal**: Systematize the application of GenAI & LLM Documentation to accelerate development and improve output quality for frequent tasks.
 **Anti-pattern**: Reinventing the wheel for every AI task, leading to inconsistent results and missed opportunities for automation.
 
 ---
@@ -41,37 +43,37 @@ Patterns are organized by the primary goal they help achieve.
 ### Creation Patterns (Building New Things)
 
 -   **Clean Slate**: Generating new modules, components, or services from scratch.
-    -   `./01-clean-slate.md`
+    -   `docs/02-execution-patterns/01-clean-slate.md`
 -   **Scaffold a Repo**: Setting up an entire repository structure.
-    -   `./02-scaffold-a-repo.md`
+    -   `docs/02-execution-patterns/02-scaffold-a-repo.md`
 -   **Design an API**: Specifying new API endpoints and their contracts.
-    -   `./03-design-an-api.md`
+    -   `docs/02-execution-patterns/03-design-an-api.md`
 -   **Data Modeling**: Designing database schemas or data structures.
-    -   `./04-data-modeling.md`
+    -   `docs/02-execution-patterns/04-data-modeling.md`
 
 ### Transformation Patterns (Changing Existing Things)
 
 -   **Refactor Safely**: Improving code structure without changing behavior.
-    -   `./05-refactor-safely.md`
+    -   `docs/02-execution-patterns/05-refactor-safely.md`
 -   **The Strangler**: Incrementally replacing legacy systems.
-    -   `./02-strangler-refactor.md`
+    -   `docs/02-execution-patterns/02-strangler-refactor.md`
 -   **The Translator**: Converting code or data from one format to another.
-    -   `./03-translator.md`
+    -   `docs/02-execution-patterns/03-translator.md`
 -   **Migrations and Upgrades**: Managing schema changes and dependency updates.
-    -   `./10-migrations-and-upgrades.md`
+    -   `docs/02-execution-patterns/10-migrations-and-upgrades.md`
 
 ### Support Patterns (Assisting Development)
 
 -   **Debug with Evidence**: Diagnosing and resolving bugs systematically.
-    -   `./06-debug-with-evidence.md`
+    -   `docs/02-execution-patterns/06-debug-with-evidence.md`
 -   **The Rubber Duck**: Using AI to explain complex code or problems.
-    -   `./07-rubber-duck.md`
+    -   `docs/02-execution-patterns/07-rubber-duck.md`
 -   **Write Tests**: Generating comprehensive test suites.
-    -   `./07-write-tests.md`
+    -   `docs/02-execution-patterns/07-write-tests.md`
 -   **Write Docs**: Generating accurate and maintainable documentation from code.
-    -   `./08-write-docs.md`
+    -   `docs/02-execution-patterns/08-write-docs.md`
 -   **Release and Changelog**: Automating release notes and communication.
-    -   `./09-release-and-changelog.md`
+    -   `docs/02-execution-patterns/09-release-and-changelog.md`
 
 ---
 
@@ -101,18 +103,18 @@ graph TD
         P13(Release and Changelog)
     end
 
-    P1 & P2 & P3 & P4 & P5 & P6 & P7 & P8 & P9 & P10 & P11 & P12 & P13 --> Loop[Apply GenAI Project Lifecycle]
+    P1 & P2 & P3 & P4 & P5 & P6 & P7 & P8 & P9 & P10 & P11 & P12 & P13 --> Loop[Apply GenAI & LLM Documentation Loop]
 
     classDef pattern fill:#E6F7FF,stroke:#1B75BB,color:#0F1F2E;
     class P1,P2,P3,P4,P5,P6,P7,P8,P9,P10,P11,P12,P13 pattern;
-    class Loop fill:#F0FFF0,stroke:#2E8B57,color:#0F2A1F;
+    class Loop fill:#E6F7FF,stroke:#1B75BB,color:#0F1F2E;
 ```
 
 ---
 
 ## Getting Started with Patterns
 
-If you are new to these methods, start with **"Clean Slate"** or **"Write Docs"**. They have the clearest success signals.
+If you are new to GenAI & LLM Documentation, start with **The "Clean Slate"** or **The "Doc-Smith"**. They have the clearest success signals.
 
 Each pattern includes:
 
@@ -125,7 +127,12 @@ Each pattern includes:
 
 ---
 
-## Last Reviewed / Last Updated
+## Quick Links
 
-- Last reviewed: 2025-12-28
-- Version: 0.1.0
+- Handbook Method: [Overview](/docs/01-handbook-method/01-overview)
+- Pattern Template: [Template](/docs/06-templates/pattern-template)
+- Clean Slate Pattern: [Execution Pattern](/docs/02-execution-patterns/01-clean-slate)
+
+## Next Step
+
+Dive into the first pattern: [Clean Slate](/docs/02-execution-patterns/01-clean-slate).

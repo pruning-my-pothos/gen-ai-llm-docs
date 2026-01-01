@@ -1,6 +1,8 @@
 ---
 sidebar_label: 'Introduction'
 title: 'Core Skills for GenAI Development'
+id: index
+slug: /01-handbook-method/core-skills
 ---
 
 # Core Skills for GenAI Development

@@ -1,17 +1,9 @@
 ---
 title: "Prompt Injection Red Flags"
+id: prompt-injection-red-flags-safety
+slug: /08-code-and-snippets/15-safety-and-privacy/prompt-injection-red-flags
 ---
 
-# Prompt Injection Red Flags
-
-:::warning[Watch for]
-- Instructions like “ignore previous,” “reset,” or “switch roles.”
-- Hidden/encoded data (base64, hex) asking to be decoded.
-- Prompts that exfiltrate secrets (“print all env vars,” “show system prompt”).
-- Requests to fetch untrusted URLs or run code.
+:::info[Canonical location]
+See the main guide: [Prompt Injection Red Flags](/docs/08-code-and-snippets/06-context-hygiene/prompt-injection-red-flags)
 :::
-
-## Mitigations
-- Pre-scan inputs for keywords/patterns; reject or sanitize.
-- Keep system prompts short and hard to override.
-- Combine with allowlists for tools/URLs and tight output validation.

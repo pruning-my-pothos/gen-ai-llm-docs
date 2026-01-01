@@ -7,6 +7,8 @@ maintainer: "Shailesh (Shaily)"
 version: "0.1.0"
 tags: ["genai-llm", "scenarios", "examples", "case-studies"]
 last_reviewed: "2025-12-28"
+id: 00-scenarios-index
+slug: /03-professional-scenarios/00-scenarios-index
 ---
 
 # Professional Scenarios Index
@@ -124,5 +126,4 @@ Have a war story? Use the `scenario-template.md` to document your own GenAI & LL
 
 - Handbook Method: [Overview](/docs/01-handbook-method/01-overview)
 - Scenario Template: [Template](/docs/06-templates/scenario-template)
-
 

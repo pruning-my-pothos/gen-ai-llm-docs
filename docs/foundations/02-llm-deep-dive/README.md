@@ -7,6 +7,8 @@ maintainer: "Shailesh (Shaily)"
 version: "0.1.0"
 tags: ["fundamentals", "llm", "genai", "theory"]
 last_reviewed: "2025-12-28"
+id: 00-index
+slug: /foundations/02-llm-deep-dive/00-index
 ---
 
 # Large Language Models
@@ -85,5 +87,4 @@ Beyond the three laws, adopting these mental models will significantly improve y
 - [Parameter: Top-k vs. Top-p Sampling](./parameter-top-k-vs-top-p-sampling.md)
 - [Temperature](./temperature.md)
 - [Copilots](./copilots.md)
-
 

@@ -1,19 +1,9 @@
 ---
 title: "Local Vector Store Options"
+id: local-vector-store-options
+slug: /08-code-and-snippets/11-embeddings-and-vector-ops/local-vector-store-options
 ---
 
-# Local Vector Store Options
-
-:::info[Goal]
-Pick a local-first vector database for small RAG projects.
+:::info[Canonical location]
+This content now lives in RAG Mini. See: [Local Vector Store Options](/docs/08-code-and-snippets/10-rag-mini/local-vector-store-options)
 :::
-
-- **Chroma**: Easiest Python-first option, good defaults, file-backed or server mode.
-- **Qdrant**: Rust core, fast, great for re-ranking + metadata filters; offers local binary and Docker.
-- **Weaviate (local)**: Feature-rich; heavier but solid filters and modules.
-- **Lite options**: `sqlite+vec0`/`pgvector` for very small datasets inside existing DBs.
-
-## Recommendations
-- Prototype: start with **Chroma** (in-process) or **Qdrant** (Docker/local binary).
-- Need filters and performance: **Qdrant**.
-- Already on Postgres: try **pgvector** before adding new infra.

@@ -1,16 +1,9 @@
 ---
 title: "Deterministic-ish Settings"
+id: deterministic-settings-eval
+slug: /08-code-and-snippets/12-eval-and-regression-mini/deterministic-settings
 ---
 
-# Deterministic-ish Settings
-
-:::info[Why]
-Lower randomness for regression tests and reproducible outputs.
+:::info[Canonical location]
+See the main guide: [Deterministic-ish Settings](/docs/08-code-and-snippets/09-output-validation-and-guards/deterministic-settings)
 :::
-
-- Set low `temperature` (0–0.2) and low `top_p` (0.7–0.9).
-- Fix `seed` where supported (OpenAI-compatible servers often expose it).
-- Keep prompts stable: identical instructions + ordering.
-- Limit context churn: trim chat history; pin retrieved chunks (same order).
-
-Use these settings when creating baselines for evals; relax them for creative tasks.

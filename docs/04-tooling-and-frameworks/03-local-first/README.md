@@ -7,6 +7,8 @@ maintainer: "Shailesh (Shaily)"
 version: "0.1.0"
 tags: ["genai-llm", "tooling", "local-llm", "privacy", "security", "offline"]
 last_reviewed: "2025-12-28"
+id: 00-local-first-overview
+slug: /04-tooling-and-frameworks/03-local-first/00-local-first-overview
 ---
 
 :::info[Value Proposition]

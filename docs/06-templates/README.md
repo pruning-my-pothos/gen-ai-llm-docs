@@ -7,6 +7,8 @@ maintainer: "Shailesh (Shaily)"
 version: "0.1.0"
 tags: ["genai-llm", "templates", "artifacts", "resources"]
 last_reviewed: "2025-12-20"
+id: 00-templates-index
+slug: /06-templates/00-templates-index
 ---
 
 ## Overview

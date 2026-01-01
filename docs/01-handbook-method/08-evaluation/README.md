@@ -1,6 +1,8 @@
 ---
 sidebar_label: 'Introduction'
 title: 'Evaluating Generative AI Systems'
+id: index
+slug: /01-handbook-method/08-evaluation
 ---
 
 # Evaluating Generative AI Systems
