@@ -5,7 +5,7 @@ title: 'Data Privacy in LLMs'
 
 # Data Privacy in Large Language Models
 
-Data privacy is a cornerstone of building trustworthy and [Responsible AI](./index.md). When users interact with an LLM-powered application, they may share sensitive information, and it is our responsibility to handle that data with the utmost care. The unique nature of LLMs introduces specific privacy challenges that must be addressed.
+Data privacy is a cornerstone of building trustworthy and [Responsible AI](/docs/05-responsible-ai). When users interact with an LLM-powered application, they may share sensitive information, and it is our responsibility to handle that data with the utmost care. The unique nature of LLMs introduces specific privacy challenges that must be addressed.
 
 ## Primary Privacy Risks in LLMs
 

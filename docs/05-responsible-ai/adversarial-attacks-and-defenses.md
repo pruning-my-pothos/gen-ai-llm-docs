@@ -7,7 +7,7 @@ title: 'Adversarial Attacks and Defenses'
 
 As Large Language Models become more integrated into applications, they also become targets for adversarial attacks. These attacks are malicious inputs designed to make the model behave in unintended, often harmful, ways.
 
-Understanding and defending against these attacks is a core part of building [Responsible AI](./index.md).
+Understanding and defending against these attacks is a core part of building [Responsible AI](/docs/05-responsible-ai).
 
 ## Common Adversarial Attacks
 

@@ -7,7 +7,7 @@ title: 'Human Evaluation Frameworks'
 
 While [quantitative metrics](./metrics-for-llms.md) and [AI-assisted evaluation](./ai-assisted-evaluation.md) are crucial for rapid, scalable feedback, the ultimate measure of an AI system's quality is how well it serves its human users. **Human evaluation** is the gold standard for assessing model performance, providing the ground truth that other methods aim to approximate.
 
-For a complete picture, you should understand how this fits into an overall [evaluation strategy](./index.md).
+For a complete picture, you should understand how this fits into an overall [evaluation strategy](/docs/01-handbook-method/08-evaluation).
 
 ## Why Human Evaluation is Essential
 

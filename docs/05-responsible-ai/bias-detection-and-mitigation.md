@@ -7,7 +7,7 @@ title: 'Bias Detection and Mitigation in LLMs'
 
 Bias in Large Language Models refers to the tendency of these models to generate outputs that are unfairly prejudiced against or in favor of a person, group, or idea. This bias is typically a reflection of the societal biases present in the vast amounts of text data the models were trained on.
 
-Addressing bias is a critical component of [Responsible AI](./index.md).
+Addressing bias is a critical component of [Responsible AI](/docs/05-responsible-ai).
 
 ## Where Does Bias Come From?
 

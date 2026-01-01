@@ -7,7 +7,7 @@ title: 'Building LLM Agents'
 
 Beyond simple text generation, the true power of Large Language Models is unlocked when they are used as the reasoning engine for an **agent**. An LLM agent is a system that can take actions, use tools, and interact with its environment to accomplish complex tasks.
 
-This topic combines several of the concepts discussed in the [Core Skills Introduction](./index.md).
+This topic combines several of the concepts discussed in the [Core Skills Introduction](/docs/01-handbook-method/core-skills).
 
 ## What is an Agent?
 
@@ -92,4 +92,4 @@ You don't have to build these loops from scratch! Frameworks like **LangChain**,
 
 Building an agent is a major step, but just as important is evaluating its performance. Agent evaluation presents unique challenges compared to simpler LLM outputs.
 
-- **[Evaluating Generative AI Systems](../08-evaluation/index.md):** Learn about the frameworks and metrics used to evaluate complex, multi-step AI systems.
+- **[Evaluating Generative AI Systems](/docs/01-handbook-method/08-evaluation):** Learn about the frameworks and metrics used to evaluate complex, multi-step AI systems.

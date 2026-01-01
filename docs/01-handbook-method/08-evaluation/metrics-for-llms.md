@@ -7,7 +7,7 @@ title: 'Quantitative Metrics for LLMs'
 
 While human judgment remains the gold standard, quantitative, automated metrics are essential for rapidly evaluating model performance during development, especially for tasks like summarization and translation where reference answers are available.
 
-This guide provides an overview of common metrics used to evaluate the output of LLMs. For a higher-level overview of evaluation strategy, see the [Introduction to Evaluation](./index.md).
+This guide provides an overview of common metrics used to evaluate the output of LLMs. For a higher-level overview of evaluation strategy, see the [Introduction to Evaluation](/docs/01-handbook-method/08-evaluation).
 
 ## 1. N-gram Based Metrics (BLEU, ROUGE)
 

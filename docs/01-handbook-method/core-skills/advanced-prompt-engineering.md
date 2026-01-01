@@ -7,7 +7,7 @@ title: 'Advanced Prompt Engineering'
 
 While basic prompts can yield impressive results, advanced techniques are necessary to unlock the full potential of Large Language Models and to build reliable applications. This guide covers several powerful methods for designing more effective prompts.
 
-For a basic overview, refer to the [Core Skills Introduction](./index.md).
+For a basic overview, refer to the [Core Skills Introduction](/docs/01-handbook-method/core-skills).
 
 ## 1. Few-Shot Prompting
 

@@ -44,18 +44,6 @@ const config: Config = {
     ],
   ],
   themeConfig: {
-    algolia: {
-      // The application ID provided by Algolia
-      appId: 'YOUR_APP_ID',
-
-      // Public API key: it is safe to commit it
-      apiKey: 'YOUR_SEARCH_API_KEY',
-
-      indexName: 'YOUR_INDEX_NAME',
-
-      // Optional: see docsearch options for more details
-      contextualSearch: true,
-    },
     mermaid: {
       theme: {light: 'neutral', dark: 'dark'},
     },
@@ -87,6 +75,26 @@ const config: Config = {
   },
   themes: ['@docusaurus/theme-mermaid'],
   plugins: [
+    [
+      '@docusaurus/plugin-client-redirects',
+      {
+        redirects: [
+          {
+            from: '/docs/01-handbook-method/execution-patterns/00-index',
+            to: '/docs/02-execution-patterns/00-pattern-index',
+          },
+          {
+            from: '/docs/01-handbook-method/execution-patterns',
+            to: '/docs/02-execution-patterns/00-pattern-index',
+          },
+          {
+            from: '/docs/05-responsible-ai/index',
+            to: '/docs/05-responsible-ai',
+          },
+        ],
+      },
+    ],
+    require.resolve('@easyops-cn/docusaurus-search-local'),
     async function tailwindPlugin() {
       return {
         name: 'docusaurus-tailwindcss',

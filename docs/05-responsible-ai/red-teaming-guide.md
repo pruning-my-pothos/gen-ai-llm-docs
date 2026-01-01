@@ -5,7 +5,7 @@ title: 'A Practical Guide to Red Teaming LLMs'
 
 # A Practical Guide to Red Teaming LLMs
 
-**Red teaming** is the practice of adversarially testing your own AI models to find their flaws and vulnerabilities before they are discovered by the public. It is a crucial, proactive step in building [Responsible AI](./index.md) and a key defense against [adversarial attacks](./adversarial-attacks-and-defenses.md).
+**Red teaming** is the practice of adversarially testing your own AI models to find their flaws and vulnerabilities before they are discovered by the public. It is a crucial, proactive step in building [Responsible AI](/docs/05-responsible-ai) and a key defense against [adversarial attacks](./adversarial-attacks-and-defenses.md).
 
 The goal of red teaming is not just to "break" the model, but to systematically map its failure modes in order to improve it.
 

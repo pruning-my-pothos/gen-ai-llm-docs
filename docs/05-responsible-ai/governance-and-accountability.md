@@ -5,7 +5,7 @@ title: 'AI Governance and Accountability'
 
 # AI Governance and Accountability
 
-Technical solutions for responsible AI are essential, but they are insufficient on their own. A robust program for [Responsible AI](./index.md) requires a strong foundation of **governance** and clear lines of **accountability** within an organization. This involves establishing processes, roles, and documentation to ensure that AI is developed and deployed in a manner consistent with your company's values and ethical principles.
+Technical solutions for responsible AI are essential, but they are insufficient on their own. A robust program for [Responsible AI](/docs/05-responsible-ai) requires a strong foundation of **governance** and clear lines of **accountability** within an organization. This involves establishing processes, roles, and documentation to ensure that AI is developed and deployed in a manner consistent with your company's values and ethical principles.
 
 ## Why Governance is Crucial
 

@@ -35,7 +35,7 @@ The field of artificial intelligence is rich with terminology that can often be 
 
 *   **Definition**: A cutting-edge subset of Deep Learning (and thus ML and AI) that focuses on models capable of generating novel data (text, images, audio, video, code, etc.) that resembles the training data but is not an exact copy.
 *   **Timeframe**: Rose to prominence from the mid-2010s, accelerating rapidly in the early 2020s.
-*   **Scope**: Generative Adversarial Networks (GANs), Variational Autoencoders (VAEs), [Transformer-based Large Language Models (LLMs)](../02-llm-deep-dive/00-index.md), Diffusion Models.
+*   **Scope**: Generative Adversarial Networks (GANs), Variational Autoencoders (VAEs), [Transformer-based Large Language Models (LLMs)](/docs/foundations/02-llm-deep-dive), Diffusion Models.
 *   **How it Works**: These models learn the underlying probability distribution of their training data, enabling them to sample from this distribution to produce new instances.
 *   **Example**: ChatGPT generating essays, Midjourney creating images from text prompts, AlphaFold predicting protein structures.
 

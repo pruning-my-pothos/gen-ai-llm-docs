@@ -56,5 +56,5 @@ The applications of GenAI are continually expanding. As models become more power
 
 ## Next Steps
 
-With a broad understanding of Generative AI, we will now specifically focus on its most impactful manifestation: **[Introduction to Large Language Models](../02-llm-deep-dive/00-index.md)**.
+With a broad understanding of Generative AI, we will now specifically focus on its most impactful manifestation: **[Introduction to Large Language Models](/docs/foundations/02-llm-deep-dive)**.
 ---

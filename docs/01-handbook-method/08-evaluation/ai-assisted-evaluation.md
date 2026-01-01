@@ -7,7 +7,7 @@ title: 'AI-Assisted Evaluation'
 
 One of the most powerful and scalable methods for evaluating the quality of LLM responses is to use another, more powerful LLM as a judge. This technique, known as **AI-assisted evaluation** or **LLM-as-a-judge**, provides a way to get nuanced, qualitative feedback at a scale that would be impossible with human evaluators alone.
 
-This approach complements the use of [quantitative metrics](./metrics-for-llms.md) and can serve as a scalable proxy for human evaluation. For a broader context, see the [Introduction to Evaluation](./index.md).
+This approach complements the use of [quantitative metrics](./metrics-for-llms.md) and can serve as a scalable proxy for human evaluation. For a broader context, see the [Introduction to Evaluation](/docs/01-handbook-method/08-evaluation).
 
 ## The Core Concept
 

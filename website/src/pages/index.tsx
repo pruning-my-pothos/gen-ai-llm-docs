@@ -87,7 +87,7 @@ export default function Home(): JSX.Element {
                   </Link>
                   <Link
                     className="inline-flex items-center justify-center rounded-md border border-input bg-background px-5 py-2.5 text-sm font-semibold shadow-sm hover:bg-accent hover:text-accent-foreground"
-                    to="/docs/foundations/02-llm-deep-dive/fundamentals/00-fundamentals-index"
+                    to="/docs/foundations/02-llm-deep-dive/fundamentals"
                   >
                     View Fundamentals
                   </Link>
@@ -154,7 +154,7 @@ export default function Home(): JSX.Element {
             <div className="mt-12 text-center">
               <Link
                 className="inline-flex items-center justify-center rounded-md bg-primary px-8 py-3 text-sm font-medium text-primary-foreground shadow transition-colors hover:bg-primary/90"
-                to="/docs/foundations/02-llm-deep-dive/fundamentals/00-fundamentals-index"
+                to="/docs/foundations/02-llm-deep-dive/fundamentals"
               >
                 Learn the Fundamentals
               </Link>

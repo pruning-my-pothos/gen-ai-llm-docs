@@ -7,7 +7,7 @@ title: 'Fine-Tuning Walkthrough'
 
 Fine-tuning is the process of taking a pre-trained Large Language Model and training it further on a smaller, domain-specific dataset. This adapts the model to excel at a particular task or to learn a specific style, tone, or knowledge base.
 
-For a basic overview of related concepts, refer to the [Core Skills Introduction](./index.md) and the guide on [LLM Training and Datasets](../../foundations/02-llm-deep-dive/training-and-datasets.md).
+For a basic overview of related concepts, refer to the [Core Skills Introduction](/docs/01-handbook-method/core-skills) and the guide on [LLM Training and Datasets](/docs/foundations/02-llm-deep-dive/training-and-datasets).
 
 ## When to Fine-Tune vs. When to Use RAG
 

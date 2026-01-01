@@ -7,8 +7,8 @@ maintainer: "Shailesh (Shaily)"
 version: "0.1.0"
 tags: ["fundamentals", "llm", "genai", "theory"]
 last_reviewed: "2025-12-28"
-id: 00-fundamentals-index
-slug: /foundations/02-llm-deep-dive/fundamentals/00-fundamentals-index
+id: llm-fundamentals
+slug: /foundations/02-llm-deep-dive/fundamentals
 ---
 
 # GenAI & LLM Fundamentals

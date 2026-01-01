@@ -48,7 +48,7 @@ In machine learning, models are broadly categorized into two types based on thei
 
 ## Generative AI and LLMs in this Context
 
-Current Generative AI systems, including Large Language Models ([LLMs](../02-llm-deep-dive/00-index.md)), are prominent examples of generative models. They learn the complex probability distribution of human language (or images, etc.) to generate new text (or images) that are indistinguishable from human-created content.
+Current Generative AI systems, including Large Language Models ([LLMs](/docs/foundations/02-llm-deep-dive)), are prominent examples of generative models. They learn the complex probability distribution of human language (or images, etc.) to generate new text (or images) that are indistinguishable from human-created content.
 
 However, it's important to note that many modern generative models can also be adapted for discriminative tasks through fine-tuning. For instance, an LLM pre-trained generatively can then be fine-tuned to perform sentiment analysis (a discriminative task) by predicting a sentiment label based on the input text.
 

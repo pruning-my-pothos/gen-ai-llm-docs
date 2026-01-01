@@ -7,7 +7,7 @@ title: 'RAG Implementation Patterns'
 
 Retrieval-Augmented Generation (RAG) is a powerful technique for building LLM applications that can reason about and answer questions over private or real-time data. It enhances a Large Language Model by retrieving relevant information from an external knowledge source and providing it to the model as context within the prompt.
 
-RAG is a core skill for building sophisticated AI applications. For a basic overview, refer to the [Core Skills Introduction](./index.md).
+RAG is a core skill for building sophisticated AI applications. For a basic overview, refer to the [Core Skills Introduction](/docs/01-handbook-method/core-skills).
 
 ## Why Use RAG?
 
