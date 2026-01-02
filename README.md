@@ -113,24 +113,6 @@ Bad intent (ambiguous):
 Improve the User interface to include login details.
 ```
 
-### Quickstart: run the GenAI & LLM Handbook on a real task
-
-Pick a small, concrete task (e.g., "add a field to a REST API response").
-
-1.  **Define Intent**: What is the precise goal? (e.g., "Add `lastLogin` timestamp to `/users/{id}` response.")
-2.  **Define Constraints**: What are the non-negotiables? (e.g., "Timestamp must be ISO 8601, only visible to admins, update on every login.")
-3.  **Generate**: Ask your AI to implement it (use a structured generation request).
-4.  **Review**: Critically examine the output against your Intent and Constraints.
-    - Follow: `docs/01-handbook-method/review-and-interrogation.md`
-
-Example:
-
-- ✅ Good GenAI & LLM Documentation intent (specific, testable)
-  "Generate a TypeScript interface `User` with `id: string`, `name: string`, `email: string`. Add a new field `lastLogin: string` (ISO 8601 format) to this interface. Do not modify other fields."
-
-- ❌ Bad GenAI & LLM Documentation intent (ambiguous, unbounded)
-  "Improve the User interface to include login details."
-
 ---
 
 ## Philosophy
@@ -149,6 +131,21 @@ You will know GenAI & LLM Handbook is working when:
 - Development cycle times are reduced without sacrificing correctness.
 - Team members spend more time on high-value tasks and less on boilerplate.
 - Onboarding new developers to a codebase is faster due to clear specifications and generated documentation.
+
+---
+
+## Disclaimers
+
+- External APIs, models, rate limits, and vendor defaults can change; pin SDK/model versions and monitor release notes.
+- Do not paste secrets or customer data into prompts; use `.env` and local-first models for sensitive work.
+- Licensing varies by model/data; verify rights before production use.
+- Cost/latency estimates depend on your provider and hardware; validate in your environment.
+
+## Intent & Future Outlook
+
+This handbook is opinionated and method-first: language as an executable spec, backed by evidence and guardrails. Models and defaults will evolve—keep prompts/specs versioned, pin SDK/model versions, and re-run evaluations when you upgrade. Treat this as guidance, not a guarantee: validate against your own data, policies, and threat models, and keep secrets/customer data out of prompts unless you control the stack.
+
+— Shailesh Rawat (sans_serif_sentiments)
 
 ---
 

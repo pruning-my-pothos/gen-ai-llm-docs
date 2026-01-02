@@ -1,7 +1,7 @@
 ---
 title: "Temperature"
 archetype: "standard"
-status: "draft"
+status: "active"
 owner: "Shailesh (Shaily)"
 maintainer: "Shailesh (Shaily)"
 version: "0.1.0"

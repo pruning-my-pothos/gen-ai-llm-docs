@@ -1,7 +1,7 @@
 ---
 title: "Parameter: Top-k vs Top-p Sampling"
 archetype: "standard"
-status: "draft"
+status: "active"
 owner: "Shailesh (Shaily)"
 maintainer: "Shailesh (Shaily)"
 version: "0.1.0"
