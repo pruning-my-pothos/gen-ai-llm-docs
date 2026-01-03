@@ -1,7 +1,7 @@
 # Security Policy
 
 ## Reporting a vulnerability
-- Email: security@sans-serif-sentiments.example (replace with a working alias if different).
+- Email: shailesh.rawat1403@gmail.com
 - Please include: affected area (doc/site/script), reproduction steps, impact, and any logs you can share safely.
 - Please do not open public issues for potential security problems.
 
