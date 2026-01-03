@@ -19,8 +19,8 @@ This repository is designed to be a practical guide for using Generative AI and 
 
 The GenAI & LLM Handbook is a professional practice. This repo supports:
 
--   **Learning the Core Principles**: Understanding _why_ GenAI & LLM Documentation works.
--   **Applying Patterns**: Learning _how_ to apply GenAI & LLM Documentation to common tasks.
+-   **Learning the Core Principles**: Understanding _why_ GenAI & LLM Handbook works.
+-   **Applying Patterns**: Learning _how_ to apply GenAI & LLM Handbook to common tasks.
 -   **Deep Dives**: Exploring specific technical aspects and scenarios.
 -   **Contributing**: Extending the repository with your own learnings and patterns.
 
@@ -78,7 +78,7 @@ The GenAI & LLM Handbook is best understood through application. It is a discipl
 
 ```mermaid
 graph TD
-    A[Human Intent] --> B(GenAI & LLM Documentation Method)
+    A[Human Intent] --> B(GenAI & LLM Handbook Method)
     B --> C[AI Execution]
     C --> D[Review & Validation]
     D --> B

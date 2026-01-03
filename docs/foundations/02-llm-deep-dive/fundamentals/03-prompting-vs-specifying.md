@@ -12,12 +12,12 @@ last_reviewed: "2025-12-28"
 # Prompting vs. Specifying
 
 :::info[Value Proposition]
-Contrast ad-hoc prompting with disciplined specification so GenAI & LLM Documentation stays predictable. This distinction is fundamental for moving from experimental AI use to reliable, production-ready AI-assisted development.
+Contrast ad-hoc prompting with disciplined specification so GenAI & LLM Handbook stays predictable. This distinction is fundamental for moving from experimental AI use to reliable, production-ready AI-assisted development.
 :::
 
 ## Overview
 
-The terms "prompting" and "specifying" are often used interchangeably in the context of interacting with LLMs, but in GenAI & LLM Documentation, they represent fundamentally different approaches. Prompting is typically an exploratory, conversational interaction. Specifying is a deliberate, structured, and formal act of defining intent and constraints. Understanding this difference is crucial for achieving predictable, high-quality outputs from AI.
+The terms "prompting" and "specifying" are often used interchangeably in the context of interacting with LLMs, but in GenAI & LLM Handbook, they represent fundamentally different approaches. Prompting is typically an exploratory, conversational interaction. Specifying is a deliberate, structured, and formal act of defining intent and constraints. Understanding this difference is crucial for achieving predictable, high-quality outputs from AI.
 
 **Goal**: Elevate interactions with LLMs from informal "prompting" to rigorous "specifying" for professional outcomes.
 **Anti-pattern**: Treating an LLM chat interface as a magic genie, expecting it to infer complex requirements from simple, conversational input.
@@ -40,7 +40,7 @@ The terms "prompting" and "specifying" are often used interchangeably in the con
 A clear understanding of the AI tool's capabilities and limitations, and a commitment to structured communication.
 :::
 
--   **Artifacts**: Basic understanding of the GenAI & LLM Documentation Loop.
+-   **Artifacts**: Basic understanding of the GenAI & LLM Handbook Loop.
 -   **Context**: Awareness of the specific task and its requirements.
 
 ---
@@ -69,7 +69,7 @@ A clear understanding of the AI tool's capabilities and limitations, and a commi
 
 ---
 
-## Why Specifying is Critical for Professional GenAI & LLM Documentation
+## Why Specifying is Critical for Professional GenAI & LLM Handbook
 
 -   **Reduces Hallucinations**: By being explicit, you leave less room for the AI to invent facts or logic.
 -   **Ensures Correctness**: Constraints prevent the AI from generating code that violates architectural, security, or quality standards.
@@ -79,9 +79,9 @@ A clear understanding of the AI tool's capabilities and limitations, and a commi
 
 ---
 
-## Specify with GenAI & LLM Documentation
+## Specify with GenAI & LLM Handbook
 
-The GenAI & LLM Documentation Loop is fundamentally a specifying process. Each stage builds a richer, more precise specification for the AI.
+The GenAI & LLM Handbook Loop is fundamentally a specifying process. Each stage builds a richer, more precise specification for the AI.
 
 ```mermaid
 flowchart LR
@@ -109,7 +109,7 @@ flowchart LR
 > "Write a function to sanitize user input for a web app."
 > *Issue*: Too vague. What kind of sanitization? For what purpose? What framework?
 
-**Specifying (Effective - GenAI & LLM Documentation approach):**
+**Specifying (Effective - GenAI & LLM Handbook approach):**
 
 1.  **Intent Spec**: "The function's purpose is to prevent XSS attacks by sanitizing user-provided string inputs before rendering them in HTML. It should remove potentially malicious script tags and HTML entities."
 2.  **Constraint Spec**: "Use TypeScript. The function should accept a `string` and return a `string`. It must use a well-established sanitization library or method (e.g., DOMPurify or custom regex if well-justified). It must not rely on client-side JavaScript for primary sanitization if used server-side."

@@ -28,7 +28,7 @@ Use this scorecard to grade an end-to-end AI session. Be honest. If you skipped 
 
 ## 2. Process Hygiene (The "Rules")
 
-**Did we follow the GenAI & LLM Documentation Loop?**
+**Did we follow the GenAI & LLM Handbook Loop?**
 
 - [ ] **Discovery Brief**: Written before prompting?
 - [ ] **Intent Spec**: Defined clear success criteria?
@@ -94,7 +94,7 @@ Use this scorecard to grade an end-to-end AI session. Be honest. If you skipped 
 | Pitfall                   | Impact                                   | Correction                                     |
 | :------------------------ | :--------------------------------------- | :--------------------------------------------- |
 | **Biased Grading**        | Inaccurate assessment of AI performance. | Ensure objective criteria are used; calibrate scores across reviewers. |
-| **Ignoring Process Hygiene**| Outcome achieved by luck, not methodology. | Strictly adhere to the GenAI & LLM Documentation Loop. |
+| **Ignoring Process Hygiene**| Outcome achieved by luck, not methodology. | Strictly adhere to the GenAI & LLM Handbook Loop. |
 | **Vague Retrospective**   | Failing to learn from successes/failures. | Document specific observations, root causes, and actionable improvements. |
 
 ---

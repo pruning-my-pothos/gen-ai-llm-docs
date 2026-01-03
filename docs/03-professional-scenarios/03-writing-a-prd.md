@@ -12,19 +12,19 @@ last_reviewed: "2025-12-28"
 ## Overview
 
 :::info[Value Proposition]
-Demonstrate how to use GenAI & LLM Documentation to turn vague stakeholder requests into a rigorous Product Requirement Document (PRD) that engineers can actually build, minimizing ambiguity and maximizing clarity.
+Demonstrate how to use GenAI & LLM Handbook to turn vague stakeholder requests into a rigorous Product Requirement Document (PRD) that engineers can actually build, minimizing ambiguity and maximizing clarity.
 :::
 
 ## Overview
 
-Product Requirement Documents (PRDs) are foundational for any product development. They bridge the gap between business needs and technical implementation. Leveraging AI for PRD creation can accelerate the process, but only if guided by a structured approach. This scenario illustrates how to apply GenAI & LLM Documentation principles to draft, refine, and validate a PRD, ensuring it meets both business intent and technical feasibility.
+Product Requirement Documents (PRDs) are foundational for any product development. They bridge the gap between business needs and technical implementation. Leveraging AI for PRD creation can accelerate the process, but only if guided by a structured approach. This scenario illustrates how to apply GenAI & LLM Handbook principles to draft, refine, and validate a PRD, ensuring it meets both business intent and technical feasibility.
 
 **Goal**: Generate a clear, actionable, and testable PRD using GenAI.
 **Anti-pattern**: Asking AI to "write a PRD for X" without defining the core problem, user, or success metrics, leading to a generic, unusable document.
 
 ---
 
-## The Problem (Before GenAI & LLM Documentation)
+## The Problem (Before GenAI & LLM Handbook)
 
 Product managers often struggle with:
 
@@ -35,9 +35,9 @@ Product managers often struggle with:
 
 ---
 
-## GenAI & LLM Documentation Approach
+## GenAI & LLM Handbook Approach
 
-| Challenge             | Traditional Risk          | GenAI & LLM Documentation Mitigation                   |
+| Challenge             | Traditional Risk          | GenAI & LLM Handbook Mitigation                   |
 | :-------------------- | :------------------------ | :--------------------------------- |
 | Vague inputs          | Misinterpretation         | **Discovery Brief**: Clarify problem, not solution     |
 | Feature bloat         | Scope creep               | **Intent Spec**: Define success metrics and exclusions |

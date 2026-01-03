@@ -12,12 +12,12 @@ last_reviewed: "2025-12-28"
 
 
 :::info[Value Proposition]
-When working with **Red Zone** data (PII, secrets, core IP), you cannot send code to the cloud. Local inference allows you to execute GenAI & LLM Documentation safely on your own hardware, maintaining data privacy and reducing reliance on external services.
+When working with **Red Zone** data (PII, secrets, core IP), you cannot send code to the cloud. Local inference allows you to execute GenAI & LLM Handbook safely on your own hardware, maintaining data privacy and reducing reliance on external services.
 :::
 
 ## Overview
 
-Most powerful LLMs are cloud-based, but for many professional development scenarios, sending proprietary code, sensitive data, or PII (Personally Identifiable Information) to external services is a non-starter due to security, privacy, or compliance concerns. Local inference involves running LLMs directly on your workstation or internal infrastructure. This approach allows you to leverage AI for GenAI & LLM Documentation tasks without compromising data sovereignty.
+Most powerful LLMs are cloud-based, but for many professional development scenarios, sending proprietary code, sensitive data, or PII (Personally Identifiable Information) to external services is a non-starter due to security, privacy, or compliance concerns. Local inference involves running LLMs directly on your workstation or internal infrastructure. This approach allows you to leverage AI for GenAI & LLM Handbook tasks without compromising data sovereignty.
 
 **Goal**: Enable secure and private AI-assisted development by keeping LLM processing local.
 **Anti-pattern**: Copy-pasting sensitive code into public cloud LLMs, creating data leakage risks.
@@ -47,7 +47,7 @@ Local LLMs are often less powerful and less aligned than their cloud counterpart
 
 ---
 
-## Adjusting GenAI & LLM Documentation for Local Models
+## Adjusting GenAI & LLM Handbook for Local Models
 
 Local models often have:
 
@@ -55,7 +55,7 @@ Local models often have:
 -   **Lower reasoning capabilities**: Demands more explicit logical steps and fewer assumptions in prompts.
 -   **Less "alignment"**: May be more prone to ignoring implicit instructions or generating less helpful responses.
 
-**GenAI & LLM Documentation Implication**: You must write **tighter constraints** and **simpler sentences** to get good results.
+**GenAI & LLM Handbook Implication**: You must write **tighter constraints** and **simpler sentences** to get good results.
 
 ---
 

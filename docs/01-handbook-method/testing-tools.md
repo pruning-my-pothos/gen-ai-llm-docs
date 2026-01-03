@@ -15,7 +15,7 @@ Utilize a range of testing tools to verify the correctness, quality, and perform
 
 ## Overview
 
-Testing is an indispensable part of software development, and its importance is amplified in the context of AI-assisted development. AI-generated code, while rapidly produced, requires rigorous validation to ensure it's free of bugs, security vulnerabilities, and adheres to specifications. LLM-powered applications, with their probabilistic nature, demand even more sophisticated testing to evaluate their behavior, accuracy, and alignment with user intent. This document explores various testing tools and methodologies for validating GenAI & LLM Documentation outputs.
+Testing is an indispensable part of software development, and its importance is amplified in the context of AI-assisted development. AI-generated code, while rapidly produced, requires rigorous validation to ensure it's free of bugs, security vulnerabilities, and adheres to specifications. LLM-powered applications, with their probabilistic nature, demand even more sophisticated testing to evaluate their behavior, accuracy, and alignment with user intent. This document explores various testing tools and methodologies for validating GenAI & LLM Handbook outputs.
 
 **Goal**: Equip teams with the knowledge and tools to effectively test AI-generated code and LLM applications, thereby increasing confidence in AI-assisted development.
 **Anti-pattern**: Relying solely on manual inspection of AI outputs, leading to overlooked bugs, security flaws, and inconsistent quality.
@@ -70,7 +70,7 @@ graph TD
 
 ---
 
-## Integration with GenAI & LLM Documentation Workflow
+## Integration with GenAI & LLM Handbook Workflow
 
 ### 1. Acceptance Criteria as Test Plans
 

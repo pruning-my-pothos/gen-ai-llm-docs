@@ -10,12 +10,12 @@ last_reviewed: "2025-12-28"
 ---
 
 :::info[Value Proposition]
-Integrate the power of OpenAI's Codex models directly into your command line workflow. Codex CLI allows for direct interaction with your filesystem, enabling automated code generation, refactoring, and scripting based on natural language instructions, making it a powerful tool for accelerating development within the GenAI & LLM Documentation framework.
+Integrate the power of OpenAI's Codex models directly into your command line workflow. Codex CLI allows for direct interaction with your filesystem, enabling automated code generation, refactoring, and scripting based on natural language instructions, making it a powerful tool for accelerating development within the GenAI & LLM Handbook framework.
 :::
 
 ## Overview
 
-Codex CLI is a command-line interface that brings the capabilities of advanced language models (originally OpenAI's Codex, now typically GPT models) to your terminal. It enables developers to issue natural language commands to modify files, generate code snippets, and execute scripts, effectively acting as an AI-powered assistant that understands and interacts with your local codebase. This guide details how to leverage Codex CLI to implement GenAI & LLM Documentation workflows.
+Codex CLI is a command-line interface that brings the capabilities of advanced language models (originally OpenAI's Codex, now typically GPT models) to your terminal. It enables developers to issue natural language commands to modify files, generate code snippets, and execute scripts, effectively acting as an AI-powered assistant that understands and interacts with your local codebase. This guide details how to leverage Codex CLI to implement GenAI & LLM Handbook workflows.
 
 **Goal**: Utilize Codex CLI to efficiently generate and modify code, adhering to Intent and Constraint Specifications, directly from the command line.
 **Anti-pattern**: Using Codex CLI for open-ended, exploratory tasks without clear boundaries, leading to unpredictable outputs and potential code quality issues.
@@ -64,7 +64,7 @@ codex-cli -f src/utils/math.py "Add a `subtract` function to `src/utils/math.py`
 
 ---
 
-## GenAI & LLM Documentation Workflow with Codex CLI
+## GenAI & LLM Handbook Workflow with Codex CLI
 
 ### 1. Define Specs (Intent & Constraint)
 

@@ -12,15 +12,15 @@ last_reviewed: "2025-12-28"
 ## IDE Setup: Cursor
 
 :::info[Value Proposition]
-Cursor is currently the preferred IDE for GenAI & LLM Documentation because it treats **Context Injection** as a first-class feature. You can explicitly reference your specs using `@Symbols`, making the GenAI & LLM Documentation Loop frictionless.
+Cursor is currently the preferred IDE for GenAI & LLM Handbook because it treats **Context Injection** as a first-class feature. You can explicitly reference your specs using `@Symbols`, making the GenAI & LLM Handbook Loop frictionless.
 :::
 
 ## Overview
 
-While GenAI & LLM Documentation is tool-agnostic, the choice of development environment can significantly impact workflow efficiency. Cursor, an AI-first IDE, is particularly well-suited for GenAI & LLM Documentation due to its deep integration of AI capabilities, including file-aware chat, code generation, and direct access to specifications. This document guides you through setting up Cursor to optimize your GenAI & LLM Documentation workflow.
+While GenAI & LLM Handbook is tool-agnostic, the choice of development environment can significantly impact workflow efficiency. Cursor, an AI-first IDE, is particularly well-suited for GenAI & LLM Handbook due to its deep integration of AI capabilities, including file-aware chat, code generation, and direct access to specifications. This document guides you through setting up Cursor to optimize your GenAI & LLM Handbook workflow.
 
-**Goal**: Configure Cursor to maximize productivity and adherence to GenAI & LLM Documentation principles.
-**Anti-pattern**: Using an IDE without integrating AI capabilities, or using AI tools in a fragmented manner that breaks the GenAI & LLM Documentation Loop.
+**Goal**: Configure Cursor to maximize productivity and adherence to GenAI & LLM Handbook principles.
+**Anti-pattern**: Using an IDE without integrating AI capabilities, or using AI tools in a fragmented manner that breaks the GenAI & LLM Handbook Loop.
 
 ---
 
@@ -28,7 +28,7 @@ While GenAI & LLM Documentation is tool-agnostic, the choice of development envi
 
 | Good fit (use when...)           | Avoid (not a fit when...)                     |
 | :------------------------------------ | :---------------------------------------- |
-| Developing with GenAI & LLM Documentation                                 | Your team explicitly prohibits the use of AI-integrated IDEs |
+| Developing with GenAI & LLM Handbook                                 | Your team explicitly prohibits the use of AI-integrated IDEs |
 | Needing seamless context injection for AI  | Your primary task is purely manual (e.g., hardware setup) |
 | Automating boilerplate or refactorings | You are comfortable with context switching between your IDE and a separate AI chat interface |
 
@@ -41,11 +41,11 @@ Ensure you have Cursor installed and a basic understanding of its core AI featur
 :::
 
 -   **Artifacts**: Cursor IDE installed and configured with your preferred AI model (e.g., OpenAI, Anthropic, local LLM).
--   **Context**: Your project's GenAI & LLM Documentation specs (Intent, Constraints, etc.) are available in your workspace.
+-   **Context**: Your project's GenAI & LLM Handbook specs (Intent, Constraints, etc.) are available in your workspace.
 
 ---
 
-## Configuration for GenAI & LLM Documentation
+## Configuration for GenAI & LLM Handbook
 
 ### 1. Model Configuration
 
@@ -53,14 +53,14 @@ Ensure Cursor is connected to the appropriate LLM, ideally one that balances cap
 
 ### 2. Custom Prompts / Persona Setup
 
-Configure Cursor's chat experience with a persona that aligns with GenAI & LLM Documentation principles.
+Configure Cursor's chat experience with a persona that aligns with GenAI & LLM Handbook principles.
 
 **Example Custom Prompt (in Cursor settings):**
-> "You are a Senior Engineer practicing GenAI & LLM Documentation (Generative AI & Large Language Model Documentation). Your primary goal is to assist in generating clear, correct, and maintainable code and documentation. You adhere strictly to provided Intent Specs, Constraint Specs, and Delegation Contracts. You prioritize clarity, safety, and verifiable outcomes. Always ask for clarification if intent or constraints are ambiguous. Do not proceed without clear instructions."
+> "You are a Senior Engineer practicing GenAI & LLM Handbook (Generative AI & Large Language Model Documentation). Your primary goal is to assist in generating clear, correct, and maintainable code and documentation. You adhere strictly to provided Intent Specs, Constraint Specs, and Delegation Contracts. You prioritize clarity, safety, and verifiable outcomes. Always ask for clarification if intent or constraints are ambiguous. Do not proceed without clear instructions."
 
 ### 3. Keybindings for Efficiency
 
-Customize keyboard shortcuts for frequently used GenAI & LLM Documentation actions (e.g., "Chat with selection," "Generate from scratch," "Ask about current file").
+Customize keyboard shortcuts for frequently used GenAI & LLM Handbook actions (e.g., "Chat with selection," "Generate from scratch," "Ask about current file").
 
 ### 4. Integrate Local Models (Optional, for privacy)
 
@@ -70,7 +70,7 @@ If working with sensitive data, configure Cursor to use a local LLM (e.g., via O
 
 ---
 
-## The GenAI & LLM Documentation Workflow in Cursor
+## The GenAI & LLM Handbook Workflow in Cursor
 
 1.  **Context Injection**: Highlight relevant code, open your `Intent Spec.md` and `Constraint Spec.md` files.
 2.  **Generate**: Use Cursor's "Generate" feature with a precise Generation Request, referencing your open specs with `@` (e.g., `@Intent Spec.md`, `@Constraint Spec.md`).

@@ -17,7 +17,7 @@ Use this pattern to debug complex logic or understand legacy code. It forces the
 
 ## Overview
 
-"Rubber Ducking" is a classic debugging technique where you explain your code line-by-line to an inanimate object. In GenAI & LLM Documentation, the AI acts as an **active** rubber duck.
+"Rubber Ducking" is a classic debugging technique where you explain your code line-by-line to an inanimate object. In GenAI & LLM Handbook, the AI acts as an **active** rubber duck.
 
 **Goal**: Isolate the root cause of a bug or understand a complex flow.
 **Anti-pattern**: "Fix this error." (Result: AI guesses blindly without understanding the state).

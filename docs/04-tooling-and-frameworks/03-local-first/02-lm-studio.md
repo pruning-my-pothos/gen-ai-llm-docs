@@ -10,12 +10,12 @@ last_reviewed: "2025-12-28"
 ---
 
 :::info[Value Proposition]
-LM Studio provides a user-friendly graphical interface for discovering, downloading, and running a wide array of open-source large language models (LLMs) locally on your desktop. It simplifies the complex process of local inference, making it accessible to a broader audience and enabling private, offline, and cost-effective AI-assisted development, fully aligning with secure GenAI & LLM Documentation workflows.
+LM Studio provides a user-friendly graphical interface for discovering, downloading, and running a wide array of open-source large language models (LLMs) locally on your desktop. It simplifies the complex process of local inference, making it accessible to a broader audience and enabling private, offline, and cost-effective AI-assisted development, fully aligning with secure GenAI & LLM Handbook workflows.
 :::
 
 ## Overview
 
-For developers who prefer a visual interface over command-line tools, LM Studio offers an excellent solution for local LLM management. It allows you to browse a curated list of models, download them with a single click, and run them on your CPU or GPU, all through an intuitive GUI. LM Studio also includes a chat interface and an OpenAI-compatible local server, enabling seamless integration with existing tools and frameworks that expect an OpenAI-like API. This makes it ideal for exploring local models and conducting private AI-assisted tasks within the GenAI & LLM Documentation framework.
+For developers who prefer a visual interface over command-line tools, LM Studio offers an excellent solution for local LLM management. It allows you to browse a curated list of models, download them with a single click, and run them on your CPU or GPU, all through an intuitive GUI. LM Studio also includes a chat interface and an OpenAI-compatible local server, enabling seamless integration with existing tools and frameworks that expect an OpenAI-like API. This makes it ideal for exploring local models and conducting private AI-assisted tasks within the GenAI & LLM Handbook framework.
 
 **Goal**: Easily discover, run, and interact with local LLMs via a graphical interface, facilitating secure and private AI-assisted development and experimentation.
 **Anti-pattern**: Avoiding local LLMs due to perceived complexity, thus unnecessarily exposing sensitive data to cloud services for tasks that could be handled locally.
@@ -57,7 +57,7 @@ Configure your IDE extensions (e.g., Continue, Cursor) or LLM frameworks (LangCh
 
 ---
 
-## GenAI & LLM Documentation Workflow with LM Studio
+## GenAI & LLM Handbook Workflow with LM Studio
 
 ### 1. Define Specs (Intent & Constraint)
 

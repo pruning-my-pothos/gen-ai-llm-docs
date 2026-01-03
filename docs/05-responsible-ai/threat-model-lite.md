@@ -12,12 +12,12 @@ last_reviewed: "2025-12-28"
 # Threat Model Lite
 
 :::info[Value Proposition]
-Quickly identify and mitigate security risks associated with AI-assisted development. This lightweight threat modeling approach focuses on AI-specific vulnerabilities and ensures that security considerations are embedded early in the GenAI & LLM Documentation Loop.
+Quickly identify and mitigate security risks associated with AI-assisted development. This lightweight threat modeling approach focuses on AI-specific vulnerabilities and ensures that security considerations are embedded early in the GenAI & LLM Handbook Loop.
 :::
 
 ## Overview
 
-Traditional threat modeling can be resource-intensive. For AI-assisted development, a "Threat Model Lite" approach allows teams to rapidly assess and address common AI-related security risks without extensive overhead. This guardrail integrates security thinking directly into the GenAI & LLM Documentation workflow, focusing on identifying potential malicious inputs, unintended behaviors, and data exposures.
+Traditional threat modeling can be resource-intensive. For AI-assisted development, a "Threat Model Lite" approach allows teams to rapidly assess and address common AI-related security risks without extensive overhead. This guardrail integrates security thinking directly into the GenAI & LLM Handbook workflow, focusing on identifying potential malicious inputs, unintended behaviors, and data exposures.
 
 **Goal**: Identify and prioritize AI-specific security threats and propose mitigations efficiently.
 **Anti-pattern**: Relying solely on general application security practices, which often miss AI-specific attack vectors, or ignoring security until late in the development cycle.

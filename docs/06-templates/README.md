@@ -14,10 +14,10 @@ slug: /06-templates/00-templates-index
 ## Overview
 
 :::info[Value Proposition]
-Don't start from a blank page. These templates provide the structure you need to execute GenAI & LLM Documentation effectively. Copy them, fill them out, and treat them as source code.
+Don't start from a blank page. These templates provide the structure you need to execute GenAI & LLM Handbook effectively. Copy them, fill them out, and treat them as source code.
 :::
 
-In GenAI & LLM Documentation, **structure is safety**.
+In GenAI & LLM Handbook, **structure is safety**.
 Using a template ensures you don't forget critical sections like "Non-Goals" in a brief or "Security" in a constraint spec.
 
 These templates are designed to be:
@@ -30,7 +30,7 @@ These templates are designed to be:
 
 ## The Core Loop Artifacts
 
-These templates correspond directly to the 8 steps of the GenAI & LLM Documentation Method.
+These templates correspond directly to the 8 steps of the GenAI & LLM Handbook Method.
 
 | Step               | Template                                                       | Purpose                                        |
 | :----------------- | :------------------------------------------------------------- | :--------------------------------------------- |
@@ -91,7 +91,7 @@ Starter scripts and checklists for local setup and delivery.
 
 ## Meta Templates
 
-Use these to extend the GenAI & LLM Documentation repository itself.
+Use these to extend the GenAI & LLM Handbook repository itself.
 
 - [`pattern-template.md`](./pattern-template.md): Create a new Execution Pattern.
 - [`scenario-template.md`](./scenario-template.md): Document a Professional Scenario.

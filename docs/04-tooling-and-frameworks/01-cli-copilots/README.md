@@ -17,7 +17,7 @@ Establish a flexible, tool-agnostic workflow for interacting with various CLI (C
 
 ## Overview
 
-CLI copilots are powerful AI agents that operate directly within your terminal, often with access to your local filesystem and shell. While each copilot may have unique commands and interaction patterns, the underlying principles of effective AI-assisted development remain constant. This document outlines a generic workflow that can be applied across different CLI copilots, allowing you to leverage their capabilities while maintaining adherence to GenAI & LLM Documentation practices.
+CLI copilots are powerful AI agents that operate directly within your terminal, often with access to your local filesystem and shell. While each copilot may have unique commands and interaction patterns, the underlying principles of effective AI-assisted development remain constant. This document outlines a generic workflow that can be applied across different CLI copilots, allowing you to leverage their capabilities while maintaining adherence to GenAI & LLM Handbook practices.
 
 **Goal**: Provide a standardized approach for delegating coding tasks to CLI copilots, ensuring predictable outcomes and efficient human-AI collaboration.
 **Anti-pattern**: Learning a new workflow for every CLI copilot, leading to fragmentation, inconsistent results, and an inability to transfer best practices between tools.
@@ -98,7 +98,7 @@ graph LR
 | **Vague Prompting**       | Inconsistent or irrelevant AI output.    | Always use structured prompts referencing clear Intent and Constraint Specs. |
 | **Ignoring Context Limits** | AI struggles with large codebases, hallucinations. | Prune context aggressively; only provide what's directly relevant. |
 | **Skipping Diff Review**  | Uncontrolled changes, introducing bugs.  | Always critically review AI-generated diffs before accepting. |
-| **Tool Lock-in Mindset**  | Difficulty switching copilots, rigid workflows. | Adopt a tool-agnostic mindset, focus on the underlying GenAI & LLM Documentation principles. |
+| **Tool Lock-in Mindset**  | Difficulty switching copilots, rigid workflows. | Adopt a tool-agnostic mindset, focus on the underlying GenAI & LLM Handbook principles. |
 
 ---
 

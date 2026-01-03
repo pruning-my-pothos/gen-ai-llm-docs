@@ -10,12 +10,12 @@ last_reviewed: "2025-12-28"
 ---
 
 :::info[Value Proposition]
-Continue is a powerful open-source AI coding assistant that integrates deeply with your IDE and offers a versatile CLI. It provides a flexible "context window" where you can add files, documentation, or chat history, making it an excellent tool for applying the GenAI & LLM Documentation workflow, especially for tasks requiring extensive context injection and multi-tool orchestration.
+Continue is a powerful open-source AI coding assistant that integrates deeply with your IDE and offers a versatile CLI. It provides a flexible "context window" where you can add files, documentation, or chat history, making it an excellent tool for applying the GenAI & LLM Handbook workflow, especially for tasks requiring extensive context injection and multi-tool orchestration.
 :::
 
 ## Overview
 
-Continue acts as an intelligent layer between your IDE (VS Code, JetBrains) and various LLMs (local or cloud). It allows you to select code, chat with the AI about it, and execute tasks like code generation, refactoring, and debugging. Its key strength lies in its ability to manage a persistent context window, allowing you to build up a complex understanding of your project over multiple interactions. This makes it highly suitable for applying GenAI & LLM Documentation principles by providing the AI with rich, structured context (your specs).
+Continue acts as an intelligent layer between your IDE (VS Code, JetBrains) and various LLMs (local or cloud). It allows you to select code, chat with the AI about it, and execute tasks like code generation, refactoring, and debugging. Its key strength lies in its ability to manage a persistent context window, allowing you to build up a complex understanding of your project over multiple interactions. This makes it highly suitable for applying GenAI & LLM Handbook principles by providing the AI with rich, structured context (your specs).
 
 **Goal**: Automate complex code tasks by leveraging Continue's persistent context management and multi-LLM support within your IDE or via its CLI.
 **Anti-pattern**: Using Continue for trivial, single-turn prompts; failing to leverage its context window and continuous interaction for more complex, iterative tasks.
@@ -49,7 +49,7 @@ Continue's context window (often a sidebar in the IDE) is where you explicitly a
 
 ---
 
-## GenAI & LLM Documentation Workflow with Continue
+## GenAI & LLM Handbook Workflow with Continue
 
 ### 1. Define Specs (Intent, Constraint, Delegation)
 

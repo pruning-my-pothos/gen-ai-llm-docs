@@ -10,14 +10,14 @@ last_reviewed: "2025-12-28"
 ---
 
 :::info[Value Proposition]
-Aider is an interactive CLI copilot that excels at multi-file code editing, test generation, and refactoring by interacting directly with your local git repository. Its conversational interface, paired with its ability to propose and execute code changes in small, reviewable chunks, makes it an ideal tool for implementing the GenAI & LLM Documentation Loop, especially when detailed oversight and iterative refinement are required.
+Aider is an interactive CLI copilot that excels at multi-file code editing, test generation, and refactoring by interacting directly with your local git repository. Its conversational interface, paired with its ability to propose and execute code changes in small, reviewable chunks, makes it an ideal tool for implementing the GenAI & LLM Handbook Loop, especially when detailed oversight and iterative refinement are required.
 :::
 
 ## Overview
 
 Aider stands out among CLI copilots for its deep integration with `git` and its highly interactive, conversational workflow. It allows developers to "chat" with an AI assistant that understands the context of a project, proposes changes by reading existing files, and then applies those changes directly to the codebase. This makes Aider particularly powerful for tasks that involve modifying multiple files, generating tests alongside new features, or tackling complex refactorings in a controlled, reviewable manner.
 
-**Goal**: Execute iterative code modifications, refactorings, and test generation tasks efficiently and safely, leveraging Aider's interactive capabilities within the GenAI & LLM Documentation framework.
+**Goal**: Execute iterative code modifications, refactorings, and test generation tasks efficiently and safely, leveraging Aider's interactive capabilities within the GenAI & LLM Handbook framework.
 **Anti-pattern**: Treating Aider as a "magic button" that can fix all problems without human review or clear specifications, leading to uncontrolled changes or unwanted side effects.
 
 ---
@@ -64,11 +64,11 @@ aider
 
 ---
 
-## GenAI & LLM Documentation Workflow with Aider
+## GenAI & LLM Handbook Workflow with Aider
 
 ### 1. Define Specs (Intent, Constraint, Delegation)
 
-As with any GenAI & LLM Documentation task, start by clearly defining your Intent Spec, Constraint Spec, and Delegation Contract. Aider can even be used to draft these!
+As with any GenAI & LLM Handbook task, start by clearly defining your Intent Spec, Constraint Spec, and Delegation Contract. Aider can even be used to draft these!
 
 ### 2. Add Context Files
 

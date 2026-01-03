@@ -10,12 +10,12 @@ last_reviewed: "2025-12-28"
 ---
 
 :::info[Value Proposition]
-Systematically evaluate the performance, quality, and cost-effectiveness of local Large Language Models (LLMs) to ensure they meet your specific project requirements. This enables informed model selection, continuous improvement, and verifiable adherence to the output standards defined by your GenAI & LLM Documentation.
+Systematically evaluate the performance, quality, and cost-effectiveness of local Large Language Models (LLMs) to ensure they meet your specific project requirements. This enables informed model selection, continuous improvement, and verifiable adherence to the output standards defined by your GenAI & LLM Handbook.
 :::
 
 ## Overview
 
-Choosing and utilizing local LLMs effectively requires a robust evaluation strategy. Unlike cloud LLMs, where performance metrics are often provided, local models demand that you establish your own benchmarks and evaluation pipelines. This process is crucial for understanding a model's strengths and weaknesses, identifying optimal prompting strategies, and ensuring that the model's outputs align with your Intent Specs and Acceptance Criteria. This guide outlines how to approach evaluating local LLMs within your GenAI & LLM Documentation workflow.
+Choosing and utilizing local LLMs effectively requires a robust evaluation strategy. Unlike cloud LLMs, where performance metrics are often provided, local models demand that you establish your own benchmarks and evaluation pipelines. This process is crucial for understanding a model's strengths and weaknesses, identifying optimal prompting strategies, and ensuring that the model's outputs align with your Intent Specs and Acceptance Criteria. This guide outlines how to approach evaluating local LLMs within your GenAI & LLM Handbook workflow.
 
 **Goal**: Select and optimize local LLMs that deliver high-quality, reliable outputs for specific tasks, balancing performance with local hardware constraints.
 **Anti-pattern**: Relying on anecdotal evidence or generic benchmarks for local model selection, leading to suboptimal performance, increased iteration cycles, and frustration.
@@ -58,7 +58,7 @@ Tools that help automate the evaluation process (e.g., `lm-eval-harness`, LangCh
 
 ---
 
-## GenAI & LLM Documentation Workflow for Local Model Evaluation
+## GenAI & LLM Handbook Workflow for Local Model Evaluation
 
 ### 1. Define Evaluation Criteria (Acceptance Criteria)
 
@@ -108,7 +108,7 @@ graph LR
 | **Using Irrelevant Benchmarks** | Model performs well on benchmarks but poorly on your specific task. | Create custom evaluation datasets that closely match your production use cases. |
 | **Over-reliance on Automated Metrics** | Automated metrics might not capture subtle quality issues or nuances. | Always include a human review component (qualitative evaluation) for critical tasks. |
 | **Ignoring Performance Metrics for Local Models** | Model consumes too many resources or is too slow for practical use. | Track latency, throughput, and resource usage (CPU/GPU/RAM) alongside quality metrics. |
-| **Lack of Clear Acceptance Criteria** | Subjective evaluation, difficult to make objective decisions about model quality. | Define precise, measurable Acceptance Criteria upfront, as per GenAI & LLM Documentation principles. |
+| **Lack of Clear Acceptance Criteria** | Subjective evaluation, difficult to make objective decisions about model quality. | Define precise, measurable Acceptance Criteria upfront, as per GenAI & LLM Handbook principles. |
 
 ---
 

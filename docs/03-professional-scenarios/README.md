@@ -14,14 +14,14 @@ slug: /03-professional-scenarios/00-scenarios-index
 # Professional Scenarios Index
 
 :::info[Value Proposition]
-Theory is clean. Reality is messy. These scenarios are "game tapes" of real GenAI & LLM Documentation execution, showing the messy middle where trade-offs happen, and how to apply the framework to overcome challenges.
+Theory is clean. Reality is messy. These scenarios are "game tapes" of real GenAI & LLM Handbook execution, showing the messy middle where trade-offs happen, and how to apply the framework to overcome challenges.
 :::
 
 ## Overview
 
-Applying GenAI & LLM Documentation in a professional setting involves more than just following steps. It requires adapting the framework to real-world constraints, imperfect information, and complex team dynamics. This section provides a collection of professional scenarios, illustrating how different roles can leverage GenAI & LLM Documentation to solve common problems effectively.
+Applying GenAI & LLM Handbook in a professional setting involves more than just following steps. It requires adapting the framework to real-world constraints, imperfect information, and complex team dynamics. This section provides a collection of professional scenarios, illustrating how different roles can leverage GenAI & LLM Handbook to solve common problems effectively.
 
-**Goal**: Provide concrete, role-based examples of GenAI & LLM Documentation in action, highlighting practical application and decision-making.
+**Goal**: Provide concrete, role-based examples of GenAI & LLM Handbook in action, highlighting practical application and decision-making.
 **Anti-pattern**: Limiting understanding to theoretical concepts without practicing application in diverse, realistic contexts.
 
 ---
@@ -30,7 +30,7 @@ Applying GenAI & LLM Documentation in a professional setting involves more than 
 
 | Good fit (use when...)           | Avoid (not a fit when...)                     |
 | :------------------------------------ | :---------------------------------------- |
-| Learning how to apply GenAI & LLM Documentation to your specific role | You are looking for a definitive, single answer to every problem |
+| Learning how to apply GenAI & LLM Handbook to your specific role | You are looking for a definitive, single answer to every problem |
 | Onboarding new team members to AI-assisted workflows | The scenario perfectly matches a simple Execution Pattern |
 | Understanding the trade-offs and nuances of AI-assisted development | You are purely interested in the technical mechanics of LLMs |
 
@@ -59,43 +59,43 @@ Scenarios are grouped by the primary persona or functional area they address.
 
 -   **Writing a PRD**: Translating vague needs into a rigorous Product Requirement Document.
     -   `docs/03-professional-scenarios/03-writing-a-prd.md`
--   **Problem Framing to User Stories**: Breaking down a problem into actionable user stories.
-    -   `docs/03-professional-scenarios/product-and-ux/01-problem-framing-to-prd.md` (Note: This file does not exist yet)
+-   **Problem Framing to PRD**: Converting an ambiguous problem into a structured PRD.
+    -   `docs/03-professional-scenarios/product-and-ux/01-problem-framing-to-prd.md`
 -   **PRD to User Stories**: Breaking down a problem into actionable user stories.
-    -   `docs/03-professional-scenarios/product-and-ux/02-prd-to-user-stories.md` (Note: This file does not exist yet)
+    -   `docs/03-professional-scenarios/product-and-ux/02-prd-to-user-stories.md`
 -   **User Stories to Acceptance Tests**: Deriving testable acceptance criteria from user stories.
-    -   `docs/03-professional-scenarios/product-and-ux/03-user-stories-to-acceptance-tests.md` (Note: This file does not exist yet)
+    -   `docs/03-professional-scenarios/product-and-ux/03-user-stories-to-acceptance-tests.md`
 
 ### Platform & Ops Scenarios
 
 -   **CI/CD Pipeline Migration**: Automating the migration of build and deploy pipelines.
     -   `docs/03-professional-scenarios/04-cicd-pipeline-migration.md`
 -   **Infra as Code Changes**: Safely modifying infrastructure definitions.
-    -   `docs/03-professional-scenarios/platform-and-ops/02-infra-as-code-changes.md` (Note: This file does not exist yet)
+    -   `docs/03-professional-scenarios/platform-and-ops/02-infra-as-code-changes.md`
 -   **Incident Response**: Using AI for incident diagnosis and runbook generation.
-    -   `docs/03-professional-scenarios/platform-and-ops/03-incident-response.md` (Note: This file does not exist yet)
+    -   `docs/03-professional-scenarios/platform-and-ops/03-incident-response.md`
 -   **Security Review Prep**: Leveraging AI to assist in security audits and reviews.
-    -   `docs/03-professional-scenarios/platform-and-ops/04-security-review-prep.md` (Note: This file does not exist yet)
+    -   `docs/03-professional-scenarios/platform-and-ops/04-security-review-prep.md`
 
 ### Leadership & Stakeholder Scenarios
 
 -   **Executive Summary from Tech Reality**: Translating complex technical issues into business language.
-    -   `docs/03-professional-scenarios/leadership-and-stakeholders/01-executive-summary-from-tech-reality.md` (Note: This file does not exist yet)
+    -   `docs/03-professional-scenarios/leadership-and-stakeholders/01-executive-summary-from-tech-reality.md`
 -   **Risk Register and Mitigations**: Identifying and documenting risks for AI projects.
-    -   `docs/03-professional-scenarios/leadership-and-stakeholders/02-risk-register-and-mitigations.md` (Note: This file does not exist yet)
+    -   `docs/03-professional-scenarios/leadership-and-stakeholders/02-risk-register-and-mitigations.md`
 -   **Roadmap and Trade-offs**: Using AI to explore solution spaces and articulate trade-offs.
-    -   `docs/03-professional-scenarios/leadership-and-stakeholders/03-roadmap-and-tradeoffs.md` (Note: This file does not exist yet)
+    -   `docs/03-professional-scenarios/leadership-and-stakeholders/03-roadmap-and-tradeoffs.md`
 
 ### Docs and Enablement Scenarios
 
 -   **Docs Site Setup**: Initializing and configuring a documentation website.
-    -   `docs/03-professional-scenarios/docs-and-enablement/01-docs-site-setup.md` (Note: This file does not exist yet)
+    -   `docs/03-professional-scenarios/docs-and-enablement/01-docs-site-setup.md`
 -   **Runbooks and Ops Docs**: Generating operational runbooks from system code.
-    -   `docs/03-professional-scenarios/docs-and-enablement/02-runbooks-and-ops-docs.md` (Note: This file does not exist yet)
+    -   `docs/03-professional-scenarios/docs-and-enablement/02-runbooks-and-ops-docs.md`
 -   **Onboarding and Learning Paths**: Creating structured learning paths for new team members.
-    -   `docs/03-professional-scenarios/docs-and-enablement/03-onboarding-and-learning-paths.md` (Note: This file does not exist yet)
+    -   `docs/03-professional-scenarios/docs-and-enablement/03-onboarding-and-learning-paths.md`
 -   **Release Notes and Change Comms**: Automating the communication of product changes.
-    -   `docs/03-professional-scenarios/docs-and-enablement/04-release-notes-and-change-comms.md` (Note: This file does not exist yet)
+    -   `docs/03-professional-scenarios/docs-and-enablement/04-release-notes-and-change-comms.md`
 
 ---
 
@@ -107,7 +107,7 @@ flowchart LR
     Block --> Detect[1. Detect Block]
     Detect --> Context[2. Provide Context]
     Context --> Hypoth[3. Formulate Hypothesis]
-    Hypoth --> Fix[4. The GenAI & LLM Documentation Fix]
+    Hypoth --> Fix[4. The GenAI & LLM Handbook Fix]
     Fix --> Resolve[5. Resolve Block]
 
     classDef step fill:#E6F7FF,stroke:#1B75BB,color:#0F1F2E;
@@ -118,7 +118,7 @@ flowchart LR
 
 ## How to Contribute Your Own Scenario
 
-Have a war story? Use the `scenario-template.md` to document your own GenAI & LLM Documentation win (or interesting failure).
+Have a war story? Use the `scenario-template.md` to document your own GenAI & LLM Handbook win (or interesting failure).
 
 ---
 
@@ -126,4 +126,3 @@ Have a war story? Use the `scenario-template.md` to document your own GenAI & LL
 
 - Handbook Method: [Overview](/docs/01-handbook-method/01-overview)
 - Scenario Template: [Template](/docs/06-templates/scenario-template)
-

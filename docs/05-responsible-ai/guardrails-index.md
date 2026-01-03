@@ -17,7 +17,7 @@ Guardrails and Governance define the protective measures and policies necessary 
 
 ## Overview
 
-In GenAI & LLM Documentation, we do not treat AI as a magic box. We treat it as a **junior employee with infinite speed and zero judgment**. Without proper guardrails and governance, this "junior employee" can inadvertently introduce significant risks, from security vulnerabilities and data leakage to compliance violations and brand damage. This section provides a framework for establishing the necessary controls to manage AI-assisted development effectively.
+In GenAI & LLM Handbook, we do not treat AI as a magic box. We treat it as a **junior employee with infinite speed and zero judgment**. Without proper guardrails and governance, this "junior employee" can inadvertently introduce significant risks, from security vulnerabilities and data leakage to compliance violations and brand damage. This section provides a framework for establishing the necessary controls to manage AI-assisted development effectively.
 
 **Goal**: Establish clear policies, processes, and technical controls to ensure responsible and reliable AI integration.
 **Anti-pattern**: Allowing ad-hoc AI usage without any oversight, leading to unpredictable risks and inconsistent quality.
@@ -84,7 +84,7 @@ A clear understanding of your organization's risk appetite, compliance obligatio
 
 ---
 
-## Visual Summary of Guardrails in the GenAI & LLM Documentation Loop
+## Visual Summary of Guardrails in the GenAI & LLM Handbook Loop
 
 ```mermaid
 graph TD
@@ -92,7 +92,7 @@ graph TD
         Intent(Intent Spec)
         Constraints(Constraint Spec)
     end
-    subgraph Execution ["GenAI & LLM Documentation Loop"]
+    subgraph Execution ["GenAI & LLM Handbook Loop"]
         Delegation(Delegation Contract)
         Generation(Generation Request)
         Review(Review & Interrogation)

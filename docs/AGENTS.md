@@ -20,7 +20,7 @@ Guardrails for any CLI-based agent (Codex CLI, Aider, Claude Code/terminal, simi
 
 This file defines how CLI-based agents should behave inside this repo.
 
-GenAI & LLM Documentation assumes AI can execute, but humans own:
+GenAI & LLM Handbook assumes AI can execute, but humans own:
 
 - intent
 - trade-offs
@@ -148,7 +148,7 @@ Agents must follow this order:
 
 Good Good instruction to an agent
 
-- “Create `docs/foundations/02-llm-deep-dive/fundamentals/01-how-llms-work-enough-for-practice.md` using the repo doc template. Keep it practice-oriented. Include one Mermaid diagram. Add a short ‘How this impacts GenAI & LLM Documentation execution’ section. Do not add external links unless necessary.”
+- “Create `docs/foundations/02-llm-deep-dive/fundamentals/01-how-llms-work-enough-for-practice.md` using the repo doc template. Keep it practice-oriented. Include one Mermaid diagram. Add a short ‘How this impacts GenAI & LLM Handbook execution’ section. Do not add external links unless necessary.”
 
 Bad Bad instruction to an agent
 
@@ -267,7 +267,7 @@ If you paste your `codex --help` output, I will convert these into exact command
 
 ## Resources & References
 
-- GenAI & LLM Documentation Method: `docs/01-handbook-method/`
+- GenAI & LLM Handbook Method: `docs/01-handbook-method/`
 - Guardrails: `docs/05-responsible-ai/`
 - Templates: `docs/06-templates/`
 - Code & Snippets: `docs/08-code-and-snippets/`

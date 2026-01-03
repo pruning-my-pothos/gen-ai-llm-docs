@@ -10,12 +10,12 @@ last_reviewed: "2025-12-28"
 ---
 
 :::info[Value Proposition]
-Ollama simplifies the process of running large language models locally on your computer. It provides a user-friendly way to download, manage, and interact with various open-source LLMs, enabling private, offline, and cost-effective AI-assisted development. This is crucial for GenAI & LLM Documentation workflows involving sensitive data or when avoiding cloud dependencies is a priority.
+Ollama simplifies the process of running large language models locally on your computer. It provides a user-friendly way to download, manage, and interact with various open-source LLMs, enabling private, offline, and cost-effective AI-assisted development. This is crucial for GenAI & LLM Handbook workflows involving sensitive data or when avoiding cloud dependencies is a priority.
 :::
 
 ## Overview
 
-Ollama is a powerful yet easy-to-use tool that allows developers to run open-source large language models (LLMs) like Llama 2, Mistral, Code Llama, and many others, directly on their local machine. It bundles model weights, configurations, and a server into a single package, providing a simple API for interaction. For GenAI & LLM Documentation, Ollama is invaluable as it allows AI assistance without sending proprietary code or sensitive information to external cloud providers, enhancing privacy and security.
+Ollama is a powerful yet easy-to-use tool that allows developers to run open-source large language models (LLMs) like Llama 2, Mistral, Code Llama, and many others, directly on their local machine. It bundles model weights, configurations, and a server into a single package, providing a simple API for interaction. For GenAI & LLM Handbook, Ollama is invaluable as it allows AI assistance without sending proprietary code or sensitive information to external cloud providers, enhancing privacy and security.
 
 **Goal**: Seamlessly integrate local LLMs into your development workflow using Ollama for secure, private, and efficient AI-assisted tasks.
 **Anti-pattern**: Avoiding AI assistance altogether due to privacy concerns, or using cloud LLMs for sensitive tasks when a local solution like Ollama is available.
@@ -61,7 +61,7 @@ Many IDEs and CLI copilots (e.g., Continue, Aider) can be configured to use Olla
 
 ---
 
-## GenAI & LLM Documentation Workflow with Ollama
+## GenAI & LLM Handbook Workflow with Ollama
 
 ### 1. Define Specs (Intent & Constraint)
 

@@ -17,14 +17,14 @@ Automate the migration of CI/CD pipelines from one platform to another (e.g., Je
 
 ## Overview
 
-Migrating CI/CD pipelines can be a complex and error-prone task, often involving manual translation of build steps, environment configurations, and deployment logic. This scenario demonstrates how GenAI & LLM Documentation can streamline this process by treating existing pipeline definitions as input specifications and generating new configurations for the target platform, while adhering to specified constraints and best practices.
+Migrating CI/CD pipelines can be a complex and error-prone task, often involving manual translation of build steps, environment configurations, and deployment logic. This scenario demonstrates how GenAI & LLM Handbook can streamline this process by treating existing pipeline definitions as input specifications and generating new configurations for the target platform, while adhering to specified constraints and best practices.
 
 **Goal**: Successfully migrate an existing CI/CD pipeline from source to target platform with minimal manual intervention and verification.
 **Anti-pattern**: Manually rewriting complex pipeline configurations, leading to missed steps, syntax errors, and inconsistent behavior.
 
 ---
 
-## The Problem (Before GenAI & LLM Documentation)
+## The Problem (Before GenAI & LLM Handbook)
 
 DevOps teams face challenges with CI/CD migrations:
 
@@ -35,9 +35,9 @@ DevOps teams face challenges with CI/CD migrations:
 
 ---
 
-## GenAI & LLM Documentation Approach
+## GenAI & LLM Handbook Approach
 
-| Challenge         | Traditional Risk                   | GenAI & LLM Documentation Mitigation                             |
+| Challenge         | Traditional Risk                   | GenAI & LLM Handbook Mitigation                             |
 | :---------------- | :--------------------------------- | :------------------------------------------------------------- |
 | Syntax differences | Manual errors, prolonged debugging | **Translator Pattern**: AI translates steps, flags incompatibilities |
 | Implicit dependencies | Missed configurations            | **Discovery Brief**: AI analyzes existing configs for implicit rules |

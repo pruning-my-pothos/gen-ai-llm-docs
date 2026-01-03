@@ -15,7 +15,7 @@ While Cursor is primarily an AI-first IDE, its integrated terminal and AI chat c
 
 ## Overview
 
-Cursor integrates AI deeply within the IDE, offering features like chat-based code generation, editing, and debugging. Its built-in terminal, enhanced with AI understanding, allows for a hybrid workflow where command-line operations can be intelligently assisted. This scenario focuses on leveraging Cursor's AI to perform tasks that typically fall under CLI agents, such as complex `git` operations, file manipulations, or running scripts with AI guidance, making the terminal a more intelligent and productive interface for GenAI & LLM Documentation.
+Cursor integrates AI deeply within the IDE, offering features like chat-based code generation, editing, and debugging. Its built-in terminal, enhanced with AI understanding, allows for a hybrid workflow where command-line operations can be intelligently assisted. This scenario focuses on leveraging Cursor's AI to perform tasks that typically fall under CLI agents, such as complex `git` operations, file manipulations, or running scripts with AI guidance, making the terminal a more intelligent and productive interface for GenAI & LLM Handbook.
 
 **Goal**: Extend Cursor's AI capabilities to terminal-based operations, automating complex command sequences, and providing intelligent assistance for system-level tasks.
 **Anti-pattern**: Treating Cursor's terminal AI as a mere shell wrapper; failing to leverage its deep code understanding for context-aware command generation or problem-solving.
@@ -49,7 +49,7 @@ Cursor's terminal AI inherently has access to your open files and project struct
 
 ---
 
-## GenAI & LLM Documentation Workflow with Cursor (CLI Perspective)
+## GenAI & LLM Handbook Workflow with Cursor (CLI Perspective)
 
 ### 1. Define Specs (Intent, Constraint, Delegation)
 

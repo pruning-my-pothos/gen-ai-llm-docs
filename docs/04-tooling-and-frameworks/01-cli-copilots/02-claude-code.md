@@ -10,12 +10,12 @@ last_reviewed: "2025-12-28"
 ---
 
 :::info[Value Proposition]
-Leverage Anthropic's Claude models for robust code generation, analysis, and refactoring directly through a text-based interface. Claude Code (or conceptual interaction with Claude via CLI) excels in complex reasoning and maintaining long contexts, making it particularly effective for tasks requiring a deep understanding of larger codebases and nuanced instructions within the GenAI & LLM Documentation framework.
+Leverage Anthropic's Claude models for robust code generation, analysis, and refactoring directly through a text-based interface. Claude Code (or conceptual interaction with Claude via CLI) excels in complex reasoning and maintaining long contexts, making it particularly effective for tasks requiring a deep understanding of larger codebases and nuanced instructions within the GenAI & LLM Handbook framework.
 :::
 
 ## Overview
 
-While not a standalone "Codex CLI" type binary, "Claude Code" refers to the practice of interacting with Anthropic's Claude models (e.g., Claude 3.5 Sonnet, Claude Opus) via CLI tools (like Aider, Continue, or custom scripts) or through text-based IDE integrations. Claude models are known for their strong reasoning capabilities, large context windows, and safety features, making them excellent candidates for complex code-related tasks within the GenAI & LLM Documentation loop.
+While not a standalone "Codex CLI" type binary, "Claude Code" refers to the practice of interacting with Anthropic's Claude models (e.g., Claude 3.5 Sonnet, Claude Opus) via CLI tools (like Aider, Continue, or custom scripts) or through text-based IDE integrations. Claude models are known for their strong reasoning capabilities, large context windows, and safety features, making them excellent candidates for complex code-related tasks within the GenAI & LLM Handbook loop.
 
 **Goal**: Utilize Claude's advanced reasoning to tackle intricate code generation, refactoring, and problem-solving challenges, guided by strict Intent and Constraint Specifications.
 **Anti-pattern**: Treating Claude as a simple code completion tool; failing to leverage its full potential for complex logic and contextual understanding by providing fragmented prompts.
@@ -54,7 +54,7 @@ Select a CLI agent or integration that supports Anthropic models.
 
 ---
 
-## GenAI & LLM Documentation Workflow with Claude Code
+## GenAI & LLM Handbook Workflow with Claude Code
 
 ### 1. Define Specs (Intent & Constraint)
 

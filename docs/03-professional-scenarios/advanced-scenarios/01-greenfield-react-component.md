@@ -35,9 +35,9 @@ At an advanced level, frontend developers encounter:
 
 ---
 
-## GenAI & LLM Documentation Advanced Approach
+## GenAI & LLM Handbook Advanced Approach
 
-| Advanced Challenge        | Advanced Traditional Risk             | GenAI & LLM Documentation Mitigation (Advanced)                  |
+| Advanced Challenge        | Advanced Traditional Risk             | GenAI & LLM Handbook Mitigation (Advanced)                  |
 | :------------------------ | :------------------------------------ | :--------------------------------------------------------------- |
 | Performance at Scale      | Janky UI, poor UX, high resource use  | **Constraint Spec**: Define performance budgets, memoization strategies, virtualized lists. AI generates optimized code. |
 | Complex State Management  | Prop drilling, inconsistent state     | **Intent Spec**: Clearly define state ownership, data flow. **Constraint Spec**: Enforce patterns like Zustand, React Query, or Redux. |

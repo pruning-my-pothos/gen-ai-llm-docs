@@ -17,7 +17,7 @@ CLI agents (like Aider) enable autonomous, iterative execution of tasks directly
 
 ## Overview
 
-CLI (Command Line Interface) agents are AI tools that you interact with directly through your terminal, often within your code editor. Unlike web-based LLM interfaces, they can read and write to your local filesystem, execute shell commands, and interact with your version control system. In GenAI & LLM Documentation, we use them to execute **Generation Requests** autonomously, allowing the AI to act as a "junior engineer" on your local machine.
+CLI (Command Line Interface) agents are AI tools that you interact with directly through your terminal, often within your code editor. Unlike web-based LLM interfaces, they can read and write to your local filesystem, execute shell commands, and interact with your version control system. In GenAI & LLM Handbook, we use them to execute **Generation Requests** autonomously, allowing the AI to act as a "junior engineer" on your local machine.
 
 **Goal**: Automate repetitive coding tasks and accelerate development cycles by delegating execution to a local AI agent.
 **Anti-pattern**: Using CLI agents without proper constraints or a clear definition of desired output, leading to uncontrolled changes or unwanted file modifications.
@@ -99,7 +99,7 @@ flowchart LR
 
 ---
 
-## Best Practices for CLI GenAI & LLM Documentation
+## Best Practices for CLI GenAI & LLM Handbook
 
 -   **Start Small**: Delegate single, well-defined tasks initially.
 -   **Clear Boundaries**: Always provide explicit Constraints and Delegation Contracts.

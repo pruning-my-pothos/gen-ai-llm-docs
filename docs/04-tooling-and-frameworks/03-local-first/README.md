@@ -12,14 +12,14 @@ slug: /04-tooling-and-frameworks/03-local-first/00-local-first-overview
 ---
 
 :::info[Value Proposition]
-Explore the advantages of running Large Language Models (LLMs) locally on your own hardware, ensuring data privacy, reducing reliance on cloud providers, and enabling offline AI-assisted development. This approach is critical for projects dealing with sensitive data, proprietary code, or strict compliance requirements, fully integrating with GenAI & LLM Documentation principles for secure and verifiable outcomes.
+Explore the advantages of running Large Language Models (LLMs) locally on your own hardware, ensuring data privacy, reducing reliance on cloud providers, and enabling offline AI-assisted development. This approach is critical for projects dealing with sensitive data, proprietary code, or strict compliance requirements, fully integrating with GenAI & LLM Handbook principles for secure and verifiable outcomes.
 :::
 
 ## Overview
 
 While cloud-based LLMs offer unparalleled power and accessibility, they come with inherent trade-offs concerning data privacy, security, and network dependency. Local-first LLMs, running directly on your workstation or internal infrastructure, provide a solution for these challenges. This section delves into the concepts, benefits, and practical considerations of deploying and utilizing LLMs locally, ensuring that AI assistance can be integrated into even the most sensitive development workflows while maintaining full control over your data.
 
-**Goal**: Guide the selection, setup, and effective utilization of local-first LLMs for secure, private, and offline AI-assisted development within the GenAI & LLM Documentation framework.
+**Goal**: Guide the selection, setup, and effective utilization of local-first LLMs for secure, private, and offline AI-assisted development within the GenAI & LLM Handbook framework.
 **Anti-pattern**: Sending proprietary code or sensitive data to external, cloud-based LLMs without understanding the associated risks, or avoiding AI assistance entirely due to privacy concerns when local solutions are viable.
 
 ---

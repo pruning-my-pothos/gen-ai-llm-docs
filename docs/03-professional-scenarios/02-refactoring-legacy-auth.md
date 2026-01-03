@@ -17,14 +17,14 @@ Safely refactor a critical, complex legacy authentication system without introdu
 
 ## Overview
 
-Legacy authentication systems are often monolithic, tightly coupled, and high-risk. Refactoring them is a daunting task, yet crucial for security and maintainability. This scenario demonstrates how GenAI & LLM Documentation can be applied to mitigate the risks associated with such refactorings. By systematically generating characterization tests, extracting clear interfaces, and implementing changes incrementally, we can modernize legacy auth with confidence.
+Legacy authentication systems are often monolithic, tightly coupled, and high-risk. Refactoring them is a daunting task, yet crucial for security and maintainability. This scenario demonstrates how GenAI & LLM Handbook can be applied to mitigate the risks associated with such refactorings. By systematically generating characterization tests, extracting clear interfaces, and implementing changes incrementally, we can modernize legacy auth with confidence.
 
 **Goal**: Extract and replace a legacy authentication module with a modern, secure implementation, while preserving external behavior and minimizing downtime.
 **Anti-pattern**: A "big-bang" rewrite of the entire auth system, leading to extensive regressions and potential security flaws.
 
 ---
 
-## The Problem (Before GenAI & LLM Documentation)
+## The Problem (Before GenAI & LLM Handbook)
 
 Teams dealing with legacy authentication face:
 
@@ -35,9 +35,9 @@ Teams dealing with legacy authentication face:
 
 ---
 
-## GenAI & LLM Documentation Approach
+## GenAI & LLM Handbook Approach
 
-| Challenge               | Traditional Risk                  | GenAI & LLM Documentation Mitigation                            |
+| Challenge               | Traditional Risk                  | GenAI & LLM Handbook Mitigation                            |
 | :---------------------- | :-------------------------------- | :-------------------------------------------------------------- |
 | High-risk changes         | Unforeseen regressions            | **Refactor Safely Pattern**: Characterization tests as safety net |
 | Code entanglement         | Difficulty in isolating logic     | **The Strangler Pattern**: Incremental replacement with abstraction |

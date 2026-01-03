@@ -12,19 +12,19 @@ last_reviewed: "2025-12-28"
 ## Overview
 
 :::info[Value Proposition]
-Demonstrate how to apply GenAI & LLM Documentation to build a reusable, accessible React component from scratch without introducing technical debt or accessibility violations, accelerating development while maintaining quality.
+Demonstrate how to apply GenAI & LLM Handbook to build a reusable, accessible React component from scratch without introducing technical debt or accessibility violations, accelerating development while maintaining quality.
 :::
 
 ## Overview
 
-Building new UI components often involves repetitive tasks: setting up file structure, writing boilerplate code, ensuring accessibility, and adhering to design systems. This scenario illustrates how to leverage AI, guided by GenAI & LLM Documentation principles, to generate a high-quality React component. By precisely defining intent and constraints, we can ensure the AI produces code that is clean, testable, and compliant with best practices from its inception.
+Building new UI components often involves repetitive tasks: setting up file structure, writing boilerplate code, ensuring accessibility, and adhering to design systems. This scenario illustrates how to leverage AI, guided by GenAI & LLM Handbook principles, to generate a high-quality React component. By precisely defining intent and constraints, we can ensure the AI produces code that is clean, testable, and compliant with best practices from its inception.
 
 **Goal**: Generate a production-ready React component (e.g., a custom Button, Modal, or Input) quickly and correctly.
 **Anti-pattern**: Asking AI to "create a button" without defining its variants, states, accessibility needs, or stylistic constraints, resulting in a generic and unmaintainable component.
 
 ---
 
-## The Problem (Before GenAI & LLM Documentation)
+## The Problem (Before GenAI & LLM Handbook)
 
 Frontend developers frequently encounter:
 
@@ -35,9 +35,9 @@ Frontend developers frequently encounter:
 
 ---
 
-## GenAI & LLM Documentation Approach
+## GenAI & LLM Handbook Approach
 
-| Challenge          | Traditional Risk                    | GenAI & LLM Documentation Mitigation                       |
+| Challenge          | Traditional Risk                    | GenAI & LLM Handbook Mitigation                       |
 | :----------------- | :---------------------------------- | :--------------------------------------------------------- |
 | Boilerplate code   | Repetitive, error-prone manual work | **Clean Slate Pattern**: Generate from zero with full spec |
 | Inconsistent design  | UI drift, bad UX                    | **Constraint Spec**: Define design tokens, Tailwind/CSS-in-JS rules |
@@ -112,9 +112,9 @@ Critically review the generated component and tests.
 -   **Reduced technical debt**: Explicit constraints prevent common mistakes.
 -   **Improved consistency**: Standardized components across the application.
 
-| Metric        | Traditional (Manual) | GenAI & LLM Documentation |
+| Metric        | Traditional (Manual) | GenAI & LLM Handbook |
 | :------------ | :------------------- | :-------------------------- |
-| **Dev Time**  | _4 Hours (Manual)_   | 45 Minutes (GenAI & LLM Documentation)        |
+| **Dev Time**  | _4 Hours (Manual)_   | 45 Minutes (GenAI & LLM Handbook)        |
 | **Bugs/Refactors** | 3-5 (post-initial)   | 0-1 (post-initial)          |
 | **Accessibility Audit Findings** | 1-2 (minor)          | 0-1 (minor)                 |
 

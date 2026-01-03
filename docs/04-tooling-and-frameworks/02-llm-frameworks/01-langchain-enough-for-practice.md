@@ -10,12 +10,12 @@ last_reviewed: "2025-12-28"
 ---
 
 :::info[Value Proposition]
-LangChain provides a comprehensive framework for building LLM-powered applications, enabling complex chains of interactions, agentic behaviors, and seamless integration with external data sources. Understanding LangChain is crucial for translating GenAI & LLM Documentation principles into scalable, production-ready AI systems, especially when orchestrating multiple prompts and tools.
+LangChain provides a comprehensive framework for building LLM-powered applications, enabling complex chains of interactions, agentic behaviors, and seamless integration with external data sources. Understanding LangChain is crucial for translating GenAI & LLM Handbook principles into scalable, production-ready AI systems, especially when orchestrating multiple prompts and tools.
 :::
 
 ## Overview
 
-LangChain is one of the most popular open-source frameworks for developing applications powered by large language models. It provides a modular architecture that simplifies the process of combining LLMs with other components, such as data sources, memory, and custom tools. Key features include "Chains" for sequencing LLM calls, "Agents" for dynamic tool use, and robust support for "Retrieval Augmented Generation (RAG)" patterns. This guide focuses on the practical aspects of using LangChain to implement structured AI applications within a GenAI & LLM Documentation context.
+LangChain is one of the most popular open-source frameworks for developing applications powered by large language models. It provides a modular architecture that simplifies the process of combining LLMs with other components, such as data sources, memory, and custom tools. Key features include "Chains" for sequencing LLM calls, "Agents" for dynamic tool use, and robust support for "Retrieval Augmented Generation (RAG)" patterns. This guide focuses on the practical aspects of using LangChain to implement structured AI applications within a GenAI & LLM Handbook context.
 
 **Goal**: Effectively use LangChain to build multi-step LLM applications that adhere to Intent Specs, Constraint Specs, and Delegation Contracts, facilitating verifiable AI outputs.
 **Anti-pattern**: Using LangChain as a black box without understanding its underlying components or the flow of data, leading to unpredictable behavior and difficulty in debugging.
@@ -65,7 +65,7 @@ Stores and manages conversation history, allowing agents and chains to remember 
 
 ---
 
-## GenAI & LLM Documentation Workflow with LangChain
+## GenAI & LLM Handbook Workflow with LangChain
 
 ### 1. Define Specs (Intent, Constraint, Delegation)
 

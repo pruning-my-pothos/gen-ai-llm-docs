@@ -12,7 +12,7 @@ last_reviewed: "YYYY-MM-DD"
 ## Scenario Template
 
 :::info[Value Proposition]
-Demonstrate how to apply GenAI & LLM Documentation to [specific task] to achieve [specific outcome] while mitigating [specific risk].
+Demonstrate how to apply GenAI & LLM Handbook to [specific task] to achieve [specific outcome] while mitigating [specific risk].
 :::
 
 ---
@@ -30,7 +30,7 @@ Demonstrate how to apply GenAI & LLM Documentation to [specific task] to achieve
 
 Why is this hard?
 
-| Challenge      | Traditional Risk              | GenAI & LLM Documentation Mitigation        |
+| Challenge      | Traditional Risk              | GenAI & LLM Handbook Mitigation        |
 | :------------- | :---------------------------- | :--------------------- |
 | **Ambiguity**  | _Misinterpreted requirements_ | Intent Spec            |
 | **Complexity** | _Regression in edge cases_    | Constraint Spec        |

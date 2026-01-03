@@ -10,12 +10,12 @@ last_reviewed: "2025-12-28"
 ---
 
 :::info[Value Proposition]
-Flowise and other low-code LLM orchestration platforms democratize the creation of complex LLM applications. They provide visual, drag-and-drop interfaces to build chains, agents, and RAG pipelines without extensive coding, enabling rapid prototyping, easier collaboration, and faster deployment of AI solutions, while still allowing for the integration of structured GenAI & LLM Documentation principles.
+Flowise and other low-code LLM orchestration platforms democratize the creation of complex LLM applications. They provide visual, drag-and-drop interfaces to build chains, agents, and RAG pipelines without extensive coding, enabling rapid prototyping, easier collaboration, and faster deployment of AI solutions, while still allowing for the integration of structured GenAI & LLM Handbook principles.
 :::
 
 ## Overview
 
-Not all LLM applications require deep coding expertise. Low-code orchestration platforms like Flowise provide a visual builder experience, allowing users to design and deploy sophisticated LLM chains and agents using a drag-and-drop interface. These tools abstract away the complexities of API calls, framework integrations, and boilerplate code, making it accessible for product managers, business analysts, and developers to rapidly prototype and deploy AI solutions. This guide explores how to effectively use such platforms within a GenAI & LLM Documentation context.
+Not all LLM applications require deep coding expertise. Low-code orchestration platforms like Flowise provide a visual builder experience, allowing users to design and deploy sophisticated LLM chains and agents using a drag-and-drop interface. These tools abstract away the complexities of API calls, framework integrations, and boilerplate code, making it accessible for product managers, business analysts, and developers to rapidly prototype and deploy AI solutions. This guide explores how to effectively use such platforms within a GenAI & LLM Handbook context.
 
 **Goal**: Rapidly build, test, and deploy LLM applications with a visual, low-code approach, maintaining clarity and verifiability through structured documentation of components and flows.
 **Anti-pattern**: Manually coding every aspect of a simple LLM chain when a visual builder could achieve the same result faster, or building complex systems visually without clear documentation of each node's purpose.
@@ -62,11 +62,11 @@ Platforms often provide easy deployment options, exposing your LLM application a
 
 ---
 
-## GenAI & LLM Documentation Workflow with Flowise/Low-Code
+## GenAI & LLM Handbook Workflow with Flowise/Low-Code
 
 ### 1. Define Specs (Intent, Constraint, Delegation)
 
-Translate your GenAI & LLM Documentation Intent Spec, Constraint Spec, and Delegation Contract into the visual components and configurations of the low-code platform.
+Translate your GenAI & LLM Handbook Intent Spec, Constraint Spec, and Delegation Contract into the visual components and configurations of the low-code platform.
 
 -   **Intent Spec**: Guides the overall flow design and the selection of LLM nodes.
 -   **Constraint Spec**: Dictates parameters for nodes (e.g., model temperature, max tokens), security configurations, and tool permissions.
@@ -113,7 +113,7 @@ graph TD
 
 | Pitfall                   | Impact                                   | Correction                                     |
 | :------------------------ | :--------------------------------------- | :--------------------------------------------- |
-| **Lack of External Documentation** | Visual flows become undocumented black boxes, hard to maintain or understand for new team members. | Supplement visual flows with written documentation (using GenAI & LLM Documentation principles) explaining purpose, logic, and specs. |
+| **Lack of External Documentation** | Visual flows become undocumented black boxes, hard to maintain or understand for new team members. | Supplement visual flows with written documentation (using GenAI & LLM Handbook principles) explaining purpose, logic, and specs. |
 | **Over-simplifying Complex Logic** | Low-code tools might not handle highly custom or edge-case logic gracefully. | Identify limitations early; for complex parts, use custom code nodes or integrate with traditional frameworks. |
 | **Vendor Lock-in**        | Difficulty migrating applications built on proprietary low-code platforms. | Understand export/import capabilities; ensure your core logic (prompts, data mapping) is portable. |
 | **Ignoring Performance & Scalability** | Low-code solutions might not scale efficiently for high-traffic production environments. | Monitor resource usage; conduct performance testing; optimize critical paths with custom code if necessary. |

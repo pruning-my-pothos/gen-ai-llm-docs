@@ -10,7 +10,7 @@ last_reviewed: "2025-12-28"
 ---
 
 :::info[Value Proposition]
-Gain deep insights into the behavior, performance, and cost of your LLM applications through dedicated observability and tracing tools. This enables efficient debugging of complex multi-step LLM chains, proactive identification of issues like hallucinations or prompt failures, and continuous optimization of your AI systems, ensuring they meet the quality and reliability standards of GenAI & LLM Documentation.
+Gain deep insights into the behavior, performance, and cost of your LLM applications through dedicated observability and tracing tools. This enables efficient debugging of complex multi-step LLM chains, proactive identification of issues like hallucinations or prompt failures, and continuous optimization of your AI systems, ensuring they meet the quality and reliability standards of GenAI & LLM Handbook.
 :::
 
 ## Overview
@@ -77,7 +77,7 @@ graph TD
 
 ---
 
-## GenAI & LLM Documentation Workflow with Observability/Tracing
+## GenAI & LLM Handbook Workflow with Observability/Tracing
 
 ### 1. Instrument Your LLM Application
 

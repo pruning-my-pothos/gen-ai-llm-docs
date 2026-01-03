@@ -10,12 +10,12 @@ last_reviewed: "2025-12-28"
 ---
 
 :::info[Value Proposition]
-Enhance a Large Language Model's (LLM) ability to understand and follow instructions precisely. Instruction tuning involves training an LLM on a dataset of instruction-response pairs, making it more steerable and reliable for producing desired outputs, which is crucial for the structured approach of GenAI & LLM Documentation.
+Enhance a Large Language Model's (LLM) ability to understand and follow instructions precisely. Instruction tuning involves training an LLM on a dataset of instruction-response pairs, making it more steerable and reliable for producing desired outputs, which is crucial for the structured approach of GenAI & LLM Handbook.
 :::
 
 ## Overview
 
-Instruction tuning (also known as instruction following fine-tuning) is a specific type of fine-tuning where an LLM is trained on a dataset consisting of various tasks described in natural language (instructions) and their corresponding ideal responses. This process significantly improves the model's ability to generalize to new, unseen instructions and follow zero-shot or few-shot prompts more effectively. For GenAI & LLM Documentation, instruction-tuned models are invaluable as they are better at interpreting Intent Specs, Constraint Specs, and Generation Requests, leading to more accurate and compliant AI outputs.
+Instruction tuning (also known as instruction following fine-tuning) is a specific type of fine-tuning where an LLM is trained on a dataset consisting of various tasks described in natural language (instructions) and their corresponding ideal responses. This process significantly improves the model's ability to generalize to new, unseen instructions and follow zero-shot or few-shot prompts more effectively. For GenAI & LLM Handbook, instruction-tuned models are invaluable as they are better at interpreting Intent Specs, Constraint Specs, and Generation Requests, leading to more accurate and compliant AI outputs.
 
 **Goal**: Improve an LLM's capacity to understand, interpret, and accurately execute natural language instructions, making it a more reliable AI assistant.
 **Anti-pattern**: Relying solely on base models for complex instruction-following tasks, leading to frequent misinterpretations, generic outputs, or a high degree of prompt engineering effort for each new task.

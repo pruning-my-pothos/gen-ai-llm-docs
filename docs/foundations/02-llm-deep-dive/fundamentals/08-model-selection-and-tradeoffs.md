@@ -12,12 +12,12 @@ last_reviewed: "2025-12-28"
 # Model Selection and Tradeoffs
 
 :::info[Value Proposition]
-Understand the critical factors for choosing the right LLM for your GenAI & LLM Documentation tasks. Different models offer varying capabilities, costs, and ethical considerations. Making an informed choice optimizes performance, manages expenses, and aligns with project requirements.
+Understand the critical factors for choosing the right LLM for your GenAI & LLM Handbook tasks. Different models offer varying capabilities, costs, and ethical considerations. Making an informed choice optimizes performance, manages expenses, and aligns with project requirements.
 :::
 
 ## Overview
 
-The rapidly evolving landscape of Large Language Models (LLMs) presents a bewildering array of choices. From open-source local models to powerful proprietary cloud APIs, each comes with its own set of tradeoffs in terms of performance, cost, speed, data privacy, and ethical implications. This document guides you through the process of model selection, ensuring your choice aligns with your GenAI & LLM Documentation task's specific needs and constraints.
+The rapidly evolving landscape of Large Language Models (LLMs) presents a bewildering array of choices. From open-source local models to powerful proprietary cloud APIs, each comes with its own set of tradeoffs in terms of performance, cost, speed, data privacy, and ethical implications. This document guides you through the process of model selection, ensuring your choice aligns with your GenAI & LLM Handbook task's specific needs and constraints.
 
 **Goal**: Select an LLM that best fits the functional, non-functional, and ethical requirements of your AI-assisted workflow.
 **Anti-pattern**: Blindly defaulting to the most popular or "most intelligent" model without considering cost, latency, privacy, or fine-tuning needs.

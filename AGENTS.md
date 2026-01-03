@@ -1,5 +1,5 @@
 ---
-title: "GenAI & LLM Documentation Agent Instructions for Codex"
+title: "GenAI & LLM Handbook Agent Instructions for Codex"
 archetype: "tooling"
 status: "active"
 owner: "Shailesh (Shaily)"
@@ -15,7 +15,7 @@ last_reviewed: "2025-12-20"
 
 This file defines how Codex agents should behave inside this repo.
 
-GenAI & LLM Documentation assumes AI can execute, but humans own:
+GenAI & LLM Handbook assumes AI can execute, but humans own:
 
 - intent
 - trade-offs
@@ -121,7 +121,7 @@ Agents must follow this order:
 
 ### Allowed
 
-- Create new docs according to GenAI & LLM Documentation templates
+- Create new docs according to GenAI & LLM Handbook templates
 - Update links, indexes, and navigation
 - Add diagrams (Mermaid) where relevant
 - Add experiments under `experiments/` with the standard structure
@@ -139,7 +139,7 @@ Agents must follow this order:
 
 ✅ Good instruction to an agent
 
-- “Create `docs/02-genai-llm-fundamentals/01-nlp-and-embeddings-enough-for-practice.md` using the repo doc template. Keep it practice-oriented. Include one Mermaid diagram. Add a short ‘How this impacts GenAI & LLM Documentation execution’ section. Do not add external links unless necessary.”
+- “Create `docs/02-genai-llm-fundamentals/01-nlp-and-embeddings-enough-for-practice.md` using the repo doc template. Keep it practice-oriented. Include one Mermaid diagram. Add a short ‘How this impacts GenAI & LLM Handbook execution’ section. Do not add external links unless necessary.”
 
 ❌ Bad instruction to an agent
 
@@ -242,7 +242,7 @@ If you paste your `codex --help` output, I will convert these into exact command
 
 ## Resources & References
 
-- GenAI & LLM Documentation Method: `docs/03-nnlp-method/`
+- GenAI & LLM Handbook Method: `docs/03-nnlp-method/`
 - Guardrails: `docs/07-guardrails-and-governance/`
 - Templates: `docs/09-templates/`
 

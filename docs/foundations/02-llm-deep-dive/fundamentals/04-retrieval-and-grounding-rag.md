@@ -12,12 +12,12 @@ last_reviewed: "2025-12-28"
 # Retrieval and Grounding (RAG)
 
 :::info[Value Proposition]
-Ground LLM responses in verifiable, up-to-date information, reducing hallucinations and improving factual accuracy. RAG (Retrieval Augmented Generation) is a key technique for ensuring LLMs operate within a defined knowledge base, making their outputs more reliable for GenAI & LLM Documentation tasks.
+Ground LLM responses in verifiable, up-to-date information, reducing hallucinations and improving factual accuracy. RAG (Retrieval Augmented Generation) is a key technique for ensuring LLMs operate within a defined knowledge base, making their outputs more reliable for GenAI & LLM Handbook tasks.
 :::
 
 ## Overview
 
-Large Language Models excel at generating fluent text, but they often "hallucinate" or provide information that is outdated or incorrect because their knowledge is limited to their training data. Retrieval Augmented Generation (RAG) is a technique that addresses this by enabling LLMs to retrieve relevant information from an external, authoritative knowledge base (e.g., your codebase, internal documentation, a database) and use that information to "ground" their responses. This makes LLM outputs more accurate, verifiable, and contextually relevant for GenAI & LLM Documentation.
+Large Language Models excel at generating fluent text, but they often "hallucinate" or provide information that is outdated or incorrect because their knowledge is limited to their training data. Retrieval Augmented Generation (RAG) is a technique that addresses this by enabling LLMs to retrieve relevant information from an external, authoritative knowledge base (e.g., your codebase, internal documentation, a database) and use that information to "ground" their responses. This makes LLM outputs more accurate, verifiable, and contextually relevant for GenAI & LLM Handbook.
 
 **Goal**: Improve the factual accuracy and relevance of LLM outputs by providing up-to-date, external knowledge.
 **Anti-pattern**: Relying solely on the LLM's parametric memory for factual information, leading to hallucinations and outdated advice.

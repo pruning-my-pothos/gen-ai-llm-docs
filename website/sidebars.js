@@ -10,7 +10,6 @@ const sidebars = {
         id: '00-handbook-introduction/site-map',
       },
       items: [
-        {type: 'doc', id: '00-handbook-introduction/site-map', label: 'Site Map'},
         {type: 'doc', id: '00-handbook-introduction/what-is-genai-llm', label: 'What It Is'},
         {type: 'doc', id: '00-handbook-introduction/who-this-is-for', label: 'Who This Is For'},
         {type: 'doc', id: '00-handbook-introduction/scope-and-applicability', label: 'Scope and Applicability'},

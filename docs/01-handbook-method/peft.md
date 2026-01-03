@@ -79,7 +79,7 @@ graph TD
 
 ---
 
-## GenAI & LLM Documentation Workflow with PEFT
+## GenAI & LLM Handbook Workflow with PEFT
 
 ### 1. Define Task & Prepare Dataset
 

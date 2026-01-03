@@ -15,7 +15,7 @@ Maintain robust version control practices and code integrity when integrating AI
 
 ## Overview
 
-AI copilots can rapidly generate and modify code, but this speed can introduce challenges for version control. Unchecked AI contributions can lead to large, unreviewable diffs, inconsistent commit messages, or unintended changes that break the build or introduce bugs. This document outlines best practices for maintaining strong Git discipline when working with AI, treating AI-generated code with the same rigor (or more) as human-written code, ensuring traceability, quality, and control within your GenAI & LLM Documentation workflow.
+AI copilots can rapidly generate and modify code, but this speed can introduce challenges for version control. Unchecked AI contributions can lead to large, unreviewable diffs, inconsistent commit messages, or unintended changes that break the build or introduce bugs. This document outlines best practices for maintaining strong Git discipline when working with AI, treating AI-generated code with the same rigor (or more) as human-written code, ensuring traceability, quality, and control within your GenAI & LLM Handbook workflow.
 
 **Goal**: Seamlessly integrate AI-generated code into your version control system while preserving code quality, reviewability, and the ability to revert changes effectively.
 **Anti-pattern**: Allowing AI to commit directly or creating massive, unreviewable AI-generated diffs, leading to "AI churn" and a loss of human oversight.

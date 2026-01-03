@@ -14,14 +14,14 @@ slug: /04-tooling-and-frameworks/00-tooling-index
 
 
 :::info[Value Proposition]
-The tool is not the method. A carpenter can use a hand saw or a power saw, but the geometry of the cut remains the same. GenAI & LLM Documentation works with any tool that allows context injection and structured interaction.
+The tool is not the method. A carpenter can use a hand saw or a power saw, but the geometry of the cut remains the same. GenAI & LLM Handbook works with any tool that allows context injection and structured interaction.
 :::
 
 ## Overview
 
-GenAI & LLM Documentation is **tool-agnostic**. It provides a framework for disciplined AI-assisted development, regardless of the specific LLM or interface you use. This section explores various tooling options and how they integrate with the GenAI & LLM Documentation Loop, from powerful IDEs to specialized CLI agents.
+GenAI & LLM Handbook is **tool-agnostic**. It provides a framework for disciplined AI-assisted development, regardless of the specific LLM or interface you use. This section explores various tooling options and how they integrate with the GenAI & LLM Handbook Loop, from powerful IDEs to specialized CLI agents.
 
-**Goal**: Guide practitioners in selecting and configuring tools that support the GenAI & LLM Documentation workflow, rather than dictating specific products.
+**Goal**: Guide practitioners in selecting and configuring tools that support the GenAI & LLM Handbook workflow, rather than dictating specific products.
 **Anti-pattern**: Relying on a tool's "magic" without understanding the underlying principles, or allowing tool limitations to dictate your workflow.
 
 **Tool-agnostic note**: Cursor and Copilot examples are optional conveniences. Everything here works in VS Code (with chat extensions), JetBrains IDEs, or plain terminal + editor. Pick the interface that fits your team and policy; the method stays the same.
@@ -43,7 +43,7 @@ GenAI & LLM Documentation is **tool-agnostic**. It provides a framework for disc
 ## Prerequisites
 
 :::warning[Before you start]
-A solid understanding of the GenAI & LLM Documentation Loop is crucial. The tools are there to serve the method, not replace it.
+A solid understanding of the GenAI & LLM Handbook Loop is crucial. The tools are there to serve the method, not replace it.
 :::
 
 -   **Artifacts**: Defined Intent Specs, Constraint Specs, and Generation Requests.
@@ -53,33 +53,33 @@ A solid understanding of the GenAI & LLM Documentation Loop is crucial. The tool
 
 ## Tool Categories and Integration
 
-You can execute the GenAI & LLM Documentation Loop using:
+You can execute the GenAI & LLM Handbook Loop using:
 
 ### 1. IDE Integrations (Copilots)
 
 -   **Description**: AI assistants integrated directly into your Integrated Development Environment (IDE), providing real-time code suggestions, generation, and refactoring.
--   **GenAI & LLM Documentation Focus**: Streamlining Generation Requests, quick iterations, context injection from open files.
+-   **GenAI & LLM Handbook Focus**: Streamlining Generation Requests, quick iterations, context injection from open files.
 -   **Examples**: GitHub Copilot, Cursor, Codeium.
 -   **See**: `docs/04-tooling-and-frameworks/01-ide-setup-cursor.md`
 
 ### 2. CLI Agents
 
 -   **Description**: AI tools that operate from the command line, often with access to the local filesystem and shell commands. Ideal for automating larger, multi-file tasks.
--   **GenAI & LLM Documentation Focus**: Autonomous execution of Generation Requests, refactorings, test generation, and documentation.
+-   **GenAI & LLM Handbook Focus**: Autonomous execution of Generation Requests, refactorings, test generation, and documentation.
 -   **Examples**: Aider, Continue, Open Interpreter.
 -   **See**: `docs/04-tooling-and-frameworks/02-cli-agents.md`
 
 ### 3. LLM Frameworks (and Orchestration)
 
 -   **Description**: Libraries and platforms designed to build complex AI applications, often involving chaining LLM calls, tool use, and external data sources (e.g., RAG).
--   **GenAI & LLM Documentation Focus**: Building sophisticated agents that adhere to GenAI & LLM Documentation principles programmatically.
+-   **GenAI & LLM Handbook Focus**: Building sophisticated agents that adhere to GenAI & LLM Handbook principles programmatically.
 -   **Examples**: LangChain, LlamaIndex, LiteLLM.
 -   **See**: `docs/04-tooling-and-frameworks/02-llm-frameworks.md`
 
 ### 4. Local-First Models
 
 -   **Description**: Running LLMs directly on your local machine or private infrastructure for enhanced privacy and control.
--   **GenAI & LLM Documentation Focus**: Securely processing sensitive or proprietary information without sending it to third-party cloud services.
+-   **GenAI & LLM Handbook Focus**: Securely processing sensitive or proprietary information without sending it to third-party cloud services.
 -   **Examples**: Ollama, Llama.cpp.
 -   **See**: `docs/04-tooling-and-frameworks/03-local-inference.md`
 
@@ -89,7 +89,7 @@ You can execute the GenAI & LLM Documentation Loop using:
 
 ```mermaid
 graph LR
-    Method[GenAI & LLM Documentation Method] --> Interface{Interface Layer}
+    Method[GenAI & LLM Handbook Method] --> Interface{Interface Layer}
     Interface -- IDE Copilots --> IDE[Integrated Development Environment]
     Interface -- CLI Agents --> CLI[Command Line Interface]
     Interface -- LLM Frameworks --> Framework[Custom LLM Applications]
@@ -101,9 +101,9 @@ graph LR
 
 ---
 
-## What Makes a Tool "GenAI & LLM Documentation-Ready"?
+## What Makes a Tool "GenAI & LLM Handbook-Ready"?
 
-Not all AI tools are suitable for professional GenAI & LLM Documentation. To execute the loop effectively, a tool must support:
+Not all AI tools are suitable for professional GenAI & LLM Handbook. To execute the loop effectively, a tool must support:
 
 1.  **Context Injection**: The ability to feed relevant code, specifications, and previous conversations to the LLM.
 2.  **Structured Output**: The capacity to generate output in predictable formats (e.g., JSON, YAML, specific code structures).

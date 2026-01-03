@@ -10,14 +10,14 @@ last_reviewed: "2025-12-28"
 ---
 
 :::info[Value Proposition]
-Transition local-first Large Language Model (LLM) solutions from individual developer machines to robust, scalable, and secure internal infrastructure. This ensures consistent performance, centralized management, and adherence to enterprise security and compliance standards, while retaining the privacy benefits of local processing for sensitive GenAI & LLM Documentation workflows.
+Transition local-first Large Language Model (LLM) solutions from individual developer machines to robust, scalable, and secure internal infrastructure. This ensures consistent performance, centralized management, and adherence to enterprise security and compliance standards, while retaining the privacy benefits of local processing for sensitive GenAI & LLM Handbook workflows.
 :::
 
 ## Overview
 
 While running LLMs on a developer's local machine is excellent for privacy and rapid prototyping, deploying these local-first solutions for team use or production workloads introduces a new set of considerations. This includes scaling inference, managing hardware resources (GPUs), ensuring model versioning, integrating with existing MLOps pipelines, and maintaining security and compliance. This guide outlines key deployment considerations for local-first LLMs, moving beyond a single desktop setup to a more robust internal service.
 
-**Goal**: Successfully deploy local-first LLMs within an organizational context, providing reliable, secure, and scalable AI inference capabilities for internal GenAI & LLM Documentation-driven applications.
+**Goal**: Successfully deploy local-first LLMs within an organizational context, providing reliable, secure, and scalable AI inference capabilities for internal GenAI & LLM Handbook-driven applications.
 **Anti-pattern**: Treating local-first LLM deployment as a simple "copy-paste" of desktop setups, leading to performance bottlenecks, security vulnerabilities, and operational challenges at scale.
 
 ---
@@ -66,11 +66,11 @@ While running LLMs on a developer's local machine is excellent for privacy and r
 
 ---
 
-## GenAI & LLM Documentation Workflow for Local-First Deployment
+## GenAI & LLM Handbook Workflow for Local-First Deployment
 
 ### 1. Define Deployment Specs (Intent, Constraint)
 
-Extend your GenAI & LLM Documentation with specific deployment considerations:
+Extend your GenAI & LLM Handbook with specific deployment considerations:
 -   **Intent Spec**: Clearly state performance (latency, throughput), cost, and reliability goals for the deployed LLM.
 -   **Constraint Spec**: Detail hardware requirements, security policies, access controls, model versions, and monitoring integration.
 
@@ -112,7 +112,7 @@ graph LR
 | **Under-provisioning Hardware** | Poor performance, queuing, service degradation. | Perform load testing; right-size your GPUs and memory based on model requirements and expected traffic. |
 | **Ignoring Security Best Practices** | Unauthorized access, data breaches, compliance violations. | Implement network segmentation, API authentication, and regular security audits for LLM endpoints. |
 | **Lack of Model Versioning** | Inconsistent behavior across environments; difficulty in debugging and rollback. | Use model registries; version control model artifacts (weights, configs, code). |
-| **"Black Box" Deployment** | Inability to debug or understand why deployed LLMs are behaving unexpectedly. | Implement comprehensive observability and tracing from the start, linking back to GenAI & LLM Documentation. |
+| **"Black Box" Deployment** | Inability to debug or understand why deployed LLMs are behaving unexpectedly. | Implement comprehensive observability and tracing from the start, linking back to GenAI & LLM Handbook. |
 
 ---
 

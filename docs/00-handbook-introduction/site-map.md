@@ -30,15 +30,43 @@ Start here to understand what each major section covers and who should read it. 
 | **CLI Agents** | Guardrails for terminal copilots. | Anyone using CLI agents here. |
 | **Changelog** | Project-level changes. | Everyone. |
 
+## Visual map
+
+```mermaid
+flowchart TB
+    Intro["00 · Introduction"] --> Method["01 · Method"]
+    Method --> Patterns["02 · Execution Patterns"]
+    Patterns --> Scenarios["03 · Professional Scenarios"]
+    Method --> Tooling["04 · Tooling & Frameworks"]
+    Method --> Responsible["05 · Responsible AI"]
+    Patterns --> Templates["06 · Templates"]
+    Templates --> CodeSnippets["08 · Code & Snippets"]
+    Patterns --> Experiments["07 · Experiments"]
+    Intro -.-> Glossary["Glossary"]
+    Tooling -.-> Agents["CLI Agents"]
+
+    classDef primary fill:#e5e7ff,stroke:#4338ca,color:#0f172a;
+    classDef support fill:#dcfce7,stroke:#16a34a,color:#0f172a;
+    classDef meta fill:#dbeafe,stroke:#0284c7,color:#0f172a;
+
+    class Intro,Method primary;
+    class Patterns,Scenarios,Responsible primary;
+    class Templates,CodeSnippets,Experiments support;
+    class Tooling,Agents,Glossary meta;
+```
+
 ## Quick navigation
 
 - Start: `/docs/00-handbook-introduction/what-is-genai-llm`
 - Method: `/docs/01-handbook-method/01-overview`
-- Patterns: `/docs/02-execution-patterns/`
-- Scenarios: `/docs/03-professional-scenarios/`
+- Patterns: `/docs/02-execution-patterns/00-pattern-index`
+- Scenarios: `/docs/03-professional-scenarios/00-scenarios-index`
+- Tooling & Frameworks: `/docs/04-tooling-and-frameworks/00-tooling-index`
 - Responsible AI: `/docs/05-responsible-ai/`
-- Templates: `/docs/06-templates/`
+- Templates: `/docs/06-templates/00-templates-index`
 - Code & Snippets: `/docs/08-code-and-snippets/`
+- Experiments: `/docs/experiments/00-index`
+- Foundations: `/docs/foundations/02-llm-deep-dive`
 
 ## Tips
 

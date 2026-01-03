@@ -10,7 +10,7 @@ last_reviewed: "2025-12-28"
 ---
 
 :::info[Value Proposition]
-DSPy is a programming model for LLMs that enables the programmatic composition and optimization of prompts and LLM calls. It shifts the focus from manual prompt engineering to defining a pipeline's logic, letting DSPy compile the best prompts for your specific task and dataset. This allows for rapid iteration, improved performance, and more robust LLM applications, aligning perfectly with the structured and verifiable goals of GenAI & LLM Documentation.
+DSPy is a programming model for LLMs that enables the programmatic composition and optimization of prompts and LLM calls. It shifts the focus from manual prompt engineering to defining a pipeline's logic, letting DSPy compile the best prompts for your specific task and dataset. This allows for rapid iteration, improved performance, and more robust LLM applications, aligning perfectly with the structured and verifiable goals of GenAI & LLM Handbook.
 :::
 
 ## Overview
@@ -68,11 +68,11 @@ Different strategies for optimization (e.g., `BootstrapFewShot`, `BayesianSignat
 
 ---
 
-## GenAI & LLM Documentation Workflow with DSPy
+## GenAI & LLM Handbook Workflow with DSPy
 
 ### 1. Define Specs (Intent, Constraint)
 
-Your GenAI & LLM Documentation Intent Spec defines the overall goal. Your Constraint Spec (especially regarding output format, safety) translates well into DSPy's `signatures` and program structure.
+Your GenAI & LLM Handbook Intent Spec defines the overall goal. Your Constraint Spec (especially regarding output format, safety) translates well into DSPy's `signatures` and program structure.
 
 ### 2. Program the Pipeline (Declarative Logic)
 
@@ -95,7 +95,7 @@ class SimpleRAG(dspy.Module):
 
 ### 3. Define a Metric (Acceptance Criteria)
 
-Translate your GenAI & LLM Documentation Acceptance Criteria into an executable metric function that can evaluate your DSPy program.
+Translate your GenAI & LLM Handbook Acceptance Criteria into an executable metric function that can evaluate your DSPy program.
 
 ### 4. Compile (Optimize Prompts)
 

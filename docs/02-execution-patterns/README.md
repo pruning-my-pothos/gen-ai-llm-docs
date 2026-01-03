@@ -14,14 +14,14 @@ slug: /02-execution-patterns/00-pattern-index
 
 
 :::info[Value Proposition]
-Execution patterns are reusable recipes for applying GenAI & LLM Documentation to common development tasks. They provide step-by-step guidance on how to achieve specific outcomes, from creating new components to refactoring legacy code.
+Execution patterns are reusable recipes for applying GenAI & LLM Handbook to common development tasks. They provide step-by-step guidance on how to achieve specific outcomes, from creating new components to refactoring legacy code.
 :::
 
 ## Overview
 
-GenAI & LLM Documentation provides the **method** (the 8-step loop) for managing AI-assisted work. Execution patterns provide the **implementation details**—the specific instructions and considerations for common development scenarios. Think of them as battle-tested playbooks for your AI co-pilot.
+GenAI & LLM Handbook provides the **method** (the 8-step loop) for managing AI-assisted work. Execution patterns provide the **implementation details**—the specific instructions and considerations for common development scenarios. Think of them as battle-tested playbooks for your AI co-pilot.
 
-**Goal**: Systematize the application of GenAI & LLM Documentation to accelerate development and improve output quality for frequent tasks.
+**Goal**: Systematize the application of GenAI & LLM Handbook to accelerate development and improve output quality for frequent tasks.
 **Anti-pattern**: Reinventing the wheel for every AI task, leading to inconsistent results and missed opportunities for automation.
 
 ---
@@ -103,7 +103,7 @@ graph TD
         P13(Release and Changelog)
     end
 
-    P1 & P2 & P3 & P4 & P5 & P6 & P7 & P8 & P9 & P10 & P11 & P12 & P13 --> Loop[Apply GenAI & LLM Documentation Loop]
+    P1 & P2 & P3 & P4 & P5 & P6 & P7 & P8 & P9 & P10 & P11 & P12 & P13 --> Loop[Apply GenAI & LLM Handbook Loop]
 
     classDef pattern fill:#E6F7FF,stroke:#1B75BB,color:#0F1F2E;
     class P1,P2,P3,P4,P5,P6,P7,P8,P9,P10,P11,P12,P13 pattern;
@@ -114,7 +114,7 @@ graph TD
 
 ## Getting Started with Patterns
 
-If you are new to GenAI & LLM Documentation, start with **The "Clean Slate"** or **The "Doc-Smith"**. They have the clearest success signals.
+If you are new to GenAI & LLM Handbook, start with **The "Clean Slate"** or **The "Doc-Smith"**. They have the clearest success signals.
 
 Each pattern includes:
 

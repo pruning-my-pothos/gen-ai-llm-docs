@@ -10,7 +10,7 @@ last_reviewed: "2025-12-28"
 ---
 
 :::info[Value Proposition]
-Adapt pre-trained Large Language Models (LLMs) to perform specific tasks or adhere to particular styles more effectively by fine-tuning them on your own datasets. This technique significantly improves model performance and accuracy for specialized use cases, reducing the need for complex prompt engineering and ensuring more consistent outputs within your GenAI & LLM Documentation workflow.
+Adapt pre-trained Large Language Models (LLMs) to perform specific tasks or adhere to particular styles more effectively by fine-tuning them on your own datasets. This technique significantly improves model performance and accuracy for specialized use cases, reducing the need for complex prompt engineering and ensuring more consistent outputs within your GenAI & LLM Handbook workflow.
 :::
 
 ## Overview

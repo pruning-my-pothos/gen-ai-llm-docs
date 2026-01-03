@@ -35,9 +35,9 @@ At an advanced level, refactoring legacy authentication involves:
 
 ---
 
-## GenAI & LLM Documentation Advanced Approach
+## GenAI & LLM Handbook Advanced Approach
 
-| Advanced Challenge          | Advanced Traditional Risk                    | GenAI & LLM Documentation Mitigation (Advanced)                                      |
+| Advanced Challenge          | Advanced Traditional Risk                    | GenAI & LLM Handbook Mitigation (Advanced)                                      |
 | :-------------------------- | :------------------------------------------- | :----------------------------------------------------------------------------------- |
 | Complex User Data Migration | Data loss, corruption, privacy violations    | **Intent Spec**: Define migration strategy, data mapping, data masking. AI generates migration scripts. |
 | Compliance Adherence        | Regulatory fines, legal exposure             | **Constraint Spec**: Enforce specific compliance frameworks (e.g., GDPR articles). AI reviews for gaps. |

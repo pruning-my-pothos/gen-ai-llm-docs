@@ -15,7 +15,7 @@ LlamaIndex provides a powerful data framework for building LLM applications, par
 
 ## Overview
 
-LlamaIndex (formerly GPT Index) is a data framework designed to connect large language models with external data. While LangChain focuses on orchestration, LlamaIndex focuses on the "data story": how to get your data into a format that LLMs can effectively query and understand. It provides tools for data ingestion (loaders), indexing (creating knowledge bases), and querying, making it an indispensable tool for building RAG applications that are central to many GenAI & LLM Documentation workflows.
+LlamaIndex (formerly GPT Index) is a data framework designed to connect large language models with external data. While LangChain focuses on orchestration, LlamaIndex focuses on the "data story": how to get your data into a format that LLMs can effectively query and understand. It provides tools for data ingestion (loaders), indexing (creating knowledge bases), and querying, making it an indispensable tool for building RAG applications that are central to many GenAI & LLM Handbook workflows.
 
 **Goal**: Effectively use LlamaIndex to build RAG applications that provide LLMs with grounded, factual information from your private datasets, leading to more accurate and reliable AI responses.
 **Anti-pattern**: Feeding raw, unstructured data to LLMs and expecting accurate, hallucination-free responses; manually managing complex data pipelines for RAG.
@@ -62,7 +62,7 @@ Vector representations of text, used by `Retrievers` to find semantically simila
 
 ---
 
-## GenAI & LLM Documentation Workflow with LlamaIndex
+## GenAI & LLM Handbook Workflow with LlamaIndex
 
 ### 1. Define Data Intent & Constraints
 

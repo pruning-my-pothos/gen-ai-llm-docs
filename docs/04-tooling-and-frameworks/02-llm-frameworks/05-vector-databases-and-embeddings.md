@@ -76,7 +76,7 @@ graph TD
 
 ---
 
-## GenAI & LLM Documentation Workflow with Vector Databases/Embeddings
+## GenAI & LLM Handbook Workflow with Vector Databases/Embeddings
 
 ### 1. Define Data Intent & Constraints
 

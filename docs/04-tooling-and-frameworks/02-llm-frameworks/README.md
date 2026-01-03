@@ -12,7 +12,7 @@ slug: /04-tooling-and-frameworks/02-llm-frameworks/00-frameworks-overview
 ---
 
 :::info[Value Proposition]
-Understand the landscape of LLM frameworks and how they enable the construction of sophisticated AI applications that adhere to GenAI & LLM Documentation principles. This guide helps in selecting the right tools for orchestrating complex LLM interactions, integrating external data, and building robust, scalable AI systems.
+Understand the landscape of LLM frameworks and how they enable the construction of sophisticated AI applications that adhere to GenAI & LLM Handbook principles. This guide helps in selecting the right tools for orchestrating complex LLM interactions, integrating external data, and building robust, scalable AI systems.
 :::
 
 ## Overview

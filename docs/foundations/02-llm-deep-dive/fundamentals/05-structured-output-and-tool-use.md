@@ -12,12 +12,12 @@ last_reviewed: "2025-12-28"
 # Structured Output and Tool Use
 
 :::info[Value Proposition]
-Move beyond natural language generation to enable LLMs to produce data in predictable formats (e.g., JSON, YAML, XML) and interact with external systems (APIs, databases). This is essential for integrating LLMs into automated workflows and building reliable AI-assisted applications within GenAI & LLM Documentation.
+Move beyond natural language generation to enable LLMs to produce data in predictable formats (e.g., JSON, YAML, XML) and interact with external systems (APIs, databases). This is essential for integrating LLMs into automated workflows and building reliable AI-assisted applications within GenAI & LLM Handbook.
 :::
 
 ## Overview
 
-While LLMs excel at generating free-form text, many GenAI & LLM Documentation tasks require structured outputs that can be parsed and acted upon by other software components. Furthermore, to perform complex, multi-step tasks, LLMs need the ability to use external tools. This document explores techniques for guiding LLMs to produce structured data and how to enable them to invoke and interpret external tool calls, transforming them from text generators into agents capable of interacting with the world.
+While LLMs excel at generating free-form text, many GenAI & LLM Handbook tasks require structured outputs that can be parsed and acted upon by other software components. Furthermore, to perform complex, multi-step tasks, LLMs need the ability to use external tools. This document explores techniques for guiding LLMs to produce structured data and how to enable them to invoke and interpret external tool calls, transforming them from text generators into agents capable of interacting with the world.
 
 **Goal**: Enable LLMs to produce machine-readable output and execute actions through external tools.
 **Anti-pattern**: Expecting an LLM to reliably generate complex code or interact with APIs solely through free-form conversational prompts, leading to unreliable parsing and execution failures.
@@ -125,9 +125,9 @@ Tool use (also known as function calling) enables LLMs to interact with external
 
 ---
 
-## Integration with GenAI & LLM Documentation
+## Integration with GenAI & LLM Handbook
 
-Structured output and tool use are fundamental to building agents and automated workflows in GenAI & LLM Documentation.
+Structured output and tool use are fundamental to building agents and automated workflows in GenAI & LLM Handbook.
 
 -   **Generation Requests**: Can explicitly ask for structured output or for the AI to make a tool call.
 -   **Constraint Specs**: Can define the required schema for generated data or the specific tools that can be used.
